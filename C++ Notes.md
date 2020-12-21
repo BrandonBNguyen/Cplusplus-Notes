@@ -3,7 +3,7 @@ Notes and programs created while learning C++. These were notes were created fol
 
 ## Table of Contents
 1. C++ Basics
-   1. [Compiling and Running Code](/#compiling-and-running-code)
+   1. [Compiling and Running Code](https://github.com/BrandonBNguyen/Cplusplus-Notes/blob/main/#compiling-and-running-code)
    2. [Instantiating and Assigning Variables](https://github.com/BrandonBNguyen/Cplusplus-Notes/blob/main/README.md#instantiating-and-assigning-variables)
    3. [Output and Input with the Console](https://github.com/BrandonBNguyen/Cplusplus-Notes/blob/main/README.md#output-and-input-with-the-console)
 
