@@ -63,6 +63,7 @@ int width = { 5 }; // Copy list initialization, creating a variable named 'width
 
 int width{}; // Value initialization (defaults to 0).
 
-int width{ 4.5 }; // Will result in an error because you're attempting to set width (for which we expect an integer) to 4.5 (which is a decimal and would require the type to be double).
+int width{ 4.5 }; // Will result in an error because you're attempting to set width (for which we expect an integer) to 4.5
+                  // (which is a decimal and would require the type to be double).
 ```
 Some best practices to follow are to favor direct list initialization whenever possible and to initialize your variables upon creation (preferably to perform instantiation and initialization in the same statement).
