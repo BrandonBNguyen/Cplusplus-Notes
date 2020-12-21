@@ -6,7 +6,9 @@ Notes and programs created while learning C++. These were notes were created fol
 2. [Instantiating and Assigning Variables](https://github.com/BrandonBNguyen/Cplusplus-Notes/blob/main/README.md#instantiating-and-assigning-variables)
 3. Output and Input with the Console
 
-## Compiling and Running Code
+## C++ Basics
+
+### Compiling and Running Code
 After installing Microsoft Visual Studio, I started by compiling and running *HelloWorld.cpp*, which simply outputs "Hello World" to the console.
 
 *HelloWorld.cpp*
@@ -38,7 +40,7 @@ To compile code, use the hotkey `Ctrl + B`.
 
 To run code (using debugger), use the hotkey `Ctrl + F5`.
 
-## Instantiating and Assigning Variables
+### Instantiating and Assigning Variables
 To create a variable, we need to define it starting by defining its type followed by the identifier for that variable, such as in the example below.
 ```cpp
 int x; // Defines a variable named 'x' which we expect to hold an integer value.
@@ -67,3 +69,61 @@ int width{ 4.5 }; // Will result in an error because you're attempting to set wi
                   // (which is a decimal and would require the type to be double).
 ```
 Some best practices to follow are to favor direct list initialization whenever possible and to initialize your variables upon creation (preferably to perform instantiation and initialization in the same statement).
+
+#### Note on Uninitialized Variables and Undefined Behaviour
+A variable that is uninitialized is a variable that has not been given a value. Recall that when a variable is initialized, it is given a value at definition (the statement which defined the variable). Another way for a variable to acquire a value is by assignment in which it is given a value in some statement that occurs after definition. If a variable is declared without being given a value via initialization or assignment, it is considered **uninitialized**. Using an uninitialized variable can lead to **undefined behaviour**, because when a variable is declared but not initialized, your code will just use whatever value is already located at the location in memory used for that variable. This can lead to your program producing different results every run, producing incorrect results consistently, your program behaving inconsistently, your program crashing unexpectedly, and more. It's best to avoid this entirely by sticking to the best practice of always initializing your variables.
+
+### Output and Input with the Console
+Note that in order to receive keyboard input from the console and to output data to the console, we'll need to use the input/output library from the C++ standard library. To do so, be sure to include it by having `#include <iostream>` at the top of your code.
+
+The variable `std::cout` (where *cout* means character output) is used to send data to the console to be printed as text. Use the insertion operator (`<<`) to send text to the console to be printed.
+```cpp
+#include <iostream>
+// Include the standard input/output library to be able to output text to the console.
+
+int main()
+{
+  std::cout << "Hello world!"; // Send the text "Hello world!" to the console to be printed.
+  return 0; // Return 0 to indicate that main() has run successfully.
+}
+```
+The value of variables can also be printed to the console using `std::cout`.
+```cpp
+int main()
+{
+  int x = 5;
+  std::cout << x; // Will output '5' to the console.
+  return 0;
+}
+```
+The insertion operator can be used multiple times in a chain to combine multiple strings or combine strings and values of variables.
+```cpp
+int main()
+{
+  int x = 5;
+  std::cout << "x =" << x; // Will output 'x = 5' to the console.
+  return 0;
+}
+```
+The `\n` character in a string will cause the console to print whatever comes after on a new line.
+```cpp
+int main()
+{
+    std::cout << "Hello World\n" << "My name is Brandon.";
+    /* 
+    *  Output:
+    *  Hello World
+    *  My name is Brandon.
+    */ 
+}
+```
+The variable `std::cin` is used to receive keyboard input from the console. The extraction operator (`>>`) is used to read the keyboard input from this variable and store it in another variable.
+```cpp
+int main()
+{
+  std::string user{ }; // Use direct list initialization to initialize the variable user containing an empty string.
+  std::cout << "Hello, what is your name: "; // Output to the console prompting the user to type their name.
+  std::cin >> user; // Initialize the name that the user typed to the variable named user.
+  std::cout << "Hi, " << user << " my name is Jarvis."; // Print introduction addressing the user by name.
+}
+```
