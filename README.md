@@ -37,3 +37,32 @@ int main()
 To compile code, use the hotkey `Ctrl + B`.
 
 To run code (using debugger), use the hotkey `Ctrl + F5`.
+
+## Instantiating and Assigning Variables
+To create a variable, we need to define it starting by defining its type followed by the identifier for that variable, such as in the example below.
+```cpp
+int x; // Defines a variable named 'x' which we expect to hold an integer value.
+```
+To assign a variable a value, use the assignment operator (`=`) in a statement known as a **copy assignment**. To do this, after a variable has already been initialized, start with the variable identifier, followed by the assignment operator, followed by the value you wish to assign to the variable.
+```cpp
+int x; // Defines a variable named 'x' which we expect to hold an integer value.
+x = 5; // Assign the value of 5 to the variable, x.
+```
+Initializing a variable and assigning it a value can be done in a single statement by using **copy initialization**. To do this, start with the variable type, followed by the variable's identifier, followed by the assignment operator, and lastly, followed by the value you wish to assign to that variable.
+```cpp
+int x = 5; // Defines a variable named 'x' which holds an integer value of 5.
+```
+Another common way of initializing and assigning a value to a variable is known as **direct initialization**. This is done by specifying the variable type, followed by the variable identifier, followed by parentheses containing the value you wish to assign to the variable.
+```cpp
+int x( 5 ); // Defines a variable named 'x' which holds an integer value of 5.
+```
+Since parenthesis-based direct initialization can't be used for all types of initialization, another common method for initialization and assignment is **list initialization**. This is very similar to to direct initialization only it uses curly braces instead of parentheses. Some additional features of list initialization to mention are that if no value is specified, **value initialization** will initialize the variable to some default value (usually 0 or empty). Additionally, if a value is used to initialize that would require conversion, before being valid, the statement will result in an error (which can be useful if you are expecting a value of the type specified for that variable).
+```cpp
+int width{ 5 };    // Direct list initialization, creating a variable named 'width' and setting its value to 5.
+int width = { 5 }; // Copy list initialization, creating a variable named 'width' and setting its value to 5.
+
+int width{}; // Value initialization (defaults to 0).
+
+int width{ 4.5 }; // Will result in an error because you're attempting to set width (for which we expect an integer) to 4.5 (which is a decimal and would require the type to be double).
+```
+Some best practices to follow are to favor direct list initialization whenever possible and to initialize your variables upon creation (preferably to perform instantiation and initialization in the same statement).
