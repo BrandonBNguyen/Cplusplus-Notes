@@ -6,7 +6,7 @@ Notes and programs created while learning C++. These were notes were created fol
    1. [Compiling and Running Code](#compiling-and-running-code)
    2. [Instantiating and Assigning Variables](#instantiating-and-assigning-variables)
    3. [Output and Input with the Console](#output-and-input-with-the-console)
-   4. [Literals and Operators](#literals-and-operators)
+   4. [Literals, Operators, and Expressions](#literals-and-operators)
 
 ## C++ Basics
 
@@ -129,7 +129,7 @@ int main()
   std::cout << "Hi, " << user << " my name is Jarvis."; // Print introduction addressing the user by name.
 }
 ```
-### Literals and Operators
+### Literals, Operators, and Expressions
 **Literals** are fixed values that are inserted directly into the source code.
 ```cpp
 std::cout << "Hello World!"  // "Hello World!" is a literal
@@ -142,3 +142,10 @@ y = 3 + 4 // The operator+ is binary, taking the left operand of 3 and
           // the right operand of 4 and summing the two to produce 7.
 ```
 Mathematical operators follow the same order of order of operations as they do in mathematics: parenthesis, exponents, multiplication/division, addition/subtraction.
+
+**Expressions** are combinations of literals, variables, and explicit function calls that can be evaluated to a single result. You can use expressions wherever C++ expects a single value.
+```cpp
+int z{ (2 * 3) + 4 }; // (2 * 3) + 4 is the expression that evaluates 
+                      // to 10 before being used as the value to 
+                      // initialize z.
+```
