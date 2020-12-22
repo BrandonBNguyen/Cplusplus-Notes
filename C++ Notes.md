@@ -6,6 +6,7 @@ Notes and programs created while learning C++. These were notes were created fol
    1. [Compiling and Running Code](#compiling-and-running-code)
    2. [Instantiating and Assigning Variables](#instantiating-and-assigning-variables)
    3. [Output and Input with the Console](#output-and-input-with-the-console)
+   4. [Literals and Operators](#literals-and-operators)
 
 ## C++ Basics
 
@@ -128,3 +129,16 @@ int main()
   std::cout << "Hi, " << user << " my name is Jarvis."; // Print introduction addressing the user by name.
 }
 ```
+### Literals and Operators
+**Literals** are fixed values that are inserted directly into the source code.
+```cpp
+std::cout << "Hello World!"  // "Hello World!" is a literal
+int x{ 5 }                   // 5 is a literal
+```
+An **operator** is a symbol that denotes a specific operation to be performed. **Operands** are the input values upon which the operation is performed. *Unary*, *binary*, and *ternary* operators act on one, two, and three operands, respectively.
+```cpp
+x = -5  // The operator- is unary, acting only on 5 to make it -5.
+y = 3 + 4 // The operator+ is binary, taking the left operand of 3 and 
+          // the right operand of 4 and summing the two to produce 7.
+```
+Mathematical operators follow the same order of order of operations as they do in mathematics: parenthesis, exponents, multiplication/division, addition/subtraction.
