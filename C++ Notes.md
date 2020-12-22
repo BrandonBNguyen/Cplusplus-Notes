@@ -137,12 +137,15 @@ int x{ 5 }                   // 5 is a literal
 ```
 An **operator** is a symbol that denotes a specific operation to be performed. **Operands** are the input values upon which the operation is performed. *Unary*, *binary*, and *ternary* operators act on one, two, and three operands, respectively.
 ```cpp
-x = -5      // The operator- is unary, acting only on 5 to make it -5.
-y = 3 + 4   // The operator+ is binary, taking the left operand of 3 and the right operand of 4 and summing the two to produce 7.
+x = -5  // The operator- is unary, acting only on 5 to make it -5.
+y = 3 + 4 // The operator+ is binary, taking the left operand of 3 and 
+          // the right operand of 4 and summing the two to produce 7.
 ```
 Mathematical operators follow the same order of order of operations as they do in mathematics: parenthesis, exponents, multiplication/division, addition/subtraction.
 
 **Expressions** are combinations of literals, variables, and explicit function calls that can be evaluated to a single result. You can use expressions wherever C++ expects a single value.
 ```cpp
-int z{ (2 * 3) + 4 }; // (2 * 3) + 4 is the expression that evaluates to 10 before being used as the value to initialize z.
+int z{ (2 * 3) + 4 }; // (2 * 3) + 4 is the expression that evaluates 
+                      // to 10 before being used as the value to 
+                      // initialize z.
 ```
