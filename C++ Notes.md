@@ -7,6 +7,7 @@ Notes and programs created while learning C++. These were notes were created fol
    2. [Instantiating and Assigning Variables](#instantiating-and-assigning-variables)
    3. [Output and Input with the Console](#output-and-input-with-the-console)
    4. [Literals, Operators, and Expressions](#literals-operators-and-expressions)
+1. [Functions and Files](#functions-and-files)
 
 ## C++ Basics
 
@@ -149,3 +150,4 @@ int z{ (2 * 3) + 4 }; // (2 * 3) + 4 is the expression that evaluates
                       // to 10 before being used as the value to 
                       // initialize z.
 ```
+## Functions and Files
