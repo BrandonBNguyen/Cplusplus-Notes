@@ -6,7 +6,7 @@ Notes and programs created while learning C++. These were notes were created fol
    1. [Compiling and Running Code](#compiling-and-running-code)
    2. [Instantiating and Assigning Variables](#instantiating-and-assigning-variables)
    3. [Output and Input with the Console](#output-and-input-with-the-console)
-   4. [Literals, Operators, and Expressions](#literals-and-operators)
+   4. [Literals, Operators, and Expressions](#literals-operators-and-expressions)
 
 ## C++ Basics
 
