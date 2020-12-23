@@ -199,12 +199,15 @@ Wherever we see a function call, we can treat it as an expression with the same 
 ```cpp
 int main()
 {
-	std::cout << "foo() returns " << foo() 	// foo() can be treated as an expression that
-											// evaluates t
-	return 0;
+	std::cout << "foo() returns " << foo();	// foo() can be treated as an expression that
+	return 0;								// evaluates to an integer.
 }
 ```
+```
+foo() returns 2
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMzMjgwMTE5LDMxMDc4MDM4NywxOTExOD
-c5ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2MjldfQ==
+eyJoaXN0b3J5IjpbLTE1MjU2NTM1MTAsMzEwNzgwMzg3LDE5MT
+E4Nzk4NzQsMTU3MzY4NDE2MCwtMTM0MTAyMDYyOV19
 -->
