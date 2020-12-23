@@ -282,9 +282,15 @@ int main()
 	y = 2 * y;	// x is also in the scope here.
 }	// x and y leave the scope at this line.
 ```
-Another thing to consider when determining a variable's scope is **functional separation**. When a function is called from another function, the called function will only work with variables within its local scope. That means the called function can share the same identifiers as those present in the caller function and there will be no issues, because when statements are being executed in 
+Another thing to consider when determining a variable's scope is **functional separation**. When a function is called from another function, the called function will only work with variables within its local scope. That means the called function can share the same identifiers as those present in the caller function and there will be no issues, because when statements are being executed in the called function, they will only reference variables local to that called function.
+```cpp
+int add(int x, int y)
+{
+	return x + y
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzA4NDE2MCwtODM3MTgxNTk0LDE3Mz
+eyJoaXN0b3J5IjpbLTI1OTE3Nzg4NSwtODM3MTgxNTk0LDE3Mz
 kwNDk2MywxMzIwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3
 MSwxNTgzNTY0ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLT
 E4MTQ4NDA5MzQsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1
