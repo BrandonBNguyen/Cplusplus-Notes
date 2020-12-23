@@ -270,12 +270,12 @@ func(a(), b());	//a() will be called before b().
 ```
 
 ### Local Scope
-Function parameters and variables defined within a function body are called **local variables**.  The **lifetime** of local variables is from the point of instantiation 
+Function parameters and variables defined within a function body are called **local variables**.  The **lifetime** of local variables is from the variable's point of instantiation to the end of the function execution.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzNjQzMTQxLDE3MzkwNDk2MywxMzIwNj
-c0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0ODc4
-LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5MzQsLT
-E4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMxMDc4
-MDM4NywxOTExODc5ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2Mj
-ldfQ==
+eyJoaXN0b3J5IjpbLTgzNzE4MTU5NCwxNzM5MDQ5NjMsMTMyMD
+Y3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMTU4MzU2NDg3
+OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC0xODE0ODQwOTM0LC
+0xODIwOTQ0OTQsMTU0NDI0MDY3NiwtMTUyNTY1MzUxMCwzMTA3
+ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0MTYwLC0xMzQxMDIwNj
+I5XX0=
 -->
