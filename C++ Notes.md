@@ -270,7 +270,7 @@ func(a(), b());	//a() will be called before b().
 ```
 
 ### Local Scope
-Function parameters and variables defined within a function body are called **local variables**.  The **lifetime** of local variables is from the variable's point of instantiation to the end of the function execution. A variable is considered **in scope** if the identifier can be accessed and is considered out of scope if it cannot be accessed.
+Function parameters and variables defined within a function body are called **local variables**.  The **lifetime** of local variables is from the variable's point of instantiation to the end of the function execution. A variable is considered **in scope** if the identifier can be accessed and is considered **out of scope** if it cannot be accessed.
 ```cpp
 int main()
 {
@@ -279,11 +279,12 @@ int main()
 	x = 2 * x;	// y is not in the scope.
 
 	int y = 2;	// y is in scope from this line until the end brace of main().
-	y = 2 * y;
-}
+	y = 2 * y;	// x is also in the scope here.
+}	// x and y leave the scope at this line.
 ```
+Another thing to consider when determining a variable's scope is **functional separation**. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMDg3NDc2NCwtODM3MTgxNTk0LDE3Mz
+eyJoaXN0b3J5IjpbLTExNzM1ODk1MywtODM3MTgxNTk0LDE3Mz
 kwNDk2MywxMzIwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3
 MSwxNTgzNTY0ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLT
 E4MTQ4NDA5MzQsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1
