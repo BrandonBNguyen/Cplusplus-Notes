@@ -183,8 +183,8 @@ int  main()
 ```
 
 ### Function Return Values
-
+When defining a function, we have to define the **return-type**. Once that is defined, we know what type of value to expect when a function is executed. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTg3OTg3NCwxNTczNjg0MTYwLC0xMz
-QxMDIwNjI5XX0=
+eyJoaXN0b3J5IjpbMzEwNzgwMzg3LDE5MTE4Nzk4NzQsMTU3Mz
+Y4NDE2MCwtMTM0MTAyMDYyOV19
 -->
