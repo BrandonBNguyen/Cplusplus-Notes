@@ -13,6 +13,8 @@ Notes and programs created while learning C++. These were notes were created fol
 	3. [Parameters and Arguments](#parameters-and-arguments)
 	4. [Local Scope](#local-scope)
 	5. [Using Functions Effectively](#using-functions-effectively)
+3. [Formatting](#formatting)
+	1. [Whitespace and Basic Formatting](#whitespace-and-basic-formatting)
 
 ## C++ Basics
 
@@ -342,12 +344,15 @@ The general guidelines for determining when to refactor a set of code into a fun
  - Extensibility: Functions can be extended to handle cases that we didn't initially account for by modifying just the function body.
  - Abstraction: You only need to know a function's name, its inputs, its outputs, and where it's located to use the function effectively, lowering the amount of knowledge by other people to effectively use a function.
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODY0OTk4MDAsMTU5NTE5MjI3NiwxMj
-YzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5NjMsMTMyMDY3NDQ5
-NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMTU4MzU2NDg3OCwtMj
-EwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC0xODE0ODQwOTM0LC0xODIw
-OTQ0OTQsMTU0NDI0MDY3NiwtMTUyNTY1MzUxMCwzMTA3ODAzOD
-csMTkxMTg3OTg3NCwxNTczNjg0MTYwLC0xMzQxMDIwNjI5XX0=
+## Formatting
 
+### Whitespace and Basic Formatting
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMT
+U5NTE5MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5
+NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMT
+U4MzU2NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC0xODE0
+ODQwOTM0LC0xODIwOTQ0OTQsMTU0NDI0MDY3NiwtMTUyNTY1Mz
+UxMCwzMTA3ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0MTYwLC0x
+MzQxMDIwNjI5XX0=
 -->
