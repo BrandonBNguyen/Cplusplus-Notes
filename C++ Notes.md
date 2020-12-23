@@ -9,6 +9,7 @@ Notes and programs created while learning C++. These were notes were created fol
    4. [Literals, Operators, and Expressions](#literals-operators-and-expressions)
 2. [Functions and Files](#functions-and-files)
 	1. [Defining Functions](#defining-functions)
+	2. [Function Return Values](#function-return-values)
 
 ## C++ Basics
 
@@ -206,8 +207,9 @@ int main()
 ```
 foo() returns 2
 ```
-
+The return-type **void** is used when a function doesn't need to return a value. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU2NTM1MTAsMzEwNzgwMzg3LDE5MT
-E4Nzk4NzQsMTU3MzY4NDE2MCwtMTM0MTAyMDYyOV19
+eyJoaXN0b3J5IjpbLTEyMzcyODkyMjUsLTE1MjU2NTM1MTAsMz
+EwNzgwMzg3LDE5MTE4Nzk4NzQsMTU3MzY4NDE2MCwtMTM0MTAy
+MDYyOV19
 -->
