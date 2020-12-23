@@ -244,10 +244,15 @@ int main()
 A good guideline to follow when determining whether a segment of code should be converted into a function is to **DRY**, which stands for **don't repeat yourself**. If you find yourself reusing the same segment of code, it can probably be turned into a function for simplicity.
 
 ### Parameters and Arguments
-**Function parameters** are variables used in a function that are initialized with a value provided by the caller of the function. An **argument** is the value passed from the caller into the function when the function call is made.
+**Function parameters** are variables used in a function that are initialized with a value provided by the caller of the function and are specified in the parentheses of the function definition.
+```cpp
+```
+
+An **argument** is the value passed from the caller into the function when the function call is made.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzU2NDg3OCwtMjEwMTQ3NjIzMSwxMj
-Q1Nzc4NTI2LC0xODE0ODQwOTM0LC0xODIwOTQ0OTQsMTU0NDI0
-MDY3NiwtMTUyNTY1MzUxMCwzMTA3ODAzODcsMTkxMTg3OTg3NC
-wxNTczNjg0MTYwLC0xMzQxMDIwNjI5XX0=
+eyJoaXN0b3J5IjpbMjA0NjYwNTUyOSwxNTgzNTY0ODc4LC0yMT
+AxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5MzQsLTE4MjA5
+NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMxMDc4MDM4Ny
+wxOTExODc5ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2MjldfQ==
+
 -->
