@@ -153,7 +153,8 @@ int z{ (2 * 3) + 4 }; // (2 * 3) + 4 is the expression that evaluates
 ## Functions and Files
 
 ### Defining Functions
-**Functions** are reusable sequences of statements designed to do a particular job.
+**Functions** are reusable sequences of statements designed to do a particular job. When executing statements inside a function, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzY4NDE2MCwtMTM0MTAyMDYyOV19
+eyJoaXN0b3J5IjpbLTEwODIxOTIzOTEsMTU3MzY4NDE2MCwtMT
+M0MTAyMDYyOV19
 -->
