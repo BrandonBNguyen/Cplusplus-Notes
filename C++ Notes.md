@@ -334,10 +334,12 @@ The general guidelines for determining when to refactor a set of code into a fun
  - A function should generally perform one, and only one, task.
  - When a function becomes too long, it could be advantageous to split that function into multiple, smaller sub-functions.
  
- The advantages to 
+ The advantages to separating your code into functions in accordance with the above guidelines is as follows.
+ 
+ - Organization: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTcxMjQ4NCwxNTk1MTkyMjc2LDEyNj
+eyJoaXN0b3J5IjpbLTY1OTc0MjU0NiwxNTk1MTkyMjc2LDEyNj
 MxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMzIwNjc0NDk3
 LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0ODc4LC0yMT
 AxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5MzQsLTE4MjA5
