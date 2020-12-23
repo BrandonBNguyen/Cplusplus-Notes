@@ -237,9 +237,9 @@ int main()
     std::cout << "foo() returns " << foo();
 }
 ```
-A good guideline to follow when determining whether a segment of code should be converted into a function is to **DRY**, which stands for **don't repeat yourself**. If you find a cert
+A good guideline to follow when determining whether a segment of code should be converted into a function is to **DRY**, which stands for **don't repeat yourself**. If you find yourself reusing the same segment of code, it can probably be turned into a function for simplicity.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTI4Njc3MzMsMTU0NDI0MDY3NiwtMT
-UyNTY1MzUxMCwzMTA3ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0
-MTYwLC0xMzQxMDIwNjI5XX0=
+eyJoaXN0b3J5IjpbLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNT
+I1NjUzNTEwLDMxMDc4MDM4NywxOTExODc5ODc0LDE1NzM2ODQx
+NjAsLTEzNDEwMjA2MjldfQ==
 -->
