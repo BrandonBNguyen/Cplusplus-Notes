@@ -282,9 +282,9 @@ int main()
 	y = 2 * y;	// x is also in the scope here.
 }	// x and y leave the scope at this line.
 ```
-Another thing to consider when determining a variable's scope is **functional separation**. 
+Another thing to consider when determining a variable's scope is **functional separation**. When a function is called from another function, the called function will only work with variables 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzM1ODk1MywtODM3MTgxNTk0LDE3Mz
+eyJoaXN0b3J5IjpbMTEzNDA1NTU4NCwtODM3MTgxNTk0LDE3Mz
 kwNDk2MywxMzIwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3
 MSwxNTgzNTY0ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLT
 E4MTQ4NDA5MzQsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1
