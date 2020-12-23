@@ -195,7 +195,15 @@ double bar()
 	return 0.2
 }
 ```
+Wherever we see a function call, we can treat it as an expression with the same type as the function's return-type.
+```cpp
+int main()
+{
+
+return0
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5OTI4NTk5LDMxMDc4MDM4NywxOTExOD
+eyJoaXN0b3J5IjpbODIwNzk4NTc4LDMxMDc4MDM4NywxOTExOD
 c5ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2MjldfQ==
 -->
