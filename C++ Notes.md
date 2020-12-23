@@ -246,11 +246,14 @@ A good guideline to follow when determining whether a segment of code should be 
 ### Parameters and Arguments
 **Function parameters** are variables used in a function that are initialized with a value provided by the caller of the function and are specified in the parentheses of the function definition.
 ```cpp
+int doubler(int x)
+{
+    return 2 * x;
+}
 ```
-
 An **argument** is the value passed from the caller into the function when the function call is made.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjYwNTUyOSwxNTgzNTY0ODc4LC0yMT
+eyJoaXN0b3J5IjpbMTQ0NDE1MTYwMCwxNTgzNTY0ODc4LC0yMT
 AxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5MzQsLTE4MjA5
 NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMxMDc4MDM4Ny
 wxOTExODc5ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2MjldfQ==
