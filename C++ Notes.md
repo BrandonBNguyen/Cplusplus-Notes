@@ -258,12 +258,19 @@ int main()
     std::cout << "foo() returns " << doubler(2, 3);	// 2 and 3 are the arguments of the
 }													// function call of multiplier().
 ```
-Note that function arguments may not always be evaluated left to right.
-`
+Note that function arguments may not always be evaluated left to right. If 
+```cpp
+func(a(), b()); // a() or b() may be called first.
+```
+```cpp
+a_var = a();	
+b_var = b();
+func(a(), b());	//a() will be called before b().
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTM4NzgxNTksMTQ5MTAyNTU3MSwxNT
-gzNTY0ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4
-NDA5MzQsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNT
-EwLDMxMDc4MDM4NywxOTExODc5ODc0LDE1NzM2ODQxNjAsLTEz
-NDEwMjA2MjldfQ==
+eyJoaXN0b3J5IjpbMTkyNjg1OTEsMTQ5MTAyNTU3MSwxNTgzNT
+Y0ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5
+MzQsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLD
+MxMDc4MDM4NywxOTExODc5ODc0LDE1NzM2ODQxNjAsLTEzNDEw
+MjA2MjldfQ==
 -->
