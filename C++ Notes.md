@@ -11,6 +11,7 @@ Notes and programs created while learning C++. These were notes were created fol
 	1. [Defining Functions](#defining-functions)
 	2. [Return Values](#return-values)
 	3. [Parameters and Arguments](#parameters-and-arguments)
+	4. [Local Scope](#local-scope)
 
 ## C++ Basics
 
@@ -267,10 +268,13 @@ a_var = a();
 b_var = b();
 func(a(), b());	//a() will be called before b().
 ```
+
+### Local Scope
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1OD
-M1NjQ4NzgsLTIxMDE0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0
-MDkzNCwtMTgyMDk0NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MT
-AsMzEwNzgwMzg3LDE5MTE4Nzk4NzQsMTU3MzY4NDE2MCwtMTM0
-MTAyMDYyOV19
+eyJoaXN0b3J5IjpbMTMyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OT
+EwMjU1NzEsMTU4MzU2NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4
+NTI2LC0xODE0ODQwOTM0LC0xODIwOTQ0OTQsMTU0NDI0MDY3Ni
+wtMTUyNTY1MzUxMCwzMTA3ODAzODcsMTkxMTg3OTg3NCwxNTcz
+Njg0MTYwLC0xMzQxMDIwNjI5XX0=
 -->
