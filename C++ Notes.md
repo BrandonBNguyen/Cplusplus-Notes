@@ -258,10 +258,12 @@ int main()
     std::cout << "foo() returns " << doubler(2, 3);	// 2 and 3 are the arguments of the
 }													// function call of multiplier().
 ```
+Note that function arguments may not always be evaluated left to right.
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTAyNTU3MSwxNTgzNTY0ODc4LC0yMT
-AxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5MzQsLTE4MjA5
-NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMxMDc4MDM4Ny
-wxOTExODc5ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2MjldfQ==
-
+eyJoaXN0b3J5IjpbLTIxMTM4NzgxNTksMTQ5MTAyNTU3MSwxNT
+gzNTY0ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4
+NDA5MzQsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNT
+EwLDMxMDc4MDM4NywxOTExODc5ODc0LDE1NzM2ODQxNjAsLTEz
+NDEwMjA2MjldfQ==
 -->
