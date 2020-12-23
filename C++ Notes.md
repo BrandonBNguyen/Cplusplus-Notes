@@ -274,14 +274,19 @@ Function parameters and variables defined within a function body are called **lo
 ```cpp
 int main()
 {
-	int x = 
+	// Neither x nor y are in scope at this line.
+	int x = 3;	// x is in scope from this line until the end brace of main().
+	x = 2 * x;	// y is not in the scope.
+
+	int y = 2;	// y is in scope from this line until the end brace of main().
+	y = 2 * y;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDg1MzYwMDQsLTgzNzE4MTU5NCwxNz
-M5MDQ5NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1
-NzEsMTU4MzU2NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC
-0xODE0ODQwOTM0LC0xODIwOTQ0OTQsMTU0NDI0MDY3NiwtMTUy
-NTY1MzUxMCwzMTA3ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0MT
-YwLC0xMzQxMDIwNjI5XX0=
+eyJoaXN0b3J5IjpbMTgyMDg3NDc2NCwtODM3MTgxNTk0LDE3Mz
+kwNDk2MywxMzIwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3
+MSwxNTgzNTY0ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLT
+E4MTQ4NDA5MzQsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1
+NjUzNTEwLDMxMDc4MDM4NywxOTExODc5ODc0LDE1NzM2ODQxNj
+AsLTEzNDEwMjA2MjldfQ==
 -->
