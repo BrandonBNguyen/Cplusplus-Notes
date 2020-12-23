@@ -246,15 +246,22 @@ A good guideline to follow when determining whether a segment of code should be 
 ### Parameters and Arguments
 **Function parameters** are variables used in a function that are initialized with a value provided by the caller of the function and are specified in the parentheses of the function definition. You can specify multiple 
 ```cpp
-int multiplier(int x, int y) // The function
-{
+int multiplier(int x, int y)	// The function has two parameters: x and y
+{								// both of which the function expects to be integers.
     return x * y;
 }
 ```
 An **argument** is the value passed from the caller into the function when the function call is made.
+```cpp
+int main()
+{
+    std::cout << "foo() returns " << doubler(2, 3);	// 2 and 3 are the arguments of the
+}													// function call of multiplier().
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA0Mjc1NDIwLDE1ODM1NjQ4NzgsLTIxMD
-E0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNCwtMTgyMDk0
-NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEwNzgwMzg3LD
-E5MTE4Nzk4NzQsMTU3MzY4NDE2MCwtMTM0MTAyMDYyOV19
+eyJoaXN0b3J5IjpbMTQ5MTAyNTU3MSwxNTgzNTY0ODc4LC0yMT
+AxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5MzQsLTE4MjA5
+NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMxMDc4MDM4Ny
+wxOTExODc5ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2MjldfQ==
+
 -->
