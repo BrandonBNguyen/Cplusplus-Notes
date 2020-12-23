@@ -286,8 +286,8 @@ Another thing to consider when determining a variable's scope is **functional se
 ```cpp
 int double_and_add(int x, int y)
 {
-	x = 2 * x;		// Although x is an identifier in main, this won't change the value of x
-	y = 2 * y;		// from main. Same for y.
+	x = 2 * x;		// Although x is an identifier in main, this reassignment won't change
+	y = 2 * y;		// the value of x from main. Same for y.
 	return x + y;
 }
 
@@ -297,18 +297,20 @@ int main()
 	int y = 4;
 	int z = double_and_add(x, y);
 	std::cout << "x: " << x << "\n";
-	std::cout << "x: " << y << "\n";
-	std::cout << "x: " << z << "\n";
+	std::cout << "y: " << y << "\n";
+	std::cout << "z: " << z << "\n";
 }
 ```
 ```
-
+x: 3
+y: 4
+z: 14
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2ODgwMzg0OCwtODM3MTgxNTk0LDE3Mz
-kwNDk2MywxMzIwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3
-MSwxNTgzNTY0ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLT
-E4MTQ4NDA5MzQsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1
-NjUzNTEwLDMxMDc4MDM4NywxOTExODc5ODc0LDE1NzM2ODQxNj
-AsLTEzNDEwMjA2MjldfQ==
+eyJoaXN0b3J5IjpbLTEyOTc0MTcyODQsLTgzNzE4MTU5NCwxNz
+M5MDQ5NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1
+NzEsMTU4MzU2NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC
+0xODE0ODQwOTM0LC0xODIwOTQ0OTQsMTU0NDI0MDY3NiwtMTUy
+NTY1MzUxMCwzMTA3ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0MT
+YwLC0xMzQxMDIwNjI5XX0=
 -->
