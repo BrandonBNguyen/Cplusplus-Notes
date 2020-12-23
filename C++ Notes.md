@@ -132,7 +132,8 @@ int main()
   std::cout << "Hello, what is your name: ";	// Output to the console prompting the user to
 												// type their name.
   std::cin >> user; // Initialize the name that the user typed to the variable named user.
-  std::cout << "Hi, " << user << " my name is Jarvis."; // Print introduction addressing the user by name.
+  std::cout << "Hi, " << user << " my name is Jarvis.";		// Print introduction addressing
+															// the user by name.
 }
 ```
 ### Literals, Operators, and Expressions
@@ -245,8 +246,8 @@ A good guideline to follow when determining whether a segment of code should be 
 ### Parameters and Arguments
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTU4MjUwMTQsLTE4MTQ4NDA5MzQsLT
-E4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMxMDc4
-MDM4NywxOTExODc5ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2Mj
-ldfQ==
+eyJoaXN0b3J5IjpbMTI0NTc3ODUyNiwtMTgxNDg0MDkzNCwtMT
+gyMDk0NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEwNzgw
+Mzg3LDE5MTE4Nzk4NzQsMTU3MzY4NDE2MCwtMTM0MTAyMDYyOV
+19
 -->
