@@ -7,7 +7,8 @@ Notes and programs created while learning C++. These were notes were created fol
    2. [Instantiating and Assigning Variables](#instantiating-and-assigning-variables)
    3. [Output and Input with the Console](#output-and-input-with-the-console)
    4. [Literals, Operators, and Expressions](#literals-operators-and-expressions)
-1. [Functions and Files](#functions-and-files)
+2. [Functions and Files](#functions-and-files)
+	1. [Defining Functions](#defining-functions)
 
 ## C++ Basics
 
@@ -157,11 +158,15 @@ int z{ (2 * 3) + 4 }; // (2 * 3) + 4 is the expression that evaluates
 
 The syntax of a function is as follows, starting with the return-type, followed by the function identifier, followed by parentheses, and followed by brackets containing the code that will be run when that function is called.
 
-**Function Format:**
+#### Function Format
 ```
-return-type identifier
+return-type identifier()
+{
+	// code to be executed
+}
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzIwMjg0ODMsMTU3MzY4NDE2MCwtMT
-M0MTAyMDYyOV19
+eyJoaXN0b3J5IjpbLTcwNTY5ODE3MSwxNTczNjg0MTYwLC0xMz
+QxMDIwNjI5XX0=
 -->
