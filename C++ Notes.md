@@ -330,13 +330,18 @@ int  main()
 The general guidelines for determining when to refactor a set of code into a function and establishing the structure of the function is as follows.
 
  - Statements that reappear multiple times within your code should be made into a function (DRY: don't repeat yourself). 
- - Code that has a well defined input and output are good candidates to be turned into a function 
+ - Code that has a well defined input and output are good candidates to be turned into a function, especially if the code is complex.
+ - A function should generally perform one, and only one, task.
+ - When a function becomes too long, it could be advantageous to split that function into multiple, smaller sub-functions.
+ 
+ The advantages to 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0NzgxODU0LDE1OTUxOTIyNzYsMTI2Mz
-EyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcs
-MTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMD
-E0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNCwtMTgyMDk0
-NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEwNzgwMzg3LD
-E5MTE4Nzk4NzQsMTU3MzY4NDE2MCwtMTM0MTAyMDYyOV19
+eyJoaXN0b3J5IjpbMTE5OTcxMjQ4NCwxNTk1MTkyMjc2LDEyNj
+MxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMzIwNjc0NDk3
+LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0ODc4LC0yMT
+AxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5MzQsLTE4MjA5
+NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMxMDc4MDM4Ny
+wxOTExODc5ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2MjldfQ==
+
 -->
