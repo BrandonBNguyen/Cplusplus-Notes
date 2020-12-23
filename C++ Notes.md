@@ -311,27 +311,22 @@ As a best practice, local variables should be defined as close to their first us
 int  main()
 {
 	std::cout  <<  "Enter an integer: ";
+	int  x{};  // x defined here
+	std::cin  >>  x;  // and used here
 
-int  x{};  // x defined here
+	std::cout  <<  "Enter another integer: ";
+	int  y{};  // y defined here
+	std::cin  >>  y;  // and used here
 
-std::cin  >>  x;  // and used here
-
-std::cout  <<  "Enter another integer: ";
-
-int  y{};  // y defined here
-
-std::cin  >>  y;  // and used here
-
-int  sum{  x  +  y  };  // sum defined here
-
-std::cout  <<  "The sum is: "  <<  sum  <<  '\n';  // and used here
-
-return  0;
-
+	int  sum{  x  +  y  };  // sum defined here
+	std::cout  <<  "The sum is: "  <<  sum  <<  '\n';  // and used here
+	
+	return  0;
 }
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzODcyMDg5LC04MzcxODE1OTQsMTczOT
+eyJoaXN0b3J5IjpbMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOT
 A0OTYzLDEzMjA2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcx
 LDE1ODM1NjQ4NzgsLTIxMDE0NzYyMzEsMTI0NTc3ODUyNiwtMT
 gxNDg0MDkzNCwtMTgyMDk0NDk0LDE1NDQyNDA2NzYsLTE1MjU2
