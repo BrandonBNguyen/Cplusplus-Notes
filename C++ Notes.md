@@ -7,11 +7,12 @@ Notes and programs created while learning C++. These were notes were created fol
    2. [Instantiating and Assigning Variables](#instantiating-and-assigning-variables)
    3. [Output and Input with the Console](#output-and-input-with-the-console)
    4. [Literals, Operators, and Expressions](#literals-operators-and-expressions)
-2. [Functions and Files](#functions-and-files)
+2. [Functions](#functions)
 	1. [Defining Functions](#defining-functions)
 	2. [Return Values](#return-values)
 	3. [Parameters and Arguments](#parameters-and-arguments)
 	4. [Local Scope](#local-scope)
+	5. [Using Functions Effectively](#using-functions-effectively)
 
 ## C++ Basics
 
@@ -157,7 +158,7 @@ int z{ (2 * 3) + 4 }; // (2 * 3) + 4 is the expression that evaluates
                       // to 10 before being used as the value to 
                       // initialize z.
 ```
-## Functions and Files
+## Functions
 
 ### Defining Functions
 **Functions** are reusable sequences of statements designed to do a particular job. When executing statements inside a function, the program may encounter a **function call**, which tells the CPU to interrupt the current function, execute another function, and then return. The function initiating the function call is referred to as the **caller** and the function being initiated is referred to as the **callee**.
@@ -325,11 +326,13 @@ int  main()
 }
 ```
 
+### Using Functions Effectively
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOT
-A0OTYzLDEzMjA2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcx
-LDE1ODM1NjQ4NzgsLTIxMDE0NzYyMzEsMTI0NTc3ODUyNiwtMT
-gxNDg0MDkzNCwtMTgyMDk0NDk0LDE1NDQyNDA2NzYsLTE1MjU2
-NTM1MTAsMzEwNzgwMzg3LDE5MTE4Nzk4NzQsMTU3MzY4NDE2MC
-wtMTM0MTAyMDYyOV19
+eyJoaXN0b3J5IjpbMTU5NTE5MjI3NiwxMjYzMTI5OTUsLTgzNz
+E4MTU5NCwxNzM5MDQ5NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4MDM2
+LDE0OTEwMjU1NzEsMTU4MzU2NDg3OCwtMjEwMTQ3NjIzMSwxMj
+Q1Nzc4NTI2LC0xODE0ODQwOTM0LC0xODIwOTQ0OTQsMTU0NDI0
+MDY3NiwtMTUyNTY1MzUxMCwzMTA3ODAzODcsMTkxMTg3OTg3NC
+wxNTczNjg0MTYwLC0xMzQxMDIwNjI5XX0=
 -->
