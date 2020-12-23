@@ -224,9 +224,22 @@ int  main()
 ```
 Once a function executes a return statement, the called function will stop and the code will continue from the callee function.
 ```cpp
+#include <iostream>
+
+int foo()
+{
+    return 2;
+    std::cout << "last line of foo()";	// This line will not be executed because it is after
+}										// the execution of the return statement.
+
+int main()
+{
+    std::cout << "foo() returns " << foo();
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODc0MTczNiwtMTUyNTY1MzUxMCwzMT
+eyJoaXN0b3J5IjpbMTU0NDI0MDY3NiwtMTUyNTY1MzUxMCwzMT
 A3ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0MTYwLC0xMzQxMDIw
 NjI5XX0=
 -->
