@@ -327,12 +327,15 @@ int  main()
 ```
 
 ### Using Functions Effectively
+The general guidelines for determining when to refactor a set of code into a function and establishing the structure of the function is as follows.
+
+ - List item
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NTE5MjI3NiwxMjYzMTI5OTUsLTgzNz
-E4MTU5NCwxNzM5MDQ5NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4MDM2
-LDE0OTEwMjU1NzEsMTU4MzU2NDg3OCwtMjEwMTQ3NjIzMSwxMj
-Q1Nzc4NTI2LC0xODE0ODQwOTM0LC0xODIwOTQ0OTQsMTU0NDI0
-MDY3NiwtMTUyNTY1MzUxMCwzMTA3ODAzODcsMTkxMTg3OTg3NC
-wxNTczNjg0MTYwLC0xMzQxMDIwNjI5XX0=
+eyJoaXN0b3J5IjpbNzUwMDA1MzA4LDE1OTUxOTIyNzYsMTI2Mz
+EyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcs
+MTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMD
+E0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNCwtMTgyMDk0
+NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEwNzgwMzg3LD
+E5MTE4Nzk4NzQsMTU3MzY4NDE2MCwtMTM0MTAyMDYyOV19
 -->
