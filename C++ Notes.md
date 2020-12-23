@@ -127,13 +127,13 @@ The variable `std::cin` is used to receive keyboard input from the console. The 
 ```cpp
 int main()
 {
-  std::string user{ }; 	// Use direct list initialization to initialize the variable user
-						// containing an empty string.
-  std::cout << "Hello, what is your name: ";	// Output to the console prompting the user to
-						// type their name.
-  std::cin >> user; // Initialize the name that the user typed to the variable named user.
-  std::cout << "Hi, " << user << " my name is Jarvis.";		// Print introduction addressing
-								// the user by name.
+	std::string user{ }; 	// Use direct list initialization to initialize the variable user
+							// containing an empty string.
+	std::cout << "Hello, what is your name: ";	// Output to the console prompting the user to
+												// type their name.
+	std::cin >> user; // Initialize the name that the user typed to the variable named user.
+	std::cout << "Hi, " << user << " my name is Jarvis.";	// Print introduction addressing
+															// the user by name.
 }
 ```
 ### Literals, Operators, and Expressions
@@ -246,7 +246,7 @@ A good guideline to follow when determining whether a segment of code should be 
 ### Parameters and Arguments
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjA3OTIxMCwxMjQ1Nzc4NTI2LC0xOD
+eyJoaXN0b3J5IjpbLTU4ODAzMTg0MiwxMjQ1Nzc4NTI2LC0xOD
 E0ODQwOTM0LC0xODIwOTQ0OTQsMTU0NDI0MDY3NiwtMTUyNTY1
 MzUxMCwzMTA3ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0MTYwLC
 0xMzQxMDIwNjI5XX0=
