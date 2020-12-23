@@ -183,8 +183,19 @@ int  main()
 ```
 
 ### Function Return Values
-When defining a function, we have to define the **return-type**. Once that is defined, we know what type of value to expect when a function is executed. Therefore, in the function body, we expect a **return statement** followed by a value of 
+When defining a function, we have to define the **return-type**. Once that is defined, we know what type of value to expect when a function is executed. Therefore, in the function body, we expect a **return statement** followed by a value of the same type as the function's return-type.
+```cpp
+int foo()
+{
+	return 2
+}
+
+double bar()
+{
+	return 0.2
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzNTk3MzIsMzEwNzgwMzg3LDE5MTE4Nz
-k4NzQsMTU3MzY4NDE2MCwtMTM0MTAyMDYyOV19
+eyJoaXN0b3J5IjpbMzU5OTI4NTk5LDMxMDc4MDM4NywxOTExOD
+c5ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2MjldfQ==
 -->
