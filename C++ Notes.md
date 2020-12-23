@@ -244,10 +244,10 @@ int main()
 A good guideline to follow when determining whether a segment of code should be converted into a function is to **DRY**, which stands for **don't repeat yourself**. If you find yourself reusing the same segment of code, it can probably be turned into a function for simplicity.
 
 ### Parameters and Arguments
-
+**Function parameters** are variables used in a function that are initialized
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODAzMTg0MiwxMjQ1Nzc4NTI2LC0xOD
-E0ODQwOTM0LC0xODIwOTQ0OTQsMTU0NDI0MDY3NiwtMTUyNTY1
-MzUxMCwzMTA3ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0MTYwLC
-0xMzQxMDIwNjI5XX0=
+eyJoaXN0b3J5IjpbLTIxMDE0NzYyMzEsMTI0NTc3ODUyNiwtMT
+gxNDg0MDkzNCwtMTgyMDk0NDk0LDE1NDQyNDA2NzYsLTE1MjU2
+NTM1MTAsMzEwNzgwMzg3LDE5MTE4Nzk4NzQsMTU3MzY4NDE2MC
+wtMTM0MTAyMDYyOV19
 -->
