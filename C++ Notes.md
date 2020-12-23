@@ -306,11 +306,35 @@ x: 3
 y: 4
 z: 14
 ```
+As a best practice, local variables should be defined as close to their first use as possible.
+```cpp
+int  main()
+{
+	std::cout  <<  "Enter an integer: ";
+
+int  x{};  // x defined here
+
+std::cin  >>  x;  // and used here
+
+std::cout  <<  "Enter another integer: ";
+
+int  y{};  // y defined here
+
+std::cin  >>  y;  // and used here
+
+int  sum{  x  +  y  };  // sum defined here
+
+std::cout  <<  "The sum is: "  <<  sum  <<  '\n';  // and used here
+
+return  0;
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTc0MTcyODQsLTgzNzE4MTU5NCwxNz
-M5MDQ5NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1
-NzEsMTU4MzU2NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC
-0xODE0ODQwOTM0LC0xODIwOTQ0OTQsMTU0NDI0MDY3NiwtMTUy
-NTY1MzUxMCwzMTA3ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0MT
-YwLC0xMzQxMDIwNjI5XX0=
+eyJoaXN0b3J5IjpbOTAzODcyMDg5LC04MzcxODE1OTQsMTczOT
+A0OTYzLDEzMjA2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcx
+LDE1ODM1NjQ4NzgsLTIxMDE0NzYyMzEsMTI0NTc3ODUyNiwtMT
+gxNDg0MDkzNCwtMTgyMDk0NDk0LDE1NDQyNDA2NzYsLTE1MjU2
+NTM1MTAsMzEwNzgwMzg3LDE5MTE4Nzk4NzQsMTU3MzY4NDE2MC
+wtMTM0MTAyMDYyOV19
 -->
