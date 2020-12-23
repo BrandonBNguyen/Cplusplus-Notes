@@ -284,16 +284,26 @@ int main()
 ```
 Another thing to consider when determining a variable's scope is **functional separation**. When a function is called from another function, the called function will only work with variables within its local scope. That means the called function can share the same identifiers as those present in the caller function and there will be no issues, because when statements are being executed in the called function, they will only reference variables local to that called function.
 ```cpp
-int add(int x, int y)
+int double_and_add(int x, int y)
 {
-	return x + y
+	x = 2 * x;
+	y = 2 * y;
+	return x + y;
+}
+
+int main()
+{
+	int x = 3;
+	int y = 4;
+	int z = double_and_add(x, y);
+	std::cout << "x: " << x;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTE3Nzg4NSwtODM3MTgxNTk0LDE3Mz
-kwNDk2MywxMzIwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3
-MSwxNTgzNTY0ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLT
-E4MTQ4NDA5MzQsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1
-NjUzNTEwLDMxMDc4MDM4NywxOTExODc5ODc0LDE1NzM2ODQxNj
-AsLTEzNDEwMjA2MjldfQ==
+eyJoaXN0b3J5IjpbODI5MzcxODY2LC04MzcxODE1OTQsMTczOT
+A0OTYzLDEzMjA2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcx
+LDE1ODM1NjQ4NzgsLTIxMDE0NzYyMzEsMTI0NTc3ODUyNiwtMT
+gxNDg0MDkzNCwtMTgyMDk0NDk0LDE1NDQyNDA2NzYsLTE1MjU2
+NTM1MTAsMzEwNzgwMzg3LDE5MTE4Nzk4NzQsMTU3MzY4NDE2MC
+wtMTM0MTAyMDYyOV19
 -->
