@@ -130,10 +130,10 @@ int main()
   std::string user{ }; 	// Use direct list initialization to initialize the variable user
 						// containing an empty string.
   std::cout << "Hello, what is your name: ";	// Output to the console prompting the user to
-												// type their name.
+						// type their name.
   std::cin >> user; // Initialize the name that the user typed to the variable named user.
   std::cout << "Hi, " << user << " my name is Jarvis.";		// Print introduction addressing
-															// the user by name.
+								// the user by name.
 }
 ```
 ### Literals, Operators, and Expressions
