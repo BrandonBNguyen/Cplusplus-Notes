@@ -208,8 +208,10 @@ int main()
 foo() returns 2
 ```
 The return-type **void** is used when a function doesn't need to return a value. 
+
+Notice that `main()` is a function with an integer return-type. The integer returned from `main()` is called the **status code**, and is used to indicate 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzcyODkyMjUsLTE1MjU2NTM1MTAsMz
-EwNzgwMzg3LDE5MTE4Nzk4NzQsMTU3MzY4NDE2MCwtMTM0MTAy
-MDYyOV19
+eyJoaXN0b3J5IjpbLTQyNzgwNDkzNCwtMTUyNTY1MzUxMCwzMT
+A3ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0MTYwLC0xMzQxMDIw
+NjI5XX0=
 -->
