@@ -156,7 +156,7 @@ int z{ (2 * 3) + 4 }; // (2 * 3) + 4 is the expression that evaluates
 ### Defining Functions
 **Functions** are reusable sequences of statements designed to do a particular job. When executing statements inside a function, the program may encounter a **function call**, which tells the CPU to interrupt the current function, execute another function, and then return. The function initiating the function call is referred to as the **caller** and the function being initiated is referred to as the **callee**.
 
-The syntax of a function is as follows, starting with the return-type, followed by the function identifier, followed by parentheses, and followed by brackets containing the code that will be run when that function is called.
+The syntax of a function is as follows, starting with the return-type, followed by the function identifier, followed by parentheses, and followed by brackets containing the code, known as the **function body**, that will be run when that function is called.
 
 #### Function Format
 ```
@@ -167,6 +167,6 @@ return-type identifier()
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTY5ODE3MSwxNTczNjg0MTYwLC0xMz
+eyJoaXN0b3J5IjpbLTMyNTQyMjM0OSwxNTczNjg0MTYwLC0xMz
 QxMDIwNjI5XX0=
 -->
