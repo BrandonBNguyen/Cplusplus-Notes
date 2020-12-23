@@ -237,9 +237,9 @@ int main()
     std::cout << "foo() returns " << foo();
 }
 ```
-
+A good guideline to follow when determining whether a segment of code should be converted into a function is to **DRY**, which stands for **don't repeat yourself**. If you find a cert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDI0MDY3NiwtMTUyNTY1MzUxMCwzMT
-A3ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0MTYwLC0xMzQxMDIw
-NjI5XX0=
+eyJoaXN0b3J5IjpbLTEwOTI4Njc3MzMsMTU0NDI0MDY3NiwtMT
+UyNTY1MzUxMCwzMTA3ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0
+MTYwLC0xMzQxMDIwNjI5XX0=
 -->
