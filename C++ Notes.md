@@ -270,11 +270,11 @@ func(a(), b());	//a() will be called before b().
 ```
 
 ### Local Scope
-
+Function parameters and variables defined within a function body are called **local variables**. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OT
-EwMjU1NzEsMTU4MzU2NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4
-NTI2LC0xODE0ODQwOTM0LC0xODIwOTQ0OTQsMTU0NDI0MDY3Ni
-wtMTUyNTY1MzUxMCwzMTA3ODAzODcsMTkxMTg3OTg3NCwxNTcz
-Njg0MTYwLC0xMzQxMDIwNjI5XX0=
+eyJoaXN0b3J5IjpbMTczOTA0OTYzLDEzMjA2NzQ0OTcsMTU0NT
+M5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMDE0NzYy
+MzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNCwtMTgyMDk0NDk0LD
+E1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEwNzgwMzg3LDE5MTE4
+Nzk4NzQsMTU3MzY4NDE2MCwtMTM0MTAyMDYyOV19
 -->
