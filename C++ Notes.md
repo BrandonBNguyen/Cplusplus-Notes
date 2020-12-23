@@ -340,13 +340,14 @@ The general guidelines for determining when to refactor a set of code into a fun
  - Reusability: Functions can be reused in your code, reducing copy/paste errors and duplicate code.
  - Testing: By reducing code redundancy, there is less code to test. By testing and ensuring that a function works, we can be confident that it will perform properly at every instance that it is called.
  - Extensibility: Functions can be extended to handle cases that we didn't initially account for by modifying just the function body.
- - Abstraction: You only need to know a function's name, its inputs, output
+ - Abstraction: You only need to know a function's name, its inputs, its outputs, and where it's located to use the function effectively, lowering the amount of knowledge by other people to effectively use a function.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2MjU2ODg3LDE1OTUxOTIyNzYsMTI2Mz
-EyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcs
-MTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMD
-E0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNCwtMTgyMDk0
-NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEwNzgwMzg3LD
-E5MTE4Nzk4NzQsMTU3MzY4NDE2MCwtMTM0MTAyMDYyOV19
+eyJoaXN0b3J5IjpbLTE5ODY0OTk4MDAsMTU5NTE5MjI3NiwxMj
+YzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5NjMsMTMyMDY3NDQ5
+NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMTU4MzU2NDg3OCwtMj
+EwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC0xODE0ODQwOTM0LC0xODIw
+OTQ0OTQsMTU0NDI0MDY3NiwtMTUyNTY1MzUxMCwzMTA3ODAzOD
+csMTkxMTg3OTg3NCwxNTczNjg0MTYwLC0xMzQxMDIwNjI5XX0=
+
 -->
