@@ -209,9 +209,11 @@ foo() returns 2
 ```
 The return-type **void** is used when a function doesn't need to return a value. 
 
-Notice that `main()` is a function with an integer return-type. The integer returned from `main()` is called the **status code**, and is used to indicate 
+Notice that `main()` is a function with an integer return-type. The integer returned from `main()` is called the **status code**, and is used to indicate whether or not the program ran successfully. Non-zero status codes generally indicate a failure of some sort.
+
+C++ defines the meaning of 3 status codes: `0`, `EXIT_SUCCESS`, and `EXIT_FAILURE`. `EXIT_SUcCESSS`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNzgwNDkzNCwtMTUyNTY1MzUxMCwzMT
-A3ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0MTYwLC0xMzQxMDIw
-NjI5XX0=
+eyJoaXN0b3J5IjpbMjM2NDU0Mzc4LC0xNTI1NjUzNTEwLDMxMD
+c4MDM4NywxOTExODc5ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2
+MjldfQ==
 -->
