@@ -222,9 +222,11 @@ int  main()
 	return  EXIT_SUCCESS;
 }
 ```
-Once a function executes a return statement, 
+Once a function executes a return statement, the called function will stop and the code will continue from the callee function.
+```cpp
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1MDExNDIsLTE1MjU2NTM1MTAsMzEwNz
-gwMzg3LDE5MTE4Nzk4NzQsMTU3MzY4NDE2MCwtMTM0MTAyMDYy
-OV19
+eyJoaXN0b3J5IjpbLTk3ODc0MTczNiwtMTUyNTY1MzUxMCwzMT
+A3ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0MTYwLC0xMzQxMDIw
+NjI5XX0=
 -->
