@@ -336,14 +336,14 @@ The general guidelines for determining when to refactor a set of code into a fun
  
  The advantages to separating your code into functions in accordance with the above guidelines is as follows.
  
- - Organization: 
+ - Organization: Separating code into functions makes it more readable, less complex, and more manageable.
+ - Reusability: 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTc0MjU0NiwxNTk1MTkyMjc2LDEyNj
-MxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMzIwNjc0NDk3
-LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0ODc4LC0yMT
-AxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5MzQsLTE4MjA5
-NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMxMDc4MDM4Ny
-wxOTExODc5ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2MjldfQ==
-
+eyJoaXN0b3J5IjpbMzkwMDAxMDExLDE1OTUxOTIyNzYsMTI2Mz
+EyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcs
+MTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMD
+E0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNCwtMTgyMDk0
+NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEwNzgwMzg3LD
+E5MTE4Nzk4NzQsMTU3MzY4NDE2MCwtMTM0MTAyMDYyOV19
 -->
