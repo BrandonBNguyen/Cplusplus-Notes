@@ -339,13 +339,14 @@ The general guidelines for determining when to refactor a set of code into a fun
  - Organization: Separating code into functions makes it more readable, less complex, and more manageable.
  - Reusability: Functions can be reused in your code, reducing copy/paste errors and duplicate code.
  - Testing: By reducing code redundancy, there is less code to test. By testing and ensuring that a function works, we can be confident that it will perform properly at every instance that it is called.
+ - Extensibility: Functions can be extended to handle cases that we didn't initially account for by modifying just the function body.
+ - Abstraction: You only need to know a function's name, its inputs, output
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTA2NDUyMiwxNTk1MTkyMjc2LDEyNj
-MxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMzIwNjc0NDk3
-LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0ODc4LC0yMT
-AxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5MzQsLTE4MjA5
-NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMxMDc4MDM4Ny
-wxOTExODc5ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2MjldfQ==
-
+eyJoaXN0b3J5IjpbNTI2MjU2ODg3LDE1OTUxOTIyNzYsMTI2Mz
+EyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcs
+MTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMD
+E0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNCwtMTgyMDk0
+NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEwNzgwMzg3LD
+E5MTE4Nzk4NzQsMTU3MzY4NDE2MCwtMTM0MTAyMDYyOV19
 -->
