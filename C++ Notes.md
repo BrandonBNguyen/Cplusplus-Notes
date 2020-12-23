@@ -329,10 +329,11 @@ int  main()
 ### Using Functions Effectively
 The general guidelines for determining when to refactor a set of code into a function and establishing the structure of the function is as follows.
 
- - List item
+ - Statements that reappear multiple times within your code should be made into a function (DRY: don't repeat yourself). 
+ - Code that has a well defined input and output are good candidates to be turned into a function 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwMDA1MzA4LDE1OTUxOTIyNzYsMTI2Mz
+eyJoaXN0b3J5IjpbNTU0NzgxODU0LDE1OTUxOTIyNzYsMTI2Mz
 EyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcs
 MTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMD
 E0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNCwtMTgyMDk0
