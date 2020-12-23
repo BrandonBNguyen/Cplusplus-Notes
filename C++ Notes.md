@@ -9,7 +9,8 @@ Notes and programs created while learning C++. These were notes were created fol
    4. [Literals, Operators, and Expressions](#literals-operators-and-expressions)
 2. [Functions and Files](#functions-and-files)
 	1. [Defining Functions](#defining-functions)
-	2. [Function Return Values](#function-return-values)
+	2. [Return Values](#return-values)
+	3. [Parameters and Arguments](#parameters-and-arguments)
 
 ## C++ Basics
 
@@ -183,7 +184,7 @@ int  main()
 }
 ```
 
-### Function Return Values
+### Return Values
 When defining a function, we have to define the **return-type**. Once that is defined, we know what type of value to expect when a function is executed. Therefore, in the function body, we expect a **return statement** followed by a value of the same type as the function's return-type.
 ```cpp
 int foo()
@@ -238,8 +239,11 @@ int main()
 }
 ```
 A good guideline to follow when determining whether a segment of code should be converted into a function is to **DRY**, which stands for **don't repeat yourself**. If you find yourself reusing the same segment of code, it can probably be turned into a function for simplicity.
+
+### Parameters and Arguments
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNT
-I1NjUzNTEwLDMxMDc4MDM4NywxOTExODc5ODc0LDE1NzM2ODQx
-NjAsLTEzNDEwMjA2MjldfQ==
+eyJoaXN0b3J5IjpbLTE4MTQ4NDA5MzQsLTE4MjA5NDQ5NCwxNT
+Q0MjQwNjc2LC0xNTI1NjUzNTEwLDMxMDc4MDM4NywxOTExODc5
+ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2MjldfQ==
 -->
