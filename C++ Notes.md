@@ -165,8 +165,23 @@ return-type identifier()
 	// code to be executed
 }
 ```
+Note that functions cannot be defined within other functions, unlike in Python.
+```cpp
+#include <iostream>
 
+int  main()
+{
+	int  foo()  // Illegal: this function is nested inside function main()
+	{
+		std::cout  <<  "foo!\n";
+		return  0;
+	}
+
+	foo();  // function call to foo()
+	return  0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTQyMjM0OSwxNTczNjg0MTYwLC0xMz
-QxMDIwNjI5XX0=
+eyJoaXN0b3J5IjpbLTEzODQzNzIyMjUsMTU3MzY4NDE2MCwtMT
+M0MTAyMDYyOV19
 -->
