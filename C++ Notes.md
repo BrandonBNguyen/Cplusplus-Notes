@@ -187,23 +187,24 @@ When defining a function, we have to define the **return-type**. Once that is de
 ```cpp
 int foo()
 {
-	return 2
+	return 2;
 }
 
 double bar()
 {
-	return 0.2
+	return 0.2;
 }
 ```
 Wherever we see a function call, we can treat it as an expression with the same type as the function's return-type.
 ```cpp
 int main()
 {
-
-return0
+	std::cout << "foo() returns " << foo() 	// foo() can be treated as an expression that
+											// evaluates t
+	return 0;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwNzk4NTc4LDMxMDc4MDM4NywxOTExOD
+eyJoaXN0b3J5IjpbNDMzMjgwMTE5LDMxMDc4MDM4NywxOTExOD
 c5ODc0LDE1NzM2ODQxNjAsLTEzNDEwMjA2MjldfQ==
 -->
