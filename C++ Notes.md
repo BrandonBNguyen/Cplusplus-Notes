@@ -388,13 +388,19 @@ int main() {        // Google C++ style guide has open curly brace in the same
     do_something()  // line as function header.
 }
 ```
-The alternative is to have the open brace 
+The alternative is to have the open brace on its own line. This makes the code more readable and makes it easier to catch brace mismatch errors.
+```cpp
+int main()
+{                   // Open curly brace on its own line
+    do_something()
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTU2NDc0LC0xNTkzMDgzMCwtMjgyMD
-g0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIy
-NzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMj
-A2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4
-NzgsLTIxMDE0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNC
-wtMTgyMDk0NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEw
-NzgwMzg3XX0=
+eyJoaXN0b3J5IjpbLTE0MDUxODM3OTksLTE1OTMwODMwLC0yOD
+IwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMTU5NTE5
+MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5NjMsMT
+MyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMTU4MzU2
+NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC0xODE0ODQwOT
+M0LC0xODIwOTQ0OTQsMTU0NDI0MDY3NiwtMTUyNTY1MzUxMCwz
+MTA3ODAzODddfQ==
 -->
