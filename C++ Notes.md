@@ -549,12 +549,27 @@ Note the **one definition rule**:
 
 ### Separating a Program Across Multiple Files
 For organization and reusability, it may be a good idea to split your codes into multiple files. Consider the following example. 
+```cpp
+#include <iostream>
+
+int  add(int  x,  int  y)
+{
+    return  x  +  y;
+}  // Since add() is defined before main(), our code will compile and run.
+
+int  main()
+{
+    std::cout  <<  "The sum of 3 and 4 is: "  <<  add(3,  4)  <<  '\n';
+    return  0;
+}
+```
+Let's say we want to move `add()` into another file. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTg3ODM3OTksNjMwMzU3MzIxLC0yND
-YyMDQ4MTYsODMyOTM5NjYyLDE3MTkxNTkzNTQsLTE5NDA5Nzg2
-OTUsLTE1OTMwODMwLC0yODIwODQ1OTYsLTE2OTIxNzY1NjgsLT
-E5ODY0OTk4MDAsMTU5NTE5MjI3NiwxMjYzMTI5OTUsLTgzNzE4
-MTU5NCwxNzM5MDQ5NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4MDM2LD
-E0OTEwMjU1NzEsMTU4MzU2NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1
-Nzc4NTI2XX0=
+eyJoaXN0b3J5IjpbMzEyMTM3ODA0LC0xODU4NzgzNzk5LDYzMD
+M1NzMyMSwtMjQ2MjA0ODE2LDgzMjkzOTY2MiwxNzE5MTU5MzU0
+LC0xOTQwOTc4Njk1LC0xNTkzMDgzMCwtMjgyMDg0NTk2LC0xNj
+kyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIyNzYsMTI2MzEy
+OTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcsMT
+U0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMDE0
+NzYyMzFdfQ==
 -->
