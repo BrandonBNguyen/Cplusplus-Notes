@@ -486,7 +486,7 @@ This is because the code starts with `main()` and encounters the first statement
 int  add(int  x,  int  y)
 {
     return  x  +  y;
-}  // Since add() is defined before main()
+}  // Since add() is defined before main(), our code will compile and run.
 
 int  main()
 {
@@ -494,8 +494,9 @@ int  main()
     return  0;
 }
 ```
+Another solution is to use a **forward declaration**, which is used to declare a function, object, variable, etc. before it is defined. The forward declaration for a function is called a **function prototype** and consists of the function header followed by a semicolon. This is especially useful if we have seve
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxNjQ1ODY2LDE3MTkxNTkzNTQsLTE5ND
+eyJoaXN0b3J5IjpbOTgwMjY5Mzk4LDE3MTkxNTkzNTQsLTE5ND
 A5Nzg2OTUsLTE1OTMwODMwLC0yODIwODQ1OTYsLTE2OTIxNzY1
 NjgsLTE5ODY0OTk4MDAsMTU5NTE5MjI3NiwxMjYzMTI5OTUsLT
 gzNzE4MTU5NCwxNzM5MDQ5NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4
