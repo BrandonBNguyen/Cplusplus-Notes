@@ -494,13 +494,29 @@ int  main()
     return  0;
 }
 ```
-Another solution is to use a **forward declaration**, which is used to declare a function, object, variable, etc. before it is defined. The forward declaration for a function is called a **function prototype** and consists of the function header followed by a semicolon. This is especially useful if we have seve
+Another solution is to use a **forward declaration**, which is used to declare a function, object, variable, etc. before it is defined. The forward declaration for a function is called a **function prototype** and consists of the function header followed by a semicolon. This is especially useful if we have several functions that rely on one another.
+```cpp
+#include <iostream>
+
+int  add(int  x,  int  y); // This function prototype is the forward
+                           // declaration for our function, add().
+int  main()
+{
+    std::cout  <<  "The sum of 3 and 4 is: "  <<  add(3,  4)  <<  '\n';
+    return  0;  // When this is ran, add() will have already been declarared
+}               // and is defined subsequently.
+
+int  add(int  x,  int  y)
+{
+    return  x  +  y;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwMjY5Mzk4LDE3MTkxNTkzNTQsLTE5ND
-A5Nzg2OTUsLTE1OTMwODMwLC0yODIwODQ1OTYsLTE2OTIxNzY1
-NjgsLTE5ODY0OTk4MDAsMTU5NTE5MjI3NiwxMjYzMTI5OTUsLT
-gzNzE4MTU5NCwxNzM5MDQ5NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4
-MDM2LDE0OTEwMjU1NzEsMTU4MzU2NDg3OCwtMjEwMTQ3NjIzMS
-wxMjQ1Nzc4NTI2LC0xODE0ODQwOTM0LC0xODIwOTQ0OTQsMTU0
-NDI0MDY3Nl19
+eyJoaXN0b3J5IjpbLTcxNzkwNTg5MywxNzE5MTU5MzU0LC0xOT
+QwOTc4Njk1LC0xNTkzMDgzMCwtMjgyMDg0NTk2LC0xNjkyMTc2
+NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIyNzYsMTI2MzEyOTk1LC
+04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcsMTU0NTM5
+ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMDE0NzYyMz
+EsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNCwtMTgyMDk0NDk0LDE1
+NDQyNDA2NzZdfQ==
 -->
