@@ -420,13 +420,16 @@ int main()
                  // from the preceding line.
 }
 ```
-If splitting a line at a place containing an operator, 
+If splitting a line at a place containing an operator, the operator should start at the beginning of the following line.
+```cpp
+    std::cout
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwMDkzMDEzLC0xNTkzMDgzMCwtMjgyMD
-g0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIy
-NzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMj
-A2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4
-NzgsLTIxMDE0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNC
-wtMTgyMDk0NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEw
-NzgwMzg3XX0=
+eyJoaXN0b3J5IjpbMTYxMjI5NDgyMCwtMTU5MzA4MzAsLTI4Mj
+A4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTky
+Mjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMz
+IwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0
+ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5Mz
+QsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMx
+MDc4MDM4N119
 -->
