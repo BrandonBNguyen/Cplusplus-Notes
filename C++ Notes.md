@@ -368,11 +368,18 @@ return  x  +  y;
 Within text literals, newlines are not allowed.
 ```cpp
 std::cout << "Hello
-World!" //not allowed
+World!"; //not allowed
 ```
-T
+Text literals separated by nothing but whitespace will be concatenated.
+```cpp
+std::cout << "Hello "
+"World!";
+```
+```
+Hello World!
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTM5NjQzMSwtMTY5MjE3NjU2OCwtMT
+eyJoaXN0b3J5IjpbMTI0OTQ2MDk2NCwtMTY5MjE3NjU2OCwtMT
 k4NjQ5OTgwMCwxNTk1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgx
 NTk0LDE3MzkwNDk2MywxMzIwNjc0NDk3LDE1NDUzOTgwMzYsMT
 Q5MTAyNTU3MSwxNTgzNTY0ODc4LC0yMTAxNDc2MjMxLDEyNDU3
