@@ -416,11 +416,13 @@ int main()
 {
     std::cout << "What the fuck did you just fucking say about me, you little" 
                  "bitch? I'll have you know I graduated top of my class.";
-                 // Aligning the continuing line with the beginning of the te
+                 // Aligning the continuing line with the beginning of the text
+                 // from the preceding line.
 }
 ```
+If splitting a line at a place containing an operator, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2NzIxNTQ3LC0xNTkzMDgzMCwtMjgyMD
+eyJoaXN0b3J5IjpbMzgwMDkzMDEzLC0xNTkzMDgzMCwtMjgyMD
 g0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIy
 NzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMj
 A2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4
