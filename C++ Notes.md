@@ -476,13 +476,16 @@ int  add(int  x,  int  y)
 }
 ```
 If you attempt to compile this code, it will result in the following error.
-```error C3861: 'add': identifier not found```
+```
+error C3861: 'add': identifier not found
+```
+This is because the code starts with `main()` and encounters the first statement where a call to the function `add()`. The issue is that `add()` n
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzc2Mjk0MjcsMTcxOTE1OTM1NCwtMT
-k0MDk3ODY5NSwtMTU5MzA4MzAsLTI4MjA4NDU5NiwtMTY5MjE3
-NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTkyMjc2LDEyNjMxMjk5NS
-wtODM3MTgxNTk0LDE3MzkwNDk2MywxMzIwNjc0NDk3LDE1NDUz
-OTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0ODc4LC0yMTAxNDc2Mj
-MxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5MzQsLTE4MjA5NDQ5NCwx
-NTQ0MjQwNjc2XX0=
+eyJoaXN0b3J5IjpbMTI4NTI1MTg4NCwxNzE5MTU5MzU0LC0xOT
+QwOTc4Njk1LC0xNTkzMDgzMCwtMjgyMDg0NTk2LC0xNjkyMTc2
+NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIyNzYsMTI2MzEyOTk1LC
+04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcsMTU0NTM5
+ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMDE0NzYyMz
+EsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNCwtMTgyMDk0NDk0LDE1
+NDQyNDA2NzZdfQ==
 -->
