@@ -378,9 +378,9 @@ std::cout << "Hello "
 ```
 Hello World!
 ```
-
+Because C++ is a whitespace-independent language, convention generally dictates following styles that produce the most readable code and provide the most consistency.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODczNTcyNCwtMTY5MjE3NjU2OCwtMT
+eyJoaXN0b3J5IjpbLTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMT
 k4NjQ5OTgwMCwxNTk1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgx
 NTk0LDE3MzkwNDk2MywxMzIwNjc0NDk3LDE1NDUzOTgwMzYsMT
 Q5MTAyNTU3MSwxNTgzNTY0ODc4LC0yMTAxNDc2MjMxLDEyNDU3
