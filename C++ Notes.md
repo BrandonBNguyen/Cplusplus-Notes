@@ -379,13 +379,16 @@ std::cout << "Hello "
 Hello World!
 ```
 Because C++ is a whitespace-independent language, convention generally dictates following styles that produce the most readable code and provide the most consistency.
-Using tabs or spaces comes down to personal preference, although using the tab button with an IDE
+
+Using tabs or spaces comes down to personal preference, although it would probably be best to set an IDE to produce a certain number of spaces upon pressing tab to ensure that comments and code are still readable when viewed by different text editors.
+
+There are two generally accepted 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDI5OTQyLC0xNTkzMDgzMCwtMjgyMD
-g0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIy
-NzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMj
-A2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4
-NzgsLTIxMDE0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNC
-wtMTgyMDk0NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEw
-NzgwMzg3XX0=
+eyJoaXN0b3J5IjpbMTc0NTI4NjI4MywtMTU5MzA4MzAsLTI4Mj
+A4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTky
+Mjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMz
+IwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0
+ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5Mz
+QsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMx
+MDc4MDM4N119
 -->
