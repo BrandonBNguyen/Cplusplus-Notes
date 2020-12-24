@@ -479,13 +479,27 @@ If you attempt to compile this code, it will result in the following error.
 ```
 error C3861: 'add': identifier not found
 ```
-This is because the code starts with `main()` and encounters the first statement where a call to the function `add()`. The issue is that `add()` n
+This is because the code starts with `main()` and encounters the first statement where a call to the function `add()`. The issue is that `add()` has not been defined yet, because the code started with `main()` and add isn't defined until after `main()`. One simple fix to this is to simply move the function definition for `add()` before the function definition for `main()`.
+```cpp
+#include <iostream>
+
+int  add(int  x,  int  y)
+{
+    return  x  +  y;
+}  // Since add() is defined before main()
+
+int  main()
+{
+    std::cout  <<  "The sum of 3 and 4 is: "  <<  add(3,  4)  <<  '\n';
+    return  0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NTI1MTg4NCwxNzE5MTU5MzU0LC0xOT
-QwOTc4Njk1LC0xNTkzMDgzMCwtMjgyMDg0NTk2LC0xNjkyMTc2
-NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIyNzYsMTI2MzEyOTk1LC
-04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcsMTU0NTM5
-ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMDE0NzYyMz
-EsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNCwtMTgyMDk0NDk0LDE1
-NDQyNDA2NzZdfQ==
+eyJoaXN0b3J5IjpbNDAxNjQ1ODY2LDE3MTkxNTkzNTQsLTE5ND
+A5Nzg2OTUsLTE1OTMwODMwLC0yODIwODQ1OTYsLTE2OTIxNzY1
+NjgsLTE5ODY0OTk4MDAsMTU5NTE5MjI3NiwxMjYzMTI5OTUsLT
+gzNzE4MTU5NCwxNzM5MDQ5NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4
+MDM2LDE0OTEwMjU1NzEsMTU4MzU2NDg3OCwtMjEwMTQ3NjIzMS
+wxMjQ1Nzc4NTI2LC0xODE0ODQwOTM0LC0xODIwOTQ0OTQsMTU0
+NDI0MDY3Nl19
 -->
