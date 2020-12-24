@@ -422,10 +422,13 @@ int main()
 ```
 If splitting a line at a place containing an operator, the operator should start at the beginning of the following line.
 ```cpp
-    std::cout
+    std::cout << 3 * 4 * 5
+                 + 5 * 6 * 7
+                 + 8 * 9 * 10;
 ```
+When defining multiple variables or 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjI5NDgyMCwtMTU5MzA4MzAsLTI4Mj
+eyJoaXN0b3J5IjpbMTY4NzkwODQ0NSwtMTU5MzA4MzAsLTI4Mj
 A4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTky
 Mjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMz
 IwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0
