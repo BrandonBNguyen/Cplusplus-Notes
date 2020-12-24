@@ -379,8 +379,9 @@ std::cout << "Hello "
 Hello World!
 ```
 Because C++ is a whitespace-independent language, convention generally dictates following styles that produce the most readable code and provide the most consistency.
+Using tabs or spaces comes down to personal preference, although using the tab button with an IDE
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTU4OTgwLC0xNTkzMDgzMCwtMjgyMD
+eyJoaXN0b3J5IjpbLTQ4MDI5OTQyLC0xNTkzMDgzMCwtMjgyMD
 g0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIy
 NzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMj
 A2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4
