@@ -16,6 +16,7 @@ Notes and programs created while learning C++. These were notes were created fol
 3. [Formatting](#formatting)
 	1. [Whitespace and Basic Formatting](#whitespace-and-basic-formatting)
 	2. [Forward Declarations and Definitions](#forward-declarations-and-definitions)
+	3. [Separating a Program Across Multiple Files](#separating-a-program-across-multiple-files)
 
 ## C++ Basics
 
@@ -536,6 +537,8 @@ int  add(int  x, int  y, int z)
 }
 ```
 ```
+The sum of 3 and 4 is: 7
+The sum of 3, 4, and 5 is: 12
 ```
 
 Note the **one definition rule**:
@@ -543,12 +546,14 @@ Note the **one definition rule**:
  1. Within a given file, a function, object, type, or template can only have one definition.
  2. Within a given program (which can span over multiple files), an object or normal function can have only one definition.
  3. Types, templates, inline functions, and variables are allowed to have identical definitions in multiple files. 
+
+### Separating a Program Across Multiple Files
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjgyODA4MzAsLTI0NjIwNDgxNiw4Mz
-I5Mzk2NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4
-MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMC
-wxNTk1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3Mzkw
-NDk2MywxMzIwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MS
-wxNTgzNTY0ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4
-MTQ4NDA5MzRdfQ==
+eyJoaXN0b3J5IjpbNjMwMzU3MzIxLC0yNDYyMDQ4MTYsODMyOT
+M5NjYyLDE3MTkxNTkzNTQsLTE5NDA5Nzg2OTUsLTE1OTMwODMw
+LC0yODIwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMT
+U5NTE5MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5
+NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMT
+U4MzU2NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC0xODE0
+ODQwOTM0XX0=
 -->
