@@ -251,8 +251,8 @@ A good guideline to follow when determining whether a segment of code should be 
 **Function parameters** are variables used in a function that are initialized with a value provided by the caller of the function and are specified in the parentheses of the function definition. You can specify multiple 
 ```cpp
 int multiplier(int x, int y)	// The function has two parameters: x and y
-{                               // both of which the function expects to be integers.
-    return x * y;
+{                               // both of which the function expects to be 
+    return x * y;               // integers.
 }
 ```
 An **argument** is the value passed from the caller into the function when the function call is made.
@@ -438,13 +438,30 @@ d_theta_dt = 4  // Defining the derivative of theta.
 ```
 It can be helpful to separate blocks of code with whitespace to promote readability.
 ```cpp
+// cout lives in the iostream library
+std::cout  <<  "Hello world!\n";
+// these comments make the code hard to read
+std::cout  <<  "It is very nice to meet you!\n";
+// especially when all bunched together
+std::cout  <<  "Yeah!\n";
+```
+```cpp
+// This is more readable than the above version.
+// cout lives in the iostream library
+std::cout  <<  "Hello world!\n";
+
+// these comments make the code hard to read
+std::cout  <<  "It is very nice to meet you!\n";
+
+// especially when all bunched together
+std::cout  <<  "Yeah!\n";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5ODgxMzE4LC0xNTkzMDgzMCwtMjgyMD
-g0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIy
-NzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMj
-A2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4
-NzgsLTIxMDE0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNC
-wtMTgyMDk0NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEw
-NzgwMzg3XX0=
+eyJoaXN0b3J5IjpbLTY3MjY3Mzg1NywtMTU5MzA4MzAsLTI4Mj
+A4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTky
+Mjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMz
+IwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0
+ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5Mz
+QsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMx
+MDc4MDM4N119
 -->
