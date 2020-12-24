@@ -428,15 +428,23 @@ If splitting a line at a place containing an operator, the operator should start
 ```
 When defining multiple variables or commenting on multiple lines, whitespace can be used to align the assignment operator or the beginning of the comments to make things more readable.
 ```cpp
-alpha = 1
-d_theta_dt = 4
+alpha = 1  // Defining a constant, alpha
+d_theta_dt = 4  // Defining the derivative of theta.
+```
+```cpp
+// This is more readable than the above version.
+alpha      = 1  // Defining a constant, alpha
+d_theta_dt = 4  // Defining the derivative of theta.
+```
+It can be helpful to separate blocks of code with whitespace to promote readability.
+```cpp
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDQ0NDQ0OSwtMTU5MzA4MzAsLTI4Mj
-A4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTky
-Mjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMz
-IwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0
-ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5Mz
-QsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMx
-MDc4MDM4N119
+eyJoaXN0b3J5IjpbMzQ5ODgxMzE4LC0xNTkzMDgzMCwtMjgyMD
+g0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIy
+NzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMj
+A2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4
+NzgsLTIxMDE0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNC
+wtMTgyMDk0NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEw
+NzgwMzg3XX0=
 -->
