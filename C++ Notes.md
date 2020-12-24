@@ -15,6 +15,7 @@ Notes and programs created while learning C++. These were notes were created fol
 	5. [Using Functions Effectively](#using-functions-effectively)
 3. [Formatting](#formatting)
 	1. [Whitespace and Basic Formatting](#whitespace-and-basic-formatting)
+	2. [Forward Declarations and Definitions](#forward-declarations-and-definitions)
 
 ## C++ Basics
 
@@ -457,12 +458,15 @@ std::cout  <<  "It is very nice to meet you!\n";
 // especially when all bunched together
 std::cout  <<  "Yeah!\n";
 ```
+
+### Forward Declarations and Definitions
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA5Nzg2OTUsLTE1OTMwODMwLC0yOD
-IwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMTU5NTE5
-MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5NjMsMT
-MyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMTU4MzU2
-NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC0xODE0ODQwOT
-M0LC0xODIwOTQ0OTQsMTU0NDI0MDY3NiwtMTUyNTY1MzUxMCwz
-MTA3ODAzODddfQ==
+eyJoaXN0b3J5IjpbMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMT
+U5MzA4MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5
+OTgwMCwxNTk1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LD
+E3MzkwNDk2MywxMzIwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAy
+NTU3MSwxNTgzNTY0ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1Mj
+YsLTE4MTQ4NDA5MzQsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0x
+NTI1NjUzNTEwXX0=
 -->
