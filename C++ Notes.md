@@ -511,13 +511,17 @@ int  add(int  x,  int  y)
     return  x  +  y;
 }
 ```
-Note the **strong text**
+Note the **one definition rule**:
+
+ 1. Within a given file, a function, object, type, or template can only have one definition.
+ 2. Within a given program (which can span over multiple files), an object or normal function can have only one definition.
+ 3. Types, templates, inline functions, and variables are allowed to have identical definitions in multiple files. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0ODA4OTYzLDgzMjkzOTY2MiwxNzE5MT
-U5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgzMCwtMjgyMDg0NTk2
-LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIyNzYsMT
-I2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0
-OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLT
-IxMDE0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNCwtMTgy
-MDk0NDk0XX0=
+eyJoaXN0b3J5IjpbLTI0NjIwNDgxNiw4MzI5Mzk2NjIsMTcxOT
+E1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4MzAsLTI4MjA4NDU5
+NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTkyMjc2LD
+EyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMzIwNjc0
+NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0ODc4LC
+0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5MzQsLTE4
+MjA5NDQ5NF19
 -->
