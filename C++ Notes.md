@@ -259,8 +259,9 @@ An **argument** is the value passed from the caller into the function when the f
 ```cpp
 int main()
 {
-    std::cout << "foo() returns " << doubler(2, 3);  // 2 and 3 are the arguments of the
-}                                                    // function call of multiplier().
+    // 2 and 3 are the arguments of the function call of multiplier().
+    std::cout << "foo() returns " << doubler(2, 3);  
+}
 ```
 Note that function arguments may not always be evaluated left to right. If several parameters consist of function outputs, ensure that the order in which they are called doesn't matter. If it does matter, run the functions separately and define their outputs as variables in the correct order before passing them in as arguments.
 ```cpp
@@ -431,8 +432,8 @@ When defining multiple variables or commenting on multiple lines, whitespace can
 alpha = 1  // Defining a constant, alpha
 d_theta_dt = 4  // Defining the derivative of theta.
 ```
+This is more readable:
 ```cpp
-// This is more readable than the above version.
 alpha      = 1  // Defining a constant, alpha
 d_theta_dt = 4  // Defining the derivative of theta.
 ```
@@ -445,8 +446,8 @@ std::cout  <<  "It is very nice to meet you!\n";
 // especially when all bunched together
 std::cout  <<  "Yeah!\n";
 ```
+This is more readable:
 ```cpp
-// This is more readable than the above version.
 // cout lives in the iostream library
 std::cout  <<  "Hello world!\n";
 
@@ -457,11 +458,11 @@ std::cout  <<  "It is very nice to meet you!\n";
 std::cout  <<  "Yeah!\n";
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjY3Mzg1NywtMTU5MzA4MzAsLTI4Mj
-A4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTky
-Mjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMz
-IwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0
-ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5Mz
-QsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMx
-MDc4MDM4N119
+eyJoaXN0b3J5IjpbLTE5NDA5Nzg2OTUsLTE1OTMwODMwLC0yOD
+IwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMTU5NTE5
+MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5NjMsMT
+MyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMTU4MzU2
+NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC0xODE0ODQwOT
+M0LC0xODIwOTQ0OTQsMTU0NDI0MDY3NiwtMTUyNTY1MzUxMCwz
+MTA3ODAzODddfQ==
 -->
