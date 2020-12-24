@@ -384,16 +384,16 @@ Using tabs or spaces comes down to personal preference, although it would probab
 
 There are two generally accepted styles for function braces. The Google C++ style guide recommends having the open curly brace in the same line as the statement defining the function. This reduces vertical whitespace and allows you to fit more code on the screen.
 ```cpp
-int main() {
+int main() { // Google C++ style guide has open curly brace in function header.
     // Your code here.
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDczNjU3OTIsLTE1OTMwODMwLC0yOD
-IwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMTU5NTE5
-MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5NjMsMT
-MyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMTU4MzU2
-NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC0xODE0ODQwOT
-M0LC0xODIwOTQ0OTQsMTU0NDI0MDY3NiwtMTUyNTY1MzUxMCwz
-MTA3ODAzODddfQ==
+eyJoaXN0b3J5IjpbMzM4Njc5MTY3LC0xNTkzMDgzMCwtMjgyMD
+g0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIy
+NzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMj
+A2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4
+NzgsLTIxMDE0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNC
+wtMTgyMDk0NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEw
+NzgwMzg3XX0=
 -->
