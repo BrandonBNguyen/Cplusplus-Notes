@@ -548,12 +548,13 @@ Note the **one definition rule**:
  3. Types, templates, inline functions, and variables are allowed to have identical definitions in multiple files. 
 
 ### Separating a Program Across Multiple Files
+For organization and reusability, it may be reasonable to split your codes into multiple files
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwMzU3MzIxLC0yNDYyMDQ4MTYsODMyOT
-M5NjYyLDE3MTkxNTkzNTQsLTE5NDA5Nzg2OTUsLTE1OTMwODMw
-LC0yODIwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMT
-U5NTE5MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5
-NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMT
-U4MzU2NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC0xODE0
-ODQwOTM0XX0=
+eyJoaXN0b3J5IjpbMTExOTAyNDUzMSw2MzAzNTczMjEsLTI0Nj
+IwNDgxNiw4MzI5Mzk2NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5
+NSwtMTU5MzA4MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMT
+k4NjQ5OTgwMCwxNTk1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgx
+NTk0LDE3MzkwNDk2MywxMzIwNjc0NDk3LDE1NDUzOTgwMzYsMT
+Q5MTAyNTU3MSwxNTgzNTY0ODc4LC0yMTAxNDc2MjMxLDEyNDU3
+Nzg1MjZdfQ==
 -->
