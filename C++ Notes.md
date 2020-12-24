@@ -406,17 +406,25 @@ Lines should not be longer than 80 characters. If a line is longer, split the li
 ```cpp
 int main()
 {
-	std::cout << "What the fuck did you just fucking say about me, you little" 
-	    "bitch? I'll have you know I graduated top of my class.";
-	    // Having the continuing line at one indentation beyond the initial.
+    std::cout << "What the fuck did you just fucking say about me, you little" 
+        "bitch? I'll have you know I graduated top of my class.";
+        // Having the continuing line at one indentation beyond the initial.
+}
+```
+```cpp
+int main()
+{
+    std::cout << "What the fuck did you just fucking say about me, you little" 
+                 "bitch? I'll have you know I graduated top of my class.";
+                 // Aligning the continuing line with the beginning of the te
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMDY0NDMxOCwtMTU5MzA4MzAsLTI4Mj
-A4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTky
-Mjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMz
-IwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0
-ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5Mz
-QsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMx
-MDc4MDM4N119
+eyJoaXN0b3J5IjpbOTQ2NzIxNTQ3LC0xNTkzMDgzMCwtMjgyMD
+g0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIy
+NzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMj
+A2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4
+NzgsLTIxMDE0NzYyMzEsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNC
+wtMTgyMDk0NDk0LDE1NDQyNDA2NzYsLTE1MjU2NTM1MTAsMzEw
+NzgwMzg3XX0=
 -->
