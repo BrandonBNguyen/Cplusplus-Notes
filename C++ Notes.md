@@ -402,9 +402,9 @@ int main()
     do_something();  // This statement is one indentation beyond that of the
 }                    // curly braces.
 ```
-Lines should not be longer than 80 characters. If a line is longer, 
+Lines should not be longer than 80 characters. If a line is longer, split the line, in a reasonable place, into multiple lines. Common conventions include having the following line at one indentation level beyond that of the initial line or aligning 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjY1NDYwNSwtMTU5MzA4MzAsLTI4Mj
+eyJoaXN0b3J5IjpbLTI5MTAwMzUyMCwtMTU5MzA4MzAsLTI4Mj
 A4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTky
 Mjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMz
 IwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0
