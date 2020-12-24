@@ -382,13 +382,18 @@ Because C++ is a whitespace-independent language, convention generally dictates 
 
 Using tabs or spaces comes down to personal preference, although it would probably be best to set an IDE to produce a certain number of spaces upon pressing tab to ensure that comments and code are still readable when viewed by different text editors.
 
-There are two generally accepted 
+There are two generally accepted styles for function braces. The Google C++ style guide recommends having the open curly brace in the same line as the statement defining the function. This reduces vertical whitespace and allows you to fit more code on the screen.
+```cpp
+int main() {
+    // Your code here.
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTI4NjI4MywtMTU5MzA4MzAsLTI4Mj
-A4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTky
-Mjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMz
-IwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0
-ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5Mz
-QsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMx
-MDc4MDM4N119
+eyJoaXN0b3J5IjpbLTE4NDczNjU3OTIsLTE1OTMwODMwLC0yOD
+IwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMTU5NTE5
+MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5NjMsMT
+MyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMTU4MzU2
+NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC0xODE0ODQwOT
+M0LC0xODIwOTQ0OTQsMTU0NDI0MDY3NiwtMTUyNTY1MzUxMCwz
+MTA3ODAzODddfQ==
 -->
