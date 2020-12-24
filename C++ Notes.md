@@ -503,8 +503,8 @@ int  add(int  x,  int  y); // This function prototype is the forward
 int  main()
 {
     std::cout  <<  "The sum of 3 and 4 is: "  <<  add(3,  4)  <<  '\n';
-    return  0;  // When this is ran, add() will have already been declarared
-}               // and is defined subsequently.
+    return  0;  // When this is ran, add() will have already been declared
+}               // and is defined in the lines below.
 
 int  add(int  x,  int  y)
 {
@@ -512,11 +512,11 @@ int  add(int  x,  int  y)
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzkwNTg5MywxNzE5MTU5MzU0LC0xOT
-QwOTc4Njk1LC0xNTkzMDgzMCwtMjgyMDg0NTk2LC0xNjkyMTc2
-NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIyNzYsMTI2MzEyOTk1LC
-04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcsMTU0NTM5
-ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMDE0NzYyMz
-EsMTI0NTc3ODUyNiwtMTgxNDg0MDkzNCwtMTgyMDk0NDk0LDE1
-NDQyNDA2NzZdfQ==
+eyJoaXN0b3J5IjpbODMyOTM5NjYyLDE3MTkxNTkzNTQsLTE5ND
+A5Nzg2OTUsLTE1OTMwODMwLC0yODIwODQ1OTYsLTE2OTIxNzY1
+NjgsLTE5ODY0OTk4MDAsMTU5NTE5MjI3NiwxMjYzMTI5OTUsLT
+gzNzE4MTU5NCwxNzM5MDQ5NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4
+MDM2LDE0OTEwMjU1NzEsMTU4MzU2NDg3OCwtMjEwMTQ3NjIzMS
+wxMjQ1Nzc4NTI2LC0xODE0ODQwOTM0LC0xODIwOTQ0OTQsMTU0
+NDI0MDY3Nl19
 -->
