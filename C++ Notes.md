@@ -426,9 +426,13 @@ If splitting a line at a place containing an operator, the operator should start
                  + 5 * 6 * 7
                  + 8 * 9 * 10;
 ```
-When defining multiple variables or 
+When defining multiple variables or commenting on multiple lines, whitespace can be used to align the assignment operator or the beginning of the comments to make things more readable.
+```cpp
+alpha = 1
+d_theta_dt = 4
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzkwODQ0NSwtMTU5MzA4MzAsLTI4Mj
+eyJoaXN0b3J5IjpbLTQxNDQ0NDQ0OSwtMTU5MzA4MzAsLTI4Mj
 A4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTky
 Mjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMz
 IwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0
