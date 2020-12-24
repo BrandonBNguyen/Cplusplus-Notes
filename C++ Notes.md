@@ -347,12 +347,13 @@ The general guidelines for determining when to refactor a set of code into a fun
 ## Formatting
 
 ### Whitespace and Basic Formatting
+Characters used for formatting purposes are known as **whitespace**. This mostly consists of spaces, tabs, and newlines. C++ is a whitespace-independent language, meaning the compiler ignores the whitespace when compiling code. As a result, the following functions, despite being formatted differently, a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMT
-U5NTE5MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5
-NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMT
-U4MzU2NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC0xODE0
-ODQwOTM0LC0xODIwOTQ0OTQsMTU0NDI0MDY3NiwtMTUyNTY1Mz
-UxMCwzMTA3ODAzODcsMTkxMTg3OTg3NCwxNTczNjg0MTYwLC0x
-MzQxMDIwNjI5XX0=
+eyJoaXN0b3J5IjpbNTU3NTM3NTQ4LC0xNjkyMTc2NTY4LC0xOT
+g2NDk5ODAwLDE1OTUxOTIyNzYsMTI2MzEyOTk1LC04MzcxODE1
+OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcsMTU0NTM5ODAzNiwxND
+kxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMDE0NzYyMzEsMTI0NTc3
+ODUyNiwtMTgxNDg0MDkzNCwtMTgyMDk0NDk0LDE1NDQyNDA2Nz
+YsLTE1MjU2NTM1MTAsMzEwNzgwMzg3LDE5MTE4Nzk4NzQsMTU3
+MzY4NDE2MF19
 -->
