@@ -563,13 +563,33 @@ int  main()
     return  0;
 }
 ```
-Let's say we want to move `add()` into another file entitled *add.cpp*. Start by right clicking on the project on the right side of the Visual Studio IDE, >> Add >> New Item. Create a new.cpp
+Let's say we want to move `add()` into another file entitled *add.cpp*. Start by right clicking on the project on the right side of the Visual Studio IDE, >> Add >> New Item. Create a new .cpp file and move the function into that file. In your main file, use a forward declaration to ensure that your program knows to look for and define the `add()` function. 
+
+**add.cpp**
+```cpp
+int  add(int  x, int  y)
+{
+    return  x + y;
+}
+```
+**main.cpp**
+```cpp
+#include <iostream>
+
+int add(int x, int y);
+
+int  main()
+{
+    std::cout << "The sum of 3 and 4 is: " << add(3, 4) << '\n';
+    return  0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjE5NjAwNiwtMTg1ODc4Mzc5OSw2Mz
-AzNTczMjEsLTI0NjIwNDgxNiw4MzI5Mzk2NjIsMTcxOTE1OTM1
-NCwtMTk0MDk3ODY5NSwtMTU5MzA4MzAsLTI4MjA4NDU5NiwtMT
-Y5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTkyMjc2LDEyNjMx
-Mjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMzIwNjc0NDk3LD
-E1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0ODc4LC0yMTAx
-NDc2MjMxXX0=
+eyJoaXN0b3J5IjpbNDMyMzQ4NzIzLC0xODU4NzgzNzk5LDYzMD
+M1NzMyMSwtMjQ2MjA0ODE2LDgzMjkzOTY2MiwxNzE5MTU5MzU0
+LC0xOTQwOTc4Njk1LC0xNTkzMDgzMCwtMjgyMDg0NTk2LC0xNj
+kyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIyNzYsMTI2MzEy
+OTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcsMT
+U0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMDE0
+NzYyMzFdfQ==
 -->
