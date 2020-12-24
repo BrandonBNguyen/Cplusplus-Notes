@@ -17,6 +17,7 @@ Notes and programs created while learning C++. These were notes were created fol
 	1. [Whitespace and Basic Formatting](#whitespace-and-basic-formatting)
 	2. [Forward Declarations and Definitions](#forward-declarations-and-definitions)
 	3. [Separating a Program Across Multiple Files](#separating-a-program-across-multiple-files)
+	4. [Naming Collisions and Namespaces](#naming-collisions-and-namespaces)
 
 ## C++ Basics
 
@@ -584,12 +585,18 @@ int  main()
     return  0;
 }
 ```
+Compiling and running will produce the following, expected, output.
+```
+The sum of 3 and 4 is: 7
+```
+
+### Naming Collisions and Namespaces
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyMzQ4NzIzLC0xODU4NzgzNzk5LDYzMD
-M1NzMyMSwtMjQ2MjA0ODE2LDgzMjkzOTY2MiwxNzE5MTU5MzU0
-LC0xOTQwOTc4Njk1LC0xNTkzMDgzMCwtMjgyMDg0NTk2LC0xNj
-kyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIyNzYsMTI2MzEy
-OTk1LC04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcsMT
-U0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMDE0
-NzYyMzFdfQ==
+eyJoaXN0b3J5IjpbLTczNDExNTcxOCwtMTg1ODc4Mzc5OSw2Mz
+AzNTczMjEsLTI0NjIwNDgxNiw4MzI5Mzk2NjIsMTcxOTE1OTM1
+NCwtMTk0MDk3ODY5NSwtMTU5MzA4MzAsLTI4MjA4NDU5NiwtMT
+Y5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTkyMjc2LDEyNjMx
+Mjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMzIwNjc0NDk3LD
+E1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0ODc4LC0yMTAx
+NDc2MjMxXX0=
 -->
