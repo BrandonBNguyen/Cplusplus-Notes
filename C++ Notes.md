@@ -402,13 +402,19 @@ int main()
     do_something();  // This statement is one indentation beyond that of the
 }                    // curly braces.
 ```
-Lines should not be longer than 80 characters. If a line is longer, split the line, in a reasonable place, into multiple lines. Common conventions include having the following line at one indentation level beyond that of the initial line or aligning 
+Lines should not be longer than 80 characters. If a line is longer, split the line, in a reasonable place, into multiple lines. Common conventions include having the following line at one indentation level beyond that of the initial line or aligning the following line with some similar/reasonable code in the preceding line.
+```cpp
+int main()
+{
+	std::cout << "_What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300_":
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTAwMzUyMCwtMTU5MzA4MzAsLTI4Mj
-A4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTky
-Mjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMz
-IwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0
-ODc4LC0yMTAxNDc2MjMxLDEyNDU3Nzg1MjYsLTE4MTQ4NDA5Mz
-QsLTE4MjA5NDQ5NCwxNTQ0MjQwNjc2LC0xNTI1NjUzNTEwLDMx
-MDc4MDM4N119
+eyJoaXN0b3J5IjpbLTEwNDQ2NDA3MDEsLTE1OTMwODMwLC0yOD
+IwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMTU5NTE5
+MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5NjMsMT
+MyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMTU4MzU2
+NDg3OCwtMjEwMTQ3NjIzMSwxMjQ1Nzc4NTI2LC0xODE0ODQwOT
+M0LC0xODIwOTQ0OTQsMTU0NDI0MDY3NiwtMTUyNTY1MzUxMCwz
+MTA3ODAzODddfQ==
 -->
