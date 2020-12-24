@@ -347,9 +347,26 @@ The general guidelines for determining when to refactor a set of code into a fun
 ## Formatting
 
 ### Whitespace and Basic Formatting
-Characters used for formatting purposes are known as **whitespace**. This mostly consists of spaces, tabs, and newlines. C++ is a whitespace-independent language, meaning the compiler ignores the whitespace when compiling code. As a result, the following functions, despite being formatted differently, a
+Characters used for formatting purposes are known as **whitespace**. This mostly consists of spaces, tabs, and newlines. C++ is a whitespace-independent language, meaning the compiler ignores the whitespace when compiling code (except for those within text literals). As a result, the following functions, despite being formatted differently, all perform the same action.
+```cpp
+int  add(int  x,  int  y)  {  return  x  +  y;  }
+```
+```cpp
+int  add(int  x,  int  y)  {
+return  x  +  y;  }
+```
+```cpp
+int  add(int  x,  int  y)
+{  return  x  +  y;  }
+```
+```cpp
+int  add(int  x,  int  y)
+{
+return  x  +  y;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU3NTM3NTQ4LC0xNjkyMTc2NTY4LC0xOT
+eyJoaXN0b3J5IjpbMTA5MzAxMzkyLC0xNjkyMTc2NTY4LC0xOT
 g2NDk5ODAwLDE1OTUxOTIyNzYsMTI2MzEyOTk1LC04MzcxODE1
 OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcsMTU0NTM5ODAzNiwxND
 kxMDI1NTcxLDE1ODM1NjQ4NzgsLTIxMDE0NzYyMzEsMTI0NTc3
