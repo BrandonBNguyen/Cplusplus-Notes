@@ -208,8 +208,8 @@ Wherever we see a function call, we can treat it as an expression with the same 
 ```cpp
 int main()
 {
-	std::cout << "foo() returns " << foo();	// foo() can be treated as an expression that
-	return 0;								// evaluates to an integer.
+	std::cout << "foo() returns " << foo();  // foo() can be treated as an expression that
+	return 0;                                // evaluates to an integer.
 }
 ```
 ```
@@ -238,7 +238,7 @@ int foo()
 {
     return 2;
     std::cout << "last line of foo()";	// This line will not be executed because it is after
-}										// the execution of the return statement.
+}                                       // the execution of the return statement.
 
 int main()
 {
@@ -251,7 +251,7 @@ A good guideline to follow when determining whether a segment of code should be 
 **Function parameters** are variables used in a function that are initialized with a value provided by the caller of the function and are specified in the parentheses of the function definition. You can specify multiple 
 ```cpp
 int multiplier(int x, int y)	// The function has two parameters: x and y
-{								// both of which the function expects to be integers.
+{                               // both of which the function expects to be integers.
     return x * y;
 }
 ```
@@ -259,8 +259,8 @@ An **argument** is the value passed from the caller into the function when the f
 ```cpp
 int main()
 {
-    std::cout << "foo() returns " << doubler(2, 3);	// 2 and 3 are the arguments of the
-}													// function call of multiplier().
+    std::cout << "foo() returns " << doubler(2, 3);  // 2 and 3 are the arguments of the
+}                                                    // function call of multiplier().
 ```
 Note that function arguments may not always be evaluated left to right. If several parameters consist of function outputs, ensure that the order in which they are called doesn't matter. If it does matter, run the functions separately and define their outputs as variables in the correct order before passing them in as arguments.
 ```cpp
