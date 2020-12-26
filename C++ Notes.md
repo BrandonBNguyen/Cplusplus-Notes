@@ -670,17 +670,20 @@ int  main()
 #### Macro Defines
 The `#define` directive can be used to create a **macro**, which is a rule that defines how input text is converted into replacement output text.
 
-Object-like macros are defined in two ways: with and without substitution-text.
+Object-like macros are created by starting with `#define`, followed by the macro identifier, and potentially followed by substitution text.
 ```cpp
-#define identifier substitution_text
-#define identifier
+#define identifier                    // Without substitution text
+#define identifier substitution_text  // With substitution text
 ```
+
+##### Object-Like Macros with Substitution Text
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTkyMDcwNSwyMDU4Mjc4ODM2LDM5ND
-QwODE2OCwxMTc1Nzc4Nzk5LDkyOTA0MzQ1NCwtNzM0MTE1NzE4
-LC0xODU4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMj
-kzOTY2MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgz
-MCwtMjgyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLD
-E1OTUxOTIyNzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0
-OTYzXX0=
+eyJoaXN0b3J5IjpbLTEzNjM3MjQzNzUsMjA1ODI3ODgzNiwzOT
+Q0MDgxNjgsMTE3NTc3ODc5OSw5MjkwNDM0NTQsLTczNDExNTcx
+OCwtMTg1ODc4Mzc5OSw2MzAzNTczMjEsLTI0NjIwNDgxNiw4Mz
+I5Mzk2NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4
+MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMC
+wxNTk1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3Mzkw
+NDk2M119
 -->
