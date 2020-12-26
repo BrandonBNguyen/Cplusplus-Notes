@@ -768,9 +768,10 @@ int main()
     std::cout << "My name is Aaron.";
 #endif
 
-#define PRINT_BRANDON
+#define PRINT_BRANDON  // PRINT_BRANDON is now defined such that all code within conditional  
+                       // directive blocks seeing if PRINT_BRANDON is defined will run.
 
-#ifdef PRINT_BRANDON  // Since PRINT_BRANDON is not defined, we do not expect this to run.
+#ifdef PRINT_BRANDON  // Since PRINT_BRANDON is now defined, so we do expect this to run.
     std::cout << "My name is Brandon.";
 #endif
 
@@ -778,11 +779,11 @@ int main()
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTc3OTk1ODksMjA1ODI3ODgzNiwzOT
-Q0MDgxNjgsMTE3NTc3ODc5OSw5MjkwNDM0NTQsLTczNDExNTcx
-OCwtMTg1ODc4Mzc5OSw2MzAzNTczMjEsLTI0NjIwNDgxNiw4Mz
-I5Mzk2NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4
-MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMC
-wxNTk1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3Mzkw
-NDk2M119
+eyJoaXN0b3J5IjpbMTExMjQ4MTI0OCwyMDU4Mjc4ODM2LDM5ND
+QwODE2OCwxMTc1Nzc4Nzk5LDkyOTA0MzQ1NCwtNzM0MTE1NzE4
+LC0xODU4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMj
+kzOTY2MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgz
+MCwtMjgyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLD
+E1OTUxOTIyNzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0
+OTYzXX0=
 -->
