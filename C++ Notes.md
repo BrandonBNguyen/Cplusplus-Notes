@@ -678,12 +678,23 @@ Object-like macros are created by starting with `#define`, followed by the macro
 
 ##### Object-Like Macros with Substitution Text
 When the preprocessor encounters a directive with substitution text, it directly replaces future occurrences of the macro identifier with the substitution text.
+```cpp
+#include <iostream>
+
+#define MY_NAME "Brandon"  // Object-like macro with substitution text. Wherever MY+
+
+int main()
+{
+    std::cout << "My name is " << MY_NAME;
+    return 0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2MjcyNjk4LDIwNTgyNzg4MzYsMzk0ND
-A4MTY4LDExNzU3Nzg3OTksOTI5MDQzNDU0LC03MzQxMTU3MTgs
-LTE4NTg3ODM3OTksNjMwMzU3MzIxLC0yNDYyMDQ4MTYsODMyOT
-M5NjYyLDE3MTkxNTkzNTQsLTE5NDA5Nzg2OTUsLTE1OTMwODMw
-LC0yODIwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMT
-U5NTE5MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5
-NjNdfQ==
+eyJoaXN0b3J5IjpbMTE0ODM2MTUzMCwyMDU4Mjc4ODM2LDM5ND
+QwODE2OCwxMTc1Nzc4Nzk5LDkyOTA0MzQ1NCwtNzM0MTE1NzE4
+LC0xODU4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMj
+kzOTY2MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgz
+MCwtMjgyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLD
+E1OTUxOTIyNzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0
+OTYzXX0=
 -->
