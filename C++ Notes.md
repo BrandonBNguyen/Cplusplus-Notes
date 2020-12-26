@@ -591,12 +591,25 @@ The sum of 3 and 4 is: 7
 ```
 
 ### Naming Collisions and Namespaces
+A **naming collision** is a type of error that occurs when two identical identifiers are introduced into the same program such that the compiler is unable to differentiate the two.
+
+Consider the following two files that exist in the same directory:
+
+*a.cpp*
+```cpp
+#include <iostream>
+
+void  myFcn(int  x)
+{
+std::cout  <<  x;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDExNTcxOCwtMTg1ODc4Mzc5OSw2Mz
-AzNTczMjEsLTI0NjIwNDgxNiw4MzI5Mzk2NjIsMTcxOTE1OTM1
-NCwtMTk0MDk3ODY5NSwtMTU5MzA4MzAsLTI4MjA4NDU5NiwtMT
-Y5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTkyMjc2LDEyNjMx
-Mjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMzIwNjc0NDk3LD
-E1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgzNTY0ODc4LC0yMTAx
-NDc2MjMxXX0=
+eyJoaXN0b3J5IjpbLTk5MDc3MjM5NiwtNzM0MTE1NzE4LC0xOD
+U4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMjkzOTY2
+MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgzMCwtMj
+gyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUx
+OTIyNzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLD
+EzMjA2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1
+NjQ4NzhdfQ==
 -->
