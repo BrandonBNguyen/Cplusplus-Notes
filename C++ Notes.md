@@ -626,13 +626,13 @@ The compiler will be able to compile both *a.cpp* and *main.cpp* just fine but w
 Naming collisions are often introduced in separate files of a program or in the same file often when using `#include` and resulting in there being multiple definitions of a function or global variable.
 
 #### Namespace
-
+A **namespace** is a region that allows you to declare names inside for the purpose of disambiguation. This ensures that any identifier declared inside the namespace won't be mistaken for another identical name outside the scope of the namespace.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5MDQzNDU0LC03MzQxMTU3MTgsLTE4NT
-g3ODM3OTksNjMwMzU3MzIxLC0yNDYyMDQ4MTYsODMyOTM5NjYy
-LDE3MTkxNTkzNTQsLTE5NDA5Nzg2OTUsLTE1OTMwODMwLC0yOD
-IwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMTU5NTE5
-MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5NjMsMT
-MyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMTU4MzU2
-NDg3OF19
+eyJoaXN0b3J5IjpbLTQ1NjQwMDQyNyw5MjkwNDM0NTQsLTczND
+ExNTcxOCwtMTg1ODc4Mzc5OSw2MzAzNTczMjEsLTI0NjIwNDgx
+Niw4MzI5Mzk2NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMT
+U5MzA4MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5
+OTgwMCwxNTk1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LD
+E3MzkwNDk2MywxMzIwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAy
+NTU3MV19
 -->
