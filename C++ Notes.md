@@ -742,19 +742,21 @@ The directive, `#ifdef 0`, will evaluate to False and run without code contained
 int main()
 {
 #ifdef 0
-    std::cout << "This will not print."  
+    std::cout << "This will not print."  // This line will not print.
 #endif
     
     return 0;
 }
 ```
 
+#### Scope of Directives
+Directives are only within that file so when defining a macro, it will only exist for a code within the same file as that macro. Additionally, directives only apply to the code following the mac
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDM0NjY1NTQsMjA1ODI3ODgzNiwzOT
-Q0MDgxNjgsMTE3NTc3ODc5OSw5MjkwNDM0NTQsLTczNDExNTcx
-OCwtMTg1ODc4Mzc5OSw2MzAzNTczMjEsLTI0NjIwNDgxNiw4Mz
-I5Mzk2NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4
-MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMC
-wxNTk1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3Mzkw
-NDk2M119
+eyJoaXN0b3J5IjpbMTIwMTI5MDc4NCwyMDU4Mjc4ODM2LDM5ND
+QwODE2OCwxMTc1Nzc4Nzk5LDkyOTA0MzQ1NCwtNzM0MTE1NzE4
+LC0xODU4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMj
+kzOTY2MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgz
+MCwtMjgyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLD
+E1OTUxOTIyNzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0
+OTYzXX0=
 -->
