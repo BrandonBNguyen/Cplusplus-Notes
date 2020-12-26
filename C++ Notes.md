@@ -670,7 +670,7 @@ int  main()
 #### Macro Defines
 The `#define` directive can be used to create a **macro**, which is a rule that defines how input text is converted into replacement output text.
 
-Object-like macros are created by starting with `#define`, followed by the macro identifier, and potentially followed by substitution text. By convention, the 
+Object-like macros are created by starting with `#define`, followed by the macro identifier, and potentially followed by substitution text. By convention, the macro identifier is typically typed in all caps.
 ```cpp
 #define identifier                    // Without substitution text
 #define identifier substitution_text  // With substitution text
@@ -704,12 +704,13 @@ int main()
 Object-like macros such as the one below are defined without any substitution text and can be used for things such as conditional compilation. They are not used for text substitution like those with text following the identifier.
 
 #### Conditional Compilation
+Conditional compilation determines whether specific segments of code will be compiled or not. Using the directives `#ifdef`, `#ifndef`, and `#endif`, y
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Mzk0ODc0MiwyMDU4Mjc4ODM2LDM5ND
-QwODE2OCwxMTc1Nzc4Nzk5LDkyOTA0MzQ1NCwtNzM0MTE1NzE4
-LC0xODU4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMj
-kzOTY2MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgz
-MCwtMjgyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLD
-E1OTUxOTIyNzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0
-OTYzXX0=
+eyJoaXN0b3J5IjpbMTQwOTIxMTEsMjA1ODI3ODgzNiwzOTQ0MD
+gxNjgsMTE3NTc3ODc5OSw5MjkwNDM0NTQsLTczNDExNTcxOCwt
+MTg1ODc4Mzc5OSw2MzAzNTczMjEsLTI0NjIwNDgxNiw4MzI5Mz
+k2NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4MzAs
+LTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNT
+k1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2
+M119
 -->
