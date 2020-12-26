@@ -630,13 +630,13 @@ A **namespace** is a region that allows you to declare names inside for the purp
 
 Any name defined outside of a function, class, and namespace is considered part of the **global namespace**. In the above example, both `main()` and `myFcn()` existed inside the global namespace, however because of conflicting definitions within that namespace, we received an error.
 
-`std` in `std::cout` and `std::cin` are
+`std` in `std::cout` and `std::cin` is the name of the namespace used for the C++ standard library. This ensures that the identifiers of new code doesn't conflict with the existing identifiers for those in the C++ standard library and result in an error.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTE0NTcwNywxMTc1Nzc4Nzk5LDkyOT
-A0MzQ1NCwtNzM0MTE1NzE4LC0xODU4NzgzNzk5LDYzMDM1NzMy
-MSwtMjQ2MjA0ODE2LDgzMjkzOTY2MiwxNzE5MTU5MzU0LC0xOT
-QwOTc4Njk1LC0xNTkzMDgzMCwtMjgyMDg0NTk2LC0xNjkyMTc2
-NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIyNzYsMTI2MzEyOTk1LC
-04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcsMTU0NTM5
-ODAzNl19
+eyJoaXN0b3J5IjpbMjAzNTY0NzY0LDExNzU3Nzg3OTksOTI5MD
+QzNDU0LC03MzQxMTU3MTgsLTE4NTg3ODM3OTksNjMwMzU3MzIx
+LC0yNDYyMDQ4MTYsODMyOTM5NjYyLDE3MTkxNTkzNTQsLTE5ND
+A5Nzg2OTUsLTE1OTMwODMwLC0yODIwODQ1OTYsLTE2OTIxNzY1
+NjgsLTE5ODY0OTk4MDAsMTU5NTE5MjI3NiwxMjYzMTI5OTUsLT
+gzNzE4MTU5NCwxNzM5MDQ5NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4
+MDM2XX0=
 -->
