@@ -621,13 +621,13 @@ int  main()
 ```
 The compiler will be able to compile both *a.cpp* and *main.cpp* just fine but when the linker attempts to execute, it'll find conflicting definitions for `myFcn()` and result in an error.
 
-The two common ways that naming collisions occur
+The two common ways that naming collisions occur are when multiple definitions for a function or global variable are introduced into a program by separate file
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM2NzcyNjYsLTczNDExNTcxOCwtMT
-g1ODc4Mzc5OSw2MzAzNTczMjEsLTI0NjIwNDgxNiw4MzI5Mzk2
-NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4MzAsLT
-I4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1
-MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2My
-wxMzIwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAyNTU3MSwxNTgz
-NTY0ODc4XX0=
+eyJoaXN0b3J5IjpbLTU4MDMwMDE1OCwtNzM0MTE1NzE4LC0xOD
+U4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMjkzOTY2
+MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgzMCwtMj
+gyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUx
+OTIyNzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLD
+EzMjA2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1
+NjQ4NzhdfQ==
 -->
