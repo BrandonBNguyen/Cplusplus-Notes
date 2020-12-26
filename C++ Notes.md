@@ -591,6 +591,8 @@ The sum of 3 and 4 is: 7
 ```
 
 ### Naming Collisions and Namespaces
+
+#### Naming Collision
 A **naming collision** is a type of error that occurs when two identical identifiers are introduced into the same program such that the compiler is unable to differentiate the two.
 
 Consider the following two files that exist in the same directory:
@@ -621,13 +623,16 @@ int  main()
 ```
 The compiler will be able to compile both *a.cpp* and *main.cpp* just fine but when the linker attempts to execute, it'll find conflicting definitions for `myFcn()` and result in an error.
 
-Naming collisions are often introduced in separate files of a program or in the same file often when using `#include` and resulting in there being multiple definitions fo a
+Naming collisions are often introduced in separate files of a program or in the same file often when using `#include` and resulting in there being multiple definitions of a function or global variable.
+
+#### Namespace
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjkwMzkwNSwtNzM0MTE1NzE4LC0xOD
-U4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMjkzOTY2
-MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgzMCwtMj
-gyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUx
-OTIyNzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0OTYzLD
-EzMjA2NzQ0OTcsMTU0NTM5ODAzNiwxNDkxMDI1NTcxLDE1ODM1
-NjQ4NzhdfQ==
+eyJoaXN0b3J5IjpbOTI5MDQzNDU0LC03MzQxMTU3MTgsLTE4NT
+g3ODM3OTksNjMwMzU3MzIxLC0yNDYyMDQ4MTYsODMyOTM5NjYy
+LDE3MTkxNTkzNTQsLTE5NDA5Nzg2OTUsLTE1OTMwODMwLC0yOD
+IwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMTU5NTE5
+MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5NjMsMT
+MyMDY3NDQ5NywxNTQ1Mzk4MDM2LDE0OTEwMjU1NzEsMTU4MzU2
+NDg3OF19
 -->
