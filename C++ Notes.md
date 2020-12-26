@@ -601,11 +601,27 @@ Consider the following two files that exist in the same directory:
 
 void  myFcn(int  x)
 {
-std::cout  <<  x;
+    std::cout  <<  x;
 }
 ```
+
+*main.cpp*
+```cpp
+#include <iostream>
+
+void  myFcn(int  x)
+{
+    std::cout  <<  2  *  x;
+}
+
+int  main()
+{
+    return  0;
+}
+```
+The compiler will be able to compi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDc3MjM5NiwtNzM0MTE1NzE4LC0xOD
+eyJoaXN0b3J5IjpbLTIyMjA5NDA5OCwtNzM0MTE1NzE4LC0xOD
 U4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMjkzOTY2
 MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgzMCwtMj
 gyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUx
