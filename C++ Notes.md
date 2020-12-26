@@ -18,6 +18,7 @@ Notes and programs created while learning C++. These were notes were created fol
 	2. [Forward Declarations and Definitions](#forward-declarations-and-definitions)
 	3. [Separating a Program Across Multiple Files](#separating-a-program-across-multiple-files)
 	4. [Naming Collisions and Namespaces](#naming-collisions-and-namespaces)
+	5. [Preprocessor and Directives](#preprocessor-and-directives)
 
 ## C++ Basics
 
@@ -650,12 +651,14 @@ int  main()
 }
 ```
 
+### Preprocessor and Directives
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0NDA4MTY4LDExNzU3Nzg3OTksOTI5MD
-QzNDU0LC03MzQxMTU3MTgsLTE4NTg3ODM3OTksNjMwMzU3MzIx
-LC0yNDYyMDQ4MTYsODMyOTM5NjYyLDE3MTkxNTkzNTQsLTE5ND
-A5Nzg2OTUsLTE1OTMwODMwLC0yODIwODQ1OTYsLTE2OTIxNzY1
-NjgsLTE5ODY0OTk4MDAsMTU5NTE5MjI3NiwxMjYzMTI5OTUsLT
-gzNzE4MTU5NCwxNzM5MDQ5NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4
-MDM2XX0=
+eyJoaXN0b3J5IjpbMjA1ODI3ODgzNiwzOTQ0MDgxNjgsMTE3NT
+c3ODc5OSw5MjkwNDM0NTQsLTczNDExNTcxOCwtMTg1ODc4Mzc5
+OSw2MzAzNTczMjEsLTI0NjIwNDgxNiw4MzI5Mzk2NjIsMTcxOT
+E1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4MzAsLTI4MjA4NDU5
+NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTkyMjc2LD
+EyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMzIwNjc0
+NDk3XX0=
 -->
