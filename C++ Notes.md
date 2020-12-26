@@ -657,13 +657,22 @@ Prior to compilation, your code is run through a process called **translation**,
 #### Include
 The `#include` directive replaces that line with the contents of the included file. The included contents are then preprocessed and the rest of your file are preprocessed and compiled.
 
+```cpp
+#include <iostream>  // Preprocessed contents of file entitled `iostream` are placed here. 
+
+int  main()
+{
+    std::cout  <<  "Hello, world!";
+    return  0;
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODk0NDgxNywyMDU4Mjc4ODM2LDM5ND
-QwODE2OCwxMTc1Nzc4Nzk5LDkyOTA0MzQ1NCwtNzM0MTE1NzE4
-LC0xODU4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMj
-kzOTY2MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgz
-MCwtMjgyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLD
-E1OTUxOTIyNzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0
-OTYzXX0=
+eyJoaXN0b3J5IjpbMTM4MjIzNzEsMjA1ODI3ODgzNiwzOTQ0MD
+gxNjgsMTE3NTc3ODc5OSw5MjkwNDM0NTQsLTczNDExNTcxOCwt
+MTg1ODc4Mzc5OSw2MzAzNTczMjEsLTI0NjIwNDgxNiw4MzI5Mz
+k2NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4MzAs
+LTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNT
+k1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2
+M119
 -->
