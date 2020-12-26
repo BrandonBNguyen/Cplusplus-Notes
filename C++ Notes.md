@@ -634,13 +634,13 @@ Any name defined outside of a function, class, and namespace is considered part 
 
 Consider that in `std::cout` and `std::cin`, when we want to access the `cout` and `cin` operators, we started with the name of the namespace, followed by the **scope resolution operator** (`::`), followed by the names of the variable or functions within that namespace. In this way, we explicitly tell the program to access this specific variable in this specific namespace.
 
-An alternative (although less preferred) method of accessing variables within a namespace is by using a *using directive* state
+An alternative (although less preferred) method of accessing variables within a namespace is by using a *using directive* statement. This allows access to all the names within that namespace without having to explicitly specify the namespace every time, however, this defeats the purpose of using namespaces in the first place.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MDg4MDg3NywxMTc1Nzc4Nzk5LDkyOT
-A0MzQ1NCwtNzM0MTE1NzE4LC0xODU4NzgzNzk5LDYzMDM1NzMy
-MSwtMjQ2MjA0ODE2LDgzMjkzOTY2MiwxNzE5MTU5MzU0LC0xOT
-QwOTc4Njk1LC0xNTkzMDgzMCwtMjgyMDg0NTk2LC0xNjkyMTc2
-NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIyNzYsMTI2MzEyOTk1LC
-04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcsMTU0NTM5
-ODAzNl19
+eyJoaXN0b3J5IjpbLTIxMzA5OTY1NDQsMTE3NTc3ODc5OSw5Mj
+kwNDM0NTQsLTczNDExNTcxOCwtMTg1ODc4Mzc5OSw2MzAzNTcz
+MjEsLTI0NjIwNDgxNiw4MzI5Mzk2NjIsMTcxOTE1OTM1NCwtMT
+k0MDk3ODY5NSwtMTU5MzA4MzAsLTI4MjA4NDU5NiwtMTY5MjE3
+NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTkyMjc2LDEyNjMxMjk5NS
+wtODM3MTgxNTk0LDE3MzkwNDk2MywxMzIwNjc0NDk3LDE1NDUz
+OTgwMzZdfQ==
 -->
