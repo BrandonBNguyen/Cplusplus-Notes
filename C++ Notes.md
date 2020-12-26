@@ -628,13 +628,13 @@ Naming collisions are often introduced in separate files of a program or in the 
 #### Namespace
 A **namespace** is a region that allows you to declare names inside for the purpose of disambiguation. This ensures that any identifier declared inside the namespace won't be mistaken for another identical name outside the scope of the namespace.
 
-The **global namespace** is a 
+Any name defined outside of a function, class, and namespace is considered part of the **global namespace**. In the above a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTc3ODc5OSw5MjkwNDM0NTQsLTczND
-ExNTcxOCwtMTg1ODc4Mzc5OSw2MzAzNTczMjEsLTI0NjIwNDgx
-Niw4MzI5Mzk2NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMT
-U5MzA4MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5
-OTgwMCwxNTk1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LD
-E3MzkwNDk2MywxMzIwNjc0NDk3LDE1NDUzOTgwMzYsMTQ5MTAy
-NTU3MV19
+eyJoaXN0b3J5IjpbNzU5NDE0ODEsMTE3NTc3ODc5OSw5MjkwND
+M0NTQsLTczNDExNTcxOCwtMTg1ODc4Mzc5OSw2MzAzNTczMjEs
+LTI0NjIwNDgxNiw4MzI5Mzk2NjIsMTcxOTE1OTM1NCwtMTk0MD
+k3ODY5NSwtMTU5MzA4MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2
+OCwtMTk4NjQ5OTgwMCwxNTk1MTkyMjc2LDEyNjMxMjk5NSwtOD
+M3MTgxNTk0LDE3MzkwNDk2MywxMzIwNjc0NDk3LDE1NDUzOTgw
+MzZdfQ==
 -->
