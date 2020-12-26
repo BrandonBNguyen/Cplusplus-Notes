@@ -634,7 +634,7 @@ Any name defined outside of a function, class, and namespace is considered part 
 
 Consider that in `std::cout` and `std::cin`, when we want to access the `cout` and `cin` operators, we started with the name of the namespace, followed by the **scope resolution operator** (`::`), followed by the names of the variable or functions within that namespace. In this way, we explicitly tell the program to access this specific variable in this specific namespace.
 
-An alternative (although less preferred) method of accessing variables within a namespace is by using a *using directive* statement. This allows access to all the names within that namespace without having to explicitly specify the namespace every time, however, this defeats the purpose of using namespaces in the first place.
+An alternative (although less preferred) method of accessing variables within a namespace is by using a *using directive* statement. This allows access to all the names within that namespace without having to explicitly specify the namespace every time, effectively importing all names in that namespace into the global namespace. However, this practice defeats the purpose of using namespaces in the first place, and is not preferred.
 
 ```cpp
 #include <iostream>
@@ -644,16 +644,18 @@ using  namespace  std;  // this is a using directive telling the compiler to che
 
 int  main()
 {
-    cout  <<  "Hello world!";  // cout has no prefix, so the compiler will check to see if cout is defined locally or in namespace std
+    cout  <<  "Hello world!";  // cout has no prefix, so the compiler will check to see
+    // if cout is defined locally or in namespace std
     return  0;
 }
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODA4MDQwMiwxMTc1Nzc4Nzk5LDkyOT
-A0MzQ1NCwtNzM0MTE1NzE4LC0xODU4NzgzNzk5LDYzMDM1NzMy
-MSwtMjQ2MjA0ODE2LDgzMjkzOTY2MiwxNzE5MTU5MzU0LC0xOT
-QwOTc4Njk1LC0xNTkzMDgzMCwtMjgyMDg0NTk2LC0xNjkyMTc2
-NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIyNzYsMTI2MzEyOTk1LC
-04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcsMTU0NTM5
-ODAzNl19
+eyJoaXN0b3J5IjpbMzk0NDA4MTY4LDExNzU3Nzg3OTksOTI5MD
+QzNDU0LC03MzQxMTU3MTgsLTE4NTg3ODM3OTksNjMwMzU3MzIx
+LC0yNDYyMDQ4MTYsODMyOTM5NjYyLDE3MTkxNTkzNTQsLTE5ND
+A5Nzg2OTUsLTE1OTMwODMwLC0yODIwODQ1OTYsLTE2OTIxNzY1
+NjgsLTE5ODY0OTk4MDAsMTU5NTE5MjI3NiwxMjYzMTI5OTUsLT
+gzNzE4MTU5NCwxNzM5MDQ5NjMsMTMyMDY3NDQ5NywxNTQ1Mzk4
+MDM2XX0=
 -->
