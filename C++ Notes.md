@@ -704,7 +704,7 @@ int main()
 Object-like macros such as the one below are defined without any substitution text and can be used for things such as conditional compilation. They are not used for text substitution like those with text following the identifier.
 
 #### Conditional Compilation
-Conditional compilation determines whether specific segments of code will be compiled or not. Using the directives `#ifdef`, `#ifndef`, and `#endif`, you can specify code blocks that will only be compiled if a certain macro is defined.
+Conditional compilation determines whether specific segments of code will be compiled or not. Using the directives `#ifdef`, `#ifndef`, and `#endif`, you can specify code blocks that will only be compiled if a certain macro is defined. By convention, the directives for the conditional blocks within a function are written at the same indentation level as the function header.
 ```cpp
 #include <iostream>
 
@@ -741,20 +741,20 @@ The directive, `#ifdef 0`, will evaluate to False and run without code contained
 ```cpp
 int main()
 {
-    #ifdef 0
-
-    #endif
+#ifdef 0
+    std::cout << "This will not print."  
+#endif
     
     return 0;
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTE0NzA1OSwyMDU4Mjc4ODM2LDM5ND
-QwODE2OCwxMTc1Nzc4Nzk5LDkyOTA0MzQ1NCwtNzM0MTE1NzE4
-LC0xODU4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMj
-kzOTY2MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgz
-MCwtMjgyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLD
-E1OTUxOTIyNzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0
-OTYzXX0=
+eyJoaXN0b3J5IjpbLTEzNDM0NjY1NTQsMjA1ODI3ODgzNiwzOT
+Q0MDgxNjgsMTE3NTc3ODc5OSw5MjkwNDM0NTQsLTczNDExNTcx
+OCwtMTg1ODc4Mzc5OSw2MzAzNTczMjEsLTI0NjIwNDgxNiw4Mz
+I5Mzk2NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4
+MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMC
+wxNTk1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3Mzkw
+NDk2M119
 -->
