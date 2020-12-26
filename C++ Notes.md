@@ -670,7 +670,7 @@ int  main()
 #### Macro Defines
 The `#define` directive can be used to create a **macro**, which is a rule that defines how input text is converted into replacement output text.
 
-Object-like macros are created by starting with `#define`, followed by the macro identifier, and potentially followed by substitution text.
+Object-like macros are created by starting with `#define`, followed by the macro identifier, and potentially followed by substitution text. By convention, the 
 ```cpp
 #define identifier                    // Without substitution text
 #define identifier substitution_text  // With substitution text
@@ -701,11 +701,11 @@ int main()
 ```
 
 ##### Object-Like Macros without Substitution Text
-
+Object-like macros such as the one below are defined without any substitution text and can be used for things such as conditional compilation. They are not used for text substitution like those with text following the identifier.
 
 #### Conditional Compilation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NjQ4MDY1OSwyMDU4Mjc4ODM2LDM5ND
+eyJoaXN0b3J5IjpbLTY4Mzk0ODc0MiwyMDU4Mjc4ODM2LDM5ND
 QwODE2OCwxMTc1Nzc4Nzk5LDkyOTA0MzQ1NCwtNzM0MTE1NzE4
 LC0xODU4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMj
 kzOTY2MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgz
