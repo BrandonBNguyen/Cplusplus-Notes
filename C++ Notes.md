@@ -750,13 +750,39 @@ int main()
 ```
 
 #### Scope of Directives
-Directives are only within that file so when defining a macro, it will only exist for a code within the same file as that macro. Additionally, they do not need to be called to take effect like an ordinary variable or function definition as the preprocessor doesn't understand C++ syntax. Also note that directives only apply to
+Directives are only within that file so when defining a macro, it will only exist for a code within the same file as that macro. Additionally, they do not need to be called to take effect like an ordinary variable or function definition as the preprocessor doesn't understand C++ syntax. 
+
+Also note that directives only apply to the code in the lines following the directive.
+```cpp
+#include <iostream>
+
+#define PRINT_AARON  // PRINT_AARON is now defined such that all code within conditional
+                     // directive blocks seeing if PRINT_AARON is defined will run.
+int main()
+{
+#ifdef PRINT_BRANDON  // Since PRINT_BRANDON is not defined, we do not expect this to run.
+    std::cout << "My name is Brandon.";
+#endif
+
+#ifdef PRINT_AARON  // Since PRINT_AARON is defined, we do expect this to run.
+    std::cout << "My name is Aaron.";
+#endif
+
+#define PRINT_BRANDON
+
+#ifdef PRINT_BRANDON  // Since PRINT_BRANDON is not defined, we do not expect this to run.
+    std::cout << "My name is Brandon.";
+#endif
+
+    return 0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1MDQ1OTIzLDIwNTgyNzg4MzYsMzk0ND
-A4MTY4LDExNzU3Nzg3OTksOTI5MDQzNDU0LC03MzQxMTU3MTgs
-LTE4NTg3ODM3OTksNjMwMzU3MzIxLC0yNDYyMDQ4MTYsODMyOT
-M5NjYyLDE3MTkxNTkzNTQsLTE5NDA5Nzg2OTUsLTE1OTMwODMw
-LC0yODIwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMT
-U5NTE5MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5
-NjNdfQ==
+eyJoaXN0b3J5IjpbLTE3NTc3OTk1ODksMjA1ODI3ODgzNiwzOT
+Q0MDgxNjgsMTE3NTc3ODc5OSw5MjkwNDM0NTQsLTczNDExNTcx
+OCwtMTg1ODc4Mzc5OSw2MzAzNTczMjEsLTI0NjIwNDgxNiw4Mz
+I5Mzk2NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4
+MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMC
+wxNTk1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3Mzkw
+NDk2M119
 -->
