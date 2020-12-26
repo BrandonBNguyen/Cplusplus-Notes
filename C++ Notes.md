@@ -677,13 +677,13 @@ Object-like macros are created by starting with `#define`, followed by the macro
 ```
 
 ##### Object-Like Macros with Substitution Text
-
+When the preprocessor encounters a directive with substitution text, it directly replaces future occurrences of the macro identifier with the substitution text.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjM3MjQzNzUsMjA1ODI3ODgzNiwzOT
-Q0MDgxNjgsMTE3NTc3ODc5OSw5MjkwNDM0NTQsLTczNDExNTcx
-OCwtMTg1ODc4Mzc5OSw2MzAzNTczMjEsLTI0NjIwNDgxNiw4Mz
-I5Mzk2NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4
-MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMC
-wxNTk1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3Mzkw
-NDk2M119
+eyJoaXN0b3J5IjpbMzg2MjcyNjk4LDIwNTgyNzg4MzYsMzk0ND
+A4MTY4LDExNzU3Nzg3OTksOTI5MDQzNDU0LC03MzQxMTU3MTgs
+LTE4NTg3ODM3OTksNjMwMzU3MzIxLC0yNDYyMDQ4MTYsODMyOT
+M5NjYyLDE3MTkxNTkzNTQsLTE5NDA5Nzg2OTUsLTE1OTMwODMw
+LC0yODIwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMT
+U5NTE5MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5
+NjNdfQ==
 -->
