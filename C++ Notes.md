@@ -620,8 +620,10 @@ int  main()
 }
 ```
 The compiler will be able to compile both *a.cpp* and *main.cpp* just fine but when the linker attempts to execute, it'll find conflicting definitions for `myFcn()` and result in an error.
+
+The two common ways that naming collisions occur
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTk3MzQ4NDAsLTczNDExNTcxOCwtMT
+eyJoaXN0b3J5IjpbLTE2NjM2NzcyNjYsLTczNDExNTcxOCwtMT
 g1ODc4Mzc5OSw2MzAzNTczMjEsLTI0NjIwNDgxNiw4MzI5Mzk2
 NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4MzAsLT
 I4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1
