@@ -655,9 +655,11 @@ int  main()
 Prior to compilation, your code is run through a process called **translation**, which involves a **preprocessor**, which can be thought of as a program that manipulates the text in each code file. **Preprocessor directives** are instructions that start with the `#` symbol and end with a newline. These instructions tell the preprocessor to perform some text manipulation on the code. Note that directives have their own syntax and do not follow C++ syntax.
 
 #### Include
-The `#include` directive replaces that line with the contents of the included file. 
+The `#include` directive replaces that line with the contents of the included file. The included contents are then preprocessed and the rest of your file are preprocessed and compiled.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODYzODc3NywyMDU4Mjc4ODM2LDM5ND
+eyJoaXN0b3J5IjpbLTQxODk0NDgxNywyMDU4Mjc4ODM2LDM5ND
 QwODE2OCwxMTc1Nzc4Nzk5LDkyOTA0MzQ1NCwtNzM0MTE1NzE4
 LC0xODU4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMj
 kzOTY2MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgz
