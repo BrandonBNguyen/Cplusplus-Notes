@@ -712,13 +712,13 @@ Conditional compilation determines whether specific segments of code will be com
                      // directive blocks seeing if PRINT_AARON is defined will run.
 int main()
 {
-    #ifdef PRINT_BRANDON  // Since PRINT_BRANDON is not defined, we do not expect this to run.
+#ifdef PRINT_BRANDON  // Since PRINT_BRANDON is not defined, we do not expect this to run.
     std::cout << "My name is Brandon.";
-    #endif
+#endif
 
-    #ifdef PRINT_AARON  // Since PRINT_AARON is defined, we do expect this to run.
+#ifdef PRINT_AARON  // Since PRINT_AARON is defined, we do expect this to run.
     std::cout << "My name is Aaron.";
-    #endif
+#endif
     
     return 0;
 }
@@ -737,13 +737,24 @@ Console output:
 ```
 My name is Aaron.
 ```
-The directive, `#ifdef 0`, will evaluate to False and 
+The directive, `#ifdef 0`, will evaluate to False and run without code contained within that conditional block. This has the same effect as commenting out the code within the conditional block.
+```cpp
+int main()
+{
+    #ifdef 0
+
+    #endif
+    
+    return 0;
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2MTE4NTQ2LDIwNTgyNzg4MzYsMzk0ND
-A4MTY4LDExNzU3Nzg3OTksOTI5MDQzNDU0LC03MzQxMTU3MTgs
-LTE4NTg3ODM3OTksNjMwMzU3MzIxLC0yNDYyMDQ4MTYsODMyOT
-M5NjYyLDE3MTkxNTkzNTQsLTE5NDA5Nzg2OTUsLTE1OTMwODMw
-LC0yODIwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMT
-U5NTE5MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5
-NjNdfQ==
+eyJoaXN0b3J5IjpbMTc2NTE0NzA1OSwyMDU4Mjc4ODM2LDM5ND
+QwODE2OCwxMTc1Nzc4Nzk5LDkyOTA0MzQ1NCwtNzM0MTE1NzE4
+LC0xODU4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMj
+kzOTY2MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgz
+MCwtMjgyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLD
+E1OTUxOTIyNzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0
+OTYzXX0=
 -->
