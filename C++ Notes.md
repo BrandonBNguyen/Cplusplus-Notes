@@ -652,13 +652,13 @@ int  main()
 ```
 
 ### Preprocessor and Directives
-
+Prior to compilation, your code is run through a process called **translation**, which involves a **preprocessor**, which can be thought of as a program that manipulates the text in each code file. **Preprocessor directives** are instructions that start with the `#` symbol and end with a newline. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODI3ODgzNiwzOTQ0MDgxNjgsMTE3NT
-c3ODc5OSw5MjkwNDM0NTQsLTczNDExNTcxOCwtMTg1ODc4Mzc5
-OSw2MzAzNTczMjEsLTI0NjIwNDgxNiw4MzI5Mzk2NjIsMTcxOT
-E1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4MzAsLTI4MjA4NDU5
-NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMCwxNTk1MTkyMjc2LD
-EyNjMxMjk5NSwtODM3MTgxNTk0LDE3MzkwNDk2MywxMzIwNjc0
-NDk3XX0=
+eyJoaXN0b3J5IjpbLTE1Mjk5MzU5OTcsMjA1ODI3ODgzNiwzOT
+Q0MDgxNjgsMTE3NTc3ODc5OSw5MjkwNDM0NTQsLTczNDExNTcx
+OCwtMTg1ODc4Mzc5OSw2MzAzNTczMjEsLTI0NjIwNDgxNiw4Mz
+I5Mzk2NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMTU5MzA4
+MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5OTgwMC
+wxNTk1MTkyMjc2LDEyNjMxMjk5NSwtODM3MTgxNTk0LDE3Mzkw
+NDk2M119
 -->
