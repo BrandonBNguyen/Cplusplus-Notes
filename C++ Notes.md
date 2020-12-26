@@ -631,8 +631,10 @@ A **namespace** is a region that allows you to declare names inside for the purp
 Any name defined outside of a function, class, and namespace is considered part of the **global namespace**. In the above example, both `main()` and `myFcn()` existed inside the global namespace, however because of conflicting definitions within that namespace, we received an error.
 
 `std` in `std::cout` and `std::cin` is the name of the namespace used for the C++ standard library. This ensures that the identifiers of new code doesn't conflict with the existing identifiers for those in the C++ standard library and result in an error.
+
+Consider that in `std::cout` and `std::cin`, when we want to access the `cout` and `cin` operators, we started with the name of the namespace, followed by the **scope resolution operator** (`::`), followed by the n
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTY0NzY0LDExNzU3Nzg3OTksOTI5MD
+eyJoaXN0b3J5IjpbNDI0OTA1NTU3LDExNzU3Nzg3OTksOTI5MD
 QzNDU0LC03MzQxMTU3MTgsLTE4NTg3ODM3OTksNjMwMzU3MzIx
 LC0yNDYyMDQ4MTYsODMyOTM5NjYyLDE3MTkxNTkzNTQsLTE5ND
 A5Nzg2OTUsLTE1OTMwODMwLC0yODIwODQ1OTYsLTE2OTIxNzY1
