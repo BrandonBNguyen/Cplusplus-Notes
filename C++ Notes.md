@@ -621,9 +621,9 @@ int  main()
 ```
 The compiler will be able to compile both *a.cpp* and *main.cpp* just fine but when the linker attempts to execute, it'll find conflicting definitions for `myFcn()` and result in an error.
 
-Naming collisions occur when multiple definitions for a function or global variable are introduced into a program, often by separate files or by introducing them
+Naming collisions are often introduced in separate files of a program or in the same file often when using `#include` and resulting in there being multiple definitions fo a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDM1MTYyMCwtNzM0MTE1NzE4LC0xOD
+eyJoaXN0b3J5IjpbLTIyNjkwMzkwNSwtNzM0MTE1NzE4LC0xOD
 U4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMjkzOTY2
 MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgzMCwtMj
 gyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLDE1OTUx
