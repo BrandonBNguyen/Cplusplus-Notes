@@ -628,13 +628,15 @@ Naming collisions are often introduced in separate files of a program or in the 
 #### Namespace
 A **namespace** is a region that allows you to declare names inside for the purpose of disambiguation. This ensures that any identifier declared inside the namespace won't be mistaken for another identical name outside the scope of the namespace.
 
-Any name defined outside of a function, class, and namespace is considered part of the **global namespace**. In the above a
+Any name defined outside of a function, class, and namespace is considered part of the **global namespace**. In the above example, both `main()` and `myFcn()` existed inside the global namespace, however because of conflicting definitions within that namespace, we received an error.
+
+`std` in `std::cout` and `std::cin` are
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5NDE0ODEsMTE3NTc3ODc5OSw5MjkwND
-M0NTQsLTczNDExNTcxOCwtMTg1ODc4Mzc5OSw2MzAzNTczMjEs
-LTI0NjIwNDgxNiw4MzI5Mzk2NjIsMTcxOTE1OTM1NCwtMTk0MD
-k3ODY5NSwtMTU5MzA4MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2
-OCwtMTk4NjQ5OTgwMCwxNTk1MTkyMjc2LDEyNjMxMjk5NSwtOD
-M3MTgxNTk0LDE3MzkwNDk2MywxMzIwNjc0NDk3LDE1NDUzOTgw
-MzZdfQ==
+eyJoaXN0b3J5IjpbMTQyOTE0NTcwNywxMTc1Nzc4Nzk5LDkyOT
+A0MzQ1NCwtNzM0MTE1NzE4LC0xODU4NzgzNzk5LDYzMDM1NzMy
+MSwtMjQ2MjA0ODE2LDgzMjkzOTY2MiwxNzE5MTU5MzU0LC0xOT
+QwOTc4Njk1LC0xNTkzMDgzMCwtMjgyMDg0NTk2LC0xNjkyMTc2
+NTY4LC0xOTg2NDk5ODAwLDE1OTUxOTIyNzYsMTI2MzEyOTk1LC
+04MzcxODE1OTQsMTczOTA0OTYzLDEzMjA2NzQ0OTcsMTU0NTM5
+ODAzNl19
 -->
