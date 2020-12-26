@@ -628,9 +628,9 @@ Naming collisions are often introduced in separate files of a program or in the 
 #### Namespace
 A **namespace** is a region that allows you to declare names inside for the purpose of disambiguation. This ensures that any identifier declared inside the namespace won't be mistaken for another identical name outside the scope of the namespace.
 
-The **global na**
+The **global namespace** is a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODEwODgzNCw5MjkwNDM0NTQsLTczND
+eyJoaXN0b3J5IjpbMTE3NTc3ODc5OSw5MjkwNDM0NTQsLTczND
 ExNTcxOCwtMTg1ODc4Mzc5OSw2MzAzNTczMjEsLTI0NjIwNDgx
 Niw4MzI5Mzk2NjIsMTcxOTE1OTM1NCwtMTk0MDk3ODY5NSwtMT
 U5MzA4MzAsLTI4MjA4NDU5NiwtMTY5MjE3NjU2OCwtMTk4NjQ5
