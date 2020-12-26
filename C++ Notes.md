@@ -750,13 +750,13 @@ int main()
 ```
 
 #### Scope of Directives
-Directives are only within that file so when defining a macro, it will only exist for a code within the same file as that macro. Additionally, directives only apply to the code following the mac
+Directives are only within that file so when defining a macro, it will only exist for a code within the same file as that macro. Additionally, they do not need to be called to take effect like an ordinary variable or function definition as the preprocessor doesn't understand C++ syntax. Also note that directives only apply to
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTI5MDc4NCwyMDU4Mjc4ODM2LDM5ND
-QwODE2OCwxMTc1Nzc4Nzk5LDkyOTA0MzQ1NCwtNzM0MTE1NzE4
-LC0xODU4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMj
-kzOTY2MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgz
-MCwtMjgyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLD
-E1OTUxOTIyNzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0
-OTYzXX0=
+eyJoaXN0b3J5IjpbNjk1MDQ1OTIzLDIwNTgyNzg4MzYsMzk0ND
+A4MTY4LDExNzU3Nzg3OTksOTI5MDQzNDU0LC03MzQxMTU3MTgs
+LTE4NTg3ODM3OTksNjMwMzU3MzIxLC0yNDYyMDQ4MTYsODMyOT
+M5NjYyLDE3MTkxNTkzNTQsLTE5NDA5Nzg2OTUsLTE1OTMwODMw
+LC0yODIwODQ1OTYsLTE2OTIxNzY1NjgsLTE5ODY0OTk4MDAsMT
+U5NTE5MjI3NiwxMjYzMTI5OTUsLTgzNzE4MTU5NCwxNzM5MDQ5
+NjNdfQ==
 -->
