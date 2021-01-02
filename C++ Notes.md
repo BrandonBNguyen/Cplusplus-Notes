@@ -19,6 +19,7 @@ Notes and programs created while learning C++. These were notes were created fol
 	3. [Separating a Program Across Multiple Files](#separating-a-program-across-multiple-files)
 	4. [Naming Collisions and Namespaces](#naming-collisions-and-namespaces)
 	5. [Preprocessor and Directives](#preprocessor-and-directives)
+	6. [Header Files](#header-files)
 
 ## C++ Basics
 
@@ -778,12 +779,14 @@ int main()
     return 0;
 }
 ```
+
+### Header Files
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjQ4MTI0OCwyMDU4Mjc4ODM2LDM5ND
-QwODE2OCwxMTc1Nzc4Nzk5LDkyOTA0MzQ1NCwtNzM0MTE1NzE4
-LC0xODU4NzgzNzk5LDYzMDM1NzMyMSwtMjQ2MjA0ODE2LDgzMj
-kzOTY2MiwxNzE5MTU5MzU0LC0xOTQwOTc4Njk1LC0xNTkzMDgz
-MCwtMjgyMDg0NTk2LC0xNjkyMTc2NTY4LC0xOTg2NDk5ODAwLD
-E1OTUxOTIyNzYsMTI2MzEyOTk1LC04MzcxODE1OTQsMTczOTA0
-OTYzXX0=
+eyJoaXN0b3J5IjpbMTAyNzg1MDgwNiwxMTEyNDgxMjQ4LDIwNT
+gyNzg4MzYsMzk0NDA4MTY4LDExNzU3Nzg3OTksOTI5MDQzNDU0
+LC03MzQxMTU3MTgsLTE4NTg3ODM3OTksNjMwMzU3MzIxLC0yND
+YyMDQ4MTYsODMyOTM5NjYyLDE3MTkxNTkzNTQsLTE5NDA5Nzg2
+OTUsLTE1OTMwODMwLC0yODIwODQ1OTYsLTE2OTIxNzY1NjgsLT
+E5ODY0OTk4MDAsMTU5NTE5MjI3NiwxMjYzMTI5OTUsLTgzNzE4
+MTU5NF19
 -->
