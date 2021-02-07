@@ -858,7 +858,10 @@ int  main()
 }
 ```
 
+It's good practice to write a header file for a source file even if the functions in that source file are not being used immediately to promote forward compatibility.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbLTE0Nzg1NjY3NjMsMjYyODE3NTMwLDE5NT
+Q3ODA2NTBdfQ==
 -->
