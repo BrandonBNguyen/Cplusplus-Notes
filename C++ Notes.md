@@ -834,6 +834,29 @@ int  main()
 ```
 
 Consider that for this example, instead of including the forward declaration for `add()` in `main.cpp`, we want to use a header file to forward declare `add()`. We would create a header file named `add.h` (since we're forward declaring a function defined in `add.cpp`) and simply include the forward declaration in there.
+
+**
+```cpp
+```
+**add.cpp**
+```cpp
+int  add(int  x, int  y)
+{
+    return  x + y;
+}
+```
+**main.cpp**
+```cpp
+#include <iostream>
+
+int add(int x, int y);
+
+int  main()
+{
+    std::cout << "The sum of 3 and 4 is: " << add(3, 4) << '\n';
+    return  0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDc4MDY1MF19
+eyJoaXN0b3J5IjpbLTEzNjQ3NjIyMzEsMTk1NDc4MDY1MF19
 -->
