@@ -833,10 +833,11 @@ int  main()
 }
 ```
 
-Consider that for this example, instead of including the forward declaration for `add()` in `main.cpp`, we want to use a header file to forward declare `add()`. We would create a header file named `add.h` (since we're forward declaring a function defined in `add.cpp`) and simply include the forward declaration in there.
+Consider that for this example, instead of including the forward declaration for `add()` in `main.cpp`, we want to use a header file to forward declare `add()`. We would create a header file named `add.h` (since we're forward declaring a function defined in `add.cpp`) and simply include the forward declaration in there instead of in `main.cpp`. In `main.cpp`, we would need to include that header file using `#include` followed by the header file name in quotations (`#include "add.h"`) in this case.
 
-**
+**add.h**
 ```cpp
+int add(int x, int y);
 ```
 **add.cpp**
 ```cpp
@@ -848,8 +849,7 @@ int  add(int  x, int  y)
 **main.cpp**
 ```cpp
 #include <iostream>
-
-int add(int x, int y);
+#include "add.h"
 
 int  main()
 {
@@ -858,5 +858,5 @@ int  main()
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjQ3NjIyMzEsMTk1NDc4MDY1MF19
+eyJoaXN0b3J5IjpbNzYzOTM2MDMwLDE5NTQ3ODA2NTBdfQ==
 -->
