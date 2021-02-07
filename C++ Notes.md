@@ -862,8 +862,10 @@ It's good practice to write a header file for a source file even if the function
 
 `#include`'s that specify a header file with angled brackets (`<>`) instead of double quotations (`""`) will search for header files in a specified `include directories`, which are configured as part of a project or IDE's settings. Those specified with double quotations will search for header files in the current directory or specified search directory (specified by the IDE project settings) first before searching the `include directories`.
 
-Although header files can also incl
+Although header files can also include other header files (known as transitive includes) this is not best practice as these includes become implicit rather than explicit when your header file is included somewhere.
+
+Best practice for order of `#include` statements is first user-defined headers, followed by 3rd party headers, followed by standard library headers. Each section should be sorted alphabetically.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg0NjI1OSwyNjI4MTc1MzAsMTk1ND
-c4MDY1MF19
+eyJoaXN0b3J5IjpbLTIwODIyNTQ3NTksMjYyODE3NTMwLDE5NT
+Q3ODA2NTBdfQ==
 -->
