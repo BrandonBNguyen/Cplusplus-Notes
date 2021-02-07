@@ -860,8 +860,8 @@ int  main()
 
 It's good practice to write a header file for a source file even if the functions in that source file are not being used immediately to promote forward compatibility.
 
-`#include`'s that specify a header file with angled brackets (`<>`) instead of double quotations (`""`) will se 
+`#include`'s that specify a header file with angled brackets (`<>`) instead of double quotations (`""`) will search for header files in a specified `include directories`, which are configured as part of a project or IDE's settings. Those specified with double quotations will search for header files in the current directory or specified search directory (specified by the IDE)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTk1NTg1MSwyNjI4MTc1MzAsMTk1ND
-c4MDY1MF19
+eyJoaXN0b3J5IjpbNDMyMzM3NzExLDI2MjgxNzUzMCwxOTU0Nz
+gwNjUwXX0=
 -->
