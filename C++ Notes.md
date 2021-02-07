@@ -860,8 +860,8 @@ int  main()
 
 It's good practice to write a header file for a source file even if the functions in that source file are not being used immediately to promote forward compatibility.
 
-`#include`'s that specify 
+`#include`'s that specify a header file with angled brackets (`<>`) instead of double quotations (`""`) will se 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzMwMDQxNzAsMjYyODE3NTMwLDE5NT
-Q3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbMTE0NTk1NTg1MSwyNjI4MTc1MzAsMTk1ND
+c4MDY1MF19
 -->
