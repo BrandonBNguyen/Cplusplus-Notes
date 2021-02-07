@@ -599,7 +599,7 @@ A **naming collision** is a type of error that occurs when two identical identif
 
 Consider the following two files that exist in the same directory:
 
-*a.cpp*
+**a.cpp**
 ```cpp
 #include <iostream>
 
@@ -609,7 +609,7 @@ void  myFcn(int  x)
 }
 ```
 
-*main.cpp*
+**main.cpp**
 ```cpp
 #include <iostream>
 
@@ -781,12 +781,59 @@ int main()
 ```
 
 ### Header Files
+
+Header files are used to propagate declarations to code files and usually end with a .h extension.
+
+#### Using Header Files
+
+Consider the example below that prints `Hello, World!` to the console.
+
+```cpp
+#include <iostream>
+
+int main()
+{
+	std::cout << "Hello, world!";
+	return 0;
+}
+```
+
+`std::cout` is able to be used because it has been forward declared in the `iostream` header file after `#include <iostream>`. 
+
+#### Writing Header Files
+
+Header files typically only contain function and variable declarations and not their definitions. This is done to ensure that the *one definition rule* isn't violated. For example, a header file containing a function definition could result in a collision with the function declaration in a .cpp file somewhere.
+
+Header files contain two parts:
+
+ 1. A header guard
+ 2. The forward declaration for all identifiers
+
+Header files are usually paired with a code file and provide the forward declarations for that corresponding code file. It's best practice to name the header file the same name as its paired code file (e.g. `add.h` would contain the forward declarations for `add.cpp`).
+
+Consider the following example from [3.3](#separating-a-program-across-multiple-files) consisting of a main code file, `main.cpp`, and another file, `add.cpp`, where `main.cpp` uses a function declared in `add.cpp`. 
+
+**add.cpp**
+```cpp
+int  add(int  x, int  y)
+{
+    return  x + y;
+}
+```
+**main.cpp**
+```cpp
+#include <iostream>
+
+int add(int x, int y);
+
+int  main()
+{
+    std::cout << "The sum of 3 and 4 is: " << add(3, 4) << '\n';
+    return  0;
+}
+```
+
+Consider that for this example, instead of including the forward declaration for `add()` in `main.cpp`, we want to use a header file to forward declare `add()`. We would create a header file named `add.h` (since we're forward declaring a function defined in `add.cpp`) and simply include the forward declaration in there.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzg1MDgwNiwxMTEyNDgxMjQ4LDIwNT
-gyNzg4MzYsMzk0NDA4MTY4LDExNzU3Nzg3OTksOTI5MDQzNDU0
-LC03MzQxMTU3MTgsLTE4NTg3ODM3OTksNjMwMzU3MzIxLC0yND
-YyMDQ4MTYsODMyOTM5NjYyLDE3MTkxNTkzNTQsLTE5NDA5Nzg2
-OTUsLTE1OTMwODMwLC0yODIwODQ1OTYsLTE2OTIxNzY1NjgsLT
-E5ODY0OTk4MDAsMTU5NTE5MjI3NiwxMjYzMTI5OTUsLTgzNzE4
-MTU5NF19
+eyJoaXN0b3J5IjpbMTk1NDc4MDY1MF19
 -->
