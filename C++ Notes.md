@@ -865,7 +865,9 @@ It's good practice to write a header file for a source file even if the function
 Although header files can also include other header files (known as transitive includes) this is not best practice as these includes become implicit rather than explicit when your header file is included somewhere.
 
 Best practice for order of `#include` statements is first user-defined headers, followed by 3rd party headers, followed by standard library headers. Each section should be sorted alphabetically.
+
+### Header Guards
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODIyNTQ3NTksMjYyODE3NTMwLDE5NT
-Q3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbODk3NjEyMywtMjA4MjI1NDc1OSwyNjI4MT
+c1MzAsMTk1NDc4MDY1MF19
 -->
