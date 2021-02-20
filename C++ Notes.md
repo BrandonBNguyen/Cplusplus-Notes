@@ -1146,7 +1146,30 @@ struct JellyBeanJar {
 
 Running the following represents starting with an empty jar, checking the count, adding a bean, and checking the count.
 
+```cpp
+int main() {
+	JellyBeanJar jar;
 
+	std::cout << "Start with an empty jar.\n";
+	std::cout << "Bean Count: " << jar.jelly_beans << "\n";
+	std::cout << "Add a bean.\n";
+	jar.add_bean();
+	std::cout << "Bean Count: " << jar.jelly_beans << "\n";
+
+	return 0;
+}
+```
+
+```
+Start with an empty jar.
+Bean Count: 0
+Add a bean.
+Bean Count: 1
+```
+
+##### Access Control
+
+The problem with the above class is that anyone can just access t
 
 ## Control Flow
 
@@ -1241,11 +1264,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwOTA2MDQ0LDEwODU3NTI5NzUsMjEwMz
-E2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUwMzU1
-MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1NzUxNjgsLT
-Y1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNjY5OTM1MDAsMTk0MTE4
-ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjkyMjIxNi
-wtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2Mjgx
-NzUzMF19
+eyJoaXN0b3J5IjpbLTY4NDkyNjg4MywxMDg1NzUyOTc1LDIxMD
+MxNjU2OTgsLTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1
+NTE1Myw2Njk2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC
+02NTczNjAzMTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDEx
+ODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIyMT
+YsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNjI4
+MTc1MzBdfQ==
 -->
