@@ -876,7 +876,17 @@ Best practice for order of `#include` statements is first user-defined headers, 
 
 ### Integer Types
 
-#
+### Floating-Point Types
+
+### Character Types
+
+### Boolean Types
+
+### The `size_t` Type
+
+### Arrays
+
+### Strings
 
 ## Control Flow
 
@@ -945,7 +955,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTIwNjk1MiwtMTI3MzYyNzUwNyw4Mj
-Y5MjIyMTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1
-OSwyNjI4MTc1MzAsMTk1NDc4MDY1MF19
+eyJoaXN0b3J5IjpbLTE2NzU0OTA2MTUsLTEyNzM2Mjc1MDcsOD
+I2OTIyMjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3
+NTksMjYyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
 -->
