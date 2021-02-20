@@ -1191,10 +1191,14 @@ struct JellyBeanJar {
 		return true;
 	}
 
-	int 
+	int count() {
+		return jelly_beans;
+	}
 	
 	private:
-		// The number of jelly beans is not directly accessible because it i
+		// The number of jelly beans is not directly accessible because
+		// jelly_beans is declared in this private section. All the methods
+		// defined above are outside of this section and are considered public.
 		int jelly_beans
 };
 ```
@@ -1292,7 +1296,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjAyNTA3MSwxMDg1NzUyOTc1LDIxMD
+eyJoaXN0b3J5IjpbMTI5OTczODE2OCwxMDg1NzUyOTc1LDIxMD
 MxNjU2OTgsLTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1
 NTE1Myw2Njk2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC
 02NTczNjAzMTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDEx
