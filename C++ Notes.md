@@ -891,7 +891,7 @@ Integer types are used to store whole numbers. There are four main integer types
 
 ### Floating-Point Types
 
-Floating-point types are used to store numbers that contain decimal or fractional components. There are three floating-point types: `float`, `double`, and `long double`. 
+Floating-point types are used to store numbers that contain decimal or fractional components. There are three floating-point types: `float`, `double`, and `long double`. `float` has single precision and 
 
 ### Character Types
 
@@ -970,8 +970,8 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDcyNTEyMDAsMTM2Njk5MzUwMCwxOT
-QxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIy
-MjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMj
-YyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbMTEyMTM5ODEyNSwxMzY2OTkzNTAwLDE5ND
+ExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIy
+MTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNj
+I4MTc1MzAsMTk1NDc4MDY1MF19
 -->
