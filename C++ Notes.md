@@ -1276,7 +1276,7 @@ struct JellyBeanJar {
 
 ```cpp
 int main() {
-	JellyBeanJar jar1;
+	JellyBeanJar jar1; // By Default, initializes to 0 e
 	JellyBeanJar jar2{ 4 };
 
 	std::cout << "Initial Jar Counts\n";
@@ -1392,11 +1392,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEzMzA3NzE3LC03NDEyNjYzMiwtNzk4Nj
-g2MzY5LDE2NzUwMzMzMDUsMTA4NTc1Mjk3NSwyMTAzMTY1Njk4
-LC0xMzgyMTIzMjU2LC01NjIwNTMxMjcsLTEzNTAzNTUxNTMsNj
-Y5Njk0OTg0LDIwODg2Njk0MjIsLTY0OTU3NTE2OCwtNjU3MzYw
-MzE0LC0yNjc1MjU1MzQsMTM2Njk5MzUwMCwxOTQxMTg4NTI2LC
-05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIyMjE2LC0xODU3
-MjYwMTc2XX0=
+eyJoaXN0b3J5IjpbLTczNDYwMDUyLDkxMzMwNzcxNywtNzQxMj
+Y2MzIsLTc5ODY4NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5NzUs
+MjEwMzE2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMz
+UwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1NzUx
+NjgsLTY1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNjY5OTM1MDAsMT
+k0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjky
+MjIxNl19
 -->
