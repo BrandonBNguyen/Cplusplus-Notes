@@ -1175,7 +1175,7 @@ The problem with the above class is that anyone can just access the `jelly_beans
 jar.jelly_beans = -3;
 ```
 
-Access control allows you to specify whether certain members or methods are accessible from outside the class.
+Access control allows you to specify whether certain members or methods are accessible from outside the class. When using a `struct` to specify private members and methods, use `private:` and define members and methods after to  make those private.
 
 ## Control Flow
 
@@ -1270,11 +1270,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjU3MTUwMTMsMTA4NTc1Mjk3NSwyMT
-AzMTY1Njk4LC0xMzgyMTIzMjU2LC01NjIwNTMxMjcsLTEzNTAz
-NTUxNTMsNjY5Njk0OTg0LDIwODg2Njk0MjIsLTY0OTU3NTE2OC
-wtNjU3MzYwMzE0LC0yNjc1MjU1MzQsMTM2Njk5MzUwMCwxOTQx
-MTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIyMj
-E2LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYy
-ODE3NTMwXX0=
+eyJoaXN0b3J5IjpbMjU5ODI2MDU1LDEwODU3NTI5NzUsMjEwMz
+E2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUwMzU1
+MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1NzUxNjgsLT
+Y1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNjY5OTM1MDAsMTk0MTE4
+ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjkyMjIxNi
+wtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2Mjgx
+NzUzMF19
 -->
