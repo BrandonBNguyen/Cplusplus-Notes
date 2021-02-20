@@ -1238,6 +1238,42 @@ Constructors are used to create an instance of a class with members specified fr
 
 Constructors are specified within a class definition by the class identifier, followed by a set of parentheses with specified inputs, followed by curly braces containing statements to assign class members.
 
+```cpp
+struct JellyBeanJar {
+	// If no inputs are specified, the inital jelly bean count is 0.
+	JellyBeanJar() {
+		jelly_beans = 0;
+	}
+
+	// If an input is specified, make sure it is a valid number before
+	// assigning the initial jelly bean count. If it is invalid, default
+	// the number of jelly beans to 0.
+	JellyBeanJar(int initial_count) {
+		if (initial_count >= 0) jelly_beans = initial_count;
+		else jelly_beans = 0;
+	}
+
+	bool add_bean() {
+		if (jelly_beans < 0) return false;
+		jelly_beans += 1;
+		return true;
+	}
+
+	bool remove_bean() {
+		if (jelly_beans <= 0) return false;
+		jelly_beans -= 1;
+		return true;
+	}
+
+	int count() {
+		return jelly_beans;
+	}
+
+	private:
+		int jelly_beans;
+};
+```
+
 ## Control Flow
 
 ### If Statements
@@ -1331,11 +1367,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODY4NjM2OSwxNjc1MDMzMzA1LDEwOD
-U3NTI5NzUsMjEwMzE2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUz
-MTI3LC0xMzUwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC
-02NDk1NzUxNjgsLTY1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNjY5
-OTM1MDAsMTk0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NT
-A3LDgyNjkyMjIxNiwtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgy
-MjU0NzU5XX0=
+eyJoaXN0b3J5IjpbLTc0MTI2NjMyLC03OTg2ODYzNjksMTY3NT
+AzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2OTgsLTEzODIxMjMy
+NTYsLTU2MjA1MzEyNywtMTM1MDM1NTE1Myw2Njk2OTQ5ODQsMj
+A4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NTczNjAzMTQsLTI2NzUy
+NTUzNCwxMzY2OTkzNTAwLDE5NDExODg1MjYsLTkwNDc1ODYzMi
+wtMTI3MzYyNzUwNyw4MjY5MjIyMTYsLTE4NTcyNjAxNzYsODk3
+NjEyM119
 -->
