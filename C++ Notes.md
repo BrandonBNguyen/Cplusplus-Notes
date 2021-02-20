@@ -876,7 +876,7 @@ Best practice for order of `#include` statements is first user-defined headers, 
 
 ### Integer Types
 
-There are four types of 
+Integer types are used to store whole numbers. There are four main integer types: `short`, `int`, `long` and `long long`. These each can either 
 
 ### Floating-Point Types
 
@@ -957,7 +957,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5NjgzNDQ1LC05MDQ3NTg2MzIsLTEyNz
+eyJoaXN0b3J5IjpbMTY5MjYwMDU1LC05MDQ3NTg2MzIsLTEyNz
 M2Mjc1MDcsODI2OTIyMjE2LC0xODU3MjYwMTc2LDg5NzYxMjMs
 LTIwODIyNTQ3NTksMjYyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
 -->
