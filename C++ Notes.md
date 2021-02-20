@@ -20,6 +20,8 @@ Notes and programs created while learning C++. These were notes were created fol
 	4. [Naming Collisions and Namespaces](#naming-collisions-and-namespaces)
 	5. [Preprocessor and Directives](#preprocessor-and-directives)
 	6. [Header Files](#header-files)
+4. [Control Flow](#control-flow)
+	5. [Conditional Statements](#conditional-statements)
 
 ## C++ Basics
 
@@ -870,6 +872,7 @@ Best practice for order of `#include` statements is first user-defined headers, 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4Mj
-I1NDc1OSwyNjI4MTc1MzAsMTk1NDc4MDY1MF19
+eyJoaXN0b3J5IjpbLTE0NzY2NjkwMjEsLTE4NTcyNjAxNzYsOD
+k3NjEyMywtMjA4MjI1NDc1OSwyNjI4MTc1MzAsMTk1NDc4MDY1
+MF19
 -->
