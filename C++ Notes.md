@@ -1086,7 +1086,9 @@ union Grade {
 }
 ```
 
-To assign a variable of the specified union type, write out the type, followed by the identifier followed by a semicolon to declare it. To specify which format to store the information as, use the dot operator on the newly created variable followed by the member of the format that you want to save the information and assign it. The same can be done for accessing the information.
+To assign a variable of the specified union type, write out the type, followed by the identifier followed by a semicolon to declare it. To specify which format to store the information as, use the dot operator on the newly created variable followed by the member of the format that you want to save the information and assign it. The same can be done for accessing the information. 
+
+Note that it's possible to access a union type variable data using the wrong 
 
 ```cpp
 int main() {
@@ -1101,7 +1103,8 @@ int main() {
 	std::cout << "       Score:  " << my_score.score << "\n";
 	std::cout << "  Percentage:  " << my_percentage.percentage << "\n\n";
 
-	// This will inter
+	// This will interpret incorrectly because the format with which the grade
+	// wa saved is not the same as the format with which it is being accessed.
 	std::cout << "Incorrect Interpretation:" << my_percentage.letter_grade 
 	<< "\n";
 
@@ -1202,10 +1205,10 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3ODEzMjk0LC0xMzgyMTIzMjU2LC01Nj
-IwNTMxMjcsLTEzNTAzNTUxNTMsNjY5Njk0OTg0LDIwODg2Njk0
-MjIsLTY0OTU3NTE2OCwtNjU3MzYwMzE0LC0yNjc1MjU1MzQsMT
-M2Njk5MzUwMCwxOTQxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2
-Mjc1MDcsODI2OTIyMjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLT
-IwODIyNTQ3NTksMjYyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbLTE0OTU2MzQyMzksLTEzODIxMjMyNTYsLT
+U2MjA1MzEyNywtMTM1MDM1NTE1Myw2Njk2OTQ5ODQsMjA4ODY2
+OTQyMiwtNjQ5NTc1MTY4LC02NTczNjAzMTQsLTI2NzUyNTUzNC
+wxMzY2OTkzNTAwLDE5NDExODg1MjYsLTkwNDc1ODYzMiwtMTI3
+MzYyNzUwNyw4MjY5MjIyMTYsLTE4NTcyNjAxNzYsODk3NjEyMy
+wtMjA4MjI1NDc1OSwyNjI4MTc1MzAsMTk1NDc4MDY1MF19
 -->
