@@ -893,9 +893,15 @@ Integer types are used to store whole numbers. There are four main integer types
 
 Floating-point types are used to store numbers that contain decimal or fractional components. There are three floating-point types: `float`, `double`, and `long double`. `float` has 4 bytes of precision while `double` and `long double` have 8 bytes of precision. The higher the precision, the more accurate the numerical representation but the more memory required. For general use, `double` is usually sufficient.
 
-Floating-points variables can be initialized using scientific notation 
+Floating-points variables can be initialized using scientific notation.
+
+```cpp
+double avogadros_number = 6.0221409e23;
+```
 
 ### Character Types
+
+Character types are used to store a single character 
 
 ### Boolean Types
 
@@ -972,8 +978,8 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTc5NDA0NSwxMzY2OTkzNTAwLDE5ND
-ExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIy
-MTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNj
-I4MTc1MzAsMTk1NDc4MDY1MF19
+eyJoaXN0b3J5IjpbOTUwMzg3NjE0LDEzNjY5OTM1MDAsMTk0MT
+E4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjkyMjIx
+NiwtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2Mj
+gxNzUzMCwxOTU0NzgwNjUwXX0=
 -->
