@@ -952,7 +952,13 @@ printf("I can eat the food?: %d", i_can_eat_food); // Evaluates to false
 
 ### The `size_t` Type
 
-The `size_t` type is used to encode the size of objects. The maximum value it can represent is such that 
+The `size_t` type is used to encode the size of objects. The maximum value it can represent is such that it's sufficient to represent the maximum size of all objects. It is commonly used as the type of the iterator variable when iterating through arrays.
+
+```cpp
+for (size_t , conditional, iteration-statement) {
+	statements;
+}
+```
 
 ### Arrays
 
@@ -1025,8 +1031,8 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDA3OTcwLDEzNjY5OTM1MDAsMTk0MT
-E4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjkyMjIx
-NiwtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2Mj
-gxNzUzMCwxOTU0NzgwNjUwXX0=
+eyJoaXN0b3J5IjpbLTE1NDExOTg4NzQsMTM2Njk5MzUwMCwxOT
+QxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIy
+MjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMj
+YyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
 -->
