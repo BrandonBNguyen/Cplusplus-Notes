@@ -1122,7 +1122,7 @@ Incorrect Interpretation:¶
 
 #### Fully-Featured Classes
 
-Fully-featured classes, in addition to storing information in members, have *methods*, which are functions that can access, manipulate, and return information from members within the class. They are declared in the same way that ordinary functions outside of 
+Fully-featured classes, in addition to storing information in members, have *methods*, which are functions that can access, manipulate, and return information from members within the class. They are declared in the same way that ordinary functions outside of classes are, however they have access of 
 
 ## Control Flow
 
@@ -1217,7 +1217,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDQyNzk1OSwyMTAzMTY1Njk4LC0xMz
+eyJoaXN0b3J5IjpbMTc5Mjk1NTE2MiwyMTAzMTY1Njk4LC0xMz
 gyMTIzMjU2LC01NjIwNTMxMjcsLTEzNTAzNTUxNTMsNjY5Njk0
 OTg0LDIwODg2Njk0MjIsLTY0OTU3NTE2OCwtNjU3MzYwMzE0LC
 0yNjc1MjU1MzQsMTM2Njk5MzUwMCwxOTQxMTg4NTI2LC05MDQ3
