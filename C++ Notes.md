@@ -1205,6 +1205,32 @@ struct JellyBeanJar {
 
 By default, members and methods in `struct` are public unless specified after `private:`. Instead of using `struct`, you can also use `class`, which is identical in function except members and methods are private by default unless specified after `public:`.
 
+```cpp
+class JellyBeanJar {
+	// By default, jelly_beans is private.
+	int jelly_beans = 0;
+
+	public:
+		// These functions declared in the public section are accessible from
+		// outside the class.
+		bool add_bean() {
+			if (jelly_beans < 0) return false;
+			jelly_beans += 1;
+			return true;
+		}
+
+		bool remove_bean() {
+			if (jelly_beans <= 0) return false;
+			jelly_beans -= 1;
+			return true;
+		}
+
+		int count() {
+			return jelly_beans;
+		}
+};
+```
+
 ## Control Flow
 
 ### If Statements
@@ -1298,7 +1324,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2Mjc4MzE0OSwxMDg1NzUyOTc1LDIxMD
+eyJoaXN0b3J5IjpbMTY3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMD
 MxNjU2OTgsLTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1
 NTE1Myw2Njk2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC
 02NTczNjAzMTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDEx
