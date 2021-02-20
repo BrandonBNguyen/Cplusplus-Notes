@@ -1072,7 +1072,9 @@ Coordinate:     32.8328, -117.271
 Public:         1
 ```
 
+#### Unions
 
+The *union* is a special type of class that can be used when a p
 
 ## Control Flow
 
@@ -1167,10 +1169,10 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzYyNDQ2MCwtNTYyMDUzMTI3LC0xMz
-UwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1NzUx
-NjgsLTY1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNjY5OTM1MDAsMT
-k0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjky
-MjIxNiwtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LD
-I2MjgxNzUzMCwxOTU0NzgwNjUwXX0=
+eyJoaXN0b3J5IjpbLTEwOTkyOTAwNDEsLTU2MjA1MzEyNywtMT
+M1MDM1NTE1Myw2Njk2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1
+MTY4LC02NTczNjAzMTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLD
+E5NDExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5
+MjIyMTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OS
+wyNjI4MTc1MzAsMTk1NDc4MDY1MF19
 -->
