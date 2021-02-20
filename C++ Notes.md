@@ -1030,10 +1030,21 @@ This can be especially useful when using if statements with an  equality operato
 ```cpp
 struct School {
 	char name[256];
+	char country[2];
 	int student_population;
 	float latitude;
 	float longitude;
 	bool public_institution;
+}
+```
+
+Members are accessed by using the dot operator (`.`).
+
+```cpp
+int main () {
+	School UCSD;
+	UCSD.name = "University of California, San Diego";
+	UCSD.country = 
 }
 ```
 
@@ -1130,9 +1141,9 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4ODQzMjQ5LC02NDk1NzUxNjgsLTY1Nz
-M2MDMxNCwtMjY3NTI1NTM0LDEzNjY5OTM1MDAsMTk0MTE4ODUy
-NiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjkyMjIxNiwtMT
-g1NzI2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2MjgxNzUz
-MCwxOTU0NzgwNjUwXX0=
+eyJoaXN0b3J5IjpbMTYwNTIyMDA4OSwtNjQ5NTc1MTY4LC02NT
+czNjAzMTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDExODg1
+MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIyMTYsLT
+E4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNjI4MTc1
+MzAsMTk1NDc4MDY1MF19
 -->
