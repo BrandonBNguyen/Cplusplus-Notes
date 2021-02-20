@@ -909,7 +909,11 @@ Character types are used to store a single character. There are four types: `cha
 
 ### Boolean Types
 
-Booleans simply store `true` or `false` and are usually the result of some sort of comparison expression. 
+Booleans use the `bool` type and simply store `true` or `false`. They are usually the result of some sort of comparison expression. 
+
+```
+
+#### Comparison Operators
 
 Common operators that are used to compare the values of different variables are listed below.
 
@@ -922,6 +926,9 @@ Common operators that are used to compare the values of different variables are 
 | Greater Than or Equal To| `>=` |
 | Less Than or Equal To| `<=` |
 
+#### Logical Operators
+
+Common operators used to evaluate Boolean logic on `bool` types are 
 
 ### The `size_t` Type
 
@@ -996,8 +1003,8 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDcwNDc1NywxMzY2OTkzNTAwLDE5ND
-ExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIy
-MTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNj
-I4MTc1MzAsMTk1NDc4MDY1MF19
+eyJoaXN0b3J5IjpbLTE0NzA5NjYxNzYsMTM2Njk5MzUwMCwxOT
+QxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIy
+MjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMj
+YyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
 -->
