@@ -988,7 +988,14 @@ Strings can be thought of as an array of characters. To declare a string literal
 ```cpp
 char navy_seal_copy_pasta[] = "_'ll have you know I graduated top of my class in the Navy Seals_";
 ```
-When declaring espeically long strings, it is okay to separate them by only whitespace
+When declaring especially long strings, it is okay to separate them by only whitespace. This can be especially useful for separating strings into multiple lines.
+
+```cpp
+char expression[] = "Roses are red, "
+     "I forget how this goes, "
+     "I think there's something "
+     "up your nose.";
+```
 
 ## Control Flow
 
@@ -1057,7 +1064,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTYwODMzNiwxMzY2OTkzNTAwLDE5ND
+eyJoaXN0b3J5IjpbLTI2NzUyNTUzNCwxMzY2OTkzNTAwLDE5ND
 ExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIy
 MTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNj
 I4MTc1MzAsMTk1NDc4MDY1MF19
