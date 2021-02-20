@@ -936,10 +936,14 @@ The `iteration-statement` is executed at the end of each iteration and is typica
 The *range-based for loop* is a way to iterate over all the elements in a list without having to deal with an iterator variable. The format is as follows.
 
 ```cpp
-for (element_type element_name : array_
+for (element_type element_name : array_name) {
+	statements;
+}
 ```
+
+It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzI2NTY4OTYsODI2OTIyMjE2LC0xOD
+eyJoaXN0b3J5IjpbLTEyNzM2Mjc1MDcsODI2OTIyMjE2LC0xOD
 U3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3NTMw
 LDE5NTQ3ODA2NTBdfQ==
 -->
