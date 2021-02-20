@@ -997,7 +997,9 @@ char expression[] = "Roses are red, "
      "up your nose.";
 ```
 
-### User-Defined Types
+### Enumerations
+
+Enumerations are a type of user-defined type that 
 
 ## Control Flow
 
@@ -1038,6 +1040,8 @@ if (condition_1) {
 }
 ```
 
+### Switch Statements
+
 ### For Loops
 
 A `for` loop can be used to iterate over every item in a list. The format for a `for` loop is as follows.
@@ -1066,7 +1070,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTU4NDYwNywtMjY3NTI1NTM0LDEzNj
+eyJoaXN0b3J5IjpbLTY1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNj
 Y5OTM1MDAsMTk0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3
 NTA3LDgyNjkyMjIxNiwtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMD
 gyMjU0NzU5LDI2MjgxNzUzMCwxOTU0NzgwNjUwXX0=
