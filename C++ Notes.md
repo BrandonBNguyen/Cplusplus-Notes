@@ -986,7 +986,7 @@ printf("The value is %d", value); // Will print out `The value is 3`
 Strings can be thought of as an array of characters. To declare a string literal, enclose the text you wish to convert into a string within a set of double quotations (").
 
 ```cpp
-char navy_seal_copy_pasta[] = "_'ll have you know I graduated top of my class in the Navy Seals_";
+char navy_seal_copy_pasta[] = "I'll have you know I graduated top of my class in the Navy Seals.";
 ```
 When declaring especially long strings, it is okay to separate them by only whitespace. This can be especially useful for separating strings into multiple lines.
 
@@ -1145,9 +1145,10 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY5Njk0OTg0LDIwODg2Njk0MjIsLTY0OT
-U3NTE2OCwtNjU3MzYwMzE0LC0yNjc1MjU1MzQsMTM2Njk5MzUw
-MCwxOTQxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsOD
-I2OTIyMjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3
-NTksMjYyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbLTEzNTAzNTUxNTMsNjY5Njk0OTg0LDIwOD
+g2Njk0MjIsLTY0OTU3NTE2OCwtNjU3MzYwMzE0LC0yNjc1MjU1
+MzQsMTM2Njk5MzUwMCwxOTQxMTg4NTI2LC05MDQ3NTg2MzIsLT
+EyNzM2Mjc1MDcsODI2OTIyMjE2LC0xODU3MjYwMTc2LDg5NzYx
+MjMsLTIwODIyNTQ3NTksMjYyODE3NTMwLDE5NTQ3ODA2NTBdfQ
+==
 -->
