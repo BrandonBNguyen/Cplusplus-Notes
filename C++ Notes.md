@@ -21,7 +21,7 @@ Notes and programs created while learning C++. These were notes were created fol
 	5. [Preprocessor and Directives](#preprocessor-and-directives)
 	6. [Header Files](#header-files)
 4. [Control Flow](#control-flow)
-	5. [Conditional Statements](#conditional-statements)
+	5. [If Statements](#if-statements)
 
 ## C++ Basics
 
@@ -870,9 +870,13 @@ Best practice for order of `#include` statements is first user-defined headers, 
 
 #### Header Guards
 
+## Control Flow
+
+### If Statements
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzY2NjkwMjEsLTE4NTcyNjAxNzYsOD
-k3NjEyMywtMjA4MjI1NDc1OSwyNjI4MTc1MzAsMTk1NDc4MDY1
-MF19
+eyJoaXN0b3J5IjpbODI2OTIyMjE2LC0xODU3MjYwMTc2LDg5Nz
+YxMjMsLTIwODIyNTQ3NTksMjYyODE3NTMwLDE5NTQ3ODA2NTBd
+fQ==
 -->
