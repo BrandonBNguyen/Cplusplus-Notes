@@ -891,7 +891,7 @@ Integer types are used to store whole numbers. There are four main integer types
 
 ### Floating-Point Types
 
-
+F
 
 ### Character Types
 
@@ -970,8 +970,8 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2Njk5MzUwMCwxOTQxMTg4NTI2LC05MD
-Q3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIyMjE2LC0xODU3MjYw
-MTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3NTMwLDE5NT
-Q3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbLTEzMTY3Mzc1MjQsMTM2Njk5MzUwMCwxOT
+QxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIy
+MjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMj
+YyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
 -->
