@@ -919,7 +919,7 @@ bool name_is_brandon = true;
 
 Common operators that are used to compare the values of different variables are listed below.
 
-| Operand | Operator |
+| Operation| Operator |
 |--|--|
 | Equality | `==` |
 | Inequality | `!=` |
@@ -929,12 +929,21 @@ Common operators that are used to compare the values of different variables are 
 | Less Than or Equal To| `<=` |
 
 ```cpp
-printf("69 >= 429 evaluates to: %d", 69 >= 420); \\ Evaluates to false
+printf("69 >= 429 evaluates to: %d", 69 >= 420); // Evaluates to false
 ```
 
 #### Logical Operators
 
-Common operators used to evaluate Boolean logic on `bool` types are 
+Common operators used to evaluate Boolean logic on `bool` types are listed below.
+
+| Operation | Operator |
+|--|--|
+| NOT | `!` |
+| AND | `&&` |
+| OR | `||` |
+| NOT | `!` |
+
+
 
 ### The `size_t` Type
 
@@ -1009,8 +1018,8 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzk2NDAzLDEzNjY5OTM1MDAsMTk0MT
-E4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjkyMjIx
-NiwtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2Mj
-gxNzUzMCwxOTU0NzgwNjUwXX0=
+eyJoaXN0b3J5IjpbLTc4NDY2MDc0NCwxMzY2OTkzNTAwLDE5ND
+ExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIy
+MTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNj
+I4MTc1MzAsMTk1NDc4MDY1MF19
 -->
