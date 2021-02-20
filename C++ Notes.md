@@ -911,6 +911,8 @@ Character types are used to store a single character. There are four types: `cha
 
 Booleans use the `bool` type and simply store `true` or `false`. They are usually the result of some sort of comparison expression. 
 
+```cpp
+bool name_is_brandon = true;
 ```
 
 #### Comparison Operators
@@ -925,6 +927,10 @@ Common operators that are used to compare the values of different variables are 
 | Less Than| `<` |
 | Greater Than or Equal To| `>=` |
 | Less Than or Equal To| `<=` |
+
+```cpp
+printf("69 >= 429 evaluates to: %d", 69 >= 420); \\ Evaluates to false
+```
 
 #### Logical Operators
 
@@ -1003,8 +1009,8 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzA5NjYxNzYsMTM2Njk5MzUwMCwxOT
-QxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIy
-MjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMj
-YyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbMTkxNzk2NDAzLDEzNjY5OTM1MDAsMTk0MT
+E4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjkyMjIx
+NiwtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2Mj
+gxNzUzMCwxOTU0NzgwNjUwXX0=
 -->
