@@ -962,7 +962,13 @@ Arrays are used to store multiple elements of the same type. They are initialize
 int my_numbers[100]; // Creates an array that can store 100 int values.
 ```
 
-Another way to initialize v
+Another way to initialize an array is by equating it to a  comma, separated list of values contained within a curly braces and neglecting the number inside the brackets.
+
+```cpp
+int my_numbers[] = {1, 3, 2, 5, 1};
+```
+
+A specific element in an array is accessed by its index (starting at 0). 
 
 ### Strings
 
@@ -1033,8 +1039,8 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDc1MDEwMiwxMzY2OTkzNTAwLDE5ND
-ExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIy
-MTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNj
-I4MTc1MzAsMTk1NDc4MDY1MF19
+eyJoaXN0b3J5IjpbMTAxOTQ0NTksMTM2Njk5MzUwMCwxOTQxMT
+g4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIyMjE2
+LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYyOD
+E3NTMwLDE5NTQ3ODA2NTBdfQ==
 -->
