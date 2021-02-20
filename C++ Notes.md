@@ -997,7 +997,7 @@ char expression[] = "Roses are red, "
      "up your nose.";
 ```
 
-### U
+### User-Defined Types
 
 ## Control Flow
 
@@ -1066,8 +1066,8 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4OTc1Nzc4LC0yNjc1MjU1MzQsMTM2Nj
-k5MzUwMCwxOTQxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1
-MDcsODI2OTIyMjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwOD
-IyNTQ3NTksMjYyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbLTI5NTU4NDYwNywtMjY3NTI1NTM0LDEzNj
+Y5OTM1MDAsMTk0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3
+NTA3LDgyNjkyMjIxNiwtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMD
+gyMjU0NzU5LDI2MjgxNzUzMCwxOTU0NzgwNjUwXX0=
 -->
