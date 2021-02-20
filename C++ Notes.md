@@ -874,9 +874,9 @@ Best practice for order of `#include` statements is first user-defined headers, 
 
 ### If Statements
 
-There are tw
+There are two general ways to write if statements depending on the number of statements to be executed for a given condition. If there is only one statement to be executed, the following format can be used. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDgwMDUyMTksODI2OTIyMjE2LC0xOD
-U3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3NTMw
-LDE5NTQ3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbMTc2MzA4OTgzOCw4MjY5MjIyMTYsLTE4NT
+cyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNjI4MTc1MzAs
+MTk1NDc4MDY1MF19
 -->
