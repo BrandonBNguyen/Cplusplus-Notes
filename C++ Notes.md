@@ -1045,10 +1045,10 @@ int main () {
 	School UCSD;
 	UCSD.name = "University of California, San Diego";
 	UCSD.country = "US";
-	UCSD.student_population = 35`821;
+	UCSD.student_population = 35,821;
 	UCSD.latitude = 32.8328;
 	UCSD.longitude = -117.2713;
-	UCSD.public_institution = ture;
+	UCSD.public_institution = true;
 }
 ```
 
@@ -1145,9 +1145,9 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTE5NDIwMjAsLTY0OTU3NTE2OCwtNj
-U3MzYwMzE0LC0yNjc1MjU1MzQsMTM2Njk5MzUwMCwxOTQxMTg4
-NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIyMjE2LC
-0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3
-NTMwLDE5NTQ3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NT
+czNjAzMTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDExODg1
+MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIyMTYsLT
+E4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNjI4MTc1
+MzAsMTk1NDc4MDY1MF19
 -->
