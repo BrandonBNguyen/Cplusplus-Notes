@@ -1124,6 +1124,8 @@ Incorrect Interpretation:¶
 
 Fully-featured classes, in addition to storing information in members, have *methods*, which are functions that can access, manipulate, and return information from members within the class. They are declared in the same way that ordinary functions outside of classes are. They already have access to members.
 
+Con
+
 ## Control Flow
 
 ### If Statements
@@ -1217,11 +1219,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTc1Mjk3NSwyMTAzMTY1Njk4LC0xMz
-gyMTIzMjU2LC01NjIwNTMxMjcsLTEzNTAzNTUxNTMsNjY5Njk0
-OTg0LDIwODg2Njk0MjIsLTY0OTU3NTE2OCwtNjU3MzYwMzE0LC
-0yNjc1MjU1MzQsMTM2Njk5MzUwMCwxOTQxMTg4NTI2LC05MDQ3
-NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIyMjE2LC0xODU3MjYwMT
-c2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3NTMwLDE5NTQ3
-ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbMzExNjUwNzI1LDEwODU3NTI5NzUsMjEwMz
+E2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUwMzU1
+MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1NzUxNjgsLT
+Y1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNjY5OTM1MDAsMTk0MTE4
+ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjkyMjIxNi
+wtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2Mjgx
+NzUzMF19
 -->
