@@ -921,11 +921,15 @@ A `for` loop can be used to iterate over every item in a list. The format for a 
 
 ```cpp
 for (init-statement, conditional, iteration-statement) {
-
+	statements;
 }
 ```
+
+The `init-statement` is a statement that is executed before the start of the loop. This is usually used to initialize the iterator variable (such as one used to access the elements in a list).
+
+The `conditional` is an expression that 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzg2NDMwMSw4MjY5MjIyMTYsLTE4NT
-cyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNjI4MTc1MzAs
-MTk1NDc4MDY1MF19
+eyJoaXN0b3J5IjpbLTE4NDI5Nzc4MzIsODI2OTIyMjE2LC0xOD
+U3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3NTMw
+LDE5NTQ3ODA2NTBdfQ==
 -->
