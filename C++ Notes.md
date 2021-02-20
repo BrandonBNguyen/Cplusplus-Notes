@@ -1060,7 +1060,11 @@ if (condition_1) {
 
 ### Switch Statements
 
+Switch statements are used to evaluate if a condition matches a specific case and executes code depending on the case. The format for a `switch` block is shown below.
 
+```cpp
+switch (conditoin) {
+```
 
 ### For Loops
 
@@ -1090,9 +1094,9 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMxMTgzMDUwLC02NTczNjAzMTQsLTI2Nz
-UyNTUzNCwxMzY2OTkzNTAwLDE5NDExODg1MjYsLTkwNDc1ODYz
-MiwtMTI3MzYyNzUwNyw4MjY5MjIyMTYsLTE4NTcyNjAxNzYsOD
-k3NjEyMywtMjA4MjI1NDc1OSwyNjI4MTc1MzAsMTk1NDc4MDY1
-MF19
+eyJoaXN0b3J5IjpbLTE2NTQ1NTgzNjEsLTY1NzM2MDMxNCwtMj
+Y3NTI1NTM0LDEzNjY5OTM1MDAsMTk0MTE4ODUyNiwtOTA0NzU4
+NjMyLC0xMjczNjI3NTA3LDgyNjkyMjIxNiwtMTg1NzI2MDE3Ni
+w4OTc2MTIzLC0yMDgyMjU0NzU5LDI2MjgxNzUzMCwxOTU0Nzgw
+NjUwXX0=
 -->
