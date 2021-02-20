@@ -1124,7 +1124,29 @@ Incorrect Interpretation:¶
 
 Fully-featured classes, in addition to storing information in members, have *methods*, which are functions that can access, manipulate, and return information from members within the class. They are declared in the same way that ordinary functions outside of classes are. They already have access to members.
 
-Con
+Consider the following example which models a jar in which you can put in and remove individual jelly beans.
+
+```cpp
+struct JellyBeanJar {
+	int jelly_beans = 0;
+
+	bool add_bean() {
+		if (jelly_beans < 0) return false;
+		jelly_beans += 1;
+		return true;
+	}
+
+	bool remove_bean() {
+		if (jelly_beans <= 0) return false;
+		jelly_beans -= 1;
+		return true;
+	}
+};
+```
+
+Running the following represents starting with an empty jar, checking the count, adding a bean, and checking the count.
+
+
 
 ## Control Flow
 
@@ -1219,7 +1241,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNjUwNzI1LDEwODU3NTI5NzUsMjEwMz
+eyJoaXN0b3J5IjpbNjIwOTA2MDQ0LDEwODU3NTI5NzUsMjEwMz
 E2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUwMzU1
 MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1NzUxNjgsLT
 Y1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNjY5OTM1MDAsMTk0MTE4
