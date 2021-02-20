@@ -1084,6 +1084,9 @@ union Grade {
 }
 ```
 
+```cpp
+```
+
 ## Control Flow
 
 ### If Statements
@@ -1177,10 +1180,10 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxMjgwODg1LC01NjIwNTMxMjcsLTEzNT
-AzNTUxNTMsNjY5Njk0OTg0LDIwODg2Njk0MjIsLTY0OTU3NTE2
-OCwtNjU3MzYwMzE0LC0yNjc1MjU1MzQsMTM2Njk5MzUwMCwxOT
-QxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIy
-MjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMj
-YyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbLTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMT
+M1MDM1NTE1Myw2Njk2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1
+MTY4LC02NTczNjAzMTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLD
+E5NDExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5
+MjIyMTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OS
+wyNjI4MTc1MzAsMTk1NDc4MDY1MF19
 -->
