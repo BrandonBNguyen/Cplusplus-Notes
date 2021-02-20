@@ -1088,7 +1088,7 @@ union Grade {
 
 To assign a variable of the specified union type, write out the type, followed by the identifier followed by a semicolon to declare it. To specify which format to store the information as, use the dot operator on the newly created variable followed by the member of the format that you want to save the information and assign it. The same can be done for accessing the information. 
 
-Note that it's possible to access a union type variable data using the wrong type, leading to unexpected output. For this reason, using this class type
+Note that it's possible to access a union type variable data using the wrong type, leading to unexpected output. For this reason, using this class type to store and access information is not recommended unless absolutely required.
 
 ```cpp
 int main() {
@@ -1119,6 +1119,10 @@ Letter Grade:  A
 
 Incorrect Interpretation:¶
 ```
+
+#### Fully-Featured Classes
+
+
 
 ## Control Flow
 
@@ -1213,10 +1217,10 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwNTM2MTM3LC0xMzgyMTIzMjU2LC01Nj
-IwNTMxMjcsLTEzNTAzNTUxNTMsNjY5Njk0OTg0LDIwODg2Njk0
-MjIsLTY0OTU3NTE2OCwtNjU3MzYwMzE0LC0yNjc1MjU1MzQsMT
-M2Njk5MzUwMCwxOTQxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2
-Mjc1MDcsODI2OTIyMjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLT
-IwODIyNTQ3NTksMjYyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbMjEwMzE2NTY5OCwtMTM4MjEyMzI1NiwtNT
+YyMDUzMTI3LC0xMzUwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5
+NDIyLC02NDk1NzUxNjgsLTY1NzM2MDMxNCwtMjY3NTI1NTM0LD
+EzNjY5OTM1MDAsMTk0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMjcz
+NjI3NTA3LDgyNjkyMjIxNiwtMTg1NzI2MDE3Niw4OTc2MTIzLC
+0yMDgyMjU0NzU5LDI2MjgxNzUzMCwxOTU0NzgwNjUwXX0=
 -->
