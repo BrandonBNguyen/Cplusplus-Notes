@@ -874,9 +874,9 @@ Best practice for order of `#include` statements is first user-defined headers, 
 
 ### If Statements
 
-
+There are tw
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2OTIyMjE2LC0xODU3MjYwMTc2LDg5Nz
-YxMjMsLTIwODIyNTQ3NTksMjYyODE3NTMwLDE5NTQ3ODA2NTBd
-fQ==
+eyJoaXN0b3J5IjpbLTE4MDgwMDUyMTksODI2OTIyMjE2LC0xOD
+U3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3NTMw
+LDE5NTQ3ODA2NTBdfQ==
 -->
