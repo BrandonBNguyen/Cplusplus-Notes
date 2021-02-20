@@ -22,8 +22,9 @@ Notes and programs created while learning C++. These were notes were created fol
 	6. [Header Files](#header-files)
 4. [Data Types](#data-types)
 5. [Control Flow](#control-flow)
-	5. [If Statements](#if-statements)
-	6. [For Loops](#for-loops)
+	1. [If Statements](#if-statements)
+	2. [Switch Statements](#switch-statements)
+	4. [For Loops](#for-loops)
 
 ## C++ Basics
 
@@ -1235,6 +1236,8 @@ class JellyBeanJar {
 
 Constructors are used to create an instance of a class with members specified from a set of inputs. This can be useful in employing logic to verify inputs and specify members based on those inputs.
 
+Constructors are specified within a class definition by the name of the 
+
 ## Control Flow
 
 ### If Statements
@@ -1328,11 +1331,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODI5NTMzMCwxNjc1MDMzMzA1LDEwOD
-U3NTI5NzUsMjEwMzE2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUz
-MTI3LC0xMzUwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC
-02NDk1NzUxNjgsLTY1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNjY5
-OTM1MDAsMTk0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NT
-A3LDgyNjkyMjIxNiwtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgy
-MjU0NzU5XX0=
+eyJoaXN0b3J5IjpbLTE5Mjg4NTA2NDIsMTY3NTAzMzMwNSwxMD
+g1NzUyOTc1LDIxMDMxNjU2OTgsLTEzODIxMjMyNTYsLTU2MjA1
+MzEyNywtMTM1MDM1NTE1Myw2Njk2OTQ5ODQsMjA4ODY2OTQyMi
+wtNjQ5NTc1MTY4LC02NTczNjAzMTQsLTI2NzUyNTUzNCwxMzY2
+OTkzNTAwLDE5NDExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNz
+UwNyw4MjY5MjIyMTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4
+MjI1NDc1OV19
 -->
