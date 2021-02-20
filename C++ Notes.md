@@ -999,7 +999,17 @@ char expression[] = "Roses are red, "
 
 ### Enumerations
 
-Enumerations are a type of user-defined type that you can set to a set of predefined values, which is great for modeling categorical concepts. It is declared by `enum class` followed by the name for the enumeration followed by curly brackets containing a comma, separated list of 
+Enumerations are a type of user-defined type that you can set to a set of predefined values, which is great for modeling categorical concepts. The categories for an enumeration are declared by `enum class` followed by the name for the enumeration followed by curly brackets containing a comma, separated list of categories that a variable of that type can be set to.
+
+```cpp
+enum class Languages {
+	English,
+	Spanish,
+	Vietnamese,
+	Cantonese,
+	Mandarin
+};
+```
 
 ## Control Flow
 
@@ -1070,9 +1080,9 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY2NTI2MTk3LC02NTczNjAzMTQsLTI2Nz
-UyNTUzNCwxMzY2OTkzNTAwLDE5NDExODg1MjYsLTkwNDc1ODYz
-MiwtMTI3MzYyNzUwNyw4MjY5MjIyMTYsLTE4NTcyNjAxNzYsOD
-k3NjEyMywtMjA4MjI1NDc1OSwyNjI4MTc1MzAsMTk1NDc4MDY1
-MF19
+eyJoaXN0b3J5IjpbLTE0OTIyNzk4ODEsLTY1NzM2MDMxNCwtMj
+Y3NTI1NTM0LDEzNjY5OTM1MDAsMTk0MTE4ODUyNiwtOTA0NzU4
+NjMyLC0xMjczNjI3NTA3LDgyNjkyMjIxNiwtMTg1NzI2MDE3Ni
+w4OTc2MTIzLC0yMDgyMjU0NzU5LDI2MjgxNzUzMCwxOTU0Nzgw
+NjUwXX0=
 -->
