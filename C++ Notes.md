@@ -999,7 +999,7 @@ char expression[] = "Roses are red, "
 
 ### Enumerations
 
-Enumerations are a type of user-defined type that you can set to a set of predefined values, which is c
+Enumerations are a type of user-defined type that you can set to a set of predefined values, which is great for modeling categorical concepts. It is declared by `enum class` followed by the name for the enumeration followed by curly brackets containing a comma, separated list of 
 
 ## Control Flow
 
@@ -1070,9 +1070,9 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjA3MDY5NCwtNjU3MzYwMzE0LC0yNj
-c1MjU1MzQsMTM2Njk5MzUwMCwxOTQxMTg4NTI2LC05MDQ3NTg2
-MzIsLTEyNzM2Mjc1MDcsODI2OTIyMjE2LC0xODU3MjYwMTc2LD
-g5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3NTMwLDE5NTQ3ODA2
-NTBdfQ==
+eyJoaXN0b3J5IjpbNTY2NTI2MTk3LC02NTczNjAzMTQsLTI2Nz
+UyNTUzNCwxMzY2OTkzNTAwLDE5NDExODg1MjYsLTkwNDc1ODYz
+MiwtMTI3MzYyNzUwNyw4MjY5MjIyMTYsLTE4NTcyNjAxNzYsOD
+k3NjEyMywtMjA4MjI1NDc1OSwyNjI4MTc1MzAsMTk1NDc4MDY1
+MF19
 -->
