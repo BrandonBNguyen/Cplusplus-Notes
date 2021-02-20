@@ -1203,7 +1203,7 @@ struct JellyBeanJar {
 };
 ```
 
-By default, members and methods in `struct` are public unless specified after `private:`. 
+By default, members and methods in `struct` are public unless specified after `private:`. Instead of using `struct`, you can also use `class`, which is identical in function except members and methods are private by default unless specified after `public:`.
 
 ## Control Flow
 
@@ -1298,11 +1298,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjE1NzUwOTgsMTA4NTc1Mjk3NSwyMT
-AzMTY1Njk4LC0xMzgyMTIzMjU2LC01NjIwNTMxMjcsLTEzNTAz
-NTUxNTMsNjY5Njk0OTg0LDIwODg2Njk0MjIsLTY0OTU3NTE2OC
-wtNjU3MzYwMzE0LC0yNjc1MjU1MzQsMTM2Njk5MzUwMCwxOTQx
-MTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIyMj
-E2LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYy
-ODE3NTMwXX0=
+eyJoaXN0b3J5IjpbMTg2Mjc4MzE0OSwxMDg1NzUyOTc1LDIxMD
+MxNjU2OTgsLTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1
+NTE1Myw2Njk2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC
+02NTczNjAzMTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDEx
+ODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIyMT
+YsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNjI4
+MTc1MzBdfQ==
 -->
