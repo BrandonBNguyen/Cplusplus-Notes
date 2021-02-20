@@ -907,6 +907,8 @@ Character types are used to store a single character. There are four types: `cha
  - `char16_t`: Used for 2-byte character sets such as UTF-16.
  - `char32_t`: Used for 4-byte character sets such as UTF-32.
 
+A character literal is declared by enclosing the specific character within a set of single quotations ('). 
+
 ### Boolean Types
 
 Booleans use the `bool` type and simply store `true` or `false`. They are usually the result of some sort of comparison expression. 
@@ -1046,8 +1048,8 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODA5MDIwNSwxMzY2OTkzNTAwLDE5ND
-ExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIy
-MTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNj
-I4MTc1MzAsMTk1NDc4MDY1MF19
+eyJoaXN0b3J5IjpbNjUwODMxMDk1LDEzNjY5OTM1MDAsMTk0MT
+E4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjkyMjIx
+NiwtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2Mj
+gxNzUzMCwxOTU0NzgwNjUwXX0=
 -->
