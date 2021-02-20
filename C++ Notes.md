@@ -1077,12 +1077,16 @@ Public:         1
 The *union* is a special type of class that can be used when a particular variable can be interpreted in several different types.  It is defined similar to POD's but using the keyword `union`.
 
 ```cpp
+#include <iostream>
+
 union Grade {
 	char letter_grade;
 	int score;
 	double percentage;
 }
 ```
+
+To assign a variable of the specified union type, write out the type, followed by the identifier followed by a semicolon to declare it. To s
 
 ```cpp
 ```
@@ -1180,10 +1184,10 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMT
-M1MDM1NTE1Myw2Njk2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1
-MTY4LC02NTczNjAzMTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLD
-E5NDExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5
-MjIyMTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OS
-wyNjI4MTc1MzAsMTk1NDc4MDY1MF19
+eyJoaXN0b3J5IjpbMjA5MTk4OTQ0MywtMTM4MjEyMzI1NiwtNT
+YyMDUzMTI3LC0xMzUwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5
+NDIyLC02NDk1NzUxNjgsLTY1NzM2MDMxNCwtMjY3NTI1NTM0LD
+EzNjY5OTM1MDAsMTk0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMjcz
+NjI3NTA3LDgyNjkyMjIxNiwtMTg1NzI2MDE3Niw4OTc2MTIzLC
+0yMDgyMjU0NzU5LDI2MjgxNzUzMCwxOTU0NzgwNjUwXX0=
 -->
