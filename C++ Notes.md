@@ -1028,12 +1028,15 @@ This can be especially useful when using if statements with an  equality operato
 *Plain-old-data classes* are a simple type of class that only stores data. They can store data of different types and can be used to represent something. They are defined by the keyword `struct` followed by the identifier for the class, followed by a set of curly braces initializing the *members*, which are the different elements of data stored by the class.
 
 ```cpp
+#include <string>
+#include <cstdio>
+
 struct School {
-	char name[256];
-	char country[2];
+	std::string name;
+	std::string country;
 	int student_population;
-	float latitude;
-	float longitude;
+	double latitude;
+	double longitude;
 	bool public_institution;
 }; // Note that the definition must be proceeded by a semicolon.
 ```
@@ -1041,14 +1044,18 @@ struct School {
 Members are accessed by using the dot operator (`.`).
 
 ```cpp
-int main () {
+int main() {
 	School UCSD;
 	UCSD.name = "University of California, San Diego";
 	UCSD.country = "US";
-	UCSD.student_population = 35,821;
+	UCSD.student_population = 35'821;
 	UCSD.latitude = 32.8328;
 	UCSD.longitude = -117.2713;
 	UCSD.public_institution = true;
+
+	
+
+	return 0;
 }
 ```
 
@@ -1145,10 +1152,10 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTAzNTUxNTMsNjY5Njk0OTg0LDIwOD
-g2Njk0MjIsLTY0OTU3NTE2OCwtNjU3MzYwMzE0LC0yNjc1MjU1
-MzQsMTM2Njk5MzUwMCwxOTQxMTg4NTI2LC05MDQ3NTg2MzIsLT
-EyNzM2Mjc1MDcsODI2OTIyMjE2LC0xODU3MjYwMTc2LDg5NzYx
-MjMsLTIwODIyNTQ3NTksMjYyODE3NTMwLDE5NTQ3ODA2NTBdfQ
-==
+eyJoaXN0b3J5IjpbLTU2MjA1MzEyNywtMTM1MDM1NTE1Myw2Nj
+k2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NTczNjAz
+MTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDExODg1MjYsLT
+kwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIyMTYsLTE4NTcy
+NjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNjI4MTc1MzAsMT
+k1NDc4MDY1MF19
 -->
