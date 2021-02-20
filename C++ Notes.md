@@ -1021,6 +1021,7 @@ This can be especially useful when using if statements with an  equality operato
 
 ### Classes
 
+####
 
 
 ## Control Flow
@@ -1116,9 +1117,9 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTU3NTE2OCwtNjU3MzYwMzE0LC0yNj
-c1MjU1MzQsMTM2Njk5MzUwMCwxOTQxMTg4NTI2LC05MDQ3NTg2
-MzIsLTEyNzM2Mjc1MDcsODI2OTIyMjE2LC0xODU3MjYwMTc2LD
-g5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3NTMwLDE5NTQ3ODA2
-NTBdfQ==
+eyJoaXN0b3J5IjpbLTE1OTgyODQ3ODIsLTY0OTU3NTE2OCwtNj
+U3MzYwMzE0LC0yNjc1MjU1MzQsMTM2Njk5MzUwMCwxOTQxMTg4
+NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIyMjE2LC
+0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3
+NTMwLDE5NTQ3ODA2NTBdfQ==
 -->
