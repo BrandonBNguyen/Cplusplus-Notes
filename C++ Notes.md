@@ -1025,8 +1025,14 @@ This can be especially useful when using if statements with an  equality operato
 
 #### Plain-Old-Data (POD) Classes
 
-*Plain-old-data classes* are a simple type of class that only stores data. They can store data of different types and can be used to represent something. They are 
+*Plain-old-data classes* are a simple type of class that only stores data. They can store data of different types and can be used to represent something. They are defined by the keyword `struct` followed by the identifier for the class, followed by a set of curly braces initializing the *members*, which are the different elements of data stored by the class.
 
+```cpp
+struct School {
+	char name[256];
+	int studen
+}
+```
 
 ## Control Flow
 
@@ -1121,7 +1127,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDE5NzMzODIsLTY0OTU3NTE2OCwtNj
+eyJoaXN0b3J5IjpbLTE0MzYxOTg4MzYsLTY0OTU3NTE2OCwtNj
 U3MzYwMzE0LC0yNjc1MjU1MzQsMTM2Njk5MzUwMCwxOTQxMTg4
 NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIyMjE2LC
 0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3
