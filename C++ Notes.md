@@ -1274,6 +1274,24 @@ struct JellyBeanJar {
 };
 ```
 
+```cpp
+int main() {
+	JellyBeanJar jar1;
+	JellyBeanJar jar2{ 4 };
+
+	std::cout << "Initial Jar Counts\n";
+	std::cout << "Jar1: " << jar1.count() << "\t" 
+			  << "Jar2: " << jar2.count() << "\n";
+	std::cout << "Add a bean to each.\n";
+	jar1.add_bean();
+	jar2.add_bean();
+	std::cout << "Jar1: " << jar1.count() << "\t"
+		      << "Jar2: " << jar2.count() << "\n";
+
+	return 0;
+}
+```
+
 ## Control Flow
 
 ### If Statements
@@ -1367,11 +1385,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTI2NjMyLC03OTg2ODYzNjksMTY3NT
-AzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2OTgsLTEzODIxMjMy
-NTYsLTU2MjA1MzEyNywtMTM1MDM1NTE1Myw2Njk2OTQ5ODQsMj
-A4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NTczNjAzMTQsLTI2NzUy
-NTUzNCwxMzY2OTkzNTAwLDE5NDExODg1MjYsLTkwNDc1ODYzMi
-wtMTI3MzYyNzUwNyw4MjY5MjIyMTYsLTE4NTcyNjAxNzYsODk3
-NjEyM119
+eyJoaXN0b3J5IjpbLTE0NTA5MTEyMjYsLTc0MTI2NjMyLC03OT
+g2ODYzNjksMTY3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2
+OTgsLTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1NTE1My
+w2Njk2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NTcz
+NjAzMTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDExODg1Mj
+YsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIyMTYsLTE4
+NTcyNjAxNzZdfQ==
 -->
