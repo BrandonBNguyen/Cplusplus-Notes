@@ -1177,6 +1177,28 @@ jar.jelly_beans = -3;
 
 Access control allows you to specify whether certain members or methods are accessible from outside the class. When using a `struct` to specify private members and methods, use `private:` and define members and methods after to  make those private.
 
+```cpp
+struct JellyBeanJar {
+	bool add_bean() {
+		if (jelly_beans < 0) return false;
+		jelly_beans += 1;
+		return true;
+	}
+
+	bool remove_bean() {
+		if (jelly_beans <= 0) return false;
+		jelly_beans -= 1;
+		return true;
+	}
+
+	int 
+	
+	private:
+		// The number of jelly beans is not directly accessible because it i
+		int jelly_beans
+};
+```
+
 ## Control Flow
 
 ### If Statements
@@ -1270,11 +1292,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5ODI2MDU1LDEwODU3NTI5NzUsMjEwMz
-E2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUwMzU1
-MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1NzUxNjgsLT
-Y1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNjY5OTM1MDAsMTk0MTE4
-ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjkyMjIxNi
-wtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2Mjgx
-NzUzMF19
+eyJoaXN0b3J5IjpbMTg0NjAyNTA3MSwxMDg1NzUyOTc1LDIxMD
+MxNjU2OTgsLTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1
+NTE1Myw2Njk2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC
+02NTczNjAzMTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDEx
+ODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIyMT
+YsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNjI4
+MTc1MzBdfQ==
 -->
