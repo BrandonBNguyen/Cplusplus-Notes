@@ -1233,7 +1233,7 @@ class JellyBeanJar {
 
 ##### Constructors
 
-Constructors are used to create an instance of a class with members specified from a set of inputs. This can be useful in employing logic to verify inputs and specify members based on 
+Constructors are used to create an instance of a class with members specified from a set of inputs. This can be useful in employing logic to verify inputs and specify members based on those inputs.
 
 ## Control Flow
 
@@ -1328,7 +1328,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDI5ODU3MCwxNjc1MDMzMzA1LDEwOD
+eyJoaXN0b3J5IjpbLTI3ODI5NTMzMCwxNjc1MDMzMzA1LDEwOD
 U3NTI5NzUsMjEwMzE2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUz
 MTI3LC0xMzUwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC
 02NDk1NzUxNjgsLTY1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNjY5
