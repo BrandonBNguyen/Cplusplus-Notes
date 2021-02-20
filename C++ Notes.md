@@ -901,7 +901,9 @@ double avogadros_number = 6.0221409e23;
 
 ### Character Types
 
-Character types are used to store a single character 
+Character types are used to store a single character. There are four types: `char`, `char16_t`, `char32_t`, and `wchar_t`. `char` can either be `signed` or `unsigned`. 
+
+ - `char`: The default type. Uses 1 byte and is used in ASCII
 
 ### Boolean Types
 
@@ -978,7 +980,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUwMzg3NjE0LDEzNjY5OTM1MDAsMTk0MT
+eyJoaXN0b3J5IjpbNzg2Njk2ODQ2LDEzNjY5OTM1MDAsMTk0MT
 E4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjkyMjIx
 NiwtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2Mj
 gxNzUzMCwxOTU0NzgwNjUwXX0=
