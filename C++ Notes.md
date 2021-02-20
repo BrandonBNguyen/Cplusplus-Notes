@@ -1086,9 +1086,27 @@ union Grade {
 }
 ```
 
-To assign a variable of the specified union type, write out the type, followed by the identifier followed by a semicolon to declare it. To s
+To assign a variable of the specified union type, write out the type, followed by the identifier followed by a semicolon to declare it. To specify which format to store the information as, use the dot operator on the newly created variable followed by the member of the format that you want to save the information and assign it. The same can be done for accessing the information.
 
 ```cpp
+int main() {
+	Grade my_letter_grade;
+	my_letter_grade.letter_grade = 'A';
+	Grade my_score;
+	my_score.score = 94;
+	Grade my_percentage;
+	my_percentage.percentage = 0.94;
+
+	std::cout << "Letter Grade:  " << my_letter_grade.letter_grade << "\n";
+	std::cout << "       Score:  " << my_score.score << "\n";
+	std::cout << "  Percentage:  " << my_percentage.percentage << "\n\n";
+
+	// This will inter
+	std::cout << "Incorrect Interpretation:" << my_percentage.letter_grade 
+	<< "\n";
+
+	return 0;
+}
 ```
 
 ## Control Flow
@@ -1184,10 +1202,10 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTk4OTQ0MywtMTM4MjEyMzI1NiwtNT
-YyMDUzMTI3LC0xMzUwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5
-NDIyLC02NDk1NzUxNjgsLTY1NzM2MDMxNCwtMjY3NTI1NTM0LD
-EzNjY5OTM1MDAsMTk0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMjcz
-NjI3NTA3LDgyNjkyMjIxNiwtMTg1NzI2MDE3Niw4OTc2MTIzLC
-0yMDgyMjU0NzU5LDI2MjgxNzUzMCwxOTU0NzgwNjUwXX0=
+eyJoaXN0b3J5IjpbODM3ODEzMjk0LC0xMzgyMTIzMjU2LC01Nj
+IwNTMxMjcsLTEzNTAzNTUxNTMsNjY5Njk0OTg0LDIwODg2Njk0
+MjIsLTY0OTU3NTE2OCwtNjU3MzYwMzE0LC0yNjc1MjU1MzQsMT
+M2Njk5MzUwMCwxOTQxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2
+Mjc1MDcsODI2OTIyMjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLT
+IwODIyNTQ3NTksMjYyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
 -->
