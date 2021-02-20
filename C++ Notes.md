@@ -917,9 +917,15 @@ if (condition_1) {
 
 ### For Loops
 
-A for loop can be used to 
+A `for` loop can be used to iterate over every item in a list. The format for a `for` loop is as follows.
+
+```cpp
+for (init-statement, conditional, iteration-statement) {
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjIyNzcyLDgyNjkyMjIxNiwtMTg1Nz
-I2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2MjgxNzUzMCwx
-OTU0NzgwNjUwXX0=
+eyJoaXN0b3J5IjpbMTMxNzg2NDMwMSw4MjY5MjIyMTYsLTE4NT
+cyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNjI4MTc1MzAs
+MTk1NDc4MDY1MF19
 -->
