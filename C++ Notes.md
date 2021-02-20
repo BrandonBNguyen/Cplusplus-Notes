@@ -909,7 +909,12 @@ Character types are used to store a single character. There are four types: `cha
 
 ### Boolean Types
 
+Booleans simply store `true` or `false` and are usually the result of some sort of comparison expression. 
 
+Common operators that are used to compare the values of different variables are listed below.
+
+ - Equality (`==`)
+ - Inequality (`!
 
 ### The `size_t` Type
 
@@ -984,7 +989,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTEyOTMxNiwxMzY2OTkzNTAwLDE5ND
+eyJoaXN0b3J5IjpbMjEyODY1ODIzOCwxMzY2OTkzNTAwLDE5ND
 ExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIy
 MTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNj
 I4MTc1MzAsMTk1NDc4MDY1MF19
