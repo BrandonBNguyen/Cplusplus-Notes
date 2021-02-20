@@ -20,8 +20,10 @@ Notes and programs created while learning C++. These were notes were created fol
 	4. [Naming Collisions and Namespaces](#naming-collisions-and-namespaces)
 	5. [Preprocessor and Directives](#preprocessor-and-directives)
 	6. [Header Files](#header-files)
-4. [Control Flow](#control-flow)
+4. [Data Types](#data-types)
+5. [Control Flow](#control-flow)
 	5. [If Statements](#if-statements)
+	6. [For Loops](#for-loops)
 
 ## C++ Basics
 
@@ -870,6 +872,10 @@ Best practice for order of `#include` statements is first user-defined headers, 
 
 #### Header Guards
 
+## Data Types
+
+
+
 ## Control Flow
 
 ### If Statements
@@ -908,8 +914,12 @@ if (condition_1) {
 	statement_3B;
 }
 ```
+
+### For Loops
+
+A for loop can be used to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDA4ODExMTgsODI2OTIyMjE2LC0xOD
-U3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3NTMw
-LDE5NTQ3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbMTg1NjIyNzcyLDgyNjkyMjIxNiwtMTg1Nz
+I2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2MjgxNzUzMCwx
+OTU0NzgwNjUwXX0=
 -->
