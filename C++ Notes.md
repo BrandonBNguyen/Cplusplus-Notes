@@ -880,11 +880,13 @@ Integer types are used to store whole numbers. There are four main integer types
 
 | Type | Range |
 |--|--|
+| `signed short` | -32,768 to 32,767 |
+| `unsigned short` | 0 to 65,535 |
 | `signed int` | -2,147,483,648 to 2,147,483,647 |
 | `unsigned int` | 0 to 4,294,967,295 |
 | `signed long` | -2,147,483,648 to 2,147,483,647 |
 | `unsigned long` | 0 to 4,294,967,295 |
-| `signed long long` | -2,147,483,648 to 2,147,483,647 |
+| `signed long long` | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
 | `unsigned long long` | 0 to 18,446,744,073,709,551,615 |
 
 
@@ -967,7 +969,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDE2MzYyNSwtOTA0NzU4NjMyLC0xMj
+eyJoaXN0b3J5IjpbMTk0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMj
 czNjI3NTA3LDgyNjkyMjIxNiwtMTg1NzI2MDE3Niw4OTc2MTIz
 LC0yMDgyMjU0NzU5LDI2MjgxNzUzMCwxOTU0NzgwNjUwXX0=
 -->
