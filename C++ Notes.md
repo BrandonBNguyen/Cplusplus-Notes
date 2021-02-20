@@ -925,13 +925,15 @@ for (init-statement, conditional, iteration-statement) {
 }
 ```
 
-The `init-statement` is a statement that is executed before the start of the loop. This is usually used to initialize the iterator variable (such as one used to access the elements in a list).
+The `init-statement` is a statement that is executed before the start of the loop. This is usually used to initialize the iterator variable (such as one used to access the elements in a list). Note: If accessing elements in an array, size_t should be the type of the iterator variable
 
 The `conditional` is an expression that evaluates before each iteration. If it evaluates to `true`, then the iteration is executed and the loop continues. Otherwise, the loop is terminated.
 
 The `iteration-statement` is executed at the end of each iteration and is typically used to increment the iterator variable.
+
+#### Range-Based For Loop
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTQyOTE4OSw4MjY5MjIyMTYsLTE4NT
-cyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNjI4MTc1MzAs
-MTk1NDc4MDY1MF19
+eyJoaXN0b3J5IjpbLTE3OTEwNjM0MzEsODI2OTIyMjE2LC0xOD
+U3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3NTMw
+LDE5NTQ3ODA2NTBdfQ==
 -->
