@@ -945,7 +945,7 @@ Common operators used to evaluate Boolean logic on `bool` types are listed below
 ```cpp
 bool i_am_lactose = true;
 bool food_has_lactose = true;
-bool i_can_eat_food = i_am_lactose 
+bool i_can_eat_food = food_has_lactose && !i_am_lactose;
 ```
 
 ### The `size_t` Type
@@ -1021,8 +1021,8 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTE2MzA0MywxMzY2OTkzNTAwLDE5ND
-ExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIy
-MTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNj
-I4MTc1MzAsMTk1NDc4MDY1MF19
+eyJoaXN0b3J5IjpbLTE5ODM3Mzk0ODIsMTM2Njk5MzUwMCwxOT
+QxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIy
+MjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMj
+YyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
 -->
