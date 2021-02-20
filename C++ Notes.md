@@ -1025,11 +1025,11 @@ This can be especially useful when using if statements with an  equality operato
 
 #### Plain-Old-Data (POD) Classes
 
-*Plain-old-data classes* are a simple type of class that only stores data. They can store data of different types and can be used to represent something. They are defined by the keyword `struct` followed by the identifier for the class, followed by a set of curly braces initializing the *members*, which are the different elements of data stored by the class.
+*Plain-old-data (POD) classes* are a simple type of class that only stores data. They can store data of different types and can be used to represent something. They are defined by the keyword `struct` followed by the identifier for the class, followed by a set of curly braces initializing the *members*, which are the different elements of data stored by the class.
 
 ```cpp
 #include <string>
-#include <cstdio>
+#include <iostream>
 
 struct School {
 	std::string name;
@@ -1053,11 +1053,26 @@ int main() {
 	UCSD.longitude = -117.2713;
 	UCSD.public_institution = true;
 
-	
+	std::cout << "Name: \t\t" << UCSD.name << "\n";
+	std::cout << "Country: \t" << UCSD.country << "\n";
+	std::cout << "Students: \t" << UCSD.student_population << "\n";
+	std::cout << "Coordinate: \t" << UCSD.latitude << ", " << UCSD.longitude 
+	<< "\n";
+	std::cout << "Public: \t" << UCSD.public_institution << "\n";
 
 	return 0;
 }
 ```
+
+```
+Name:           University of California, San Diego
+Country:        US
+Students:       35821
+Coordinate:     32.8328, -117.271
+Public:         1
+```
+
+
 
 ## Control Flow
 
@@ -1152,10 +1167,10 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MjA1MzEyNywtMTM1MDM1NTE1Myw2Nj
-k2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NTczNjAz
-MTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDExODg1MjYsLT
-kwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIyMTYsLTE4NTcy
-NjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNjI4MTc1MzAsMT
-k1NDc4MDY1MF19
+eyJoaXN0b3J5IjpbLTYyNzYyNDQ2MCwtNTYyMDUzMTI3LC0xMz
+UwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1NzUx
+NjgsLTY1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNjY5OTM1MDAsMT
+k0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjky
+MjIxNiwtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LD
+I2MjgxNzUzMCwxOTU0NzgwNjUwXX0=
 -->
