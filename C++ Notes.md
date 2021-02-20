@@ -952,15 +952,11 @@ printf("I can eat the food?: %d", i_can_eat_food); // Evaluates to false
 
 ### The `size_t` Type
 
-The `size_t` type is used to encode the size of objects. The maximum value it can represent is such that it's sufficient to represent the maximum size of all objects. It is commonly used as the type of the iterator variable when iterating through arrays.
-
-```cpp
-for (size_t , conditional, iteration-statement) {
-	statements;
-}
-```
+The `size_t` type is used to encode the size of objects. The maximum value it can represent is such that it's sufficient to represent the maximum size of all objects. It is commonly used as the type of the iterator variable when iterating through arrays.```
 
 ### Arrays
+
+Arrays are used to store multiple elements of the same type. THe
 
 ### Strings
 
@@ -1008,7 +1004,7 @@ if (condition_1) {
 A `for` loop can be used to iterate over every item in a list. The format for a `for` loop is as follows.
 
 ```cpp
-for (init-statement, conditional, iteration-statement) {
+for (init-statement; conditional; iteration-statement) {
 	statements;
 }
 ```
@@ -1031,8 +1027,8 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDExOTg4NzQsMTM2Njk5MzUwMCwxOT
-QxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIy
-MjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMj
-YyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
+eyJoaXN0b3J5IjpbMTE5MTE0ODA4OCwxMzY2OTkzNTAwLDE5ND
+ExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIy
+MTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNj
+I4MTc1MzAsMTk1NDc4MDY1MF19
 -->
