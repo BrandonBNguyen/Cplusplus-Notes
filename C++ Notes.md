@@ -876,7 +876,12 @@ Best practice for order of `#include` statements is first user-defined headers, 
 
 ### Integer Types
 
-Integer types are used to store whole numbers. There are four main integer types: `short`, `int`, `long` and `long long`. These each can either be `signed`, meaning positive integers, negative integers and zero can be stored, or `unsigned`, meaning only non-negative integers can be stored.
+Integer types are used to store whole numbers. There are four main integer types: `short`, `int`, `long` and `long long`. These each can either be `signed`, meaning positive integers, negative integers and zero can be stored, or `unsigned`, meaning only non-negative integers can be stored. The difference between these data types is the amount of memory required and the range of values they can store. The greater the range of values, the greater the memory required. The range of each type, `signed` and `unsigned` is listed in the table below.
+
+| Type | Range |
+|--|--|
+| `signed int` |  |
+
 
 ### Floating-Point Types
 
@@ -957,7 +962,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MjM1OTgzMSwtOTA0NzU4NjMyLC0xMj
+eyJoaXN0b3J5IjpbLTQ5NTEwODgwNiwtOTA0NzU4NjMyLC0xMj
 czNjI3NTA3LDgyNjkyMjIxNiwtMTg1NzI2MDE3Niw4OTc2MTIz
 LC0yMDgyMjU0NzU5LDI2MjgxNzUzMCwxOTU0NzgwNjUwXX0=
 -->
