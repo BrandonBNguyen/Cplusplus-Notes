@@ -1231,6 +1231,10 @@ class JellyBeanJar {
 };
 ```
 
+##### Constructors
+
+Constructors are used to 
+
 ## Control Flow
 
 ### If Statements
@@ -1324,11 +1328,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMD
-MxNjU2OTgsLTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1
-NTE1Myw2Njk2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC
-02NTczNjAzMTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDEx
-ODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIyMT
-YsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNjI4
-MTc1MzBdfQ==
+eyJoaXN0b3J5IjpbLTE5ODEzODc2NCwxNjc1MDMzMzA1LDEwOD
+U3NTI5NzUsMjEwMzE2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUz
+MTI3LC0xMzUwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC
+02NDk1NzUxNjgsLTY1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNjY5
+OTM1MDAsMTk0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NT
+A3LDgyNjkyMjIxNiwtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgy
+MjU0NzU5XX0=
 -->
