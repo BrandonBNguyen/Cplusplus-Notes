@@ -877,18 +877,26 @@ Best practice for order of `#include` statements is first user-defined headers, 
 There are two general ways to write if statements depending on the number of statements to be executed for a given condition. If there is only one statement to be executed, the following format can be used. 
 
 ```cpp
-if (#condition) #statement;
+if (condition) statement;
 ```
 
 If multiple statements are to be executed for a given condition, the statements to be executed are contained within a set of curly braces.
 
 ```cpp
-if (#condition) {
-	#statement_1
+if (condition) {
+	statement_1;
+	statement_2;
+	statement_3;
 }
 ```
+
+`else if` and `else` statements can be used to evaluate and execute code based on alternate conditions.
+
+```cpp
+if 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwMzM1NTg4LDgyNjkyMjIxNiwtMTg1Nz
-I2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2MjgxNzUzMCwx
-OTU0NzgwNjUwXX0=
+eyJoaXN0b3J5IjpbLTE1ODEwNjY3MjEsODI2OTIyMjE2LC0xOD
+U3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3NTMw
+LDE5NTQ3ODA2NTBdfQ==
 -->
