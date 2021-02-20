@@ -1035,7 +1035,7 @@ struct School {
 	float latitude;
 	float longitude;
 	bool public_institution;
-}
+}; // Note that the definition must be proceeded by a semicolon.
 ```
 
 Members are accessed by using the dot operator (`.`).
@@ -1145,9 +1145,9 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NT
-czNjAzMTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDExODg1
-MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIyMTYsLT
-E4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNjI4MTc1
-MzAsMTk1NDc4MDY1MF19
+eyJoaXN0b3J5IjpbNjY5Njk0OTg0LDIwODg2Njk0MjIsLTY0OT
+U3NTE2OCwtNjU3MzYwMzE0LC0yNjc1MjU1MzQsMTM2Njk5MzUw
+MCwxOTQxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsOD
+I2OTIyMjE2LC0xODU3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3
+NTksMjYyODE3NTMwLDE5NTQ3ODA2NTBdfQ==
 -->
