@@ -1292,6 +1292,13 @@ int main() {
 }
 ```
 
+```
+Initial Jar Counts
+Jar1: 0 Jar2: 4
+Add a bean to each.
+Jar1: 1 Jar2: 5
+```
+
 ## Control Flow
 
 ### If Statements
@@ -1385,11 +1392,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTA5MTEyMjYsLTc0MTI2NjMyLC03OT
-g2ODYzNjksMTY3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2
-OTgsLTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1NTE1My
-w2Njk2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NTcz
-NjAzMTQsLTI2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDExODg1Mj
-YsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIyMTYsLTE4
-NTcyNjAxNzZdfQ==
+eyJoaXN0b3J5IjpbOTEzMzA3NzE3LC03NDEyNjYzMiwtNzk4Nj
+g2MzY5LDE2NzUwMzMzMDUsMTA4NTc1Mjk3NSwyMTAzMTY1Njk4
+LC0xMzgyMTIzMjU2LC01NjIwNTMxMjcsLTEzNTAzNTUxNTMsNj
+Y5Njk0OTg0LDIwODg2Njk0MjIsLTY0OTU3NTE2OCwtNjU3MzYw
+MzE0LC0yNjc1MjU1MzQsMTM2Njk5MzUwMCwxOTQxMTg4NTI2LC
+05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIyMjE2LC0xODU3
+MjYwMTc2XX0=
 -->
