@@ -893,10 +893,23 @@ if (condition) {
 `else if` and `else` statements can be used to evaluate and execute code based on alternate conditions.
 
 ```cpp
-if 
+if (condition_1) statement_1;
+else if (condition_2) statement_2;
+else statement_3;
+
+if (condition_1) {
+	statement_1A;
+	statement_1B;
+} else if (condition_2) {
+	statement_2A;
+	statement_2B;
+} else {
+	statement_3A;
+	statement_3B;
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODEwNjY3MjEsODI2OTIyMjE2LC0xOD
+eyJoaXN0b3J5IjpbLTEyMDA4ODExMTgsODI2OTIyMjE2LC0xOD
 U3MjYwMTc2LDg5NzYxMjMsLTIwODIyNTQ3NTksMjYyODE3NTMw
 LDE5NTQ3ODA2NTBdfQ==
 -->
