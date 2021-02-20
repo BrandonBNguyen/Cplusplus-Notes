@@ -909,6 +909,10 @@ Character types are used to store a single character. There are four types: `cha
 
 A character literal is declared by enclosing the specific character within a set of single quotations ('). 
 
+```cpp
+char favorite_letter = 'e';
+```
+
 ### Boolean Types
 
 Booleans use the `bool` type and simply store `true` or `false`. They are usually the result of some sort of comparison expression. 
@@ -954,7 +958,7 @@ printf("I can eat the food?: %d", i_can_eat_food); // Evaluates to false
 
 ### The `size_t` Type
 
-The `size_t` type is used to encode the size of objects. The maximum value it can represent is such that it's sufficient to represent the maximum size of all objects. It is commonly used as the type of the iterator variable when iterating through arrays.```
+The `size_t` type is used to encode the size of objects. The maximum value it can represent is such that it's sufficient to represent the maximum size of all objects. It is commonly used as the type of the iterator variable when iterating through arrays.
 
 ### Arrays
 
@@ -979,7 +983,11 @@ printf("The value is %d", value); // Will print out `The value is 3`
 
 ### Strings
 
+Strings can be thought of as an array of characters. To declare a string literal, enclose the text you wish to convert into a string within a set of double quotations (").
 
+```cpp
+navy_seal
+```
 
 ## Control Flow
 
@@ -1048,8 +1056,8 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwODMxMDk1LDEzNjY5OTM1MDAsMTk0MT
-E4ODUyNiwtOTA0NzU4NjMyLC0xMjczNjI3NTA3LDgyNjkyMjIx
-NiwtMTg1NzI2MDE3Niw4OTc2MTIzLC0yMDgyMjU0NzU5LDI2Mj
-gxNzUzMCwxOTU0NzgwNjUwXX0=
+eyJoaXN0b3J5IjpbMTEzMzg4ODQwNCwxMzY2OTkzNTAwLDE5ND
+ExODg1MjYsLTkwNDc1ODYzMiwtMTI3MzYyNzUwNyw4MjY5MjIy
+MTYsLTE4NTcyNjAxNzYsODk3NjEyMywtMjA4MjI1NDc1OSwyNj
+I4MTc1MzAsMTk1NDc4MDY1MF19
 -->
