@@ -1074,7 +1074,15 @@ Public:         1
 
 #### Unions
 
-The *union* is a special type of class that can be used when a particular variable can be interpreted in several different types.  It is defined similar to POD's but using the keyword `
+The *union* is a special type of class that can be used when a particular variable can be interpreted in several different types.  It is defined similar to POD's but using the keyword `union`.
+
+```cpp
+union Grade {
+	char letter_grade;
+	int score;
+	double percentage;
+}
+```
 
 ## Control Flow
 
@@ -1169,7 +1177,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwNDMyODQyLC01NjIwNTMxMjcsLTEzNT
+eyJoaXN0b3J5IjpbOTQxMjgwODg1LC01NjIwNTMxMjcsLTEzNT
 AzNTUxNTMsNjY5Njk0OTg0LDIwODg2Njk0MjIsLTY0OTU3NTE2
 OCwtNjU3MzYwMzE0LC0yNjc1MjU1MzQsMTM2Njk5MzUwMCwxOT
 QxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2Mjc1MDcsODI2OTIy
