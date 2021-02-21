@@ -1452,11 +1452,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMjQyNTE4MSwxOTI2NjI2Mzc4LC03OT
-QwNzI5NjQsOTEzMzA3NzE3LC03NDEyNjYzMiwtNzk4Njg2MzY5
-LDE2NzUwMzMzMDUsMTA4NTc1Mjk3NSwyMTAzMTY1Njk4LC0xMz
-gyMTIzMjU2LC01NjIwNTMxMjcsLTEzNTAzNTUxNTMsNjY5Njk0
-OTg0LDIwODg2Njk0MjIsLTY0OTU3NTE2OCwtNjU3MzYwMzE0LC
-0yNjc1MjU1MzQsMTM2Njk5MzUwMCwxOTQxMTg4NTI2LC05MDQ3
-NTg2MzJdfQ==
+eyJoaXN0b3J5IjpbODg5MzM1ODYzLC01MDI0MjUxODEsMTkyNj
+YyNjM3OCwtNzk0MDcyOTY0LDkxMzMwNzcxNywtNzQxMjY2MzIs
+LTc5ODY4NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5NzUsMjEwMz
+E2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUwMzU1
+MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1NzUxNjgsLT
+Y1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNjY5OTM1MDAsMTk0MTE4
+ODUyNl19
 -->
