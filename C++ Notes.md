@@ -1088,7 +1088,7 @@ int main {
 	Restaurant placeA{}; // All fields will be zeroed
 	Restaurant placeB{ "McDonalds", 9203, 4.67 }; // All fields defined
 	Restaurant placeB{ "ChickFilA", 651 }; // Name and number of reviews defined
-	
+	                                       // but average rating is zeroed.
 	
 	return 0;
 }
@@ -1413,11 +1413,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyMDMxODUyLC03OTQwNzI5NjQsOTEzMz
-A3NzE3LC03NDEyNjYzMiwtNzk4Njg2MzY5LDE2NzUwMzMzMDUs
-MTA4NTc1Mjk3NSwyMTAzMTY1Njk4LC0xMzgyMTIzMjU2LC01Nj
-IwNTMxMjcsLTEzNTAzNTUxNTMsNjY5Njk0OTg0LDIwODg2Njk0
-MjIsLTY0OTU3NTE2OCwtNjU3MzYwMzE0LC0yNjc1MjU1MzQsMT
-M2Njk5MzUwMCwxOTQxMTg4NTI2LC05MDQ3NTg2MzIsLTEyNzM2
-Mjc1MDddfQ==
+eyJoaXN0b3J5IjpbMTkyNjYyNjM3OCwtNzk0MDcyOTY0LDkxMz
+MwNzcxNywtNzQxMjY2MzIsLTc5ODY4NjM2OSwxNjc1MDMzMzA1
+LDEwODU3NTI5NzUsMjEwMzE2NTY5OCwtMTM4MjEyMzI1NiwtNT
+YyMDUzMTI3LC0xMzUwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5
+NDIyLC02NDk1NzUxNjgsLTY1NzM2MDMxNCwtMjY3NTI1NTM0LD
+EzNjY5OTM1MDAsMTk0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMjcz
+NjI3NTA3XX0=
 -->
