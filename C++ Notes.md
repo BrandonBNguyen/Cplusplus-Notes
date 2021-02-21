@@ -1075,7 +1075,7 @@ Public:         1
 
 ##### Braced Initialization
 
-A POD can be initialized using braces containing the data to be stored in its members. If it's left empty, 
+A POD can be initialized using braces containing the data to be stored in its members. If there is nothing between the braces, all members will be initialized to 0. If there are, it will be assigned to the members in the order in which they are defined within the POD. A
 
 #### Unions
 
@@ -1396,11 +1396,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTgxMTU4MSwtNzk0MDcyOTY0LDkxMz
-MwNzcxNywtNzQxMjY2MzIsLTc5ODY4NjM2OSwxNjc1MDMzMzA1
-LDEwODU3NTI5NzUsMjEwMzE2NTY5OCwtMTM4MjEyMzI1NiwtNT
-YyMDUzMTI3LC0xMzUwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5
-NDIyLC02NDk1NzUxNjgsLTY1NzM2MDMxNCwtMjY3NTI1NTM0LD
-EzNjY5OTM1MDAsMTk0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMjcz
-NjI3NTA3XX0=
+eyJoaXN0b3J5IjpbLTE3MTQ3MzQyMTcsLTc5NDA3Mjk2NCw5MT
+MzMDc3MTcsLTc0MTI2NjMyLC03OTg2ODYzNjksMTY3NTAzMzMw
+NSwxMDg1NzUyOTc1LDIxMDMxNjU2OTgsLTEzODIxMjMyNTYsLT
+U2MjA1MzEyNywtMTM1MDM1NTE1Myw2Njk2OTQ5ODQsMjA4ODY2
+OTQyMiwtNjQ5NTc1MTY4LC02NTczNjAzMTQsLTI2NzUyNTUzNC
+wxMzY2OTkzNTAwLDE5NDExODg1MjYsLTkwNDc1ODYzMiwtMTI3
+MzYyNzUwN119
 -->
