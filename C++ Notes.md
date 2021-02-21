@@ -1333,6 +1333,20 @@ Jar1: 1 Jar2: 5
 
 Destructors are functions that execute before the instance is destroyed. To define a destructor, specify a function in the class with the same name as the class except with a tilde (`~`) before and with a set of empty parentheses (no arguments).
 
+```cpp
+struct SomeClass {
+	--snip--
+
+	~SomeClass() {
+		// Statements to be executed before the destruction of an instance of
+		// this class.
+		statements;
+	}
+
+	--snip--
+};
+```
+
 ## Control Flow
 
 ### If Statements
@@ -1426,7 +1440,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjMyNTY1OCwxOTI2NjI2Mzc4LC03OT
+eyJoaXN0b3J5IjpbLTc5MTA3OTY0NCwxOTI2NjI2Mzc4LC03OT
 QwNzI5NjQsOTEzMzA3NzE3LC03NDEyNjYzMiwtNzk4Njg2MzY5
 LDE2NzUwMzMzMDUsMTA4NTc1Mjk3NSwyMTAzMTY1Njk4LC0xMz
 gyMTIzMjU2LC01NjIwNTMxMjcsLTEzNTAzNTUxNTMsNjY5Njk0
