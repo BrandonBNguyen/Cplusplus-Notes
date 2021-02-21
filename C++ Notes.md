@@ -963,7 +963,7 @@ The `size_t` type is used to encode the size of objects. The maximum value it ca
 
 ### Arrays
 
-Arrays are used to store multiple elements of the same type. They are initialized in the same way you declare an ordinary variable of some type except following the identifier are brackets containing the number of elements in the array.
+Arrays are used to store multiple elements of the same type. They are initialized in the same way you declare an ordinary variable of some type except following the identifier are brackets containing the number of elements in the array. **Note that in doing it this way, each element in the array is uninitialized.**
 
 ```cpp
 int my_numbers[100]; // Creates an array that can store 100 int values.
@@ -1329,6 +1329,10 @@ Add a bean to each.
 Jar1: 1 Jar2: 5
 ```
 
+##### Destructors
+
+
+
 ## Control Flow
 
 ### If Statements
@@ -1422,7 +1426,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODE5OTA1OSwxOTI2NjI2Mzc4LC03OT
+eyJoaXN0b3J5IjpbLTE2MTY2NDc2MCwxOTI2NjI2Mzc4LC03OT
 QwNzI5NjQsOTEzMzA3NzE3LC03NDEyNjYzMiwtNzk4Njg2MzY5
 LDE2NzUwMzMzMDUsMTA4NTc1Mjk3NSwyMTAzMTY1Njk4LC0xMz
 gyMTIzMjU2LC01NjIwNTMxMjcsLTEzNTAzNTUxNTMsNjY5Njk0
