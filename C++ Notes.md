@@ -1078,11 +1078,17 @@ Public:         1
 A POD can be initialized using braces containing the data to be stored in its members. If there is nothing between the braces, all members will be initialized to 0. If there are, it will be assigned to the members in the order in which they are defined within the POD. Any members with unassigned values will be zeroed.
 
 ```cpp
-struct Restauraunt{
+struct Restaurant{
 	std::string restauraunt_name;
 	int number_of_reviews
 	double average_rating; 
 };
+
+int main {
+	Restaurant placeA{};
+	
+	return 0;
+}
 ```
 
 #### Unions
@@ -1404,7 +1410,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTY0NTU5OSwtNzk0MDcyOTY0LDkxMz
+eyJoaXN0b3J5IjpbMTg4MjEwNDE3NSwtNzk0MDcyOTY0LDkxMz
 MwNzcxNywtNzQxMjY2MzIsLTc5ODY4NjM2OSwxNjc1MDMzMzA1
 LDEwODU3NTI5NzUsMjEwMzE2NTY5OCwtMTM4MjEyMzI1NiwtNT
 YyMDUzMTI3LC0xMzUwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5
