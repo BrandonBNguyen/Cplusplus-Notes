@@ -25,7 +25,13 @@ Notes and programs created while learning C++. These were notes were created fol
 	2. [Floating-Point Types](#floating-point-types)
 	3. [Character Types](#character-types)
 	4. [Boolean Types](#boolean-types)
-	5. [S
+	5. [The `size_t` type](#the-size-t-type)
+	6. [Arrays](#arrays)
+	7. [Strings](#strings)
+	8. [Enumerations](#enumerations)
+	9. [Classes](#classes)
+		10. [Plain-Old-Data (POD) Classes](#plain-old-data-pod-classes)
+		11. [Unions](
 5. [Control Flow](#control-flow)
 	1. [If Statements](#if-statements)
 	2. [Switch Statements](#switch-statements)
@@ -1445,11 +1451,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzOTA0ODczLDE5MjY2MjYzNzgsLTc5ND
-A3Mjk2NCw5MTMzMDc3MTcsLTc0MTI2NjMyLC03OTg2ODYzNjks
-MTY3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2OTgsLTEzOD
-IxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1NTE1Myw2Njk2OTQ5
-ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NTczNjAzMTQsLT
-I2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDExODg1MjYsLTkwNDc1
-ODYzMl19
+eyJoaXN0b3J5IjpbLTgxNTQ4OTgwMywxOTI2NjI2Mzc4LC03OT
+QwNzI5NjQsOTEzMzA3NzE3LC03NDEyNjYzMiwtNzk4Njg2MzY5
+LDE2NzUwMzMzMDUsMTA4NTc1Mjk3NSwyMTAzMTY1Njk4LC0xMz
+gyMTIzMjU2LC01NjIwNTMxMjcsLTEzNTAzNTUxNTMsNjY5Njk0
+OTg0LDIwODg2Njk0MjIsLTY0OTU3NTE2OCwtNjU3MzYwMzE0LC
+0yNjc1MjU1MzQsMTM2Njk5MzUwMCwxOTQxMTg4NTI2LC05MDQ3
+NTg2MzJdfQ==
 -->
