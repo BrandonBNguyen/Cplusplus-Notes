@@ -982,6 +982,8 @@ int value = my_numbers[1]; // Retrieves the second value of my_numbers
 printf("The value is %d", value); // Will print out `The value is 3`
 ```
 
+Using brace initialization, you can create an array and initialize all its elements to 0. To do this, declare an array wi
+
 ### Strings
 
 Strings can be thought of as an array of characters. To declare a string literal, enclose the text you wish to convert into a string within a set of double quotations (").
@@ -1413,11 +1415,11 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjYyNjM3OCwtNzk0MDcyOTY0LDkxMz
-MwNzcxNywtNzQxMjY2MzIsLTc5ODY4NjM2OSwxNjc1MDMzMzA1
-LDEwODU3NTI5NzUsMjEwMzE2NTY5OCwtMTM4MjEyMzI1NiwtNT
-YyMDUzMTI3LC0xMzUwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5
-NDIyLC02NDk1NzUxNjgsLTY1NzM2MDMxNCwtMjY3NTI1NTM0LD
-EzNjY5OTM1MDAsMTk0MTE4ODUyNiwtOTA0NzU4NjMyLC0xMjcz
-NjI3NTA3XX0=
+eyJoaXN0b3J5IjpbMjY0Mzg0MzkwLDE5MjY2MjYzNzgsLTc5ND
+A3Mjk2NCw5MTMzMDc3MTcsLTc0MTI2NjMyLC03OTg2ODYzNjks
+MTY3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2OTgsLTEzOD
+IxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1NTE1Myw2Njk2OTQ5
+ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NTczNjAzMTQsLT
+I2NzUyNTUzNCwxMzY2OTkzNTAwLDE5NDExODg1MjYsLTkwNDc1
+ODYzMl19
 -->
