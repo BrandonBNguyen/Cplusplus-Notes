@@ -982,7 +982,11 @@ int value = my_numbers[1]; // Retrieves the second value of my_numbers
 printf("The value is %d", value); // Will print out `The value is 3`
 ```
 
-Using brace initialization, you can create an array and initialize all its elements to 0. To do this, declare an array wi
+Using brace initialization, you can create an array and initialize all its elements to 0. To do this, declare an array with the number of elements within the brackets and follow it with a set of empty braces. If you use a set of braces containing values, it'll initialize the first few elements of the array to those and all remaining, undefined elements in the array to 0.
+
+```cpp
+int numbers1[100]{} =
+```
 
 ### Strings
 
@@ -1415,7 +1419,7 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0Mzg0MzkwLDE5MjY2MjYzNzgsLTc5ND
+eyJoaXN0b3J5IjpbLTk1MDIyOTMzLDE5MjY2MjYzNzgsLTc5ND
 A3Mjk2NCw5MTMzMDc3MTcsLTc0MTI2NjMyLC03OTg2ODYzNjks
 MTY3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2OTgsLTEzOD
 IxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1NTE1Myw2Njk2OTQ5
