@@ -1459,9 +1459,14 @@ It operates in a similar manner to for loops in Python where the loop will itera
 
 **Pointers** are variables that store the memory address of other variables. 
 
-Pointers are declared by appending an asterisk (`*`) to a data type following with the identifier for the pointer. The pointer sho
+Pointers are declared by appending an asterisk (`*`) to a data type following with the identifier for the pointer. The pointer should point to the memory address storing a variable of the specified data type.
+
+```cpp
+int* here_is_my_number; // we expect here_is_my_number to point to a memory
+                        // address containing an int variable.
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDAzMTMxOCwtMzQ2NDAyNTI5LDg4OT
+eyJoaXN0b3J5IjpbMTQ4Nzg1MTU2OSwtMzQ2NDAyNTI5LDg4OT
 MzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3Mjk2
 NCw5MTMzMDc3MTcsLTc0MTI2NjMyLC03OTg2ODYzNjksMTY3NT
 AzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2OTgsLTEzODIxMjMy
