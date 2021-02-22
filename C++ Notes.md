@@ -1466,13 +1466,17 @@ int* here_is_my_number; // we expect here_is_my_number to point to a memory
                         // address containing an int variable.
 ```
 
-To get a variable's memory address location to store in a pointer, prepend the variable identifier with the *address-of-operator* (`
+To get a variable's memory address location to store in a pointer, prepend the variable identifier with the *address-of-operator* (`&`).
+
+```cpp
+int my_house{ 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyODU2ODA0LC0zNDY0MDI1MjksODg5Mz
-M1ODYzLC01MDI0MjUxODEsMTkyNjYyNjM3OCwtNzk0MDcyOTY0
-LDkxMzMwNzcxNywtNzQxMjY2MzIsLTc5ODY4NjM2OSwxNjc1MD
-MzMzA1LDEwODU3NTI5NzUsMjEwMzE2NTY5OCwtMTM4MjEyMzI1
-NiwtNTYyMDUzMTI3LC0xMzUwMzU1MTUzLDY2OTY5NDk4NCwyMD
-g4NjY5NDIyLC02NDk1NzUxNjgsLTY1NzM2MDMxNCwtMjY3NTI1
-NTM0XX0=
+eyJoaXN0b3J5IjpbMjAwMjY3NDU4OSwtMzQ2NDAyNTI5LDg4OT
+MzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3Mjk2
+NCw5MTMzMDc3MTcsLTc0MTI2NjMyLC03OTg2ODYzNjksMTY3NT
+AzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2OTgsLTEzODIxMjMy
+NTYsLTU2MjA1MzEyNywtMTM1MDM1NTE1Myw2Njk2OTQ5ODQsMj
+A4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NTczNjAzMTQsLTI2NzUy
+NTUzNF19
 -->
