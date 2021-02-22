@@ -1512,16 +1512,18 @@ int main()
 {
 	JellyBeanJar my_jar;
 	JellyBeanJar* my_jars_location = &my_jar;
+	// my_jar's functions are accessible directly through its pointer using the
+	// member-of-operator (->).
 	my_jars_location->add_bean();
     std::cout << "My jar has " << my_jars_location->count() << " beans!";
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDA1ODkxNSwtNDM1OTE0MjE1LDIwMD
-I2NzQ1ODksLTM0NjQwMjUyOSw4ODkzMzU4NjMsLTUwMjQyNTE4
-MSwxOTI2NjI2Mzc4LC03OTQwNzI5NjQsOTEzMzA3NzE3LC03ND
-EyNjYzMiwtNzk4Njg2MzY5LDE2NzUwMzMzMDUsMTA4NTc1Mjk3
-NSwyMTAzMTY1Njk4LC0xMzgyMTIzMjU2LC01NjIwNTMxMjcsLT
-EzNTAzNTUxNTMsNjY5Njk0OTg0LDIwODg2Njk0MjIsLTY0OTU3
-NTE2OF19
+eyJoaXN0b3J5IjpbLTE3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMD
+AyNjc0NTg5LC0zNDY0MDI1MjksODg5MzM1ODYzLC01MDI0MjUx
+ODEsMTkyNjYyNjM3OCwtNzk0MDcyOTY0LDkxMzMwNzcxNywtNz
+QxMjY2MzIsLTc5ODY4NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5
+NzUsMjEwMzE2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC
+0xMzUwMzU1MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1
+NzUxNjhdfQ==
 -->
