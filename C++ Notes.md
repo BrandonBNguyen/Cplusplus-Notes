@@ -1478,12 +1478,16 @@ std::string* my_address = &my_house; // Pointer to the variable, my_house.
 #### Dereferencing Operator
 
 To access a variable from its pointer, prepend a pointer with a *dereferencing operator* (`*`).
+
+```
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njc0MTY3MjcsMjAwMjY3NDU4OSwtMz
-Q2NDAyNTI5LDg4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYz
-NzgsLTc5NDA3Mjk2NCw5MTMzMDc3MTcsLTc0MTI2NjMyLC03OT
-g2ODYzNjksMTY3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2
-OTgsLTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1NTE1My
-w2Njk2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NTcz
-NjAzMTRdfQ==
+eyJoaXN0b3J5IjpbMjg2NTQwNzEzLDIwMDI2NzQ1ODksLTM0Nj
+QwMjUyOSw4ODkzMzU4NjMsLTUwMjQyNTE4MSwxOTI2NjI2Mzc4
+LC03OTQwNzI5NjQsOTEzMzA3NzE3LC03NDEyNjYzMiwtNzk4Nj
+g2MzY5LDE2NzUwMzMzMDUsMTA4NTc1Mjk3NSwyMTAzMTY1Njk4
+LC0xMzgyMTIzMjU2LC01NjIwNTMxMjcsLTEzNTAzNTUxNTMsNj
+Y5Njk0OTg0LDIwODg2Njk0MjIsLTY0OTU3NTE2OCwtNjU3MzYw
+MzE0XX0=
 -->
