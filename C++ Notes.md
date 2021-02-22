@@ -1470,10 +1470,12 @@ To get a variable's memory address location to store in a pointer, prepend the v
 
 ```cpp
 std::string my_house{ "Welcome to my humble abode" };
-std::string* my_address = my_hous
+std::string* my_address = &my_house; // Pointer to the variable, my_house.
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjg5NTE0NywyMDAyNjc0NTg5LC0zND
+eyJoaXN0b3J5IjpbMTk5NDEzNzQ4MSwyMDAyNjc0NTg5LC0zND
 Y0MDI1MjksODg5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYyNjM3
 OCwtNzk0MDcyOTY0LDkxMzMwNzcxNywtNzQxMjY2MzIsLTc5OD
 Y4NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5NzUsMjEwMzE2NTY5
