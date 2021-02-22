@@ -1479,15 +1479,29 @@ std::string* my_address = &my_house; // Pointer to the variable, my_house.
 
 To access a variable from its pointer, prepend a pointer with a *dereferencing operator* (`*`).
 
-```
+```cpp
+#include <iostream>
 
+int main()
+{
+    std::string my_house{ "Welcome to my humble abode" }; // Initialize my_house
+    std::string* my_address = &my_house; // Get the address of my_house
+    cout << my_house << "\n";
+    cout << "My Address: " << my_address << "\n";
+    
+    my_house = { "I am now home" }; // Change the message of my_house
+    cout << *my_address; // Access my_house via its pointer. This is
+	                     // 
+
+    return 0;
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2NTQwNzEzLDIwMDI2NzQ1ODksLTM0Nj
-QwMjUyOSw4ODkzMzU4NjMsLTUwMjQyNTE4MSwxOTI2NjI2Mzc4
-LC03OTQwNzI5NjQsOTEzMzA3NzE3LC03NDEyNjYzMiwtNzk4Nj
-g2MzY5LDE2NzUwMzMzMDUsMTA4NTc1Mjk3NSwyMTAzMTY1Njk4
-LC0xMzgyMTIzMjU2LC01NjIwNTMxMjcsLTEzNTAzNTUxNTMsNj
-Y5Njk0OTg0LDIwODg2Njk0MjIsLTY0OTU3NTE2OCwtNjU3MzYw
-MzE0XX0=
+eyJoaXN0b3J5IjpbMTUzODI0MDQ2MiwyMDAyNjc0NTg5LC0zND
+Y0MDI1MjksODg5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYyNjM3
+OCwtNzk0MDcyOTY0LDkxMzMwNzcxNywtNzQxMjY2MzIsLTc5OD
+Y4NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5NzUsMjEwMzE2NTY5
+OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUwMzU1MTUzLD
+Y2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1NzUxNjgsLTY1NzM2
+MDMxNF19
 -->
