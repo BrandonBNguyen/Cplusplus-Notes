@@ -1466,6 +1466,8 @@ int* here_is_my_number; // we expect here_is_my_number to point to a memory
                         // address containing an int variable.
 ```
 
+#### Address-Of-Operator
+
 To get a variable's memory address location to store in a pointer, prepend the variable identifier with the *address-of-operator* (`&`).
 
 ```cpp
@@ -1473,13 +1475,15 @@ std::string my_house{ "Welcome to my humble abode" };
 std::string* my_address = &my_house; // Pointer to the variable, my_house.
 ```
 
+#### Dereferencing Operator
 
+To access a variable from its pointer, prepend a pointer with a *dereferencing operator* (`*`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDEzNzQ4MSwyMDAyNjc0NTg5LC0zND
-Y0MDI1MjksODg5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYyNjM3
-OCwtNzk0MDcyOTY0LDkxMzMwNzcxNywtNzQxMjY2MzIsLTc5OD
-Y4NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5NzUsMjEwMzE2NTY5
-OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUwMzU1MTUzLD
-Y2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1NzUxNjgsLTY1NzM2
-MDMxNF19
+eyJoaXN0b3J5IjpbLTE5Njc0MTY3MjcsMjAwMjY3NDU4OSwtMz
+Q2NDAyNTI5LDg4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYz
+NzgsLTc5NDA3Mjk2NCw5MTMzMDc3MTcsLTc0MTI2NjMyLC03OT
+g2ODYzNjksMTY3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2
+OTgsLTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1NTE1My
+w2Njk2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NTcz
+NjAzMTRdfQ==
 -->
