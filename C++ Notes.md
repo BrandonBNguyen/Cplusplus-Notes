@@ -36,7 +36,8 @@ Notes and programs created while learning C++. These were notes were created fol
 5. [Control Flow](#control-flow)
 	1. [If Statements](#if-statements)
 	2. [Switch Statements](#switch-statements)
-	4. [For Loops](#for-loops)
+	3. [For Loops](#for-loops)
+6. [Reference Types](#reference-types)
 
 ## C++ Basics
 
@@ -1451,12 +1452,16 @@ for (element_type element_name : array_name) {
 ```
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
+
+## Reference Types
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5MzM1ODYzLC01MDI0MjUxODEsMTkyNj
-YyNjM3OCwtNzk0MDcyOTY0LDkxMzMwNzcxNywtNzQxMjY2MzIs
-LTc5ODY4NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5NzUsMjEwMz
-E2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUwMzU1
-MTUzLDY2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1NzUxNjgsLT
-Y1NzM2MDMxNCwtMjY3NTI1NTM0LDEzNjY5OTM1MDAsMTk0MTE4
-ODUyNl19
+eyJoaXN0b3J5IjpbLTM0NjQwMjUyOSw4ODkzMzU4NjMsLTUwMj
+QyNTE4MSwxOTI2NjI2Mzc4LC03OTQwNzI5NjQsOTEzMzA3NzE3
+LC03NDEyNjYzMiwtNzk4Njg2MzY5LDE2NzUwMzMzMDUsMTA4NT
+c1Mjk3NSwyMTAzMTY1Njk4LC0xMzgyMTIzMjU2LC01NjIwNTMx
+MjcsLTEzNTAzNTUxNTMsNjY5Njk0OTg0LDIwODg2Njk0MjIsLT
+Y0OTU3NTE2OCwtNjU3MzYwMzE0LC0yNjc1MjU1MzQsMTM2Njk5
+MzUwMF19
 -->
