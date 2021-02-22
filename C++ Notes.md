@@ -1455,13 +1455,17 @@ It operates in a similar manner to for loops in Python where the loop will itera
 
 ## Reference Types
 
+### Pointers
 
+**Pointers** are variables that store the memory address of other variables. 
+
+Pointers are declared by appending an asterick
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NjQwMjUyOSw4ODkzMzU4NjMsLTUwMj
-QyNTE4MSwxOTI2NjI2Mzc4LC03OTQwNzI5NjQsOTEzMzA3NzE3
-LC03NDEyNjYzMiwtNzk4Njg2MzY5LDE2NzUwMzMzMDUsMTA4NT
-c1Mjk3NSwyMTAzMTY1Njk4LC0xMzgyMTIzMjU2LC01NjIwNTMx
-MjcsLTEzNTAzNTUxNTMsNjY5Njk0OTg0LDIwODg2Njk0MjIsLT
-Y0OTU3NTE2OCwtNjU3MzYwMzE0LC0yNjc1MjU1MzQsMTM2Njk5
-MzUwMF19
+eyJoaXN0b3J5IjpbLTEzMjkxMTcxOTksLTM0NjQwMjUyOSw4OD
+kzMzU4NjMsLTUwMjQyNTE4MSwxOTI2NjI2Mzc4LC03OTQwNzI5
+NjQsOTEzMzA3NzE3LC03NDEyNjYzMiwtNzk4Njg2MzY5LDE2Nz
+UwMzMzMDUsMTA4NTc1Mjk3NSwyMTAzMTY1Njk4LC0xMzgyMTIz
+MjU2LC01NjIwNTMxMjcsLTEzNTAzNTUxNTMsNjY5Njk0OTg0LD
+IwODg2Njk0MjIsLTY0OTU3NTE2OCwtNjU3MzYwMzE0LC0yNjc1
+MjU1MzRdfQ==
 -->
