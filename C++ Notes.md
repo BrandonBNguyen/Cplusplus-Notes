@@ -1506,12 +1506,22 @@ I am now home
 #### Member-Of-Pointer Operator
 
 The *member-of-pointer operator* (`->`) is used to simultaneously access an object through its pointer and then access a member of that object.
+
+```cpp
+int main()
+{
+	JellyBeanJar my_jar;
+	JellyBeanJar* my_jars_location = &my_jar;
+	my_jars_location->add_bean();
+    std::cout << "My jar has " << my_jars_location->count() << " beans!";
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC0zND
-Y0MDI1MjksODg5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYyNjM3
-OCwtNzk0MDcyOTY0LDkxMzMwNzcxNywtNzQxMjY2MzIsLTc5OD
-Y4NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5NzUsMjEwMzE2NTY5
-OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUwMzU1MTUzLD
-Y2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1NzUxNjgsLTY1NzM2
-MDMxNF19
+eyJoaXN0b3J5IjpbMTIxMDA1ODkxNSwtNDM1OTE0MjE1LDIwMD
+I2NzQ1ODksLTM0NjQwMjUyOSw4ODkzMzU4NjMsLTUwMjQyNTE4
+MSwxOTI2NjI2Mzc4LC03OTQwNzI5NjQsOTEzMzA3NzE3LC03ND
+EyNjYzMiwtNzk4Njg2MzY5LDE2NzUwMzMzMDUsMTA4NTc1Mjk3
+NSwyMTAzMTY1Njk4LC0xMzgyMTIzMjU2LC01NjIwNTMxMjcsLT
+EzNTAzNTUxNTMsNjY5Njk0OTg0LDIwODg2Njk0MjIsLTY0OTU3
+NTE2OF19
 -->
