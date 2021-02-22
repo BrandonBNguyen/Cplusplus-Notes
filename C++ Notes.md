@@ -1459,13 +1459,13 @@ It operates in a similar manner to for loops in Python where the loop will itera
 
 **Pointers** are variables that store the memory address of other variables. 
 
-Pointers are declared by appending an asterick
+Pointers are declared by appending an asterisk (`*`) to a data type following with the identifier for the pointer. The pointer sho
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjkxMTcxOTksLTM0NjQwMjUyOSw4OD
-kzMzU4NjMsLTUwMjQyNTE4MSwxOTI2NjI2Mzc4LC03OTQwNzI5
-NjQsOTEzMzA3NzE3LC03NDEyNjYzMiwtNzk4Njg2MzY5LDE2Nz
-UwMzMzMDUsMTA4NTc1Mjk3NSwyMTAzMTY1Njk4LC0xMzgyMTIz
-MjU2LC01NjIwNTMxMjcsLTEzNTAzNTUxNTMsNjY5Njk0OTg0LD
-IwODg2Njk0MjIsLTY0OTU3NTE2OCwtNjU3MzYwMzE0LC0yNjc1
-MjU1MzRdfQ==
+eyJoaXN0b3J5IjpbMTYyNDAzMTMxOCwtMzQ2NDAyNTI5LDg4OT
+MzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3Mjk2
+NCw5MTMzMDc3MTcsLTc0MTI2NjMyLC03OTg2ODYzNjksMTY3NT
+AzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2OTgsLTEzODIxMjMy
+NTYsLTU2MjA1MzEyNywtMTM1MDM1NTE1Myw2Njk2OTQ5ODQsMj
+A4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NTczNjAzMTQsLTI2NzUy
+NTUzNF19
 -->
