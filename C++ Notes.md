@@ -1505,13 +1505,13 @@ I am now home
 
 #### Member-Of-Pointer Operator
 
-The member-of-pointer operator is used to simultaneously acce
+The *member-of-pointer operator* (`->`) is used to simultaneously access an object through its pointer and then access a member of that object.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE0OTkyNTMsMjAwMjY3NDU4OSwtMzQ2ND
-AyNTI5LDg4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgs
-LTc5NDA3Mjk2NCw5MTMzMDc3MTcsLTc0MTI2NjMyLC03OTg2OD
-YzNjksMTY3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2OTgs
-LTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1NTE1Myw2Nj
-k2OTQ5ODQsMjA4ODY2OTQyMiwtNjQ5NTc1MTY4LC02NTczNjAz
-MTRdfQ==
+eyJoaXN0b3J5IjpbLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC0zND
+Y0MDI1MjksODg5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYyNjM3
+OCwtNzk0MDcyOTY0LDkxMzMwNzcxNywtNzQxMjY2MzIsLTc5OD
+Y4NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5NzUsMjEwMzE2NTY5
+OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUwMzU1MTUzLD
+Y2OTY5NDk4NCwyMDg4NjY5NDIyLC02NDk1NzUxNjgsLTY1NzM2
+MDMxNF19
 -->
