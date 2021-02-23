@@ -1013,7 +1013,7 @@ int mostly_zeros[100]{ 1, 2, 3 }; // Creates a 100-element array where the first
                                   // 0.
 ```
 
-A note that arrays created must have a known size beforehand at compile time (in other words you can't use a non-constant variable to define the size of an array). To create arrays of custom sizes determined at runtime, see the section on [dynamic storage](#dynamic-storage).
+A note that arrays created must have a known size beforehand at compile time (in other words you can't use a non-constant variable to define the size of an array). To create arrays of custom sizes determined at runtime, see the section on [dynamic arrays](#dynamic-arrays).
 
 ### Strings
 
@@ -2046,14 +2046,20 @@ int main()
 }
 ```
 
+```
+The secret number is 12345124
+C:\Users\Brand\source\repos\object lifecycle\Debug\object lifecycle.exe (process 20728) exited with code -1073741819.
+```
+
 #### Dynamic Arrays
 
+Creating a dynamic array is very simii
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1OTUzNTQyLDE5MjYzNTUwMDYsLTc1Nz
-Q1NjAxNiwtMTIwMzg3NDg1MywtMTQyNjMwNjg5NCwtNjk1NDY2
-Nzk2LC05OTE0OTM0MiwxMzIwODcxNTUwLC0xNTY2MzI3ODg3LC
-0xODUzNjcyODI1LDEzMDM4NjAxNjMsLTYwNjYwOTUzOSw4NDg4
-Nzg0NDksLTU1NDc0NjYyMCwtNTYwMTk2NjY3LC0xNjgzMTQ4Nj
-c2LDIwMzQ5NTc0NjgsLTExNTY0NTkwMzcsLTE2MjI1NTAyOTUs
-MzgwODk3MDQ0XX0=
+eyJoaXN0b3J5IjpbLTE0MzY4MjEzMDMsMTkyNjM1NTAwNiwtNz
+U3NDU2MDE2LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC02OTU0
+NjY3OTYsLTk5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYzMjc4OD
+csLTE4NTM2NzI4MjUsMTMwMzg2MDE2MywtNjA2NjA5NTM5LDg0
+ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2ODMxND
+g2NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNywtMTYyMjU1MDI5
+NSwzODA4OTcwNDRdfQ==
 -->
