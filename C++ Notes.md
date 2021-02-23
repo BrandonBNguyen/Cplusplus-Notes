@@ -1944,13 +1944,15 @@ Static members are not associated with a particular instance of a class but inst
 
 Static variables declared in a class definition must be initialized outside at the global scope. Static members are accessed using the scope resolution operator (`::`).
 
+Static methods can only work with the static variables and other static methods of the class.
+
 ```cpp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTQ2Njc5NiwtOTkxNDkzNDIsMTMyMD
-g3MTU1MCwtMTU2NjMyNzg4NywtMTg1MzY3MjgyNSwxMzAzODYw
-MTYzLC02MDY2MDk1MzksODQ4ODc4NDQ5LC01NTQ3NDY2MjAsLT
-U2MDE5NjY2NywtMTY4MzE0ODY3NiwyMDM0OTU3NDY4LC0xMTU2
-NDU5MDM3LC0xNjIyNTUwMjk1LDM4MDg5NzA0NCwxNjMxNzM4Mz
-I1LC01NDQ4MjAwMiwxNzU2ODYzMzY1LDM4MDE3NzExNywtODEx
-ODQ5OTBdfQ==
+eyJoaXN0b3J5IjpbLTE0MjYzMDY4OTQsLTY5NTQ2Njc5NiwtOT
+kxNDkzNDIsMTMyMDg3MTU1MCwtMTU2NjMyNzg4NywtMTg1MzY3
+MjgyNSwxMzAzODYwMTYzLC02MDY2MDk1MzksODQ4ODc4NDQ5LC
+01NTQ3NDY2MjAsLTU2MDE5NjY2NywtMTY4MzE0ODY3NiwyMDM0
+OTU3NDY4LC0xMTU2NDU5MDM3LC0xNjIyNTUwMjk1LDM4MDg5Nz
+A0NCwxNjMxNzM4MzI1LC01NDQ4MjAwMiwxNzU2ODYzMzY1LDM4
+MDE3NzExN119
 -->
