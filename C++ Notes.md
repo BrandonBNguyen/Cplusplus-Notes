@@ -1766,13 +1766,13 @@ private:
 
 #### Constant Arguments
 
-The keyword `const` can be used before the data type and identifier for arguments
+The keyword `const` placed before the data type and identifier for arguments to a function will ensure that that variable remains unmodified throughout the execution of that function.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2MzI4OTgyLC0xMTU2NDU5MDM3LC0xNj
-IyNTUwMjk1LDM4MDg5NzA0NCwxNjMxNzM4MzI1LC01NDQ4MjAw
-MiwxNzU2ODYzMzY1LDM4MDE3NzExNywtODExODQ5OTAsMjAxMD
-EyNjY1NCwzMzkyMjAxMjAsMTQxMDk5NjI2MywtMTA0MTk1NjMy
-OSwtMTczNTQ3NDcyMCwtNDM1OTE0MjE1LDIwMDI2NzQ1ODksLT
-M0NjQwMjUyOSw4ODkzMzU4NjMsLTUwMjQyNTE4MSwxOTI2NjI2
-Mzc4XX0=
+eyJoaXN0b3J5IjpbLTY3NTAyMDUzMCwtMTE1NjQ1OTAzNywtMT
+YyMjU1MDI5NSwzODA4OTcwNDQsMTYzMTczODMyNSwtNTQ0ODIw
+MDIsMTc1Njg2MzM2NSwzODAxNzcxMTcsLTgxMTg0OTkwLDIwMT
+AxMjY2NTQsMzM5MjIwMTIwLDE0MTA5OTYyNjMsLTEwNDE5NTYz
+MjksLTE3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC
+0zNDY0MDI1MjksODg5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYy
+NjM3OF19
 -->
