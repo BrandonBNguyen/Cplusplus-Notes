@@ -1574,8 +1574,10 @@ int main()
     my_numbers[2]: 3
 *(my_numbers + 2): 3
 ```
+
+`nullptr` is a literal for a pointer in which the pointer does not point to any address. Pointers have an implicit conversion to `bool` where a `nullptr` evaluates to `false` and everything else evaluates to `true`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1Njc4OTQ0OSwxNDEwOTk2MjYzLC0xMD
+eyJoaXN0b3J5IjpbMTE2MzkyNjM5OCwxNDEwOTk2MjYzLC0xMD
 QxOTU2MzI5LC0xNzM1NDc0NzIwLC00MzU5MTQyMTUsMjAwMjY3
 NDU4OSwtMzQ2NDAyNTI5LDg4OTMzNTg2MywtNTAyNDI1MTgxLD
 E5MjY2MjYzNzgsLTc5NDA3Mjk2NCw5MTMzMDc3MTcsLTc0MTI2
