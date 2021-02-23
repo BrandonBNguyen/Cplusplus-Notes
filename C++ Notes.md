@@ -1908,13 +1908,13 @@ If a variable needs to be accessed from another translation unit (from another s
 
 #### Local Static Variables
 
-Static variables declared within a function are 
+Static variables declared within a function are only accessible within the context of that function, however, they continue to exists
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjYzMjc4ODcsLTE4NTM2NzI4MjUsMT
-MwMzg2MDE2MywtNjA2NjA5NTM5LDg0ODg3ODQ0OSwtNTU0NzQ2
-NjIwLC01NjAxOTY2NjcsLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OC
-wtMTE1NjQ1OTAzNywtMTYyMjU1MDI5NSwzODA4OTcwNDQsMTYz
-MTczODMyNSwtNTQ0ODIwMDIsMTc1Njg2MzM2NSwzODAxNzcxMT
-csLTgxMTg0OTkwLDIwMTAxMjY2NTQsMzM5MjIwMTIwLDE0MTA5
-OTYyNjNdfQ==
+eyJoaXN0b3J5IjpbLTE2NzE0OTIyMTQsLTE1NjYzMjc4ODcsLT
+E4NTM2NzI4MjUsMTMwMzg2MDE2MywtNjA2NjA5NTM5LDg0ODg3
+ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2ODMxNDg2Nz
+YsMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNywtMTYyMjU1MDI5NSwz
+ODA4OTcwNDQsMTYzMTczODMyNSwtNTQ0ODIwMDIsMTc1Njg2Mz
+M2NSwzODAxNzcxMTcsLTgxMTg0OTkwLDIwMTAxMjY2NTQsMzM5
+MjIwMTIwXX0=
 -->
