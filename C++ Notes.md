@@ -1678,12 +1678,48 @@ Pointers and references are largely interchangeable, however, references cannot 
 ### `this` Pointers
 
 The `this` pointer is used within a class to distinguish the current object when accessing a member. This can be used to make explicit the instance of an object you are referring to (which can be especially useful when an object is interacting with other objects of the same type). 
+
+```cpp
+struct DoublyLinkedListObject {
+	DoublyLinkedListObject* right_object{}; // Pointer to object on right.
+	DoublyLinkedListObject* left_object{}; // Pointer to object on left.
+	char* name;
+
+	DoublyLinkedListObject(char* name) {
+		this->name = name;
+	}
+
+	void add_right(DoublyLinkedListObject* new_object) {
+		// Link up this object's right_object to the new_object if it exists.
+		if (this->right_object) {
+			this->right_object->left_object = new_object;
+			new_object->right_object = this->right_object;
+		}
+
+		// Link up this object to new_object
+		new_object->left_object = this;
+		this->right_object = new_object;
+	}
+
+	void add_left(DoublyLinkedListObject* new_object) {
+		// Link up this object's left_object to the new_object if it exists.
+		if (this->left_object) {
+			this->left_object->right_object = new_object;
+			new_object->left_object = this->left_object;
+		}
+
+		// Link up this object to new_object
+		new_object->right_object = this;
+		this->left_object = new_object;
+	}
+};
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjI1NTAyOTUsMzgwODk3MDQ0LDE2Mz
-E3MzgzMjUsLTU0NDgyMDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3
-LC04MTE4NDk5MCwyMDEwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOT
-k2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0NzIwLC00MzU5MTQy
-MTUsMjAwMjY3NDU4OSwtMzQ2NDAyNTI5LDg4OTMzNTg2MywtNT
-AyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3Mjk2NCw5MTMzMDc3
-MTddfQ==
+eyJoaXN0b3J5IjpbMTg0NDU4ODA0OCwtMTYyMjU1MDI5NSwzOD
+A4OTcwNDQsMTYzMTczODMyNSwtNTQ0ODIwMDIsMTc1Njg2MzM2
+NSwzODAxNzcxMTcsLTgxMTg0OTkwLDIwMTAxMjY2NTQsMzM5Mj
+IwMTIwLDE0MTA5OTYyNjMsLTEwNDE5NTYzMjksLTE3MzU0NzQ3
+MjAsLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC0zNDY0MDI1MjksOD
+g5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYyNjM3OCwtNzk0MDcy
+OTY0XX0=
 -->
