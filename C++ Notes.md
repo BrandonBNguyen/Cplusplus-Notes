@@ -1542,7 +1542,7 @@ int main()
 }
 ```
 
-To get around this, if we do want to modify the variable we are passing into the function, we can use pointers. Instead of passing the variable itself, we will pass a pointer to the variable.
+To get around this, if we do want to modify the variable we are passing into the function, we can use pointers. Instead of passing the variable itself, we will pass a pointer to the variable. Within the function, we can dereference the pointer, allowing us to work directly with the variable.
 
 ```cpp
 void add_and_print(int* value) {
@@ -1553,14 +1553,22 @@ void add_and_print(int* value) {
 int main()
 {
 	int my_lucky_number = 3;
-	// Pass the pointer for my_lucky_number into add_and_print. The function then dereferences the
-	// pointer and is able to work directly with my_lucky_number.
+	// Pass the pointer for my_lucky_number into add_and_print. The function  
+	// then dereferences the pointer and is able to work directly with 
+	// my_lucky_number.
 	add_and_print(&my_lucky_number);
 
 	// We can see that my_lucky_number accepts the change.
 	std::cout << "my_lucky_number is " << my_lucky_number << std::endl;
 }
 ```
+
+```
+value is 4
+my_lucky_number is 4
+```
+
+This can be quite cumbersome to hav 
 
 #### Arrays and Pointers
 
@@ -1636,7 +1644,7 @@ I have no direction :(
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzI0MzQwNCwyMDEwMTI2NjU0LDMzOT
+eyJoaXN0b3J5IjpbLTU4OTkyMDk5MSwyMDEwMTI2NjU0LDMzOT
 IyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0
 NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OSwtMzQ2NDAyNTI5LD
 g4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3
