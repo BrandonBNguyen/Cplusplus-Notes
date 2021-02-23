@@ -1720,7 +1720,7 @@ struct DoublyLinkedListObject {
 
 The keyword `const`, short for "constant", is used to specify that a particular variable cannot be modified.
 
-#### Methods
+#### Constant Methods
 
 Using `const` in a method ensures that the execution of the method will not permit any change to the state of the object from which it is called. You can think of it as a read-only method.
 
@@ -1763,12 +1763,16 @@ private:
 	int jelly_beans;
 };
 ```
+
+#### Constant Arguments
+
+The keyword `const` can be used before the data type and identifier for arguments
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg1MDUxODgsLTExNTY0NTkwMzcsLT
-E2MjI1NTAyOTUsMzgwODk3MDQ0LDE2MzE3MzgzMjUsLTU0NDgy
-MDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3LC04MTE4NDk5MCwyMD
-EwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2
-MzI5LC0xNzM1NDc0NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OS
-wtMzQ2NDAyNTI5LDg4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2
-MjYzNzhdfQ==
+eyJoaXN0b3J5IjpbMjg2MzI4OTgyLC0xMTU2NDU5MDM3LC0xNj
+IyNTUwMjk1LDM4MDg5NzA0NCwxNjMxNzM4MzI1LC01NDQ4MjAw
+MiwxNzU2ODYzMzY1LDM4MDE3NzExNywtODExODQ5OTAsMjAxMD
+EyNjY1NCwzMzkyMjAxMjAsMTQxMDk5NjI2MywtMTA0MTk1NjMy
+OSwtMTczNTQ3NDcyMCwtNDM1OTE0MjE1LDIwMDI2NzQ1ODksLT
+M0NjQwMjUyOSw4ODkzMzU4NjMsLTUwMjQyNTE4MSwxOTI2NjI2
+Mzc4XX0=
 -->
