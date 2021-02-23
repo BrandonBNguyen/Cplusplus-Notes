@@ -1865,12 +1865,14 @@ int main()
 This is the reason why ordinary variables in functions only exists within the scope of the function.
 
 ### Static Storage Duration
+
+For a *static object*, the object is allocated when the program starts and is deallocated when the program ends. Static variables are declared at the same level as functions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzM3OTM1MzIsMTMwMzg2MDE2MywtNj
-A2NjA5NTM5LDg0ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2
-NjcsLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNy
-wtMTYyMjU1MDI5NSwzODA4OTcwNDQsMTYzMTczODMyNSwtNTQ0
-ODIwMDIsMTc1Njg2MzM2NSwzODAxNzcxMTcsLTgxMTg0OTkwLD
-IwMTAxMjY2NTQsMzM5MjIwMTIwLDE0MTA5OTYyNjMsLTEwNDE5
-NTYzMjldfQ==
+eyJoaXN0b3J5IjpbMTA2MzI1NTk4LDEzMDM4NjAxNjMsLTYwNj
+YwOTUzOSw4NDg4Nzg0NDksLTU1NDc0NjYyMCwtNTYwMTk2NjY3
+LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0NjgsLTExNTY0NTkwMzcsLT
+E2MjI1NTAyOTUsMzgwODk3MDQ0LDE2MzE3MzgzMjUsLTU0NDgy
+MDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3LC04MTE4NDk5MCwyMD
+EwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2
+MzI5XX0=
 -->
