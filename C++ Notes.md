@@ -1524,6 +1524,22 @@ int main()
 When passing an object into a function by value, the value is essentially copied over and stored as a variable local to the function. This means that any attempts to modify the value using the function will only occur to the local variable and not the variable used as an argument.
 
 ```cpp
+void add_and_print(int value) {
+	value += 1;
+	std::cout << "value is " << value << std::endl;
+}
+
+int main()
+{
+	int my_lucky_number = 3;
+	// Pass my_lucky_number into add_and_print. The value of my_lucky_number is copied
+	// and value is assigned that value. Any changes to value are not received by
+	// my_lucky_number.
+	add_and_print(my_lucky_number);
+
+	// We can see that my_lucky_number remains unchanged.
+	std::cout << "my_lucky_number is " << my_lucky_number << std::endl;
+}
 ```
 
 #### Arrays and Pointers
@@ -1600,11 +1616,11 @@ I have no direction :(
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDEyNjY1NCwzMzkyMjAxMjAsMTQxMD
-k5NjI2MywtMTA0MTk1NjMyOSwtMTczNTQ3NDcyMCwtNDM1OTE0
-MjE1LDIwMDI2NzQ1ODksLTM0NjQwMjUyOSw4ODkzMzU4NjMsLT
-UwMjQyNTE4MSwxOTI2NjI2Mzc4LC03OTQwNzI5NjQsOTEzMzA3
-NzE3LC03NDEyNjYzMiwtNzk4Njg2MzY5LDE2NzUwMzMzMDUsMT
-A4NTc1Mjk3NSwyMTAzMTY1Njk4LC0xMzgyMTIzMjU2LC01NjIw
-NTMxMjddfQ==
+eyJoaXN0b3J5IjpbMTAxOTg4NDU3MiwyMDEwMTI2NjU0LDMzOT
+IyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0
+NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OSwtMzQ2NDAyNTI5LD
+g4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3
+Mjk2NCw5MTMzMDc3MTcsLTc0MTI2NjMyLC03OTg2ODYzNjksMT
+Y3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2OTgsLTEzODIx
+MjMyNTZdfQ==
 -->
