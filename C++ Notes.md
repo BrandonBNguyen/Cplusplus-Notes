@@ -1672,9 +1672,9 @@ my_lucky_number is 4
 
 #### Use Cases
 
-Pointers and references are largely interchangeable
+Pointers and references are largely interchangeable. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0NzgyNjI0LDE3NTY4NjMzNjUsMzgwMT
+eyJoaXN0b3J5IjpbLTU0NDgyMDAyLDE3NTY4NjMzNjUsMzgwMT
 c3MTE3LC04MTE4NDk5MCwyMDEwMTI2NjU0LDMzOTIyMDEyMCwx
 NDEwOTk2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0NzIwLC00Mz
 U5MTQyMTUsMjAwMjY3NDU4OSwtMzQ2NDAyNTI5LDg4OTMzNTg2
