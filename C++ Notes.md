@@ -38,6 +38,8 @@ Notes and programs created while learning C++. These were notes were created fol
 	2. [Switch Statements](#switch-statements)
 	3. [For Loops](#for-loops)
 6. [Reference Types](#reference-types)
+	1. [Pointers](#pointers)
+	2. [References](#references)
 
 ## C++ Basics
 
@@ -1591,6 +1593,8 @@ int main()
 I have no direction :(
 ```
 
+### References
+
 #### Passing Arguments by Value vs by Reference
 
 When passing an object into a function by value, the value is essentially copied over and stored as a variable local to the function. This means that any attempts to modify the value using the function will only occur to the local variable and not the variable used as an argument.
@@ -1666,12 +1670,15 @@ value is 4
 my_lucky_number is 4
 ```
 
+#### Use Cases
+
+Pointers and references are largely interchangeable
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1Njg2MzM2NSwzODAxNzcxMTcsLTgxMT
-g0OTkwLDIwMTAxMjY2NTQsMzM5MjIwMTIwLDE0MTA5OTYyNjMs
-LTEwNDE5NTYzMjksLTE3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMD
-AyNjc0NTg5LC0zNDY0MDI1MjksODg5MzM1ODYzLC01MDI0MjUx
-ODEsMTkyNjYyNjM3OCwtNzk0MDcyOTY0LDkxMzMwNzcxNywtNz
-QxMjY2MzIsLTc5ODY4NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5
-NzVdfQ==
+eyJoaXN0b3J5IjpbNzk0NzgyNjI0LDE3NTY4NjMzNjUsMzgwMT
+c3MTE3LC04MTE4NDk5MCwyMDEwMTI2NjU0LDMzOTIyMDEyMCwx
+NDEwOTk2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0NzIwLC00Mz
+U5MTQyMTUsMjAwMjY3NDU4OSwtMzQ2NDAyNTI5LDg4OTMzNTg2
+MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3Mjk2NCw5MT
+MzMDc3MTcsLTc0MTI2NjMyLC03OTg2ODYzNjksMTY3NTAzMzMw
+NV19
 -->
