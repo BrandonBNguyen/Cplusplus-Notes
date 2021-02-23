@@ -1908,13 +1908,13 @@ If a variable needs to be accessed from another translation unit (from another s
 
 #### Local Static Variables
 
-Static variables declared within a function are only accessible within the context of that function, however, they continue to exists
+Static variables declared within a function are only accessible within the context of that function, however, they continue to exists between function calls until they are deallocated at the end of the program. They are allocated at the first function call involving that static variable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE0OTIyMTQsLTE1NjYzMjc4ODcsLT
-E4NTM2NzI4MjUsMTMwMzg2MDE2MywtNjA2NjA5NTM5LDg0ODg3
-ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2ODMxNDg2Nz
-YsMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNywtMTYyMjU1MDI5NSwz
-ODA4OTcwNDQsMTYzMTczODMyNSwtNTQ0ODIwMDIsMTc1Njg2Mz
-M2NSwzODAxNzcxMTcsLTgxMTg0OTkwLDIwMTAxMjY2NTQsMzM5
-MjIwMTIwXX0=
+eyJoaXN0b3J5IjpbMTMyMDg3MTU1MCwtMTU2NjMyNzg4NywtMT
+g1MzY3MjgyNSwxMzAzODYwMTYzLC02MDY2MDk1MzksODQ4ODc4
+NDQ5LC01NTQ3NDY2MjAsLTU2MDE5NjY2NywtMTY4MzE0ODY3Ni
+wyMDM0OTU3NDY4LC0xMTU2NDU5MDM3LC0xNjIyNTUwMjk1LDM4
+MDg5NzA0NCwxNjMxNzM4MzI1LC01NDQ4MjAwMiwxNzU2ODYzMz
+Y1LDM4MDE3NzExNywtODExODQ5OTAsMjAxMDEyNjY1NCwzMzky
+MjAxMjBdfQ==
 -->
