@@ -2069,9 +2069,11 @@ When deleting a dynamic array, be sure to include brackets `[]` after the keywor
 
 #### Memory Leaks
 
-It's important to delete dynamic variables sometime after creating them before the end of yo
+It's important to delete dynamic variables sometime after creating them before the end of your program. Failure to do so could result in memory leaks where memory is not released, even after the conclusion of your program.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTY1Njg1MywtMzQ2NDM3OTQ2LDE5Mj
+eyJoaXN0b3J5IjpbMTI3NjkxOTIzMiwtMzQ2NDM3OTQ2LDE5Mj
 YzNTUwMDYsLTc1NzQ1NjAxNiwtMTIwMzg3NDg1MywtMTQyNjMw
 Njg5NCwtNjk1NDY2Nzk2LC05OTE0OTM0MiwxMzIwODcxNTUwLC
 0xNTY2MzI3ODg3LC0xODUzNjcyODI1LDEzMDM4NjAxNjMsLTYw
