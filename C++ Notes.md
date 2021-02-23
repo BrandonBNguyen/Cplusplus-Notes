@@ -1789,13 +1789,13 @@ int some_function(const JellyBeanJar& jar) {
 
 #### Constant  Member Variables
 
-Constant variables can't be modified after initialization. To use `const` for variables within a class, the 
+Constant variables can't be modified after initialization. To use `const` for variables within a class initialized to values specified at construction, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5OTI5MzkwLC01NjAxOTY2NjcsLTE2OD
-MxNDg2NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNywtMTYyMjU1
-MDI5NSwzODA4OTcwNDQsMTYzMTczODMyNSwtNTQ0ODIwMDIsMT
-c1Njg2MzM2NSwzODAxNzcxMTcsLTgxMTg0OTkwLDIwMTAxMjY2
-NTQsMzM5MjIwMTIwLDE0MTA5OTYyNjMsLTEwNDE5NTYzMjksLT
-E3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC0zNDY0
-MDI1MjldfQ==
+eyJoaXN0b3J5IjpbLTExMDUwMDg3MTYsLTU2MDE5NjY2NywtMT
+Y4MzE0ODY3NiwyMDM0OTU3NDY4LC0xMTU2NDU5MDM3LC0xNjIy
+NTUwMjk1LDM4MDg5NzA0NCwxNjMxNzM4MzI1LC01NDQ4MjAwMi
+wxNzU2ODYzMzY1LDM4MDE3NzExNywtODExODQ5OTAsMjAxMDEy
+NjY1NCwzMzkyMjAxMjAsMTQxMDk5NjI2MywtMTA0MTk1NjMyOS
+wtMTczNTQ3NDcyMCwtNDM1OTE0MjE1LDIwMDI2NzQ1ODksLTM0
+NjQwMjUyOV19
 -->
