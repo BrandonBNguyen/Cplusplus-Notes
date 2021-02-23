@@ -2056,14 +2056,26 @@ C:\Users\Brand\source\repos\object lifecycle\Debug\object lifecycle.exe (process
 Creating a dynamic array is very similar to creating a dynamic object. Simply insert brackets following the object type specifying the number of elements.
 
 ```cpp
+	int n = 8;
+	// You can specify the length of a dynamic array using a variable.
+	int* secret_numbers = new int[n] {};
+```
+When deleting a dynamic array, be sure to include brackets `[]` after the keyword `delete`.
 
-``
+```cpp
+	// delete should include brackets when deleting dynamic arrays.
+	delete[] secret_numbers;
+```
+
+#### Memory Leaks
+
+It's important to delete dynamic variables sometime after creating them before the end of yo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzMzE5Mzg3LC0zNDY0Mzc5NDYsMTkyNj
-M1NTAwNiwtNzU3NDU2MDE2LC0xMjAzODc0ODUzLC0xNDI2MzA2
-ODk0LC02OTU0NjY3OTYsLTk5MTQ5MzQyLDEzMjA4NzE1NTAsLT
-E1NjYzMjc4ODcsLTE4NTM2NzI4MjUsMTMwMzg2MDE2MywtNjA2
-NjA5NTM5LDg0ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2Nj
-csLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNywt
-MTYyMjU1MDI5NV19
+eyJoaXN0b3J5IjpbMTg5OTY1Njg1MywtMzQ2NDM3OTQ2LDE5Mj
+YzNTUwMDYsLTc1NzQ1NjAxNiwtMTIwMzg3NDg1MywtMTQyNjMw
+Njg5NCwtNjk1NDY2Nzk2LC05OTE0OTM0MiwxMzIwODcxNTUwLC
+0xNTY2MzI3ODg3LC0xODUzNjcyODI1LDEzMDM4NjAxNjMsLTYw
+NjYwOTUzOSw4NDg4Nzg0NDksLTU1NDc0NjYyMCwtNTYwMTk2Nj
+Y3LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0NjgsLTExNTY0NTkwMzcs
+LTE2MjI1NTAyOTVdfQ==
 -->
