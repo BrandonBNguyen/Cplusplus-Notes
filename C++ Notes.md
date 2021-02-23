@@ -1570,6 +1570,30 @@ my_lucky_number is 4
 
 It can be quite cumbersome to use the dereference operator or member-of-operator on the pointer for every statement involving the variable. Instead, we can use a **reference**.  This is done by appending an ampersand (`&`) to the parameter type in the function definition. That way, when we pass a variable as an argument to a function, we can work directly with that variable within the function as if it were a local variable, eliminating the need to use the dereferencing operator within the function.
 
+```cpp
+void add_and_print(int& value) {
+	value += 1;
+	std::cout << "value is " << value << std::endl;
+}
+
+int main()
+{
+	int my_lucky_number = 3;
+	// By passing a reference to the variable, add_and_print can work directly to
+	// modify my_lucky_numbers. Within add_and_print, it is as if we are working
+	// with a normal, local variable.
+	add_and_print(my_lucky_number);
+
+	// We can see that my_lucky_number accepts the change.
+	std::cout << "my_lucky_number is " << my_lucky_number << std::endl;
+}
+```
+
+```
+value is 4
+my_lucky_number is 4
+```
+
 #### Arrays and Pointers
 
 Creating a pointer to an array is equivalent to creating a pointer to the first value of an array. The identifier for an array without brackets (`[]`) can be treated as a pointer to the array's first value.
@@ -1644,11 +1668,11 @@ I have no direction :(
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTg0OTkwLDIwMTAxMjY2NTQsMzM5Mj
-IwMTIwLDE0MTA5OTYyNjMsLTEwNDE5NTYzMjksLTE3MzU0NzQ3
-MjAsLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC0zNDY0MDI1MjksOD
-g5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYyNjM3OCwtNzk0MDcy
-OTY0LDkxMzMwNzcxNywtNzQxMjY2MzIsLTc5ODY4NjM2OSwxNj
-c1MDMzMzA1LDEwODU3NTI5NzUsMjEwMzE2NTY5OCwtMTM4MjEy
-MzI1Nl19
+eyJoaXN0b3J5IjpbMTc2OTIyMzI4OCwtODExODQ5OTAsMjAxMD
+EyNjY1NCwzMzkyMjAxMjAsMTQxMDk5NjI2MywtMTA0MTk1NjMy
+OSwtMTczNTQ3NDcyMCwtNDM1OTE0MjE1LDIwMDI2NzQ1ODksLT
+M0NjQwMjUyOSw4ODkzMzU4NjMsLTUwMjQyNTE4MSwxOTI2NjI2
+Mzc4LC03OTQwNzI5NjQsOTEzMzA3NzE3LC03NDEyNjYzMiwtNz
+k4Njg2MzY5LDE2NzUwMzMzMDUsMTA4NTc1Mjk3NSwyMTAzMTY1
+Njk4XX0=
 -->
