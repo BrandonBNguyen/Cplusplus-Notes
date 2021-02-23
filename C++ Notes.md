@@ -1519,6 +1519,78 @@ int main()
 }
 ```
 
+#### Arrays and Pointers
+
+Creating a pointer to an array is equivalent to creating a pointer to the first value of an array. The identifier for an array without brackets (`[]`) can be treated as a pointer to the array's first value.
+
+```cpp
+int main()
+{
+	int my_numbers[]{ 5, 4, 3, 2, 1 };
+	int* my_numbers_location = my_numbers;
+
+	//my_numbers_location should point to the first value in my_numbers.
+	std::cout << "First value in my_numbers: " << *my_numbers_location;
+}
+```
+
+```
+First value in my_numbers: 5
+```
+
+Adding and subtracting to the pointer allows us to access the elements ahead or behind of the current value. This is called *pointer arithmetic*.
+
+```cpp
+int main()
+{
+	int my_numbers[]{ 5, 4, 3, 2, 1 };
+	int* my_numbers_location = my_numbers;
+	int* my_second_number = my_numbers + 1;
+
+	//my_second_number should point to the second value in my_numbers.
+	std::cout << "Second value: " << *my_second_number;
+}
+```
+
+```
+Second value: 4
+```
+
+Using bracket notation to access a value and pointer notation are functionally equivalent.
+
+```cpp
+int main()
+{
+	int my_numbers[]{ 5, 4, 3, 2, 1 };
+
+	// From accessing the third value by bracket notation.
+	std::cout << "    my_numbers[2]: " << my_numbers[2] << std::endl;
+	// From accessing the pointer to the third value and dereferencing.
+	std::cout << "*(my_numbers + 2): " << *(my_numbers + 2) << std::endl;
+}
+```
+
+```
+    my_numbers[2]: 3
+*(my_numbers + 2): 3
+```
+
+`nullptr` is a literal for a pointer in which the pointer does not point to any address. Pointers have an implicit conversion to `bool` where a `nullptr` evaluates to `false` and everything else evaluates to `true`.
+
+```cpp
+int main()
+{
+	int* points_somewhere = nullptr;
+
+	if (points_somewhere) std::cout << "I have direction!";
+	else std::cout << "I have no direction :(";
+}
+```
+
+```
+I have no direction :(
+```
+
 #### Passing Arguments by Value vs by Reference
 
 When passing an object into a function by value, the value is essentially copied over and stored as a variable local to the function. This means that any attempts to modify the value using the function will only occur to the local variable and not the variable used as an argument.
@@ -1594,85 +1666,12 @@ value is 4
 my_lucky_number is 4
 ```
 
-#### Arrays and Pointers
-
-Creating a pointer to an array is equivalent to creating a pointer to the first value of an array. The identifier for an array without brackets (`[]`) can be treated as a pointer to the array's first value.
-
-```cpp
-int main()
-{
-	int my_numbers[]{ 5, 4, 3, 2, 1 };
-	int* my_numbers_location = my_numbers;
-
-	//my_numbers_location should point to the first value in my_numbers.
-	std::cout << "First value in my_numbers: " << *my_numbers_location;
-}
-```
-
-```
-First value in my_numbers: 5
-```
-
-Adding and subtracting to the pointer allows us to access the elements ahead or behind of the current value. This is called *pointer arithmetic*.
-
-```cpp
-int main()
-{
-	int my_numbers[]{ 5, 4, 3, 2, 1 };
-	int* my_numbers_location = my_numbers;
-	int* my_second_number = my_numbers + 1;
-
-	//my_second_number should point to the second value in my_numbers.
-	std::cout << "Second value: " << *my_second_number;
-}
-```
-
-```
-Second value: 4
-```
-
-Using bracket notation to access a value and pointer notation are functionally equivalent.
-
-```cpp
-int main()
-{
-	int my_numbers[]{ 5, 4, 3, 2, 1 };
-
-	// From accessing the third value by bracket notation.
-	std::cout << "    my_numbers[2]: " << my_numbers[2] << std::endl;
-	// From accessing the pointer to the third value and dereferencing.
-	std::cout << "*(my_numbers + 2): " << *(my_numbers + 2) << std::endl;
-}
-```
-
-```
-    my_numbers[2]: 3
-*(my_numbers + 2): 3
-```
-
-`nullptr` is a literal for a pointer in which the pointer does not point to any address. Pointers have an implicit conversion to `bool` where a `nullptr` evaluates to `false` and everything else evaluates to `true`.
-
-```cpp
-int main()
-{
-	int* points_somewhere = nullptr;
-
-	if (points_somewhere) std::cout << "I have direction!";
-	else std::cout << "I have no direction :(";
-}
-```
-
-```
-I have no direction :(
-```
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwMTc3MTE3LC04MTE4NDk5MCwyMDEwMT
-I2NjU0LDMzOTIyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2MzI5
-LC0xNzM1NDc0NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OSwtMz
-Q2NDAyNTI5LDg4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYz
-NzgsLTc5NDA3Mjk2NCw5MTMzMDc3MTcsLTc0MTI2NjMyLC03OT
-g2ODYzNjksMTY3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2
-OThdfQ==
+eyJoaXN0b3J5IjpbMTc1Njg2MzM2NSwzODAxNzcxMTcsLTgxMT
+g0OTkwLDIwMTAxMjY2NTQsMzM5MjIwMTIwLDE0MTA5OTYyNjMs
+LTEwNDE5NTYzMjksLTE3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMD
+AyNjc0NTg5LC0zNDY0MDI1MjksODg5MzM1ODYzLC01MDI0MjUx
+ODEsMTkyNjYyNjM3OCwtNzk0MDcyOTY0LDkxMzMwNzcxNywtNz
+QxMjY2MzIsLTc5ODY4NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5
+NzVdfQ==
 -->
