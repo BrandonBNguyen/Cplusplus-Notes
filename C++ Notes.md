@@ -1539,8 +1539,26 @@ First value in my_numbers: 5
 ```
 
 Adding and subtracting to the pointer allows us to access the elements ahead or behind of the current value. This is called *pointer arithmetic*.
+
+```cpp
+int main()
+{
+	int my_numbers[]{ 5, 4, 3, 2, 1 };
+	int* my_numbers_location = my_numbers;
+	int* my_second_number = my_numbers + 1;
+
+	//my_second_number should point to the second value in my_numbers.
+	std::cout << "Second value: " << *my_second_number;
+}
+```
+
+```
+Second value: 4
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODY1MzQ3NywtMTA0MTk1NjMyOSwtMT
+eyJoaXN0b3J5IjpbMTQ1MzcyOTQ1MCwtMTA0MTk1NjMyOSwtMT
 czNTQ3NDcyMCwtNDM1OTE0MjE1LDIwMDI2NzQ1ODksLTM0NjQw
 MjUyOSw4ODkzMzU4NjMsLTUwMjQyNTE4MSwxOTI2NjI2Mzc4LC
 03OTQwNzI5NjQsOTEzMzA3NzE3LC03NDEyNjYzMiwtNzk4Njg2
