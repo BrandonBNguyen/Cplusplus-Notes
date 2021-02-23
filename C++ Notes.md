@@ -1677,9 +1677,9 @@ Pointers and references are largely interchangeable, however, references cannot 
 
 ### `this` Pointers
 
-The `this` pointer is used within a class to distinguish the current object when accessing a member. This can be used to make explicit the instance of an object you are referring to (which can be 
+The `this` pointer is used within a class to distinguish the current object when accessing a member. This can be used to make explicit the instance of an object you are referring to (which can be especially useful when an object is interacting with other objects of the same type). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzA2MDAwMTMsMzgwODk3MDQ0LDE2Mz
+eyJoaXN0b3J5IjpbLTE2MjI1NTAyOTUsMzgwODk3MDQ0LDE2Mz
 E3MzgzMjUsLTU0NDgyMDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3
 LC04MTE4NDk5MCwyMDEwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOT
 k2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0NzIwLC00MzU5MTQy
