@@ -1580,9 +1580,9 @@ int main()
 ```cpp
 int main()
 {
-	int* points_nowhere = nullptr;
+	int* points_somewhere = nullptr;
 
-	if (points_nowhere) std::cout << "I have direction!";
+	if (points_somewhere) std::cout << "I have direction!";
 	else std::cout << "I have no direction :(";
 }
 ```
@@ -1593,11 +1593,11 @@ I have no direction :(
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5MjIwMTIwLDE0MTA5OTYyNjMsLTEwND
-E5NTYzMjksLTE3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMDAyNjc0
-NTg5LC0zNDY0MDI1MjksODg5MzM1ODYzLC01MDI0MjUxODEsMT
-kyNjYyNjM3OCwtNzk0MDcyOTY0LDkxMzMwNzcxNywtNzQxMjY2
-MzIsLTc5ODY4NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5NzUsMj
-EwMzE2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUw
-MzU1MTUzXX0=
+eyJoaXN0b3J5IjpbLTY4OTUxNzMyMCwzMzkyMjAxMjAsMTQxMD
+k5NjI2MywtMTA0MTk1NjMyOSwtMTczNTQ3NDcyMCwtNDM1OTE0
+MjE1LDIwMDI2NzQ1ODksLTM0NjQwMjUyOSw4ODkzMzU4NjMsLT
+UwMjQyNTE4MSwxOTI2NjI2Mzc4LC03OTQwNzI5NjQsOTEzMzA3
+NzE3LC03NDEyNjYzMiwtNzk4Njg2MzY5LDE2NzUwMzMzMDUsMT
+A4NTc1Mjk3NSwyMTAzMTY1Njk4LC0xMzgyMTIzMjU2LC01NjIw
+NTMxMjddfQ==
 -->
