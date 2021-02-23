@@ -1829,9 +1829,9 @@ The main function of `auto` is to save time during code refactoring such that ch
 
 ## Object Life Cycle
 
-Object's have
+Object's have a life cycle starting from when they are declared (memory is allocated to store the object) and ending when their destructors are called (followed by the object's storage being deallocated). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDU3MjE3NCw4NDg4Nzg0NDksLTU1ND
+eyJoaXN0b3J5IjpbLTYwNjYwOTUzOSw4NDg4Nzg0NDksLTU1ND
 c0NjYyMCwtNTYwMTk2NjY3LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0
 NjgsLTExNTY0NTkwMzcsLTE2MjI1NTAyOTUsMzgwODk3MDQ0LD
 E2MzE3MzgzMjUsLTU0NDgyMDAyLDE3NTY4NjMzNjUsMzgwMTc3
