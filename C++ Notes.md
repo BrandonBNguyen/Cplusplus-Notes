@@ -2002,12 +2002,30 @@ int main()
 ```
 
 #### `thread_local`
+
+`thread_local` is used to specify that a static variable is local to  a specific thread. 
+
+```cpp
+void add_beans(int new_beans){
+	// If running this function on multiple threads, each thread will acquire
+	// its own copy of bean_count, preventing 
+    thread_local static int bean_count = 0;
+
+    for (int bean = 0; bean < new_beans; bean++) {
+        bean_count++;
+        std::cout << "Added " << bean + 1
+            << " beans. I now have " << bean_count << " beans.";
+        std::cout << std::endl;
+    }
+    std::cout << std::endl;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDY0NjYwOSwtMTIwMzg3NDg1MywtMT
-QyNjMwNjg5NCwtNjk1NDY2Nzk2LC05OTE0OTM0MiwxMzIwODcx
-NTUwLC0xNTY2MzI3ODg3LC0xODUzNjcyODI1LDEzMDM4NjAxNj
-MsLTYwNjYwOTUzOSw4NDg4Nzg0NDksLTU1NDc0NjYyMCwtNTYw
-MTk2NjY3LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0NjgsLTExNTY0NT
-kwMzcsLTE2MjI1NTAyOTUsMzgwODk3MDQ0LDE2MzE3MzgzMjUs
-LTU0NDgyMDAyXX0=
+eyJoaXN0b3J5IjpbLTE5MTMxMjA1MzgsLTEyMDM4NzQ4NTMsLT
+E0MjYzMDY4OTQsLTY5NTQ2Njc5NiwtOTkxNDkzNDIsMTMyMDg3
+MTU1MCwtMTU2NjMyNzg4NywtMTg1MzY3MjgyNSwxMzAzODYwMT
+YzLC02MDY2MDk1MzksODQ4ODc4NDQ5LC01NTQ3NDY2MjAsLTU2
+MDE5NjY2NywtMTY4MzE0ODY3NiwyMDM0OTU3NDY4LC0xMTU2ND
+U5MDM3LC0xNjIyNTUwMjk1LDM4MDg5NzA0NCwxNjMxNzM4MzI1
+LC01NDQ4MjAwMl19
 -->
