@@ -1568,7 +1568,7 @@ value is 4
 my_lucky_number is 4
 ```
 
-This can be quite cumbersome to hav 
+It can be quite cumbersome to use the dereference operator or member-of-operator on the pointer for every statement involving the variable. Instead, we can use the 
 
 #### Arrays and Pointers
 
@@ -1644,7 +1644,7 @@ I have no direction :(
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTkyMDk5MSwyMDEwMTI2NjU0LDMzOT
+eyJoaXN0b3J5IjpbMTM5MzIxMjgwOCwyMDEwMTI2NjU0LDMzOT
 IyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0
 NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OSwtMzQ2NDAyNTI5LD
 g4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3
