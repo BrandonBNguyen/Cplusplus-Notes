@@ -1866,13 +1866,15 @@ This is the reason why ordinary variables in functions only exists within the sc
 
 ### Static Storage Duration
 
-For a *static object*, the object is allocated when the program starts and is deallocated when the program ends. Static variables are declared at the same level as functions
+For a *static object*, the object is allocated when the program starts and is deallocated when the program ends. Because of this, they can be accessed from any function within the translation unit (consisting of the contents of the source file and all its headers). 
+
+Static objects are declared at the same level 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzI1NTk4LDEzMDM4NjAxNjMsLTYwNj
-YwOTUzOSw4NDg4Nzg0NDksLTU1NDc0NjYyMCwtNTYwMTk2NjY3
-LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0NjgsLTExNTY0NTkwMzcsLT
-E2MjI1NTAyOTUsMzgwODk3MDQ0LDE2MzE3MzgzMjUsLTU0NDgy
-MDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3LC04MTE4NDk5MCwyMD
-EwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2
-MzI5XX0=
+eyJoaXN0b3J5IjpbMTc4Mzc1NDEwMSwxMzAzODYwMTYzLC02MD
+Y2MDk1MzksODQ4ODc4NDQ5LC01NTQ3NDY2MjAsLTU2MDE5NjY2
+NywtMTY4MzE0ODY3NiwyMDM0OTU3NDY4LC0xMTU2NDU5MDM3LC
+0xNjIyNTUwMjk1LDM4MDg5NzA0NCwxNjMxNzM4MzI1LC01NDQ4
+MjAwMiwxNzU2ODYzMzY1LDM4MDE3NzExNywtODExODQ5OTAsMj
+AxMDEyNjY1NCwzMzkyMjAxMjAsMTQxMDk5NjI2MywtMTA0MTk1
+NjMyOV19
 -->
