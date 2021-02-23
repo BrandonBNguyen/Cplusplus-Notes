@@ -42,6 +42,7 @@ Notes and programs created while learning C++. These were notes were created fol
 	2. [References](#references)
 	3. [`this` Pointers](#this-pointers)
 	4. [`const`](#const)
+	5. [`auto` Type Deduction](#auto-type-deduction)
 
 ## C++ Basics
 
@@ -1804,9 +1805,11 @@ struct Student {
 };
 ```
 
-### `Auto
+### `auto` Type Deduction
+
+`auto` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzU4ODY4MTQsLTU1NDc0NjYyMCwtNT
+eyJoaXN0b3J5IjpbLTE0MTg0NzAzNjMsLTU1NDc0NjYyMCwtNT
 YwMTk2NjY3LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0NjgsLTExNTY0
 NTkwMzcsLTE2MjI1NTAyOTUsMzgwODk3MDQ0LDE2MzE3MzgzMj
 UsLTU0NDgyMDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3LC04MTE4
