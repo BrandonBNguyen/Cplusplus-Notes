@@ -1024,6 +1024,12 @@ char expression[] = "Roses are red, "
      "up your nose.";
 ```
 
+Strings can also be declared by equating a char pointer to the string. See the section on pointers for more information.
+
+```cpp
+char* name = "Brandon";
+```
+
 ### Enumerations
 
 Enumerations are a type of user-defined type that you can set to a set of predefined values, which is great for modeling categorical concepts. The categories for an enumeration are declared by `enum class` followed by the name for the user-defined type followed by curly brackets containing a comma, separated list of categories that a variable of that type can be set to.
@@ -1776,11 +1782,11 @@ int some_function(const JellyBeanJar& jar) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNywtMT
-YyMjU1MDI5NSwzODA4OTcwNDQsMTYzMTczODMyNSwtNTQ0ODIw
-MDIsMTc1Njg2MzM2NSwzODAxNzcxMTcsLTgxMTg0OTkwLDIwMT
-AxMjY2NTQsMzM5MjIwMTIwLDE0MTA5OTYyNjMsLTEwNDE5NTYz
-MjksLTE3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC
-0zNDY0MDI1MjksODg5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYy
-NjM3OF19
+eyJoaXN0b3J5IjpbLTE3NzMwMzkyODYsMjAzNDk1NzQ2OCwtMT
+E1NjQ1OTAzNywtMTYyMjU1MDI5NSwzODA4OTcwNDQsMTYzMTcz
+ODMyNSwtNTQ0ODIwMDIsMTc1Njg2MzM2NSwzODAxNzcxMTcsLT
+gxMTg0OTkwLDIwMTAxMjY2NTQsMzM5MjIwMTIwLDE0MTA5OTYy
+NjMsLTEwNDE5NTYzMjksLTE3MzU0NzQ3MjAsLTQzNTkxNDIxNS
+wyMDAyNjc0NTg5LC0zNDY0MDI1MjksODg5MzM1ODYzLC01MDI0
+MjUxODFdfQ==
 -->
