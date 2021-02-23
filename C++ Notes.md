@@ -1940,11 +1940,11 @@ int main()
 
 #### Static Members
 
-Static members are not associated with a particular instance of a class but instead with the entire class in general.
+Static members are not associated with a particular instance of a class but instead with all instances of the class. 
 
-Static variables declared in a class definition must be initialized outside at the global scope
+Static variables declared in a class definition must be initialized outside at the global scope. Static members are accessed using
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDY5MTUwNywtOTkxNDkzNDIsMTMyMD
+eyJoaXN0b3J5IjpbMTY4NDcxMzkwNywtOTkxNDkzNDIsMTMyMD
 g3MTU1MCwtMTU2NjMyNzg4NywtMTg1MzY3MjgyNSwxMzAzODYw
 MTYzLC02MDY2MDk1MzksODQ4ODc4NDQ5LC01NTQ3NDY2MjAsLT
 U2MDE5NjY2NywtMTY4MzE0ODY3NiwyMDM0OTU3NDY4LC0xMTU2
