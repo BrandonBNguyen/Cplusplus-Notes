@@ -1521,14 +1521,30 @@ int main()
 
 #### Arrays and Pointers
 
-Creating a pointer to an array is equivalent to creating a pointer to the first value of an array.
+Creating a pointer to an array is equivalent to creating a pointer to the first value of an array. The identifier for an array without brackets (`[]`) can be treated as a pointer to the array's first value.
 
+```cpp
+int main()
+{
+	int my_numbers[]{ 5, 4, 3, 2, 1 };
+	int* my_numbers_location = my_numbers;
+
+	//my_numbers_location should point to the first value in my_numbers.
+	std::cout << "First value in my_numbers: " << *my_numbers_location;
+}
+```
+
+```
+First value in my_numbers: 5
+```
+
+A
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MDUwMTM5MSwtMTA0MTk1NjMyOSwtMT
-czNTQ3NDcyMCwtNDM1OTE0MjE1LDIwMDI2NzQ1ODksLTM0NjQw
-MjUyOSw4ODkzMzU4NjMsLTUwMjQyNTE4MSwxOTI2NjI2Mzc4LC
-03OTQwNzI5NjQsOTEzMzA3NzE3LC03NDEyNjYzMiwtNzk4Njg2
-MzY5LDE2NzUwMzMzMDUsMTA4NTc1Mjk3NSwyMTAzMTY1Njk4LC
-0xMzgyMTIzMjU2LC01NjIwNTMxMjcsLTEzNTAzNTUxNTMsNjY5
-Njk0OTg0XX0=
+eyJoaXN0b3J5IjpbLTEwNTczMDk5NjIsLTEwNDE5NTYzMjksLT
+E3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC0zNDY0
+MDI1MjksODg5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYyNjM3OC
+wtNzk0MDcyOTY0LDkxMzMwNzcxNywtNzQxMjY2MzIsLTc5ODY4
+NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5NzUsMjEwMzE2NTY5OC
+wtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUwMzU1MTUzLDY2
+OTY5NDk4NF19
 -->
