@@ -1836,7 +1836,9 @@ Object's have a life cycle starting from when they are declared (memory is alloc
 An *automatic object* is allocated memory at the beginning of an enclosing code block (`{}`) and deallocated at the end of the enclosing code block.
 
 ```cpp
+int main()
 {
+    {
         // enclosed_number is only in scope within this enclosed code block.
         int enclosed_number = 3;
     } // by the end, enclosed_number has been deallocated.
@@ -1844,15 +1846,16 @@ An *automatic object* is allocated memory at the beginning of an enclosing code 
     // This won't compile because it's attempting to access a variable that
     // no longer exists.
     std::cout << "Enclosed Number: " << enclosed_number;
+}
 ```
 
 ### Static Storage Duration
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzQ3ODAwLDEzMDM4NjAxNjMsLTYwNj
-YwOTUzOSw4NDg4Nzg0NDksLTU1NDc0NjYyMCwtNTYwMTk2NjY3
-LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0NjgsLTExNTY0NTkwMzcsLT
-E2MjI1NTAyOTUsMzgwODk3MDQ0LDE2MzE3MzgzMjUsLTU0NDgy
-MDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3LC04MTE4NDk5MCwyMD
-EwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2
-MzI5XX0=
+eyJoaXN0b3J5IjpbLTE3NjU4MzEwODcsMTMwMzg2MDE2MywtNj
+A2NjA5NTM5LDg0ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2
+NjcsLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNy
+wtMTYyMjU1MDI5NSwzODA4OTcwNDQsMTYzMTczODMyNSwtNTQ0
+ODIwMDIsMTc1Njg2MzM2NSwzODAxNzcxMTcsLTgxMTg0OTkwLD
+IwMTAxMjY2NTQsMzM5MjIwMTIwLDE0MTA5OTYyNjMsLTEwNDE5
+NTYzMjldfQ==
 -->
