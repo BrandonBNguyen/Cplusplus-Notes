@@ -1556,9 +1556,9 @@ int main()
 Second value: 4
 ```
 
-
+Using bracket notation to access a value and pointer notation are functionally equivalent.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzcyOTQ1MCwtMTA0MTk1NjMyOSwtMT
+eyJoaXN0b3J5IjpbMTQxMDk5NjI2MywtMTA0MTk1NjMyOSwtMT
 czNTQ3NDcyMCwtNDM1OTE0MjE1LDIwMDI2NzQ1ODksLTM0NjQw
 MjUyOSw4ODkzMzU4NjMsLTUwMjQyNTE4MSwxOTI2NjI2Mzc4LC
 03OTQwNzI5NjQsOTEzMzA3NzE3LC03NDEyNjYzMiwtNzk4Njg2
