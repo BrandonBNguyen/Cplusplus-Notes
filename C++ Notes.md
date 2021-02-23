@@ -1672,13 +1672,13 @@ my_lucky_number is 4
 
 #### Use Cases
 
-Pointers and references are largely interchangeable. 
+Pointers and references are largely interchangeable, however, references cannot be assigned to null easily or be reseated, meaning changed such that it references another variable instead of the one originally set.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDgyMDAyLDE3NTY4NjMzNjUsMzgwMT
-c3MTE3LC04MTE4NDk5MCwyMDEwMTI2NjU0LDMzOTIyMDEyMCwx
-NDEwOTk2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0NzIwLC00Mz
-U5MTQyMTUsMjAwMjY3NDU4OSwtMzQ2NDAyNTI5LDg4OTMzNTg2
-MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3Mjk2NCw5MT
-MzMDc3MTcsLTc0MTI2NjMyLC03OTg2ODYzNjksMTY3NTAzMzMw
-NV19
+eyJoaXN0b3J5IjpbMTYzMTczODMyNSwtNTQ0ODIwMDIsMTc1Nj
+g2MzM2NSwzODAxNzcxMTcsLTgxMTg0OTkwLDIwMTAxMjY2NTQs
+MzM5MjIwMTIwLDE0MTA5OTYyNjMsLTEwNDE5NTYzMjksLTE3Mz
+U0NzQ3MjAsLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC0zNDY0MDI1
+MjksODg5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYyNjM3OCwtNz
+k0MDcyOTY0LDkxMzMwNzcxNywtNzQxMjY2MzIsLTc5ODY4NjM2
+OV19
 -->
