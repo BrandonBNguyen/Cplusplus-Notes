@@ -1718,9 +1718,9 @@ struct DoublyLinkedListObject {
 
 ### `const`
 
-The keyword `const` is used to specify that a particular variable
+The keyword `const`, short for "constant", is used to specify that a particular variable cannot be modified.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTQ3MTgyNywtMTYyMjU1MDI5NSwzOD
+eyJoaXN0b3J5IjpbMjA5OTc1NTc3OSwtMTYyMjU1MDI5NSwzOD
 A4OTcwNDQsMTYzMTczODMyNSwtNTQ0ODIwMDIsMTc1Njg2MzM2
 NSwzODAxNzcxMTcsLTgxMTg0OTkwLDIwMTAxMjY2NTQsMzM5Mj
 IwMTIwLDE0MTA5OTYyNjMsLTEwNDE5NTYzMjksLTE3MzU0NzQ3
