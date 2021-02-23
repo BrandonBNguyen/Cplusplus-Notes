@@ -2032,9 +2032,9 @@ void add_beans(int new_beans){
 
 To create a dynamic object, use the keyword `new` followed by the variable type, optionally followed by a curly brace with initialization arguments. This will return a pointer to the object which you can store to access the variable. 
 
-To destroy a dynamic object, use the keyword `delete` followed by 
+To destroy a dynamic object, use the keyword `delete` followed by the pointer pointing to the dynamic object.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODMwMDM1MiwtNzU3NDU2MDE2LC0xMj
+eyJoaXN0b3J5IjpbMTkyNjM1NTAwNiwtNzU3NDU2MDE2LC0xMj
 AzODc0ODUzLC0xNDI2MzA2ODk0LC02OTU0NjY3OTYsLTk5MTQ5
 MzQyLDEzMjA4NzE1NTAsLTE1NjYzMjc4ODcsLTE4NTM2NzI4Mj
 UsMTMwMzg2MDE2MywtNjA2NjA5NTM5LDg0ODg3ODQ0OSwtNTU0
