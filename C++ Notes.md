@@ -1849,9 +1849,24 @@ int main()
 }
 ```
 
+```cpp
+int main()
+{
+    for (int i = 0; i < 5; i++) {
+        // i exists only within the for loop.
+        std::cout << i << std::endl;
+    } // i is deallocated by the time the for loop is completed.
+
+    // This won't compile because i no longer exists.
+    std::cout << "Last iterator was " << i;
+}
+```
+
+This is the reason why ordinary variables in functions only exists within the scope of the function.
+
 ### Static Storage Duration
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjU4MzEwODcsMTMwMzg2MDE2MywtNj
+eyJoaXN0b3J5IjpbLTE4NzM3OTM1MzIsMTMwMzg2MDE2MywtNj
 A2NjA5NTM5LDg0ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2
 NjcsLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNy
 wtMTYyMjU1MDI5NSwzODA4OTcwNDQsMTYzMTczODMyNSwtNTQ0
