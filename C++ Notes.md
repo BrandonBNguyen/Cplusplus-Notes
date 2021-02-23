@@ -1521,7 +1521,10 @@ int main()
 
 #### Passing Arguments by Value vs by Reference
 
+When passing an object into a function by value, the value is essentially copied over and stored as a variable local to the function. This means that any attempts to modify the value using the function will only occur to the local variable and not the variable used as an argument.
 
+```cpp
+```
 
 #### Arrays and Pointers
 
@@ -1597,7 +1600,7 @@ I have no direction :(
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTUxMjg3NCwzMzkyMjAxMjAsMTQxMD
+eyJoaXN0b3J5IjpbMjAxMDEyNjY1NCwzMzkyMjAxMjAsMTQxMD
 k5NjI2MywtMTA0MTk1NjMyOSwtMTczNTQ3NDcyMCwtNDM1OTE0
 MjE1LDIwMDI2NzQ1ODksLTM0NjQwMjUyOSw4ODkzMzU4NjMsLT
 UwMjQyNTE4MSwxOTI2NjI2Mzc4LC03OTQwNzI5NjQsOTEzMzA3
