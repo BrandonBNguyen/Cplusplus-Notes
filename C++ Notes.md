@@ -1947,12 +1947,65 @@ Static variables declared in a class definition must be initialized outside at t
 Static methods can only work with the static variables and other static methods of the class.
 
 ```cpp
+struct Planet {
+    // This static variable is declared here but must be initialized outside the
+    // class definition.
+    static double gravitational_constant;
+    int population;
+
+    // Constructors
+    Planet(int population) {
+        if (population >= 0) {
+            this->population = population;
+        }
+        else {
+            this->population = 0;
+        }
+    }
+
+    Planet() {
+        this->population = 0;
+    }
+
+    // This ordinary method is able to work with non-static members of the class.
+    bool change_population(int change_in_population) {
+        auto new_population = this->population + change_in_population;
+        if (new_population >= 0) {
+            this->population = new_population;
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    // This static method can only work with static members of the class.
+    static void change_gravitaitonal_constant(double new_gravitational_constant) {
+        gravitational_constant = new_gravitational_constant;
+    }
+};
+
+// The static variable gravitational_constant is initialized here at the global scale.
+// The scope resolution operator (::) is used to access and modify the static member.
+double Planet::gravitational_constant = 6.67430e-11;
+
+int main()
+{
+    Planet Earth{ 2 };
+    // Reproduce
+    Earth.change_population(1);
+
+    // Casually change the laws of the universe. The static method of the Planet class
+    // must be accessed by using the scope resolution operator (::).
+    Planet::change_gravitaitonal_constant(6.67430e-10);
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjYzMDY4OTQsLTY5NTQ2Njc5NiwtOT
-kxNDkzNDIsMTMyMDg3MTU1MCwtMTU2NjMyNzg4NywtMTg1MzY3
-MjgyNSwxMzAzODYwMTYzLC02MDY2MDk1MzksODQ4ODc4NDQ5LC
-01NTQ3NDY2MjAsLTU2MDE5NjY2NywtMTY4MzE0ODY3NiwyMDM0
-OTU3NDY4LC0xMTU2NDU5MDM3LC0xNjIyNTUwMjk1LDM4MDg5Nz
-A0NCwxNjMxNzM4MzI1LC01NDQ4MjAwMiwxNzU2ODYzMzY1LDM4
-MDE3NzExN119
+eyJoaXN0b3J5IjpbMTU5NTk1Nzg4NywtMTQyNjMwNjg5NCwtNj
+k1NDY2Nzk2LC05OTE0OTM0MiwxMzIwODcxNTUwLC0xNTY2MzI3
+ODg3LC0xODUzNjcyODI1LDEzMDM4NjAxNjMsLTYwNjYwOTUzOS
+w4NDg4Nzg0NDksLTU1NDc0NjYyMCwtNTYwMTk2NjY3LC0xNjgz
+MTQ4Njc2LDIwMzQ5NTc0NjgsLTExNTY0NTkwMzcsLTE2MjI1NT
+AyOTUsMzgwODk3MDQ0LDE2MzE3MzgzMjUsLTU0NDgyMDAyLDE3
+NTY4NjMzNjVdfQ==
 -->
