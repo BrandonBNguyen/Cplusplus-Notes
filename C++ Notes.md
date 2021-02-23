@@ -1882,6 +1882,7 @@ void add_beans(int new_beans){
             << " beans. I now have " << bean_count << " beans.";
         std::cout << std::endl;
     }
+    std::cout << std::endl;
 }
 
 int main()
@@ -1892,13 +1893,24 @@ int main()
     add_beans(4);
 }
 ```
-`
+```
+Added 1 beans. I now have 1 beans.
+Added 2 beans. I now have 2 beans.
+Added 3 beans. I now have 3 beans.
+
+Added 1 beans. I now have 4 beans.
+Added 2 beans. I now have 5 beans.
+Added 3 beans. I now have 6 beans.
+Added 4 beans. I now have 7 beans.
+```
+
+If a variable needs to be accessed from another translation unit (from another source file) the keyword `extern` would be used in p
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxODQ0Mjg2LC0xODUzNjcyODI1LDEzMD
-M4NjAxNjMsLTYwNjYwOTUzOSw4NDg4Nzg0NDksLTU1NDc0NjYy
-MCwtNTYwMTk2NjY3LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0NjgsLT
-ExNTY0NTkwMzcsLTE2MjI1NTAyOTUsMzgwODk3MDQ0LDE2MzE3
-MzgzMjUsLTU0NDgyMDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3LC
-04MTE4NDk5MCwyMDEwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOTk2
-MjYzXX0=
+eyJoaXN0b3J5IjpbLTE4MjYyNzA1NDcsLTE4NTM2NzI4MjUsMT
+MwMzg2MDE2MywtNjA2NjA5NTM5LDg0ODg3ODQ0OSwtNTU0NzQ2
+NjIwLC01NjAxOTY2NjcsLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OC
+wtMTE1NjQ1OTAzNywtMTYyMjU1MDI5NSwzODA4OTcwNDQsMTYz
+MTczODMyNSwtNTQ0ODIwMDIsMTc1Njg2MzM2NSwzODAxNzcxMT
+csLTgxMTg0OTkwLDIwMTAxMjY2NTQsMzM5MjIwMTIwLDE0MTA5
+OTYyNjNdfQ==
 -->
