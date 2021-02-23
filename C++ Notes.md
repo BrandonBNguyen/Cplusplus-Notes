@@ -1817,18 +1817,20 @@ auto name{ "Alfred" };  // name is a char[6].
 Modifiers such as `&`, `*`, and `const`, when paired with auto, are used to specify if we should expect a variable to be a reference or pointer and whether it should be constant.
 
 ```cpp
-auto year { 2021 }; 
-auto& year_ref = year;
-const auto& year_cref = year;
-auto* year_ptr = &year;
-const auto* 
+auto year { 2021 };             // int
+auto& year_ref = year;          // int& (reference)
+const auto& year_cref = year;   // const int& (constant reference)
+auto* year_ptr = &year;         // int* (pointer)
+const auto* year_cptr = &year;  // const int* (constant pointer)
 ```
+
+The main function of `auto` is to save time during code refactoring such that changing the type of some initial variable doesn't necessitate changing the type of 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI3ODE3MzksLTU1NDc0NjYyMCwtNT
-YwMTk2NjY3LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0NjgsLTExNTY0
-NTkwMzcsLTE2MjI1NTAyOTUsMzgwODk3MDQ0LDE2MzE3MzgzMj
-UsLTU0NDgyMDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3LC04MTE4
-NDk5MCwyMDEwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOTk2MjYzLC
-0xMDQxOTU2MzI5LC0xNzM1NDc0NzIwLC00MzU5MTQyMTUsMjAw
-MjY3NDU4OV19
+eyJoaXN0b3J5IjpbMTY1Njk5MzQ2MywtNTU0NzQ2NjIwLC01Nj
+AxOTY2NjcsLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1
+OTAzNywtMTYyMjU1MDI5NSwzODA4OTcwNDQsMTYzMTczODMyNS
+wtNTQ0ODIwMDIsMTc1Njg2MzM2NSwzODAxNzcxMTcsLTgxMTg0
+OTkwLDIwMTAxMjY2NTQsMzM5MjIwMTIwLDE0MTA5OTYyNjMsLT
+EwNDE5NTYzMjksLTE3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMDAy
+Njc0NTg5XX0=
 -->
