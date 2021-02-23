@@ -1830,12 +1830,16 @@ The main function of `auto` is to save time during code refactoring such that ch
 ## Object Life Cycle
 
 Object's have a life cycle starting from when they are declared (memory is allocated to store the object) and ending when their destructors are called (followed by the object's storage being deallocated). 
+
+### Automatic Storage Duration
+
+### Static Storage Duration
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNjYwOTUzOSw4NDg4Nzg0NDksLTU1ND
-c0NjYyMCwtNTYwMTk2NjY3LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0
-NjgsLTExNTY0NTkwMzcsLTE2MjI1NTAyOTUsMzgwODk3MDQ0LD
-E2MzE3MzgzMjUsLTU0NDgyMDAyLDE3NTY4NjMzNjUsMzgwMTc3
-MTE3LC04MTE4NDk5MCwyMDEwMTI2NjU0LDMzOTIyMDEyMCwxND
-EwOTk2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0NzIwLC00MzU5
-MTQyMTVdfQ==
+eyJoaXN0b3J5IjpbLTQ3NjA1ODExNiwtNjA2NjA5NTM5LDg0OD
+g3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2ODMxNDg2
+NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNywtMTYyMjU1MDI5NS
+wzODA4OTcwNDQsMTYzMTczODMyNSwtNTQ0ODIwMDIsMTc1Njg2
+MzM2NSwzODAxNzcxMTcsLTgxMTg0OTkwLDIwMTAxMjY2NTQsMz
+M5MjIwMTIwLDE0MTA5OTYyNjMsLTEwNDE5NTYzMjksLTE3MzU0
+NzQ3MjBdfQ==
 -->
