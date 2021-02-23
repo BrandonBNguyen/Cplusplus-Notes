@@ -1726,15 +1726,49 @@ Using `const` in a method ensures that the execution of the method will not perm
 
 To make a method `const`, specify include the keyword after the arguments list but before the method body.
 
-```cpp
 
+Recall the `JellyBeanJar` class. The `count()` method, which reads and returns the number of jelly beans present in the jar would be a good method to make read-only.
+```cpp
+struct JellyBeanJar {
+	// If no inputs are specified, the inital jelly bean count is 0.
+	JellyBeanJar() {
+		jelly_beans = 0;
+	}
+
+	// If an input is specified, make sure it is a valid number before
+	// assigning the initial jelly bean count. If it is invalid, default
+	// the number of jelly beans to 0.
+	JellyBeanJar(int initial_count) {
+		if (initial_count >= 0) jelly_beans = initial_count;
+		else jelly_beans = 0;
+	}
+
+	bool add_bean() {
+		if (jelly_beans < 0) return false;
+		jelly_beans += 1;
+		return true;
+	}
+
+	bool remove_bean() {
+		if (jelly_beans <= 0) return false;
+		jelly_beans -= 1;
+		return true;
+	}
+
+	int count() const {
+		return jelly_beans;
+	}
+
+private:
+	int jelly_beans;
+};
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY0NTkwMzcsLTE2MjI1NTAyOTUsMz
-gwODk3MDQ0LDE2MzE3MzgzMjUsLTU0NDgyMDAyLDE3NTY4NjMz
-NjUsMzgwMTc3MTE3LC04MTE4NDk5MCwyMDEwMTI2NjU0LDMzOT
-IyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0
-NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OSwtMzQ2NDAyNTI5LD
-g4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3
-Mjk2NF19
+eyJoaXN0b3J5IjpbLTExNDg1MDUxODgsLTExNTY0NTkwMzcsLT
+E2MjI1NTAyOTUsMzgwODk3MDQ0LDE2MzE3MzgzMjUsLTU0NDgy
+MDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3LC04MTE4NDk5MCwyMD
+EwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2
+MzI5LC0xNzM1NDc0NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OS
+wtMzQ2NDAyNTI5LDg4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2
+MjYzNzhdfQ==
 -->
