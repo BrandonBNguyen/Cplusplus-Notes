@@ -1719,12 +1719,16 @@ struct DoublyLinkedListObject {
 ### `const`
 
 The keyword `const`, short for "constant", is used to specify that a particular variable cannot be modified.
+
+#### Methods
+
+Using `const` in a method ensures that the execution of the method will not permit any change 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5OTc1NTc3OSwtMTYyMjU1MDI5NSwzOD
-A4OTcwNDQsMTYzMTczODMyNSwtNTQ0ODIwMDIsMTc1Njg2MzM2
-NSwzODAxNzcxMTcsLTgxMTg0OTkwLDIwMTAxMjY2NTQsMzM5Mj
-IwMTIwLDE0MTA5OTYyNjMsLTEwNDE5NTYzMjksLTE3MzU0NzQ3
-MjAsLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC0zNDY0MDI1MjksOD
-g5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYyNjM3OCwtNzk0MDcy
-OTY0XX0=
+eyJoaXN0b3J5IjpbLTE3MTgxNTg0MzMsLTE2MjI1NTAyOTUsMz
+gwODk3MDQ0LDE2MzE3MzgzMjUsLTU0NDgyMDAyLDE3NTY4NjMz
+NjUsMzgwMTc3MTE3LC04MTE4NDk5MCwyMDEwMTI2NjU0LDMzOT
+IyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0
+NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OSwtMzQ2NDAyNTI5LD
+g4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3
+Mjk2NF19
 -->
