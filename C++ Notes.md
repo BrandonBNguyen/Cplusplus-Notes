@@ -2033,12 +2033,27 @@ void add_beans(int new_beans){
 To create a dynamic object, use the keyword `new` followed by the variable type, optionally followed by a curly brace with initialization arguments. This will return a pointer to the object which you can store to access the variable. 
 
 To destroy a dynamic object, use the keyword `delete` followed by the pointer pointing to the dynamic object.
+
+```cpp
+int main()
+{
+	int* secret_number = new int{ 12345124 };
+	std::cout << "The secret number is " << *(secret_number);
+	delete secret_number;
+
+	// Results in an error because the dynamic object has already been destroyed.
+	std::cout << "I recovered the secret numgber: " << *(secret_number);
+}
+```
+
+#### Dynamic Arrays
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNjM1NTAwNiwtNzU3NDU2MDE2LC0xMj
-AzODc0ODUzLC0xNDI2MzA2ODk0LC02OTU0NjY3OTYsLTk5MTQ5
-MzQyLDEzMjA4NzE1NTAsLTE1NjYzMjc4ODcsLTE4NTM2NzI4Mj
-UsMTMwMzg2MDE2MywtNjA2NjA5NTM5LDg0ODg3ODQ0OSwtNTU0
-NzQ2NjIwLC01NjAxOTY2NjcsLTE2ODMxNDg2NzYsMjAzNDk1Nz
-Q2OCwtMTE1NjQ1OTAzNywtMTYyMjU1MDI5NSwzODA4OTcwNDQs
-MTYzMTczODMyNV19
+eyJoaXN0b3J5IjpbNzc1OTUzNTQyLDE5MjYzNTUwMDYsLTc1Nz
+Q1NjAxNiwtMTIwMzg3NDg1MywtMTQyNjMwNjg5NCwtNjk1NDY2
+Nzk2LC05OTE0OTM0MiwxMzIwODcxNTUwLC0xNTY2MzI3ODg3LC
+0xODUzNjcyODI1LDEzMDM4NjAxNjMsLTYwNjYwOTUzOSw4NDg4
+Nzg0NDksLTU1NDc0NjYyMCwtNTYwMTk2NjY3LC0xNjgzMTQ4Nj
+c2LDIwMzQ5NTc0NjgsLTExNTY0NTkwMzcsLTE2MjI1NTAyOTUs
+MzgwODk3MDQ0XX0=
 -->
