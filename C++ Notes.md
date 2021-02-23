@@ -1789,13 +1789,25 @@ int some_function(const JellyBeanJar& jar) {
 
 #### Constant  Member Variables
 
-Constant variables can't be modified after initialization. To use `const` for variables within a class initialized to values specified at construction, we need to use a *member initializer list*. To create a member initializer list, put a colon (`:`) after the arguments list for the constructor followed by a comma separated list containing the name of the member to be assigned followed by curly braces containing the argument to
+Constant variables can't be modified after initialization. To use `const` for variables within a class initialized to values specified at construction, we need to use a *member initializer list*. To create a member initializer list, put a colon (`:`) after the arguments list for the constructor followed by a comma separated list containing the name of the member to be assigned followed by curly braces containing the argument assigned to the member.
+
+```cpp
+struct Student {
+	Student(char* preferred_name, const int id_number, int current_age)
+		: name{ preferred_name }, id{ id_number }, age{ current_age } {
+	}
+
+	char* name;
+	const int id;
+	int age;
+};
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzI5NDU1MywtNTYwMTk2NjY3LC0xNj
-gzMTQ4Njc2LDIwMzQ5NTc0NjgsLTExNTY0NTkwMzcsLTE2MjI1
-NTAyOTUsMzgwODk3MDQ0LDE2MzE3MzgzMjUsLTU0NDgyMDAyLD
-E3NTY4NjMzNjUsMzgwMTc3MTE3LC04MTE4NDk5MCwyMDEwMTI2
-NjU0LDMzOTIyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2MzI5LC
-0xNzM1NDc0NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OSwtMzQ2
-NDAyNTI5XX0=
+eyJoaXN0b3J5IjpbMTAwMTY0MzMsLTU2MDE5NjY2NywtMTY4Mz
+E0ODY3NiwyMDM0OTU3NDY4LC0xMTU2NDU5MDM3LC0xNjIyNTUw
+Mjk1LDM4MDg5NzA0NCwxNjMxNzM4MzI1LC01NDQ4MjAwMiwxNz
+U2ODYzMzY1LDM4MDE3NzExNywtODExODQ5OTAsMjAxMDEyNjY1
+NCwzMzkyMjAxMjAsMTQxMDk5NjI2MywtMTA0MTk1NjMyOSwtMT
+czNTQ3NDcyMCwtNDM1OTE0MjE1LDIwMDI2NzQ1ODksLTM0NjQw
+MjUyOV19
 -->
