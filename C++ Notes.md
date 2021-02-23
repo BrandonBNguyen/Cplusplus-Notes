@@ -1814,9 +1814,17 @@ auto number{ 2 };       // number is an int.
 auto name{ "Alfred" };  // name is a char[6].
 ```
 
-Modifiers such as `&`, `*`, and `const` 
+Modifiers such as `&`, `*`, and `const`, when paired with auto, are used to specify if we should expect a variable to be a reference or pointer and whether it should be constant.
+
+```cpp
+auto year { 2021 }; 
+auto& year_ref = year;
+const auto& year_cref = year;
+auto* year_ptr = &year;
+const auto* 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzc3MjQwOTIsLTU1NDc0NjYyMCwtNT
+eyJoaXN0b3J5IjpbLTE5OTI3ODE3MzksLTU1NDc0NjYyMCwtNT
 YwMTk2NjY3LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0NjgsLTExNTY0
 NTkwMzcsLTE2MjI1NTAyOTUsMzgwODk3MDQ0LDE2MzE3MzgzMj
 UsLTU0NDgyMDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3LC04MTE4
