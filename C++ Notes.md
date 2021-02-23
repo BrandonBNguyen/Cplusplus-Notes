@@ -1904,9 +1904,13 @@ Added 3 beans. I now have 6 beans.
 Added 4 beans. I now have 7 beans.
 ```
 
-If a variable needs to be accessed from another translation unit (from another source file) the keyword `extern` would be used in p
+If a variable needs to be accessed from another translation unit (from another source file) the keyword `extern` would be used in place of `static`. Otherwise, they are functionally identical.
+
+#### Local Static Variables
+
+Static variables declared within a function are 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjYyNzA1NDcsLTE4NTM2NzI4MjUsMT
+eyJoaXN0b3J5IjpbLTE1NjYzMjc4ODcsLTE4NTM2NzI4MjUsMT
 MwMzg2MDE2MywtNjA2NjA5NTM5LDg0ODg3ODQ0OSwtNTU0NzQ2
 NjIwLC01NjAxOTY2NjcsLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OC
 wtMTE1NjQ1OTAzNywtMTYyMjU1MDI5NSwzODA4OTcwNDQsMTYz
