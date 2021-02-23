@@ -1557,12 +1557,29 @@ Second value: 4
 ```
 
 Using bracket notation to access a value and pointer notation are functionally equivalent.
+
+```cpp
+int main()
+{
+	int my_numbers[]{ 5, 4, 3, 2, 1 };
+
+	// From accessing the third value by bracket notation.
+	std::cout << "    my_numbers[2]: " << my_numbers[2] << std::endl;
+	// From accessing the pointer to the third value and dereferencing.
+	std::cout << "*(my_numbers + 2): " << *(my_numbers + 2) << std::endl;
+}
+```
+
+```
+    my_numbers[2]: 3
+*(my_numbers + 2): 3
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDk5NjI2MywtMTA0MTk1NjMyOSwtMT
-czNTQ3NDcyMCwtNDM1OTE0MjE1LDIwMDI2NzQ1ODksLTM0NjQw
-MjUyOSw4ODkzMzU4NjMsLTUwMjQyNTE4MSwxOTI2NjI2Mzc4LC
-03OTQwNzI5NjQsOTEzMzA3NzE3LC03NDEyNjYzMiwtNzk4Njg2
-MzY5LDE2NzUwMzMzMDUsMTA4NTc1Mjk3NSwyMTAzMTY1Njk4LC
-0xMzgyMTIzMjU2LC01NjIwNTMxMjcsLTEzNTAzNTUxNTMsNjY5
-Njk0OTg0XX0=
+eyJoaXN0b3J5IjpbLTM1Njc4OTQ0OSwxNDEwOTk2MjYzLC0xMD
+QxOTU2MzI5LC0xNzM1NDc0NzIwLC00MzU5MTQyMTUsMjAwMjY3
+NDU4OSwtMzQ2NDAyNTI5LDg4OTMzNTg2MywtNTAyNDI1MTgxLD
+E5MjY2MjYzNzgsLTc5NDA3Mjk2NCw5MTMzMDc3MTcsLTc0MTI2
+NjMyLC03OTg2ODYzNjksMTY3NTAzMzMwNSwxMDg1NzUyOTc1LD
+IxMDMxNjU2OTgsLTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMTM1
+MDM1NTE1M119
 -->
