@@ -1532,15 +1532,17 @@ void add_and_print(int value) {
 int main()
 {
 	int my_lucky_number = 3;
-	// Pass my_lucky_number into add_and_print. The value of my_lucky_number is copied
-	// and value is assigned that value. Any changes to value are not received by
-	// my_lucky_number.
+	// Pass my_lucky_number into add_and_print. The value of my_lucky_number is
+	// copied and value is assigned that value. Any changes to value are not 
+	// received by my_lucky_number.
 	add_and_print(my_lucky_number);
 
 	// We can see that my_lucky_number remains unchanged.
 	std::cout << "my_lucky_number is " << my_lucky_number << std::endl;
 }
 ```
+
+To get around this, if we do want to modify the variable we are passing into the function, we can use pointers. Instead of passing the variable itself, we will pass a pointer to the variable.
 
 #### Arrays and Pointers
 
@@ -1616,7 +1618,7 @@ I have no direction :(
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTg4NDU3MiwyMDEwMTI2NjU0LDMzOT
+eyJoaXN0b3J5IjpbLTgyNDYwMDg0MCwyMDEwMTI2NjU0LDMzOT
 IyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0
 NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OSwtMzQ2NDAyNTI5LD
 g4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3
