@@ -1909,12 +1909,44 @@ If a variable needs to be accessed from another translation unit (from another s
 #### Local Static Variables
 
 Static variables declared within a function are only accessible within the context of that function, however, they continue to exists between function calls until they are deallocated at the end of the program. They are allocated at the first function call involving that static variable.
+
+```cpp
+void add_beans(int new_beans){
+    // bean_count will initialize on the first function call. This statement
+    // is ignored for subsequent function calls and bean_count won't be reset
+    // to 0 every time add_beans() is called.
+    static int bean_count = 0;
+
+    for (int bean = 0; bean < new_beans; bean++) {
+        bean_count++;
+        std::cout << "Added " << bean + 1
+            << " beans. I now have " << bean_count << " beans.";
+        std::cout << std::endl;
+    }
+    std::cout << std::endl;
+}
+
+int main()
+{
+    add_beans(3);
+    add_beans(4);
+
+    // This won't compile because bean_count despite being static and existing
+    // between function calls is local to add_beans and can only be accessed
+    // within that function.
+    std::cout << "In total, I now have " << bean_count << "beans!";
+}
+```
+
+#### Static Members
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDg3MTU1MCwtMTU2NjMyNzg4NywtMT
-g1MzY3MjgyNSwxMzAzODYwMTYzLC02MDY2MDk1MzksODQ4ODc4
-NDQ5LC01NTQ3NDY2MjAsLTU2MDE5NjY2NywtMTY4MzE0ODY3Ni
-wyMDM0OTU3NDY4LC0xMTU2NDU5MDM3LC0xNjIyNTUwMjk1LDM4
-MDg5NzA0NCwxNjMxNzM4MzI1LC01NDQ4MjAwMiwxNzU2ODYzMz
-Y1LDM4MDE3NzExNywtODExODQ5OTAsMjAxMDEyNjY1NCwzMzky
-MjAxMjBdfQ==
+eyJoaXN0b3J5IjpbLTk5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1Nj
+YzMjc4ODcsLTE4NTM2NzI4MjUsMTMwMzg2MDE2MywtNjA2NjA5
+NTM5LDg0ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLT
+E2ODMxNDg2NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNywtMTYy
+MjU1MDI5NSwzODA4OTcwNDQsMTYzMTczODMyNSwtNTQ0ODIwMD
+IsMTc1Njg2MzM2NSwzODAxNzcxMTcsLTgxMTg0OTkwLDIwMTAx
+MjY2NTRdfQ==
 -->
