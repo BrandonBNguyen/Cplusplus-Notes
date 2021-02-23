@@ -1521,13 +1521,15 @@ int main()
 
 #### Arrays and Pointers
 
-Creating a pointer to an array is equivalent to creating a pointer to the first value of an array. Equating a pointer to
+Creating a pointer to an array is equivalent to creating a pointer to the first value of an array.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3MDAxNjc2LC0xMDQxOTU2MzI5LC0xNz
-M1NDc0NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OSwtMzQ2NDAy
-NTI5LDg4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgsLT
-c5NDA3Mjk2NCw5MTMzMDc3MTcsLTc0MTI2NjMyLC03OTg2ODYz
-NjksMTY3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2OTgsLT
-EzODIxMjMyNTYsLTU2MjA1MzEyNywtMTM1MDM1NTE1Myw2Njk2
-OTQ5ODRdfQ==
+eyJoaXN0b3J5IjpbLTE5Mzg3MTI2MDksLTEwNDE5NTYzMjksLT
+E3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC0zNDY0
+MDI1MjksODg5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYyNjM3OC
+wtNzk0MDcyOTY0LDkxMzMwNzcxNywtNzQxMjY2MzIsLTc5ODY4
+NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5NzUsMjEwMzE2NTY5OC
+wtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUwMzU1MTUzLDY2
+OTY5NDk4NF19
 -->
