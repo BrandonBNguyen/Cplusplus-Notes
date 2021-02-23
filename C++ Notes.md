@@ -1940,13 +1940,15 @@ int main()
 
 #### Static Members
 
-Static members are not associated with a particular instance of a class but ins
+Static members are not associated with a particular instance of a class but instead with the entire class in general.
+
+Static variables declared in a class definition must be initialized outside at the global scope
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDI3Mjg2NzAsLTk5MTQ5MzQyLDEzMj
-A4NzE1NTAsLTE1NjYzMjc4ODcsLTE4NTM2NzI4MjUsMTMwMzg2
-MDE2MywtNjA2NjA5NTM5LDg0ODg3ODQ0OSwtNTU0NzQ2NjIwLC
-01NjAxOTY2NjcsLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OCwtMTE1
-NjQ1OTAzNywtMTYyMjU1MDI5NSwzODA4OTcwNDQsMTYzMTczOD
-MyNSwtNTQ0ODIwMDIsMTc1Njg2MzM2NSwzODAxNzcxMTcsLTgx
-MTg0OTkwXX0=
+eyJoaXN0b3J5IjpbLTgwNDY5MTUwNywtOTkxNDkzNDIsMTMyMD
+g3MTU1MCwtMTU2NjMyNzg4NywtMTg1MzY3MjgyNSwxMzAzODYw
+MTYzLC02MDY2MDk1MzksODQ4ODc4NDQ5LC01NTQ3NDY2MjAsLT
+U2MDE5NjY2NywtMTY4MzE0ODY3NiwyMDM0OTU3NDY4LC0xMTU2
+NDU5MDM3LC0xNjIyNTUwMjk1LDM4MDg5NzA0NCwxNjMxNzM4Mz
+I1LC01NDQ4MjAwMiwxNzU2ODYzMzY1LDM4MDE3NzExNywtODEx
+ODQ5OTBdfQ==
 -->
