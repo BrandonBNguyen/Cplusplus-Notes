@@ -2003,12 +2003,12 @@ int main()
 
 #### `thread_local`
 
-`thread_local` is used to specify that a static variable is local to  a specific thread. 
+`thread_local` is used to specify that a static variable is local to  a specific thread. This is mainly to make code *thread-safe*, because multiple threads accessing the same mutable global variable is a common source of issues when multithreading.
 
 ```cpp
 void add_beans(int new_beans){
 	// If running this function on multiple threads, each thread will acquire
-	// its own copy of bean_count, preventing 
+	// its own copy of bean_count.
     thread_local static int bean_count = 0;
 
     for (int bean = 0; bean < new_beans; bean++) {
@@ -2021,11 +2021,11 @@ void add_beans(int new_beans){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTMxMjA1MzgsLTEyMDM4NzQ4NTMsLT
-E0MjYzMDY4OTQsLTY5NTQ2Njc5NiwtOTkxNDkzNDIsMTMyMDg3
-MTU1MCwtMTU2NjMyNzg4NywtMTg1MzY3MjgyNSwxMzAzODYwMT
-YzLC02MDY2MDk1MzksODQ4ODc4NDQ5LC01NTQ3NDY2MjAsLTU2
-MDE5NjY2NywtMTY4MzE0ODY3NiwyMDM0OTU3NDY4LC0xMTU2ND
-U5MDM3LC0xNjIyNTUwMjk1LDM4MDg5NzA0NCwxNjMxNzM4MzI1
-LC01NDQ4MjAwMl19
+eyJoaXN0b3J5IjpbLTc1NzQ1NjAxNiwtMTIwMzg3NDg1MywtMT
+QyNjMwNjg5NCwtNjk1NDY2Nzk2LC05OTE0OTM0MiwxMzIwODcx
+NTUwLC0xNTY2MzI3ODg3LC0xODUzNjcyODI1LDEzMDM4NjAxNj
+MsLTYwNjYwOTUzOSw4NDg4Nzg0NDksLTU1NDc0NjYyMCwtNTYw
+MTk2NjY3LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0NjgsLTExNTY0NT
+kwMzcsLTE2MjI1NTAyOTUsMzgwODk3MDQ0LDE2MzE3MzgzMjUs
+LTU0NDgyMDAyXX0=
 -->
