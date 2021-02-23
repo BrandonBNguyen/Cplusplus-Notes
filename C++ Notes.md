@@ -1722,9 +1722,15 @@ The keyword `const`, short for "constant", is used to specify that a particular 
 
 #### Methods
 
-Using `const` in a method ensures that the execution of the method will not permit any change 
+Using `const` in a method ensures that the execution of the method will not permit any change to the state of the object from which it is called. You can think of it as a read-only method.
+
+To make a method `const`, specify include the keyword after the arguments list but before the method body.
+
+```cpp
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTgxNTg0MzMsLTE2MjI1NTAyOTUsMz
+eyJoaXN0b3J5IjpbLTExNTY0NTkwMzcsLTE2MjI1NTAyOTUsMz
 gwODk3MDQ0LDE2MzE3MzgzMjUsLTU0NDgyMDAyLDE3NTY4NjMz
 NjUsMzgwMTc3MTE3LC04MTE4NDk5MCwyMDEwMTI2NjU0LDMzOT
 IyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0
