@@ -1013,7 +1013,7 @@ int mostly_zeros[100]{ 1, 2, 3 }; // Creates a 100-element array where the first
                                   // 0.
 ```
 
-A note that arrays created must have a known size beforehand at compile time (in other words you can't use a non-constant variable to define the size of an array). To create arrays of custom sizes determined at runtime, see the section on [dynamic storeag
+A note that arrays created must have a known size beforehand at compile time (in other words you can't use a non-constant variable to define the size of an array). To create arrays of custom sizes determined at runtime, see the section on [dynamic storage](#dynamic-storage).
 
 ### Strings
 
@@ -2028,9 +2028,11 @@ void add_beans(int new_beans){
 
 ### Dynamic Storage
 
-Dynamic objects are objects that you have manual control over when they
+*Dynamic objects* are objects that you have manual control over when their lives begin and end.
+
+To create a dynamic object, use the `new` keyword followed by the variable type, optionally followed by a curly brace
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTk5MDY4NywtNzU3NDU2MDE2LC0xMj
+eyJoaXN0b3J5IjpbLTI2MTUwOTgwNywtNzU3NDU2MDE2LC0xMj
 AzODc0ODUzLC0xNDI2MzA2ODk0LC02OTU0NjY3OTYsLTk5MTQ5
 MzQyLDEzMjA4NzE1NTAsLTE1NjYzMjc4ODcsLTE4NTM2NzI4Mj
 UsMTMwMzg2MDE2MywtNjA2NjA5NTM5LDg0ODg3ODQ0OSwtNTU0
