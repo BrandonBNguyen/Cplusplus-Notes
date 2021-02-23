@@ -1824,13 +1824,15 @@ auto* year_ptr = &year;         // int* (pointer)
 const auto* year_cptr = &year;  // const int* (constant pointer)
 ```
 
-The main function of `auto` is to save time during code refactoring such that changing the type of some initial variable doesn't necessitate changing the type of 
+The main function of `auto` is to save time during code refactoring such that changing the type of some variable doesn't require you to change data types everywhere in your code.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Njk5MzQ2MywtNTU0NzQ2NjIwLC01Nj
-AxOTY2NjcsLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1
-OTAzNywtMTYyMjU1MDI5NSwzODA4OTcwNDQsMTYzMTczODMyNS
-wtNTQ0ODIwMDIsMTc1Njg2MzM2NSwzODAxNzcxMTcsLTgxMTg0
-OTkwLDIwMTAxMjY2NTQsMzM5MjIwMTIwLDE0MTA5OTYyNjMsLT
-EwNDE5NTYzMjksLTE3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMDAy
-Njc0NTg5XX0=
+eyJoaXN0b3J5IjpbODQ4ODc4NDQ5LC01NTQ3NDY2MjAsLTU2MD
+E5NjY2NywtMTY4MzE0ODY3NiwyMDM0OTU3NDY4LC0xMTU2NDU5
+MDM3LC0xNjIyNTUwMjk1LDM4MDg5NzA0NCwxNjMxNzM4MzI1LC
+01NDQ4MjAwMiwxNzU2ODYzMzY1LDM4MDE3NzExNywtODExODQ5
+OTAsMjAxMDEyNjY1NCwzMzkyMjAxMjAsMTQxMDk5NjI2MywtMT
+A0MTk1NjMyOSwtMTczNTQ3NDcyMCwtNDM1OTE0MjE1LDIwMDI2
+NzQ1ODldfQ==
 -->
