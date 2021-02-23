@@ -1781,8 +1781,12 @@ int some_function(const JellyBeanJar& jar) {
 	return jar.count();
 }
 ```
+
+#### Const Member Variables
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzMwMzkyODYsMjAzNDk1NzQ2OCwtMT
+eyJoaXN0b3J5IjpbLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OCwtMT
 E1NjQ1OTAzNywtMTYyMjU1MDI5NSwzODA4OTcwNDQsMTYzMTcz
 ODMyNSwtNTQ0ODIwMDIsMTc1Njg2MzM2NSwzODAxNzcxMTcsLT
 gxMTg0OTkwLDIwMTAxMjY2NTQsMzM5MjIwMTIwLDE0MTA5OTYy
