@@ -44,6 +44,9 @@ Notes and programs created while learning C++. These were notes were created fol
 	4. [`const`](#const)
 	5. [`auto` Type Deduction](#auto-type-deduction)
 7. [Object Life Cycle](#object-life-cycle)
+	1. [Automatic Storage](#automatic-storage)
+	2. [Static Storage](#static-storage)
+	3. [Dynamic Storage](#dynamic-storage)
 
 ## C++ Basics
 
@@ -1831,7 +1834,7 @@ The main function of `auto` is to save time during code refactoring such that ch
 
 Object's have a life cycle starting from when they are declared (memory is allocated to store the object) and ending when their destructors are called (followed by the object's storage being deallocated). 
 
-### Automatic Storage Duration
+### Automatic Storage
 
 An *automatic object* is allocated memory at the beginning of an enclosing code block (`{}`) and deallocated at the end of the enclosing code block.
 
@@ -1864,7 +1867,7 @@ int main()
 
 This is the reason why ordinary variables in functions only exists within the scope of the function.
 
-### Static Storage Duration
+### Static Storage
 
 For a *static object*, the object is allocated when the program starts and is deallocated when the program ends. Because of this, they can be accessed from any function within the translation unit (consisting of the contents of the source file and all its headers). 
 
@@ -2021,9 +2024,11 @@ void add_beans(int new_beans){
 }
 ```
 
-### Dynamic Stor
+### Dynamic Storage
+
+Dynamic objects are objects that you have manual control over
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDMwMzAzMjYsLTc1NzQ1NjAxNiwtMT
+eyJoaXN0b3J5IjpbLTIxMzc3MTg1ODYsLTc1NzQ1NjAxNiwtMT
 IwMzg3NDg1MywtMTQyNjMwNjg5NCwtNjk1NDY2Nzk2LC05OTE0
 OTM0MiwxMzIwODcxNTUwLC0xNTY2MzI3ODg3LC0xODUzNjcyOD
 I1LDEzMDM4NjAxNjMsLTYwNjYwOTUzOSw4NDg4Nzg0NDksLTU1
