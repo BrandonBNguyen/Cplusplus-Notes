@@ -1833,9 +1833,11 @@ Object's have a life cycle starting from when they are declared (memory is alloc
 
 ### Automatic Storage Duration
 
+An *automatic object* is allocated memory at the beginning of an enclosing code block (`{}`) and deallocated at the end of the enclosing code block.
+
 ### Static Storage Duration
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NjA1ODExNiwtNjA2NjA5NTM5LDg0OD
+eyJoaXN0b3J5IjpbMTMwMzg2MDE2MywtNjA2NjA5NTM5LDg0OD
 g3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2ODMxNDg2
 NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNywtMTYyMjU1MDI5NS
 wzODA4OTcwNDQsMTYzMTczODMyNSwtNTQ0ODIwMDIsMTc1Njg2
