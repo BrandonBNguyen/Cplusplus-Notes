@@ -1766,13 +1766,21 @@ private:
 
 #### Constant Arguments
 
-The keyword `const` placed before the data type and identifier for arguments to a function will ensure that that variable remains unmodified throughout the execution of that function. Note that object passed as `const` 
+The keyword `const` placed before the data type and identifier for arguments to a function will ensure that that variable remains unmodified throughout the execution of that function. Note that when an object is passed as `const` into a function, the object can only call `const` methods within that function.
+
+```cpp
+int some_function(const JellyBeanJar& jar) {
+	// Won't compile because jar is const but add_bean() is not const.
+	jar.add_bean();
+	return jar.count();
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQ2NjMxNzcsLTExNTY0NTkwMzcsLT
-E2MjI1NTAyOTUsMzgwODk3MDQ0LDE2MzE3MzgzMjUsLTU0NDgy
-MDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3LC04MTE4NDk5MCwyMD
-EwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2
-MzI5LC0xNzM1NDc0NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OS
-wtMzQ2NDAyNTI5LDg4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2
-MjYzNzhdfQ==
+eyJoaXN0b3J5IjpbMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNywtMT
+YyMjU1MDI5NSwzODA4OTcwNDQsMTYzMTczODMyNSwtNTQ0ODIw
+MDIsMTc1Njg2MzM2NSwzODAxNzcxMTcsLTgxMTg0OTkwLDIwMT
+AxMjY2NTQsMzM5MjIwMTIwLDE0MTA5OTYyNjMsLTEwNDE5NTYz
+MjksLTE3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC
+0zNDY0MDI1MjksODg5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYy
+NjM3OF19
 -->
