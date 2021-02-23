@@ -1579,7 +1579,7 @@ void add_and_print(int& value) {
 int main()
 {
 	int my_lucky_number = 3;
-	// By passing a reference to the variable, add_and_print can work directly to
+	// By passing the variable by reference, add_and_print can work directly to
 	// modify my_lucky_numbers. Within add_and_print, it is as if we are working
 	// with a normal, local variable.
 	add_and_print(my_lucky_number);
@@ -1668,11 +1668,11 @@ I have no direction :(
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTIyMzI4OCwtODExODQ5OTAsMjAxMD
-EyNjY1NCwzMzkyMjAxMjAsMTQxMDk5NjI2MywtMTA0MTk1NjMy
-OSwtMTczNTQ3NDcyMCwtNDM1OTE0MjE1LDIwMDI2NzQ1ODksLT
-M0NjQwMjUyOSw4ODkzMzU4NjMsLTUwMjQyNTE4MSwxOTI2NjI2
-Mzc4LC03OTQwNzI5NjQsOTEzMzA3NzE3LC03NDEyNjYzMiwtNz
-k4Njg2MzY5LDE2NzUwMzMzMDUsMTA4NTc1Mjk3NSwyMTAzMTY1
-Njk4XX0=
+eyJoaXN0b3J5IjpbMzgwMTc3MTE3LC04MTE4NDk5MCwyMDEwMT
+I2NjU0LDMzOTIyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2MzI5
+LC0xNzM1NDc0NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OSwtMz
+Q2NDAyNTI5LDg4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYz
+NzgsLTc5NDA3Mjk2NCw5MTMzMDc3MTcsLTc0MTI2NjMyLC03OT
+g2ODYzNjksMTY3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2
+OThdfQ==
 -->
