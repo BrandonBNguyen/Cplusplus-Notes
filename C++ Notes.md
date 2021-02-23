@@ -1626,6 +1626,11 @@ int main()
 }
 ```
 
+```
+value is 4
+my_lucky_number is 3
+```
+
 To get around this, if we do want to modify the variable we are passing into the function, we can use pointers. Instead of passing the variable itself, we will pass a pointer to the variable. Within the function, we can dereference the pointer, allowing us to work directly with the variable.
 
 ```cpp
@@ -1786,11 +1791,11 @@ int some_function(const JellyBeanJar& jar) {
 
 Constant variables can't be modified after initialization. To use `const` for variables within a class, the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDE5NjY2NywtMTY4MzE0ODY3NiwyMD
-M0OTU3NDY4LC0xMTU2NDU5MDM3LC0xNjIyNTUwMjk1LDM4MDg5
-NzA0NCwxNjMxNzM4MzI1LC01NDQ4MjAwMiwxNzU2ODYzMzY1LD
-M4MDE3NzExNywtODExODQ5OTAsMjAxMDEyNjY1NCwzMzkyMjAx
-MjAsMTQxMDk5NjI2MywtMTA0MTk1NjMyOSwtMTczNTQ3NDcyMC
-wtNDM1OTE0MjE1LDIwMDI2NzQ1ODksLTM0NjQwMjUyOSw4ODkz
-MzU4NjNdfQ==
+eyJoaXN0b3J5IjpbMTc5OTI5MzkwLC01NjAxOTY2NjcsLTE2OD
+MxNDg2NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNywtMTYyMjU1
+MDI5NSwzODA4OTcwNDQsMTYzMTczODMyNSwtNTQ0ODIwMDIsMT
+c1Njg2MzM2NSwzODAxNzcxMTcsLTgxMTg0OTkwLDIwMTAxMjY2
+NTQsMzM5MjIwMTIwLDE0MTA5OTYyNjMsLTEwNDE5NTYzMjksLT
+E3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC0zNDY0
+MDI1MjldfQ==
 -->
