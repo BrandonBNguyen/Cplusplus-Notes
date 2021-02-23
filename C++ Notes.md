@@ -1676,12 +1676,14 @@ my_lucky_number is 4
 Pointers and references are largely interchangeable, however, references cannot be assigned to null easily or be reseated, meaning changed such that it references another variable instead of the one originally set.
 
 ### `this` Pointers
+
+The `this` pointer is used within a class to distinguish the current object when accessing a member. This can be used to make explicit the instance of an object you are referring to (which can be 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwODk3MDQ0LDE2MzE3MzgzMjUsLTU0ND
-gyMDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3LC04MTE4NDk5MCwy
-MDEwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOT
-U2MzI5LC0xNzM1NDc0NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4
-OSwtMzQ2NDAyNTI5LDg4OTMzNTg2MywtNTAyNDI1MTgxLDE5Mj
-Y2MjYzNzgsLTc5NDA3Mjk2NCw5MTMzMDc3MTcsLTc0MTI2NjMy
-XX0=
+eyJoaXN0b3J5IjpbLTE5MzA2MDAwMTMsMzgwODk3MDQ0LDE2Mz
+E3MzgzMjUsLTU0NDgyMDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3
+LC04MTE4NDk5MCwyMDEwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOT
+k2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0NzIwLC00MzU5MTQy
+MTUsMjAwMjY3NDU4OSwtMzQ2NDAyNTI5LDg4OTMzNTg2MywtNT
+AyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3Mjk2NCw5MTMzMDc3
+MTddfQ==
 -->
