@@ -1869,12 +1869,36 @@ This is the reason why ordinary variables in functions only exists within the sc
 For a *static object*, the object is allocated when the program starts and is deallocated when the program ends. Because of this, they can be accessed from any function within the translation unit (consisting of the contents of the source file and all its headers). 
 
 Static objects are declared at the same level functions are declared (global scope). You declare one by prepending the variable type with the keyword `static`. 
+
+```cpp
+static int bean_count = 0; // bean_count is static and should be accessible
+                           // throughout the duration of the program.
+
+void add_beans(int new_beans){
+    for (int bean = 0; bean < new_beans; bean++) {
+        // bean_count can be accessed because it is static.
+        bean_count++;
+        std::cout << "Added " << bean + 1
+            << " beans. I now have " << bean_count << " beans.";
+        std::cout << std::endl;
+    }
+}
+
+int main()
+{
+    // for every function call, bean_count is accessed and modified
+    // despite not passing a reference to bean_count.
+    add_beans(3);
+    add_beans(4);
+}
+```
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTM2NzI4MjUsMTMwMzg2MDE2MywtNj
-A2NjA5NTM5LDg0ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2
-NjcsLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNy
-wtMTYyMjU1MDI5NSwzODA4OTcwNDQsMTYzMTczODMyNSwtNTQ0
-ODIwMDIsMTc1Njg2MzM2NSwzODAxNzcxMTcsLTgxMTg0OTkwLD
-IwMTAxMjY2NTQsMzM5MjIwMTIwLDE0MTA5OTYyNjMsLTEwNDE5
-NTYzMjldfQ==
+eyJoaXN0b3J5IjpbMTMxODQ0Mjg2LC0xODUzNjcyODI1LDEzMD
+M4NjAxNjMsLTYwNjYwOTUzOSw4NDg4Nzg0NDksLTU1NDc0NjYy
+MCwtNTYwMTk2NjY3LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0NjgsLT
+ExNTY0NTkwMzcsLTE2MjI1NTAyOTUsMzgwODk3MDQ0LDE2MzE3
+MzgzMjUsLTU0NDgyMDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3LC
+04MTE4NDk5MCwyMDEwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOTk2
+MjYzXX0=
 -->
