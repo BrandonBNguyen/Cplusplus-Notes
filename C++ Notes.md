@@ -1544,6 +1544,24 @@ int main()
 
 To get around this, if we do want to modify the variable we are passing into the function, we can use pointers. Instead of passing the variable itself, we will pass a pointer to the variable.
 
+```cpp
+void add_and_print(int* value) {
+	*value += 1;
+	std::cout << "value is " << *value << std::endl;
+}
+
+int main()
+{
+	int my_lucky_number = 3;
+	// Pass the pointer for my_lucky_number into add_and_print. The function then dereferences the
+	// pointer and is able to work directly with my_lucky_number.
+	add_and_print(&my_lucky_number);
+
+	// We can see that my_lucky_number accepts the change.
+	std::cout << "my_lucky_number is " << my_lucky_number << std::endl;
+}
+```
+
 #### Arrays and Pointers
 
 Creating a pointer to an array is equivalent to creating a pointer to the first value of an array. The identifier for an array without brackets (`[]`) can be treated as a pointer to the array's first value.
@@ -1618,7 +1636,7 @@ I have no direction :(
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDYwMDg0MCwyMDEwMTI2NjU0LDMzOT
+eyJoaXN0b3J5IjpbMTQ1MzI0MzQwNCwyMDEwMTI2NjU0LDMzOT
 IyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0
 NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OSwtMzQ2NDAyNTI5LD
 g4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3
