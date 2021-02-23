@@ -1811,14 +1811,16 @@ struct Student {
 
 ```cpp
 auto number{ 2 };       // number is an int.
-auto name{ "Alfred" };  // name is a char[6
+auto name{ "Alfred" };  // name is a char[6].
 ```
+
+Modifiers such as `&`, `*`, and `const` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTg0MDcyOCwtNTU0NzQ2NjIwLC01Nj
-AxOTY2NjcsLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1
-OTAzNywtMTYyMjU1MDI5NSwzODA4OTcwNDQsMTYzMTczODMyNS
-wtNTQ0ODIwMDIsMTc1Njg2MzM2NSwzODAxNzcxMTcsLTgxMTg0
-OTkwLDIwMTAxMjY2NTQsMzM5MjIwMTIwLDE0MTA5OTYyNjMsLT
-EwNDE5NTYzMjksLTE3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMDAy
-Njc0NTg5XX0=
+eyJoaXN0b3J5IjpbLTEzNzc3MjQwOTIsLTU1NDc0NjYyMCwtNT
+YwMTk2NjY3LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0NjgsLTExNTY0
+NTkwMzcsLTE2MjI1NTAyOTUsMzgwODk3MDQ0LDE2MzE3MzgzMj
+UsLTU0NDgyMDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3LC04MTE4
+NDk5MCwyMDEwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOTk2MjYzLC
+0xMDQxOTU2MzI5LC0xNzM1NDc0NzIwLC00MzU5MTQyMTUsMjAw
+MjY3NDU4OV19
 -->
