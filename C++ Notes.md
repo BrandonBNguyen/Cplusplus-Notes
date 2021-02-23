@@ -1576,12 +1576,28 @@ int main()
 ```
 
 `nullptr` is a literal for a pointer in which the pointer does not point to any address. Pointers have an implicit conversion to `bool` where a `nullptr` evaluates to `false` and everything else evaluates to `true`.
+
+```cpp
+int main()
+{
+	int* points_nowhere = nullptr;
+
+	if (points_nowhere) std::cout << "I have direction!";
+	else std::cout << "I have no direction :(";
+}
+```
+
+```
+I have no direction :(
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MzkyNjM5OCwxNDEwOTk2MjYzLC0xMD
-QxOTU2MzI5LC0xNzM1NDc0NzIwLC00MzU5MTQyMTUsMjAwMjY3
-NDU4OSwtMzQ2NDAyNTI5LDg4OTMzNTg2MywtNTAyNDI1MTgxLD
-E5MjY2MjYzNzgsLTc5NDA3Mjk2NCw5MTMzMDc3MTcsLTc0MTI2
-NjMyLC03OTg2ODYzNjksMTY3NTAzMzMwNSwxMDg1NzUyOTc1LD
-IxMDMxNjU2OTgsLTEzODIxMjMyNTYsLTU2MjA1MzEyNywtMTM1
-MDM1NTE1M119
+eyJoaXN0b3J5IjpbMzM5MjIwMTIwLDE0MTA5OTYyNjMsLTEwND
+E5NTYzMjksLTE3MzU0NzQ3MjAsLTQzNTkxNDIxNSwyMDAyNjc0
+NTg5LC0zNDY0MDI1MjksODg5MzM1ODYzLC01MDI0MjUxODEsMT
+kyNjYyNjM3OCwtNzk0MDcyOTY0LDkxMzMwNzcxNywtNzQxMjY2
+MzIsLTc5ODY4NjM2OSwxNjc1MDMzMzA1LDEwODU3NTI5NzUsMj
+EwMzE2NTY5OCwtMTM4MjEyMzI1NiwtNTYyMDUzMTI3LC0xMzUw
+MzU1MTUzXX0=
 -->
