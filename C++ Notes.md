@@ -40,6 +40,7 @@ Notes and programs created while learning C++. These were notes were created fol
 6. [Reference Types](#reference-types)
 	1. [Pointers](#pointers)
 	2. [References](#references)
+	3. [`this` Pointers](#this-pointers)
 
 ## C++ Basics
 
@@ -1673,12 +1674,14 @@ my_lucky_number is 4
 #### Use Cases
 
 Pointers and references are largely interchangeable, however, references cannot be assigned to null easily or be reseated, meaning changed such that it references another variable instead of the one originally set.
+
+### `this` Pointers
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTczODMyNSwtNTQ0ODIwMDIsMTc1Nj
-g2MzM2NSwzODAxNzcxMTcsLTgxMTg0OTkwLDIwMTAxMjY2NTQs
-MzM5MjIwMTIwLDE0MTA5OTYyNjMsLTEwNDE5NTYzMjksLTE3Mz
-U0NzQ3MjAsLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC0zNDY0MDI1
-MjksODg5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYyNjM3OCwtNz
-k0MDcyOTY0LDkxMzMwNzcxNywtNzQxMjY2MzIsLTc5ODY4NjM2
-OV19
+eyJoaXN0b3J5IjpbMzgwODk3MDQ0LDE2MzE3MzgzMjUsLTU0ND
+gyMDAyLDE3NTY4NjMzNjUsMzgwMTc3MTE3LC04MTE4NDk5MCwy
+MDEwMTI2NjU0LDMzOTIyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOT
+U2MzI5LC0xNzM1NDc0NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4
+OSwtMzQ2NDAyNTI5LDg4OTMzNTg2MywtNTAyNDI1MTgxLDE5Mj
+Y2MjYzNzgsLTc5NDA3Mjk2NCw5MTMzMDc3MTcsLTc0MTI2NjMy
+XX0=
 -->
