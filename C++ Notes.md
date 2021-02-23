@@ -43,6 +43,7 @@ Notes and programs created while learning C++. These were notes were created fol
 	3. [`this` Pointers](#this-pointers)
 	4. [`const`](#const)
 	5. [`auto` Type Deduction](#auto-type-deduction)
+7. [Object Life Cycle](#object-life-cycle)
 
 ## C++ Basics
 
@@ -1826,13 +1827,15 @@ const auto* year_cptr = &year;  // const int* (constant pointer)
 
 The main function of `auto` is to save time during code refactoring such that changing the type of some variable doesn't require you to change data types everywhere in your code.
 
+## Object Life Cycle
 
+Object's have
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4ODc4NDQ5LC01NTQ3NDY2MjAsLTU2MD
-E5NjY2NywtMTY4MzE0ODY3NiwyMDM0OTU3NDY4LC0xMTU2NDU5
-MDM3LC0xNjIyNTUwMjk1LDM4MDg5NzA0NCwxNjMxNzM4MzI1LC
-01NDQ4MjAwMiwxNzU2ODYzMzY1LDM4MDE3NzExNywtODExODQ5
-OTAsMjAxMDEyNjY1NCwzMzkyMjAxMjAsMTQxMDk5NjI2MywtMT
-A0MTk1NjMyOSwtMTczNTQ3NDcyMCwtNDM1OTE0MjE1LDIwMDI2
-NzQ1ODldfQ==
+eyJoaXN0b3J5IjpbMjEwMDU3MjE3NCw4NDg4Nzg0NDksLTU1ND
+c0NjYyMCwtNTYwMTk2NjY3LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0
+NjgsLTExNTY0NTkwMzcsLTE2MjI1NTAyOTUsMzgwODk3MDQ0LD
+E2MzE3MzgzMjUsLTU0NDgyMDAyLDE3NTY4NjMzNjUsMzgwMTc3
+MTE3LC04MTE4NDk5MCwyMDEwMTI2NjU0LDMzOTIyMDEyMCwxND
+EwOTk2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0NzIwLC00MzU5
+MTQyMTVdfQ==
 -->
