@@ -1568,7 +1568,7 @@ value is 4
 my_lucky_number is 4
 ```
 
-It can be quite cumbersome to use the dereference operator or member-of-operator on the pointer for every statement involving the variable. Instead, we can use a **reference**.  This is done by appending an ampersand (`&`) to the 
+It can be quite cumbersome to use the dereference operator or member-of-operator on the pointer for every statement involving the variable. Instead, we can use a **reference**.  This is done by appending an ampersand (`&`) to the parameter type in the function definition. That way, when we pass a variable as an argument to a function, we can work directly with that variable within the function as if it were a local variable, eliminating the need to use the dereferencing operator within the function.
 
 #### Arrays and Pointers
 
@@ -1644,11 +1644,11 @@ I have no direction :(
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjQ0ODQ3OSwyMDEwMTI2NjU0LDMzOT
-IyMDEyMCwxNDEwOTk2MjYzLC0xMDQxOTU2MzI5LC0xNzM1NDc0
-NzIwLC00MzU5MTQyMTUsMjAwMjY3NDU4OSwtMzQ2NDAyNTI5LD
-g4OTMzNTg2MywtNTAyNDI1MTgxLDE5MjY2MjYzNzgsLTc5NDA3
-Mjk2NCw5MTMzMDc3MTcsLTc0MTI2NjMyLC03OTg2ODYzNjksMT
-Y3NTAzMzMwNSwxMDg1NzUyOTc1LDIxMDMxNjU2OTgsLTEzODIx
-MjMyNTZdfQ==
+eyJoaXN0b3J5IjpbLTgxMTg0OTkwLDIwMTAxMjY2NTQsMzM5Mj
+IwMTIwLDE0MTA5OTYyNjMsLTEwNDE5NTYzMjksLTE3MzU0NzQ3
+MjAsLTQzNTkxNDIxNSwyMDAyNjc0NTg5LC0zNDY0MDI1MjksOD
+g5MzM1ODYzLC01MDI0MjUxODEsMTkyNjYyNjM3OCwtNzk0MDcy
+OTY0LDkxMzMwNzcxNywtNzQxMjY2MzIsLTc5ODY4NjM2OSwxNj
+c1MDMzMzA1LDEwODU3NTI5NzUsMjEwMzE2NTY5OCwtMTM4MjEy
+MzI1Nl19
 -->
