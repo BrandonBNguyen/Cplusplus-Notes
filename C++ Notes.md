@@ -2053,13 +2053,13 @@ C:\Users\Brand\source\repos\object lifecycle\Debug\object lifecycle.exe (process
 
 #### Dynamic Arrays
 
-Creating a dynamic array is very simii
+Creating a dynamic array is very similar to creating a dynamic object. Simply insert brackets following the object type specifying the number of elements.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzY4MjEzMDMsMTkyNjM1NTAwNiwtNz
-U3NDU2MDE2LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC02OTU0
-NjY3OTYsLTk5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYzMjc4OD
-csLTE4NTM2NzI4MjUsMTMwMzg2MDE2MywtNjA2NjA5NTM5LDg0
-ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2ODMxND
-g2NzYsMjAzNDk1NzQ2OCwtMTE1NjQ1OTAzNywtMTYyMjU1MDI5
-NSwzODA4OTcwNDRdfQ==
+eyJoaXN0b3J5IjpbLTM0NjQzNzk0NiwxOTI2MzU1MDA2LC03NT
+c0NTYwMTYsLTEyMDM4NzQ4NTMsLTE0MjYzMDY4OTQsLTY5NTQ2
+Njc5NiwtOTkxNDkzNDIsMTMyMDg3MTU1MCwtMTU2NjMyNzg4Ny
+wtMTg1MzY3MjgyNSwxMzAzODYwMTYzLC02MDY2MDk1MzksODQ4
+ODc4NDQ5LC01NTQ3NDY2MjAsLTU2MDE5NjY2NywtMTY4MzE0OD
+Y3NiwyMDM0OTU3NDY4LC0xMTU2NDU5MDM3LC0xNjIyNTUwMjk1
+LDM4MDg5NzA0NF19
 -->
