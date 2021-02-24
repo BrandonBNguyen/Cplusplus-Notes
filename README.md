@@ -4,7 +4,7 @@
 ---
 
 <h1 id="c-notes">C++ Notes</h1>
-<p>Notes and programs created while learning C++. These were notes were created following the content and examples from <a href="https://www.learncpp.com/">learncpp.com</a>.</p>
+<p>Notes and programs created while learning C++. These were notes were created following the content and examples from <a href="https://www.learncpp.com/">learncpp.com</a> and C++ Crash Course: A Fast-Paced Introductino by Josh Lospinoso.</p>
 <h2 id="table-of-contents">Table of Contents</h2>
 <ol>
 <li><a href="#c-basics">C++ Basics</a>
