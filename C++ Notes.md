@@ -1497,8 +1497,9 @@ void some_function(int input) {
 
 int main() {
 	try {
-		some_function
-	}
+		some_function(-1);
+		std::cout << "Success! We passed -1";
+	} catch (std::runtime_error)
 }
 ```
 
@@ -2105,11 +2106,11 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjM4NzIyMSwxMjc2OTE5MjMyLC0zND
-Y0Mzc5NDYsMTkyNjM1NTAwNiwtNzU3NDU2MDE2LC0xMjAzODc0
-ODUzLC0xNDI2MzA2ODk0LC02OTU0NjY3OTYsLTk5MTQ5MzQyLD
-EzMjA4NzE1NTAsLTE1NjYzMjc4ODcsLTE4NTM2NzI4MjUsMTMw
-Mzg2MDE2MywtNjA2NjA5NTM5LDg0ODg3ODQ0OSwtNTU0NzQ2Nj
-IwLC01NjAxOTY2NjcsLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OCwt
-MTE1NjQ1OTAzN119
+eyJoaXN0b3J5IjpbMjA0NjI5NDk2LDEyNzY5MTkyMzIsLTM0Nj
+QzNzk0NiwxOTI2MzU1MDA2LC03NTc0NTYwMTYsLTEyMDM4NzQ4
+NTMsLTE0MjYzMDY4OTQsLTY5NTQ2Njc5NiwtOTkxNDkzNDIsMT
+MyMDg3MTU1MCwtMTU2NjMyNzg4NywtMTg1MzY3MjgyNSwxMzAz
+ODYwMTYzLC02MDY2MDk1MzksODQ4ODc4NDQ5LC01NTQ3NDY2Mj
+AsLTU2MDE5NjY2NywtMTY4MzE0ODY3NiwyMDM0OTU3NDY4LC0x
+MTU2NDU5MDM3XX0=
 -->
