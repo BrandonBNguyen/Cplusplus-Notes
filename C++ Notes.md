@@ -1480,6 +1480,10 @@ Try-catch blocks are made by using the keyword `try` followed by an enclosed cod
 ```cpp
 try {
 	--some code--
+} catch (const std::runtime_error& e) {
+	--error handling case 1--
+} catch (const std::logic_error& e) {
+	--error handling case 2
 }
 ```
 
@@ -2088,11 +2092,11 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDEwNTQxNSwxMjc2OTE5MjMyLC0zND
-Y0Mzc5NDYsMTkyNjM1NTAwNiwtNzU3NDU2MDE2LC0xMjAzODc0
-ODUzLC0xNDI2MzA2ODk0LC02OTU0NjY3OTYsLTk5MTQ5MzQyLD
-EzMjA4NzE1NTAsLTE1NjYzMjc4ODcsLTE4NTM2NzI4MjUsMTMw
-Mzg2MDE2MywtNjA2NjA5NTM5LDg0ODg3ODQ0OSwtNTU0NzQ2Nj
-IwLC01NjAxOTY2NjcsLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OCwt
-MTE1NjQ1OTAzN119
+eyJoaXN0b3J5IjpbLTEwMTY0NTkwNDQsMTI3NjkxOTIzMiwtMz
+Q2NDM3OTQ2LDE5MjYzNTUwMDYsLTc1NzQ1NjAxNiwtMTIwMzg3
+NDg1MywtMTQyNjMwNjg5NCwtNjk1NDY2Nzk2LC05OTE0OTM0Mi
+wxMzIwODcxNTUwLC0xNTY2MzI3ODg3LC0xODUzNjcyODI1LDEz
+MDM4NjAxNjMsLTYwNjYwOTUzOSw4NDg4Nzg0NDksLTU1NDc0Nj
+YyMCwtNTYwMTk2NjY3LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0Njgs
+LTExNTY0NTkwMzddfQ==
 -->
