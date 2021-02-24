@@ -1487,7 +1487,7 @@ try {
 }
 ```
 
-To throw an object (typically an error. This is analogous to `raise` in Python), use the keyword `throw` followed by the object to be thrown. When throwing exceptions, you can initialize them with a string argument detailing exactly what went wrong.
+To throw an object (typically an error. This is analogous to `raise` in Python), use the keyword `throw` followed by the object to be thrown. When throwing exceptions, you can initialize them with a string argument detailing exactly what went wrong. When catching errors, you can call their `what()` function, which returns that string description detailing the nature of the error.
 
 ```cpp
 #include <stdexcept>
@@ -2113,7 +2113,7 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1ODEyNTk2LDIwNDYyOTQ5NiwxMjc2OT
+eyJoaXN0b3J5IjpbMjc5MDk1MjEzLDIwNDYyOTQ5NiwxMjc2OT
 E5MjMyLC0zNDY0Mzc5NDYsMTkyNjM1NTAwNiwtNzU3NDU2MDE2
 LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC02OTU0NjY3OTYsLT
 k5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYzMjc4ODcsLTE4NTM2
