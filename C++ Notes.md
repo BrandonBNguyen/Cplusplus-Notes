@@ -1517,7 +1517,10 @@ int main() {
 
 `logic_error` exceptions are usually caused when a logical precondition of a class or function is not satisfied. `logic_error` has several subclasses, which are listed below along with their use cases.
 
- - `domain_error`: Error related to valid input range. For example, this could be thrown when a function receives a negative number when its domain includes all
+ - `domain_error`: Error related to valid input range. For example, this could be thrown when a function receives a negative number when its domain includes all non-negative numbers.
+ - `invalid_argument`: This is a general exception raised when a function receives an unexpected argument.
+ - `length_error`:  This exception is used when some action would violate a maximum size constraint.
+ - `out_of_range`: This exception is used 
 
 ## Reference Types
 
@@ -2122,7 +2125,7 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTExNjM3OTMsMjc5MDk1MjEzLDIwND
+eyJoaXN0b3J5IjpbLTEyMDI1NjM5NzksMjc5MDk1MjEzLDIwND
 YyOTQ5NiwxMjc2OTE5MjMyLC0zNDY0Mzc5NDYsMTkyNjM1NTAw
 NiwtNzU3NDU2MDE2LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC
 02OTU0NjY3OTYsLTk5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYz
