@@ -1490,16 +1490,23 @@ try {
 To throw an object (typically an error. This is analogous to `raise` in Python), use the keyword `throw` followed by the object to be thrown.
 
 ```cpp
+#include <stdexcept>
+#include <iostream>
+
 void some_function(int input) {
-	if (input < 0) throw std::invalid_argument;
+	if (input < 0) throw std::logic_error{ "Input to some_function cannot be" 
+	"negative" }; // This can be used to
 	return;
 }
 
 int main() {
 	try {
 		some_function(-1);
-		std::cout << "Success! We passed -1";
-	} catch (std::runtime_error)
+		std::cout << "Success! We passed -1 into some_function()";
+	}
+	catch (std::logic_error& err) {
+		std::cout << "Error: " << err.what();
+	}
 }
 ```
 
@@ -2106,11 +2113,11 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjI5NDk2LDEyNzY5MTkyMzIsLTM0Nj
-QzNzk0NiwxOTI2MzU1MDA2LC03NTc0NTYwMTYsLTEyMDM4NzQ4
-NTMsLTE0MjYzMDY4OTQsLTY5NTQ2Njc5NiwtOTkxNDkzNDIsMT
-MyMDg3MTU1MCwtMTU2NjMyNzg4NywtMTg1MzY3MjgyNSwxMzAz
-ODYwMTYzLC02MDY2MDk1MzksODQ4ODc4NDQ5LC01NTQ3NDY2Mj
-AsLTU2MDE5NjY2NywtMTY4MzE0ODY3NiwyMDM0OTU3NDY4LC0x
-MTU2NDU5MDM3XX0=
+eyJoaXN0b3J5IjpbNTAzMzQ2OTEwLDIwNDYyOTQ5NiwxMjc2OT
+E5MjMyLC0zNDY0Mzc5NDYsMTkyNjM1NTAwNiwtNzU3NDU2MDE2
+LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC02OTU0NjY3OTYsLT
+k5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYzMjc4ODcsLTE4NTM2
+NzI4MjUsMTMwMzg2MDE2MywtNjA2NjA5NTM5LDg0ODg3ODQ0OS
+wtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2ODMxNDg2NzYsMjAz
+NDk1NzQ2OF19
 -->
