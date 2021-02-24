@@ -1470,6 +1470,10 @@ for (element_type element_name : array_name) {
 
 It operates in a similar manner to for loops in Python where the loop will iterate through each element in `array_name` using `element_name` to modify or access the value of each element. `element_type` is simply the type of the elements in the array.
 
+### Try-Catch Blocks
+
+Try-catch blocks are segments of code used to check for errors that occur and handle them appropriately based on the type of error. 
+
 ## Reference Types
 
 ### Pointers
@@ -2073,11 +2077,11 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NjkxOTIzMiwtMzQ2NDM3OTQ2LDE5Mj
-YzNTUwMDYsLTc1NzQ1NjAxNiwtMTIwMzg3NDg1MywtMTQyNjMw
-Njg5NCwtNjk1NDY2Nzk2LC05OTE0OTM0MiwxMzIwODcxNTUwLC
-0xNTY2MzI3ODg3LC0xODUzNjcyODI1LDEzMDM4NjAxNjMsLTYw
-NjYwOTUzOSw4NDg4Nzg0NDksLTU1NDc0NjYyMCwtNTYwMTk2Nj
-Y3LC0xNjgzMTQ4Njc2LDIwMzQ5NTc0NjgsLTExNTY0NTkwMzcs
-LTE2MjI1NTAyOTVdfQ==
+eyJoaXN0b3J5IjpbLTY5MDEyNzE3NSwxMjc2OTE5MjMyLC0zND
+Y0Mzc5NDYsMTkyNjM1NTAwNiwtNzU3NDU2MDE2LC0xMjAzODc0
+ODUzLC0xNDI2MzA2ODk0LC02OTU0NjY3OTYsLTk5MTQ5MzQyLD
+EzMjA4NzE1NTAsLTE1NjYzMjc4ODcsLTE4NTM2NzI4MjUsMTMw
+Mzg2MDE2MywtNjA2NjA5NTM5LDg0ODg3ODQ0OSwtNTU0NzQ2Nj
+IwLC01NjAxOTY2NjcsLTE2ODMxNDg2NzYsMjAzNDk1NzQ2OCwt
+MTE1NjQ1OTAzN119
 -->
