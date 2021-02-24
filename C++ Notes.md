@@ -1472,7 +1472,11 @@ It operates in a similar manner to for loops in Python where the loop will itera
 
 ### Try-Catch Blocks
 
-Try-catch blocks are segments of code used to check for errors that occur and handle them appropriately based on the type of error. 
+Try-catch blocks are segments of code used to check for errors that occur and handle them appropriately based on the type of error.
+
+Try-catch blocks are made by using the keyword `try` followed by a c
+
+To throw an object (typically an error. This is analogous to `raise` in Python), use the keyword `throw` followed by the object to be thrown.
 
 ## Reference Types
 
@@ -2077,7 +2081,7 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MDEyNzE3NSwxMjc2OTE5MjMyLC0zND
+eyJoaXN0b3J5IjpbMTYzMjY0NDAzNywxMjc2OTE5MjMyLC0zND
 Y0Mzc5NDYsMTkyNjM1NTAwNiwtNzU3NDU2MDE2LC0xMjAzODc0
 ODUzLC0xNDI2MzA2ODk0LC02OTU0NjY3OTYsLTk5MTQ5MzQyLD
 EzMjA4NzE1NTAsLTE1NjYzMjc4ODcsLTE4NTM2NzI4MjUsMTMw
