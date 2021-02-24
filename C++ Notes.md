@@ -38,6 +38,7 @@ Notes and programs created while learning C++. These were notes were created fol
 	2. [Switch Statements](#switch-statements)
 	3. [For Loops](#for-loops)
 	4. [Try-Catch Blocks](#try-catch-blocks)
+		1. [Exceptions](#exceptions)
 6. [Reference Types](#reference-types)
 	1. [Pointers](#pointers)
 	2. [References](#references)
@@ -1510,6 +1511,10 @@ int main() {
 }
 ```
 
+#### Exceptions
+
+
+
 ## Reference Types
 
 ### Pointers
@@ -2113,11 +2118,11 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5MDk1MjEzLDIwNDYyOTQ5NiwxMjc2OT
-E5MjMyLC0zNDY0Mzc5NDYsMTkyNjM1NTAwNiwtNzU3NDU2MDE2
-LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC02OTU0NjY3OTYsLT
-k5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYzMjc4ODcsLTE4NTM2
-NzI4MjUsMTMwMzg2MDE2MywtNjA2NjA5NTM5LDg0ODg3ODQ0OS
-wtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2ODMxNDg2NzYsMjAz
-NDk1NzQ2OF19
+eyJoaXN0b3J5IjpbLTIwNzQzODU5MDIsMjc5MDk1MjEzLDIwND
+YyOTQ5NiwxMjc2OTE5MjMyLC0zNDY0Mzc5NDYsMTkyNjM1NTAw
+NiwtNzU3NDU2MDE2LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC
+02OTU0NjY3OTYsLTk5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYz
+Mjc4ODcsLTE4NTM2NzI4MjUsMTMwMzg2MDE2MywtNjA2NjA5NT
+M5LDg0ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2
+ODMxNDg2NzZdfQ==
 -->
