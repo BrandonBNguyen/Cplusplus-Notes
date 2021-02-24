@@ -1487,7 +1487,8 @@ try {
 	//--error handling case 2--
 } catch (...) {
 	//--error handling case 3--
-	// If the exception doesn't match either a
+	// If the exception doesn't match either a runtime_error or logic_error,
+	// then handle the exception (or whatever it is) here.
 }
 ```
 
@@ -1530,6 +1531,10 @@ int main() {
  - `system_error`: This exception reports that the operating system encountered an error. This can be particular useful to catch as details about the nature of the error can be accessed using the `.code()` method. To use this exception, include the `<system_error>` header.
  - `overflow_error`: Arithmetic overflow.
  - `underflow_error`: Arithmetic underflow.
+
+##### No Except
+
+The keyword `noexcept` can be specified after a functions argument list before the function's body. This allows for optimization but means the 
 
 ## Reference Types
 
@@ -2134,7 +2139,7 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjEwNzY1MjMsMjc5MDk1MjEzLDIwND
+eyJoaXN0b3J5IjpbLTEyMjE4NTM2NjksMjc5MDk1MjEzLDIwND
 YyOTQ5NiwxMjc2OTE5MjMyLC0zNDY0Mzc5NDYsMTkyNjM1NTAw
 NiwtNzU3NDU2MDE2LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC
 02OTU0NjY3OTYsLTk5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYz
