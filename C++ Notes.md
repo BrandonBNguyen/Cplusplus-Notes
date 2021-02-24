@@ -1513,7 +1513,9 @@ int main() {
 
 #### Exceptions
 
-*Exceptions* are used to communicate an error condition. All exceptions are a subclass of class `std::exception` class. The two main types of exceptions within that are `std::runtime_error` exceptions and `std::logic_error` exceptions
+*Exceptions* are used to communicate an error condition. All exceptions are a subclass of class `std::exception` class. The two main types of exceptions within that are `std::runtime_error` exceptions and `std::logic_error` exceptions.
+
+`logic_error` exceptions are usually caused when a logical precondition of a class or function is not satisfied. 
 
 ## Reference Types
 
@@ -2118,7 +2120,7 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjMyMzgwOTMsMjc5MDk1MjEzLDIwND
+eyJoaXN0b3J5IjpbLTIwNzUwNjU2OTgsMjc5MDk1MjEzLDIwND
 YyOTQ5NiwxMjc2OTE5MjMyLC0zNDY0Mzc5NDYsMTkyNjM1NTAw
 NiwtNzU3NDU2MDE2LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC
 02OTU0NjY3OTYsLTk5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYz
