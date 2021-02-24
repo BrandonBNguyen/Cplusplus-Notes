@@ -1517,10 +1517,7 @@ int main() {
 
 `logic_error` exceptions are usually caused when a logical precondition of a class or function is not satisfied. `logic_error` has several subclasses, which are listed below along with their use cases.
 
-|Logic Error| Use Case |
-|---------|--|
-| `domain_error` | Error related to valid input range.  |
-
+ - `domain_error`: Error related to valid input range. For example, this could be thrown when a function receives a negative number when its domain includes all
 
 ## Reference Types
 
@@ -2125,11 +2122,11 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjU0NjkzMywyNzkwOTUyMTMsMjA0Nj
-I5NDk2LDEyNzY5MTkyMzIsLTM0NjQzNzk0NiwxOTI2MzU1MDA2
-LC03NTc0NTYwMTYsLTEyMDM4NzQ4NTMsLTE0MjYzMDY4OTQsLT
-Y5NTQ2Njc5NiwtOTkxNDkzNDIsMTMyMDg3MTU1MCwtMTU2NjMy
-Nzg4NywtMTg1MzY3MjgyNSwxMzAzODYwMTYzLC02MDY2MDk1Mz
-ksODQ4ODc4NDQ5LC01NTQ3NDY2MjAsLTU2MDE5NjY2NywtMTY4
-MzE0ODY3Nl19
+eyJoaXN0b3J5IjpbLTIwOTExNjM3OTMsMjc5MDk1MjEzLDIwND
+YyOTQ5NiwxMjc2OTE5MjMyLC0zNDY0Mzc5NDYsMTkyNjM1NTAw
+NiwtNzU3NDU2MDE2LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC
+02OTU0NjY3OTYsLTk5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYz
+Mjc4ODcsLTE4NTM2NzI4MjUsMTMwMzg2MDE2MywtNjA2NjA5NT
+M5LDg0ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2
+ODMxNDg2NzZdfQ==
 -->
