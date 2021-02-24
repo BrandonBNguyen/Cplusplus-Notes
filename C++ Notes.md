@@ -1476,7 +1476,7 @@ It operates in a similar manner to for loops in Python where the loop will itera
 
 Try-catch blocks are segments of code used to check for errors that occur and handle them appropriately based on the type of error.
 
-Try-catch blocks are made by using the keyword `try` followed by an enclosed code block, followed by any number of `catch` cases followed by enclosed code blocks. Notice that when working with exceptions, we are passing them into the catch blocks by reference (hence the `&` after the variable type `std::runtime_error` or `std::logic_error`). A catch case enclosed with `...` specifies 
+Try-catch blocks are made by using the keyword `try` followed by an enclosed code block, followed by any number of `catch` cases followed by enclosed code blocks. Notice that when working with exceptions, we are passing them into the catch blocks by reference (hence the `&` after the variable type `std::runtime_error` or `std::logic_error`). A catch case enclosed with `...` will handle any exception (or any throwable object) not specified by other catch cases.
 
 ```cpp
 try {
@@ -1485,6 +1485,9 @@ try {
 	//--error handling case 1--
 } catch (const std::logic_error& e) {
 	//--error handling case 2--
+} catch (...) {
+	//--error handling case 3--
+	// If the exception doesn't match either a
 }
 ```
 
@@ -2131,11 +2134,11 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTU3MzE3MCwyNzkwOTUyMTMsMjA0Nj
-I5NDk2LDEyNzY5MTkyMzIsLTM0NjQzNzk0NiwxOTI2MzU1MDA2
-LC03NTc0NTYwMTYsLTEyMDM4NzQ4NTMsLTE0MjYzMDY4OTQsLT
-Y5NTQ2Njc5NiwtOTkxNDkzNDIsMTMyMDg3MTU1MCwtMTU2NjMy
-Nzg4NywtMTg1MzY3MjgyNSwxMzAzODYwMTYzLC02MDY2MDk1Mz
-ksODQ4ODc4NDQ5LC01NTQ3NDY2MjAsLTU2MDE5NjY2NywtMTY4
-MzE0ODY3Nl19
+eyJoaXN0b3J5IjpbLTE4NjEwNzY1MjMsMjc5MDk1MjEzLDIwND
+YyOTQ5NiwxMjc2OTE5MjMyLC0zNDY0Mzc5NDYsMTkyNjM1NTAw
+NiwtNzU3NDU2MDE2LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC
+02OTU0NjY3OTYsLTk5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYz
+Mjc4ODcsLTE4NTM2NzI4MjUsMTMwMzg2MDE2MywtNjA2NjA5NT
+M5LDg0ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2
+ODMxNDg2NzZdfQ==
 -->
