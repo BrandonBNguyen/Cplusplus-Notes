@@ -1496,7 +1496,9 @@ void some_function(int input) {
 }
 
 int main() {
-
+	try {
+		some_function
+	}
 }
 ```
 
@@ -2103,7 +2105,7 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTIyMDY0NSwxMjc2OTE5MjMyLC0zND
+eyJoaXN0b3J5IjpbLTgxMjM4NzIyMSwxMjc2OTE5MjMyLC0zND
 Y0Mzc5NDYsMTkyNjM1NTAwNiwtNzU3NDU2MDE2LC0xMjAzODc0
 ODUzLC0xNDI2MzA2ODk0LC02OTU0NjY3OTYsLTk5MTQ5MzQyLD
 EzMjA4NzE1NTAsLTE1NjYzMjc4ODcsLTE4NTM2NzI4MjUsMTMw
