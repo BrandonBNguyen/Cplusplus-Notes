@@ -1534,7 +1534,9 @@ int main() {
 
 ##### No Except
 
-The keyword `noexcept` can be specified after a functions argument list before the function's body. This allows for optimization but means the 
+The keyword `noexcept` can be specified after a functions argument list before the function's body. This allows for some optimization but it means you better be sure that it is impossible for the an exception to be thrown within the function.
+
+##### Throwing in Destruc
 
 ## Reference Types
 
@@ -2139,11 +2141,11 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE4NTM2NjksMjc5MDk1MjEzLDIwND
-YyOTQ5NiwxMjc2OTE5MjMyLC0zNDY0Mzc5NDYsMTkyNjM1NTAw
-NiwtNzU3NDU2MDE2LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC
-02OTU0NjY3OTYsLTk5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYz
-Mjc4ODcsLTE4NTM2NzI4MjUsMTMwMzg2MDE2MywtNjA2NjA5NT
-M5LDg0ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2
-ODMxNDg2NzZdfQ==
+eyJoaXN0b3J5IjpbMTI1NTQ3MDEsMjc5MDk1MjEzLDIwNDYyOT
+Q5NiwxMjc2OTE5MjMyLC0zNDY0Mzc5NDYsMTkyNjM1NTAwNiwt
+NzU3NDU2MDE2LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC02OT
+U0NjY3OTYsLTk5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYzMjc4
+ODcsLTE4NTM2NzI4MjUsMTMwMzg2MDE2MywtNjA2NjA5NTM5LD
+g0ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2ODMx
+NDg2NzZdfQ==
 -->
