@@ -39,6 +39,7 @@ Notes and programs created while learning C++. These were notes were created fol
 	3. [For Loops](#for-loops)
 	4. [Try-Catch Blocks](#try-catch-blocks)
 		1. [Exceptions](#exceptions)
+		2. [`noexcept`](#noexcept)
 6. [Reference Types](#reference-types)
 	1. [Pointers](#pointers)
 	2. [References](#references)
@@ -1532,11 +1533,14 @@ int main() {
  - `overflow_error`: Arithmetic overflow.
  - `underflow_error`: Arithmetic underflow.
 
-##### No Except
+#### `noexcept`
+
 
 The keyword `noexcept` can be specified after a functions argument list before the function's body. This allows for some optimization but it means you better be sure that it is impossible for the an exception to be thrown within the function.
 
-##### Throwing in Destruc
+#### Throwing in Destructors
+
+Not even once.
 
 ## Reference Types
 
@@ -2141,11 +2145,11 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTQ3MDEsMjc5MDk1MjEzLDIwNDYyOT
-Q5NiwxMjc2OTE5MjMyLC0zNDY0Mzc5NDYsMTkyNjM1NTAwNiwt
-NzU3NDU2MDE2LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC02OT
-U0NjY3OTYsLTk5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYzMjc4
-ODcsLTE4NTM2NzI4MjUsMTMwMzg2MDE2MywtNjA2NjA5NTM5LD
-g0ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2ODMx
-NDg2NzZdfQ==
+eyJoaXN0b3J5IjpbMTk0ODU5MzAwNywyNzkwOTUyMTMsMjA0Nj
+I5NDk2LDEyNzY5MTkyMzIsLTM0NjQzNzk0NiwxOTI2MzU1MDA2
+LC03NTc0NTYwMTYsLTEyMDM4NzQ4NTMsLTE0MjYzMDY4OTQsLT
+Y5NTQ2Njc5NiwtOTkxNDkzNDIsMTMyMDg3MTU1MCwtMTU2NjMy
+Nzg4NywtMTg1MzY3MjgyNSwxMzAzODYwMTYzLC02MDY2MDk1Mz
+ksODQ4ODc4NDQ5LC01NTQ3NDY2MjAsLTU2MDE5NjY2NywtMTY4
+MzE0ODY3Nl19
 -->
