@@ -1475,15 +1475,15 @@ It operates in a similar manner to for loops in Python where the loop will itera
 
 Try-catch blocks are segments of code used to check for errors that occur and handle them appropriately based on the type of error.
 
-Try-catch blocks are made by using the keyword `try` followed by an enclosed code block, followed by any number of `catch` cases followed by enclosed code blocks.
+Try-catch blocks are made by using the keyword `try` followed by an enclosed code block, followed by any number of `catch` cases followed by enclosed code blocks. Notice that when working with exceptions, we are passing them into the catch blocks by reference (hence the &
 
 ```cpp
 try {
-	--some code--
+	//--some code--
 } catch (const std::runtime_error& e) {
-	--error handling case 1--
+	//--error handling case 1--
 } catch (const std::logic_error& e) {
-	--error handling case 2
+	//--error handling case 2--
 }
 ```
 
@@ -2092,7 +2092,7 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTY0NTkwNDQsMTI3NjkxOTIzMiwtMz
+eyJoaXN0b3J5IjpbLTE5NTczMDIxNjksMTI3NjkxOTIzMiwtMz
 Q2NDM3OTQ2LDE5MjYzNTUwMDYsLTc1NzQ1NjAxNiwtMTIwMzg3
 NDg1MywtMTQyNjMwNjg5NCwtNjk1NDY2Nzk2LC05OTE0OTM0Mi
 wxMzIwODcxNTUwLC0xNTY2MzI3ODg3LC0xODUzNjcyODI1LDEz
