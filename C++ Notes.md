@@ -1526,7 +1526,7 @@ int main() {
 
  - `system_error`: This exception reports that the operating system encountered an error. This can be particular useful to catch as details about the nature of the error can be accessed using the `.code()` method. To use this exception, include the `<system_error>` header.
  - `overflow_error`: Arithmetic overflow.
- - `underflow_error`
+ - `underflow_error`: Arithmetic underflow.
 
 ## Reference Types
 
@@ -2131,7 +2131,7 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTcyMjQzNiwyNzkwOTUyMTMsMjA0Nj
+eyJoaXN0b3J5IjpbMTUxMzY2ODMyNCwyNzkwOTUyMTMsMjA0Nj
 I5NDk2LDEyNzY5MTkyMzIsLTM0NjQzNzk0NiwxOTI2MzU1MDA2
 LC03NTc0NTYwMTYsLTEyMDM4NzQ4NTMsLTE0MjYzMDY4OTQsLT
 Y5NTQ2Njc5NiwtOTkxNDkzNDIsMTMyMDg3MTU1MCwtMTU2NjMy
