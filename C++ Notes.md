@@ -1487,7 +1487,7 @@ try {
 }
 ```
 
-To throw an object (typically an error. This is analogous to `raise` in Python), use the keyword `throw` followed by the object to be thrown.
+To throw an object (typically an error. This is analogous to `raise` in Python), use the keyword `throw` followed by the object to be thrown. When throwing exceptions, you can initialize them with a string argument detailing exactly what went wrong.
 
 ```cpp
 #include <stdexcept>
@@ -1495,7 +1495,7 @@ To throw an object (typically an error. This is analogous to `raise` in Python),
 
 void some_function(int input) {
 	if (input < 0) throw std::logic_error{ "Input to some_function cannot be" 
-	"negative" }; // This can be used to
+	"negative" }; // Exceptions can be initialized 
 	return;
 }
 
@@ -2113,7 +2113,7 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzMzQ2OTEwLDIwNDYyOTQ5NiwxMjc2OT
+eyJoaXN0b3J5IjpbMTY1ODEyNTk2LDIwNDYyOTQ5NiwxMjc2OT
 E5MjMyLC0zNDY0Mzc5NDYsMTkyNjM1NTAwNiwtNzU3NDU2MDE2
 LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC02OTU0NjY3OTYsLT
 k5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYzMjc4ODcsLTE4NTM2
