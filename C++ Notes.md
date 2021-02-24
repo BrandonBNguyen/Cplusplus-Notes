@@ -1520,7 +1520,9 @@ int main() {
  - `domain_error`: Error related to valid input range. For example, this could be thrown when a function receives a negative number when its domain includes all non-negative numbers.
  - `invalid_argument`: This is a general exception raised when a function receives an unexpected argument.
  - `length_error`:  This exception is used when some action would violate a maximum size constraint.
- - `out_of_range`: This exception is used 
+ - `out_of_range`: This exception is used to report that some value is not in some expected range, such as when referencing some index of an array (or other data structure) that does not exist.
+
+`runtime_error` exceptions report error conditions outside the program's scope, such as 
 
 ## Reference Types
 
@@ -2125,11 +2127,11 @@ It's important to delete dynamic variables sometime after creating them before t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDI1NjM5NzksMjc5MDk1MjEzLDIwND
-YyOTQ5NiwxMjc2OTE5MjMyLC0zNDY0Mzc5NDYsMTkyNjM1NTAw
-NiwtNzU3NDU2MDE2LC0xMjAzODc0ODUzLC0xNDI2MzA2ODk0LC
-02OTU0NjY3OTYsLTk5MTQ5MzQyLDEzMjA4NzE1NTAsLTE1NjYz
-Mjc4ODcsLTE4NTM2NzI4MjUsMTMwMzg2MDE2MywtNjA2NjA5NT
-M5LDg0ODg3ODQ0OSwtNTU0NzQ2NjIwLC01NjAxOTY2NjcsLTE2
-ODMxNDg2NzZdfQ==
+eyJoaXN0b3J5IjpbLTg0NDQxMDU1NiwyNzkwOTUyMTMsMjA0Nj
+I5NDk2LDEyNzY5MTkyMzIsLTM0NjQzNzk0NiwxOTI2MzU1MDA2
+LC03NTc0NTYwMTYsLTEyMDM4NzQ4NTMsLTE0MjYzMDY4OTQsLT
+Y5NTQ2Njc5NiwtOTkxNDkzNDIsMTMyMDg3MTU1MCwtMTU2NjMy
+Nzg4NywtMTg1MzY3MjgyNSwxMzAzODYwMTYzLC02MDY2MDk1Mz
+ksODQ4ODc4NDQ5LC01NTQ3NDY2MjAsLTU2MDE5NjY2NywtMTY4
+MzE0ODY3Nl19
 -->
